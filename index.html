@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST AI TODAY — Comparateur d'IA en temps réel</title>
+    <meta name="description" content="Découvrez en temps réel les meilleurs modèles d'IA — GPT-4, Claude, Gemini — classés par score Elo sur un podium interactif. Gratuit, payant, code : filtrez et partagez.">
+    <meta property="og:title" content="Best AI Today — Real-time AI Leaderboard">
+    <meta property="og:description" content="Découvrez en temps réel les meilleurs modèles d'IA classés par score Elo. Filtrez par compétence et partagez le podium.">
+    <meta property="og:url" content="https://www.bestai-today.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.bestai-today.com/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://www.bestai-today.com">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <style>
+        :root {
+            --bg: #040c18;
+            --cyan: #00d4ff;
+            --text-light: #cce8f0;
+            --paid: #ff66b2;
+            --unlimited: #00e676;
+            --orange: #ff8c00;
+            --card-bg: rgba(6, 18, 36, 0.75);
+            --glow: 0 0 15px var(--cyan);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #040c18;
+            color: var(--text-light);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Lueur radiale fixe */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(ellipse at center, #0a1a3a 0%, #040c18 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Grille (lignes uniquement, sans points) */
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            background:
+                linear-gradient(90deg, transparent 0%, transparent calc(50% - 1px), rgba(0, 212, 255, 0.08) calc(50% - 1px), rgba(0, 212, 255, 0.08) calc(50% + 1px), transparent calc(50% + 1px)),
+                linear-gradient(0deg, transparent 0%, transparent calc(50% - 1px), rgba(0, 212, 255, 0.08) calc(50% - 1px), rgba(0, 212, 255, 0.08) calc(50% + 1px), transparent calc(50% + 1px));
+            background-size: 80px 80px, 80px 80px;
+            mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+            -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+        }
+
+        /* Starfield (étoiles fixes, petites) */
+        .starfield {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            --stars: none;
+        }
+        .starfield::before {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 1px;
+            border-radius: 50%;
+            box-shadow: var(--stars);
+            animation: none;
+        }
+
+        /* ---- Conteneur principal ---- */
+        .container {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        /* ---- En-tête ---- */
+        .header {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        .header h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: clamp(2.4rem, 8vw, 4rem);
+            font-weight: 900;
+            letter-spacing: 0.15em;
+            color: #fff;
+            text-shadow: 0 0 20px var(--cyan), 0 0 40px var(--cyan), 0 0 80px rgba(0, 212, 255, 0.4);
+            margin-bottom: 0.3rem;
+        }
+        .header .sub {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.4rem;
+            color: var(--cyan);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            opacity: 0.95;
+            margin-bottom: 0.5rem;
+        }
+        .header-info {
+            margin-top: 0.3rem;
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+        .header-info + .header-info {
+            margin-top: 0.15rem;
+        }
+
+        /* ---- Filtres centrés ---- */
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin: 0.5rem 0 1rem;
+        }
+        .filter-group {
+            display: flex;
+            gap: 0.5rem;
+            background: rgba(0, 212, 255, 0.08);
+            border-radius: 12px;
+            padding: 0.3rem;
+            backdrop-filter: blur(5px);
+        }
+        .filter-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-light);
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 0.9rem;
+            padding: 0.5rem 1.2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .filter-btn:hover {
+            color: var(--cyan);
+            text-shadow: 0 0 10px var(--cyan);
+            box-shadow: 0 0 12px rgba(0, 212, 255, 0.4);
+        }
+        .filter-btn.active {
+            background: var(--cyan);
+            color: #040c18;
+            text-shadow: none;
+            box-shadow: 0 0 20px var(--cyan);
+            font-weight: 800;
+        }
+
+        /* ---- Podium escalier ---- */
+        .podium-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 0.8rem;
+            margin: 1.5rem 0 0.5rem;
+            flex-wrap: wrap;
+            --podium-color: var(--cyan);
+        }
+        .podium-container.category-code {
+            --podium-color: var(--orange);
+        }
+        .podium-container.category-general {
+            --podium-color: var(--cyan);
+        }
+
+        .podium-card {
+            background: var(--card-bg);
+            border: 1px solid var(--podium-color);
+            border-radius: 20px;
+            padding: 1.2rem 1rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 0 25px var(--podium-color);
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            width: 220px;
+            min-height: 180px;
+        }
+
+        .podium-card.no-anim {
+            animation: none !important;
+            opacity: 1 !important;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .podium-card:hover {
+            transform: translateY(-5px);
+            border-color: #fff;
+            box-shadow: 0 0 35px var(--podium-color), 0 0 60px var(--podium-color);
+        }
+
+        .rank-number {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 4.5rem;
+            line-height: 1;
+            margin-bottom: -0.2rem;
+            color: var(--podium-color);
+            text-shadow: 0 0 20px var(--podium-color);
+        }
+
+        .podium-card .badge {
+            margin-top: 0.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .badge {
+            font-size: 0.65rem;
+            font-weight: 800;
+            padding: 0.15rem 0.5rem;
+            border-radius: 20px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+        .badge.paid { background: var(--paid); color: #040c18; }
+        .badge.unlimited { background: var(--unlimited); color: #040c18; }
+
+        .podium-card .name {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-align: center;
+            margin-top: 0.2rem;
+        }
+        .podium-card .vendor {
+            font-size: 0.8rem;
+            opacity: 0.8;
+            margin: 0.2rem 0 0.5rem;
+            font-weight: 500;
+        }
+        .podium-card .score-val {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 2.2rem;
+            margin: 0.3rem 0;
+            line-height: 1;
+            color: var(--podium-color);
+        }
+        .gauge {
+            width: 100%;
+            height: 12px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 0.3rem;
+        }
+        .gauge-fill {
+            height: 100%;
+            border-radius: 10px;
+            background: var(--podium-color);
+            box-shadow: 0 0 10px var(--podium-color);
+            transition: width 0.5s cubic-bezier(0.25, 0.8, 0.25, 1.2);
+            width: 0%;
+        }
+
+        /* ---- État vide / maintenance ---- */
+        .status-message {
+            display: none;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            color: var(--cyan);
+            text-shadow: 0 0 15px var(--cyan);
+            margin: 2rem 0;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; text-shadow: 0 0 25px var(--cyan); }
+            100% { opacity: 0.6; }
+        }
+
+        /* ---- Liste des autres modèles ---- */
+        .model-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .model-item {
+            background: var(--card-bg);
+            border: 1px solid rgba(0, 212, 255, 0.15);
+            border-radius: 16px;
+            padding: 0.9rem 1.2rem;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.25s ease;
+            backdrop-filter: blur(8px);
+            gap: 0.6rem;
+        }
+        .model-item:hover {
+            border-color: var(--cyan);
+            box-shadow: 0 0 22px rgba(0, 212, 255, 0.4);
+            transform: scale(1.01);
+        }
+
+        .model-row-top {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.5rem 1rem;
+        }
+
+        .model-rank {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--cyan);
+            min-width: 2rem;
+            text-align: center;
+        }
+
+        .model-name {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        .model-name .badge { margin: 0; }
+
+        .model-vendor {
+            font-size: 0.8rem;
+            opacity: 0.75;
+            font-weight: 500;
+        }
+
+        .score-block {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+
+        .score-label {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: rgba(204, 232, 240, 0.55);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .score-value {
+            color: var(--text-light);
+            font-weight: 700;
+        }
+
+        .gauge-list {
+            width: 100%;
+            height: 8px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .gauge-list-fill {
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.5s ease;
+        }
+        .gauge-list-fill.gauge-cyan {
+            background: var(--cyan);
+            box-shadow: 0 0 8px var(--cyan);
+        }
+        .gauge-list-fill.gauge-orange {
+            background: var(--orange);
+            box-shadow: 0 0 8px var(--orange);
+        }
+
+        /* ---- Bouton Partager (séparateur) ---- */
+        .share-container {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+        .share-container .filter-btn {
+            gap: 0.4rem;
+        }
+
+        /* ---- Emplacement publicitaire ---- */
+        .ad-slot {
+            min-height: 90px;
+            width: 100%;
+            max-width: 728px;
+            margin: 0 auto;
+        }
+
+        /* ---- Footer ---- */
+        .footer {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(0, 212, 255, 0.15);
+            text-align: center;
+            font-size: 0.75rem;
+            opacity: 0.55;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .footer a {
+            color: var(--cyan);
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+        .footer a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+
+        /* ---- Responsive ---- */
+        @media (max-width: 650px) {
+            .filters {
+                flex-direction: column;
+                align-items: center;
+            }
+            .podium-container {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+            .podium-card {
+                width: 85% !important;
+                max-width: 320px;
+                height: auto !important;
+            }
+            .model-row-top {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .score-block {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="starfield" id="starfield"></div>
+
+    <div class="container">
+        <header class="header">
+            <h1>BEST AI TODAY</h1>
+            <div class="sub" id="subtitle"></div>
+            <div class="header-info" id="scoreExplanation"></div>
+            <div class="header-info" id="updateInfo"></div>
+        </header>
+
+        <div class="filters">
+            <div class="filter-group" id="typeFilter">
+                <button class="filter-btn active" data-type="all" id="filterAll"></button>
+                <button class="filter-btn" data-type="unlimited" id="filterUnlimited"></button>
+                <button class="filter-btn" data-type="paid" id="filterPaid"></button>
+            </div>
+            <div class="filter-group" id="categoryFilter">
+                <button class="filter-btn active" data-cat="general" id="filterGeneral"></button>
+                <button class="filter-btn" data-cat="code" id="filterCode"></button>
+            </div>
+        </div>
+
+        <div id="podium" class="podium-container category-general"></div>
+
+        <div id="emptyMsg" class="status-message"></div>
+        <div id="maintenanceMsg" class="status-message"></div>
+
+        <div class="share-container">
+            <button id="snapshotBtn" class="filter-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                </svg>
+                <span id="shareText"></span>
+            </button>
+        </div>
+
+        <div id="modelList" class="model-list"></div>
+
+        <div class="ad-slot" aria-hidden="true"></div>
+
+        <footer class="footer">
+            <div class="footer-source" id="footerSource"></div>
+            <div class="footer-affiliate" id="footerAffiliate"></div>
+            <div class="footer-disclaimer" id="footerDisclaimer"></div>
+            <div class="footer-legal" id="footerLegal"></div>
+            <div class="footer-copyright" id="footerCopyright"></div>
+        </footer>
+    </div>
+
+    <script>
+        (function() {
+            // ----- Internationalisation -----
+            const i18n = {
+                fr: {
+                    slogan: 'Quel modèle IA domine en ce moment ?',
+                    all: 'Tous', unlimited: 'Illimité', paid: 'Payant',
+                    general: 'Général', code: 'Code',
+                    share: 'Partager',
+                    updatedAgo: 'Mis à jour il y a',
+                    models: 'modèles classés',
+                    scoreExplanation: 'Score basé sur les duels Chatbot Arena — 100% = meilleur modèle du moment',
+                    maintenance: '🛠️ En cours de maintenance',
+                    empty: 'Aucun modèle trouvé pour cette sélection.',
+                    snapshotCopied: '✅ Image copiée dans le presse-papiers !',
+                    snapshotError: 'Impossible de partager automatiquement.',
+                    affiliateNotice: 'Certains liens sont des liens d\'affiliation.',
+                    source: 'Classement basé sur les données Chatbot Arena.',
+                    disclaimer: 'Ce classement ne constitue pas un avis éditorial.',
+                    legal: 'Mentions légales',
+                    copyright: '© 2026 Best AI Today'
+                },
+                en: {
+                    slogan: 'Which AI model leads right now?',
+                    all: 'All', unlimited: 'Unlimited', paid: 'Paid',
+                    general: 'General', code: 'Code',
+                    share: 'Share',
+                    updatedAgo: 'Updated',
+                    models: 'models ranked',
+                    scoreExplanation: 'Score based on Chatbot Arena battles — 100% = best model right now',
+                    maintenance: '🛠️ Under maintenance',
+                    empty: 'No models found for this selection.',
+                    snapshotCopied: '✅ Image copied to clipboard!',
+                    snapshotError: 'Could not share automatically.',
+                    affiliateNotice: 'Some links are affiliate links.',
+                    source: 'Rankings based on Chatbot Arena data.',
+                    disclaimer: 'This ranking is not editorial advice.',
+                    legal: 'Legal notice',
+                    copyright: '© 2026 Best AI Today'
+                }
+            };
+
+            const lang = navigator.language.startsWith('fr') ? 'fr' : 'en';
+            document.documentElement.lang = lang;
+            const t = i18n[lang];
+
+            // Mise à jour des textes statiques
+            document.getElementById('subtitle').textContent = t.slogan;
+            document.getElementById('scoreExplanation').textContent = t.scoreExplanation;
+            document.getElementById('filterAll').textContent = t.all;
+            document.getElementById('filterUnlimited').textContent = t.unlimited;
+            document.getElementById('filterPaid').textContent = t.paid;
+            document.getElementById('filterGeneral').textContent = t.general;
+            document.getElementById('filterCode').textContent = t.code;
+            document.getElementById('shareText').textContent = t.share;
+            document.getElementById('maintenanceMsg').textContent = t.maintenance;
+            document.getElementById('emptyMsg').textContent = t.empty;
+            document.getElementById('footerSource').textContent = t.source;
+            document.getElementById('footerAffiliate').textContent = t.affiliateNotice;
+            document.getElementById('footerDisclaimer').textContent = t.disclaimer;
+            document.getElementById('footerLegal').innerHTML = `<a href="legal.html">${t.legal}</a>`;
+            document.getElementById('footerCopyright').textContent = t.copyright;
+
+            // Variables d'état
+            let currentType = 'all';
+            let currentCategory = 'general';
+            // window.MODELS sera défini après le chargement
+
+            const podiumEl = document.getElementById('podium');
+            const listEl = document.getElementById('modelList');
+            const emptyMsgEl = document.getElementById('emptyMsg');
+            const typeBtns = document.querySelectorAll('#typeFilter .filter-btn');
+            const catBtns = document.querySelectorAll('#categoryFilter .filter-btn');
+            const snapshotBtn = document.getElementById('snapshotBtn');
+            const updateInfoEl = document.getElementById('updateInfo');
+
+            // Fonctions utilitaires (seront adaptées pour window.MODELS)
+            function getUpdateText() {
+                if (!window.MODELS || !window.MODELS.length) return '';
+                const updatedAt = window.MODELS[0]?.updated_at;
+                let timeStr = '';
+                if (updatedAt) {
+                    const now = Date.now();
+                    const diffMs = now - new Date(updatedAt).getTime();
+                    const diffMin = Math.floor(diffMs / 60000);
+                    if (diffMin < 1) timeStr = `${t.updatedAgo} < 1 min`;
+                    else if (diffMin < 60) timeStr = `${t.updatedAgo} ${diffMin} min`;
+                    else {
+                        const diffHours = Math.floor(diffMin / 60);
+                        timeStr = `${t.updatedAgo} ${diffHours} h`;
+                    }
+                } else {
+                    timeStr = `${t.updatedAgo} --`;
+                }
+                const totalModels = window.MODELS.length;
+                const filteredCount = getFilteredModels().length;
+                const modelsStr = `${filteredCount} / ${totalModels} ${t.models}`;
+                return `${timeStr} • ${modelsStr}`;
+            }
+
+            function getAllScores() {
+                if (!window.MODELS) return { general: [], code: [] };
+                const general = window.MODELS.map(m => m.score_general);
+                const code = window.MODELS.map(m => m.score_code);
+                return { general, code };
+            }
+
+            function normalize(score, category) {
+                const scores = getAllScores()[category];
+                if (!scores || scores.length === 0) return 0;
+                const min = Math.min(...scores);
+                const max = Math.max(...scores);
+                if (max === min) return 100;
+                return ((score - min) / (max - min)) * 100;
+            }
+
+            function getFilteredModels() {
+                if (!window.MODELS) return [];
+                let filtered = [...window.MODELS];
+                if (currentType !== 'all') filtered = filtered.filter(m => m.type === currentType);
+                const key = currentCategory === 'general' ? 'score_general' : 'score_code';
+                filtered.sort((a, b) => b[key] - a[key]);
+                return filtered;
+            }
+
+            function badgeHtml(type) {
+                let cls, text;
+                if (type === 'paid') {
+                    cls = 'paid';
+                    text = t.paid;
+                } else if (type === 'unlimited') {
+                    cls = 'unlimited';
+                    text = t.unlimited;
+                } else {
+                    cls = '';
+                    text = type;
+                }
+                return `<span class="badge ${cls}">${text}</span>`;
+            }
+
+            function podiumCardHtml(model, rank, category) {
+                const scoreVal = category === 'general' ? model.score_general : model.score_code;
+                const pct = Math.round(normalize(scoreVal, category));
+                return `
+                    <a href="${model.url}" target="_blank" rel="noopener" class="podium-card rank-${rank}">
+                        <div class="rank-number">${rank}</div>
+                        ${badgeHtml(model.type)}
+                        <div class="name">${model.name}</div>
+                        <div class="vendor">${model.vendor}</div>
+                        <div class="score-val">${pct}%</div>
+                        <div class="gauge"><div class="gauge-fill" style="width:${pct}%"></div></div>
+                    </a>
+                `;
+            }
+
+            function listItemHtml(model, rank, category) {
+                const scoreVal = category === 'general' ? model.score_general : model.score_code;
+                const pct = Math.round(normalize(scoreVal, category));
+                const gaugeClass = category === 'general' ? 'gauge-cyan' : 'gauge-orange';
+                return `
+                    <a href="${model.url}" target="_blank" rel="noopener" class="model-item fade-in">
+                        <div class="model-row-top">
+                            <span class="model-rank">#${rank}</span>
+                            <span class="model-name">${model.name} ${badgeHtml(model.type)}</span>
+                            <span class="model-vendor">${model.vendor}</span>
+                            <div class="score-block">
+                                <span class="score-label">Score</span>
+                                <span class="score-value">${pct}%</span>
+                            </div>
+                        </div>
+                        <div class="gauge-list">
+                            <div class="gauge-list-fill ${gaugeClass}" style="width:${pct}%"></div>
+                        </div>
+                    </a>
+                `;
+            }
+
+            function adjustPodiumHeights() {
+                const cards = podiumEl.querySelectorAll('.podium-card');
+                if (!cards.length) return;
+                cards.forEach(c => c.style.height = 'auto');
+                void podiumEl.offsetHeight;
+                const heights = Array.from(cards).map(c => c.getBoundingClientRect().height);
+                const maxH = Math.max(...heights);
+                cards.forEach(c => {
+                    if (c.classList.contains('rank-3')) c.style.height = `${maxH}px`;
+                    else if (c.classList.contains('rank-2')) c.style.height = `${maxH + 60}px`;
+                    else if (c.classList.contains('rank-1')) c.style.height = `${maxH + 120}px`;
+                });
+            }
+
+            function updatePodiumColorClass() {
+                podiumEl.classList.remove('category-general', 'category-code');
+                podiumEl.classList.add(`category-${currentCategory}`);
+            }
+
+            function render() {
+                if (!window.MODELS) return;
+                const filtered = getFilteredModels();
+                updateInfoEl.textContent = getUpdateText();
+
+                if (filtered.length === 0) {
+                    podiumEl.innerHTML = '';
+                    listEl.innerHTML = '';
+                    emptyMsgEl.style.display = 'block';
+                    document.getElementById('maintenanceMsg').style.display = 'none';
+                    return;
+                } else {
+                    emptyMsgEl.style.display = 'none';
+                }
+
+                const podiumModels = filtered.slice(0, 3);
+                const listModels = filtered.slice(3);
+
+                podiumEl.innerHTML = podiumModels.map((m, i) => podiumCardHtml(m, i+1, currentCategory)).join('');
+                listEl.innerHTML = listModels.map((m, i) => listItemHtml(m, 4+i, currentCategory)).join('');
+
+                podiumEl.querySelectorAll('.podium-card').forEach(c => c.classList.add('no-anim'));
+                adjustPodiumHeights();
+                requestAnimationFrame(() => {
+                    podiumEl.querySelectorAll('.podium-card').forEach(c => c.classList.remove('no-anim'));
+                });
+
+                updatePodiumColorClass();
+            }
+
+            // Event listeners filtres
+            typeBtns.forEach(b => b.addEventListener('click', () => {
+                typeBtns.forEach(x => x.classList.remove('active'));
+                b.classList.add('active');
+                currentType = b.dataset.type;
+                render();
+            }));
+            catBtns.forEach(b => b.addEventListener('click', () => {
+                catBtns.forEach(x => x.classList.remove('active'));
+                b.classList.add('active');
+                currentCategory = b.dataset.cat;
+                render();
+            }));
+
+            // Snapshot avec URL gravée
+            snapshotBtn.addEventListener('click', async () => {
+                if (typeof html2canvas === 'undefined') {
+                    alert('html2canvas non chargé.');
+                    return;
+                }
+                try {
+                    const canvas = await html2canvas(podiumEl, {
+                        backgroundColor: '#040c18',
+                        scale: 2,
+                        allowTaint: false,
+                        useCORS: true
+                    });
+
+                    const ctx = canvas.getContext('2d');
+                    const text = 'www.bestai-today.com';
+                    ctx.font = '18px monospace';
+                    const textWidth = ctx.measureText(text).width;
+                    const padding = 10;
+                    const boxHeight = 35;
+                    const boxY = canvas.height - boxHeight - 15;
+                    const boxX = (canvas.width - textWidth) / 2 - padding;
+
+                    ctx.fillStyle = 'rgba(0, 0, 0, 0.65)';
+                    ctx.fillRect(boxX, boxY, textWidth + padding * 2, boxHeight);
+                    ctx.fillStyle = '#00d4ff';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(text, canvas.width / 2, boxY + boxHeight / 2);
+
+                    canvas.toBlob(async (blob) => {
+                        if (!blob) {
+                            alert('Erreur lors de la capture.');
+                            return;
+                        }
+                        if (navigator.share && navigator.canShare && navigator.canShare({files: [new File([blob], 'podium.png', {type:'image/png'})]})) {
+                            try {
+                                await navigator.share({
+                                    files: [new File([blob], 'podium.png', {type:'image/png'})],
+                                    title: 'Best AI Today - Podium',
+                                    text: 'Classement des meilleures IA'
+                                });
+                                return;
+                            } catch (shareErr) {
+                                console.log('Partage annulé', shareErr);
+                            }
+                        }
+                        try {
+                            const item = new ClipboardItem({'image/png': blob});
+                            await navigator.clipboard.write([item]);
+                            alert(t.snapshotCopied);
+                        } catch (clipErr) {
+                            alert(t.snapshotError);
+                        }
+                    }, 'image/png');
+                } catch (err) {
+                    console.error(err);
+                    alert('Erreur lors de la capture.');
+                }
+            });
+
+            // Génération du starfield
+            function generateStars(count) {
+                let shadows = [];
+                for (let i = 0; i < count; i++) {
+                    const x = Math.random() * 100;
+                    const y = Math.random() * 100;
+                    const size = Math.random() * 1.2 + 0.3;
+                    const opacity = Math.random() * 0.4 + 0.2;
+                    shadows.push(`${x}vw ${y}vh ${size}px ${size}px rgba(0, 212, 255, ${opacity})`);
+                }
+                return shadows.join(', ');
+            }
+            const starfieldEl = document.getElementById('starfield');
+            starfieldEl.style.setProperty('--stars', generateStars(200));
+
+            // ----- Chargement dynamique des données -----
+            async function loadData() {
+                try {
+                    const resp = await fetch('data.json');
+                    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                    const data = await resp.json();
+                    if (!Array.isArray(data) || data.length === 0) throw new Error('Empty data');
+                    return data;
+                } catch (e) {
+                    return null;
+                }
+            }
+
+            loadData().then(data => {
+                if (!data) {
+                    podiumEl.innerHTML = '';
+                    listEl.innerHTML = '';
+                    document.getElementById('maintenanceMsg').style.display = 'block';
+                    return;
+                }
+                window.MODELS = data;
+                render();
+            });
+        })();
+    </script>
+</body>
+</html>
