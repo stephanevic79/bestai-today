@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "name": "claude-opus-4-7-thinking",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1503,
+    "score_code": 1568,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "claude-opus-4-6-thinking",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1502,
+    "score_code": 1549,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "claude-opus-4-6",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1497,
+    "score_code": 1544,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "gemini-3.1-pro-preview",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1493,
+    "score_code": 1455,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "claude-opus-4-7",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1491,
+    "score_code": 1562,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "muse-spark",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1491,
+    "score_code": 1509,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "gpt-5.5-high",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1488,
+    "score_code": null,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "gemini-3-pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1486,
+    "score_code": 1438,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "grok-4.20-beta1",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1480,
+    "score_code": null,
+    "updated_at": "2026-05-05T12:10:29Z"
+  },
+  {
+    "name": "grok-4.20-beta-0309-reasoning",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://lmarena.ai",
+    "score_general": 1477,
+    "score_code": 1399,
+    "updated_at": "2026-05-05T12:10:29Z"
+  }
+]
