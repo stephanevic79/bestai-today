@@ -1,0 +1,44 @@
+[
+  {
+    "name": "GPT-4o",
+    "vendor": "OpenAI",
+    "arena_name": "gpt-4o-2024-11-20",
+    "type": "paid",
+    "url": "https://chat.openai.com/plus"
+  },
+  {
+    "name": "Claude 3.5 Sonnet",
+    "vendor": "Anthropic",
+    "arena_name": "claude-3-5-sonnet-20241022",
+    "type": "paid",
+    "url": "https://claude.ai/upgrade"
+  },
+  {
+    "name": "Gemini 1.5 Pro",
+    "vendor": "Google",
+    "arena_name": "gemini-1.5-pro-exp-0827",
+    "type": "paid",
+    "url": "https://one.google.com/about/plans"
+  },
+  {
+    "name": "Llama 3.1 70B",
+    "vendor": "Meta",
+    "arena_name": "llama-3.1-70b-instruct",
+    "type": "unlimited",
+    "url": "https://huggingface.co/chat"
+  },
+  {
+    "name": "Mistral Large",
+    "vendor": "Mistral",
+    "arena_name": "mistral-large-2407",
+    "type": "unlimited",
+    "url": "https://chat.mistral.ai"
+  },
+  {
+    "name": "Qwen 2.5 72B",
+    "vendor": "Alibaba",
+    "arena_name": "qwen2.5-72b-instruct",
+    "type": "unlimited",
+    "url": "https://huggingface.co/chat"
+  }
+]
