@@ -869,7 +869,7 @@
             // ----- Chargement dynamique des données -----
             async function loadData() {
                 try {
-                    const resp = await fetch('data.json');
+                    const resp = await fetch('data.json?v=' + Date.now());
                     if (!resp.ok) throw new Error('HTTP ' + resp.status);
                     const data = await resp.json();
                     if (!Array.isArray(data) || data.length === 0) throw new Error('Empty data');
