@@ -16,8 +16,8 @@ def load_hf_leaderboard(subset: str) -> dict[str, dict]:
             split="latest",
             trust_remote_code=True
         )
-        # Filtre sur la catégorie 'overall' uniquement
         result = {}
+        ranking_date = None
         for row in ds:
             if row.get("category") == "overall":
                 name = row["model_name"]
@@ -27,10 +27,13 @@ def load_hf_leaderboard(subset: str) -> dict[str, dict]:
                     "organization": row.get("organization", ""),
                     "license": row.get("license", ""),
                 }
-        return result
+                # Récupère la date du classement depuis le premier modèle
+                if ranking_date is None:
+                    ranking_date = row.get("leaderboard_publish_date")
+        return result, ranking_date
     except Exception as e:
         print(f"Error loading HuggingFace subset '{subset}': {e}", file=sys.stderr)
-        return {}
+        return {}, None
 
 
 def deduce_vendor(model_name: str, organization: str) -> str:
@@ -59,8 +62,6 @@ def deduce_vendor(model_name: str, organization: str) -> str:
         return "Baidu"
     if "kimi" in n:
         return "Moonshot"
-    if "gemma" in n:
-        return "Google"
     return "Unknown"
 
 
@@ -84,14 +85,14 @@ def main():
 
     # Chargement des deux leaderboards HuggingFace
     print("Loading General leaderboard (text/overall)...")
-    general_data = load_hf_leaderboard("text")
+    general_data, ranking_date = load_hf_leaderboard("text")
     print(f"Fetched {len(general_data)} models from General leaderboard.")
 
     print("Loading Code leaderboard (webdev/overall)...")
-    code_data = load_hf_leaderboard("webdev")
+    code_data, _ = load_hf_leaderboard("webdev")
     print(f"Fetched {len(code_data)} models from Code leaderboard.")
 
-    # Construction du data.json
+    # Construction de la liste des modèles
     result = []
     found_in_config = 0
     auto_added = 0
@@ -123,7 +124,6 @@ def main():
             "url": url,
             "score_general": general_entry["rating"],
             "score_code": code_entry["rating"] if code_entry else None,
-            "updated_at": now
         })
 
     # Tri par score_general décroissant
@@ -132,14 +132,23 @@ def main():
         reverse=True
     )
 
+    # Nouvelle structure de sortie avec métadonnées globales
+    output = {
+        "ranking_date": str(ranking_date) if ranking_date else now[:10],
+        "retrieved_at": now,
+        "models": result
+    }
+
     # Sauvegarde
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+        json.dump(output, f, ensure_ascii=False, indent=2)
 
     print("\n=== Summary ===")
-    print(f"Total models written: {len(result)}")
+    print(f"Ranking date   : {output['ranking_date']}")
+    print(f"Retrieved at   : {output['retrieved_at']}")
+    print(f"Total models   : {len(result)}")
     print(f"Found in config: {found_in_config}")
-    print(f"Auto-added (fallback): {auto_added}")
+    print(f"Auto-added     : {auto_added}")
     if auto_added_list:
         print("Auto-added models for review:")
         for m in sorted(auto_added_list):
