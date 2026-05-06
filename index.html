@@ -616,7 +616,6 @@
             // Variables d'état
             let currentType = 'all';
             let currentCategory = 'general';
-            // window.MODELS sera défini après le chargement
 
             const podiumEl = document.getElementById('podium');
             const listEl = document.getElementById('modelList');
@@ -626,7 +625,6 @@
             const snapshotBtn = document.getElementById('snapshotBtn');
             const updateInfoEl = document.getElementById('updateInfo');
 
-            // Fonctions utilitaires (seront adaptées pour window.MODELS)
             function getUpdateText() {
                 if (!window.MODELS || !window.MODELS.length) return '';
                 const updatedAt = window.MODELS[0]?.updated_at;
@@ -790,7 +788,7 @@
                 render();
             }));
 
-            // Snapshot avec URL gravée
+            // ---- Snapshot avec URL gravée — version corrigée mobile ----
             snapshotBtn.addEventListener('click', async () => {
                 if (typeof html2canvas === 'undefined') {
                     alert('html2canvas non chargé.');
@@ -800,10 +798,13 @@
                     const canvas = await html2canvas(podiumEl, {
                         backgroundColor: '#040c18',
                         scale: 2,
+                        useCORS: true,
                         allowTaint: false,
-                        useCORS: true
+                        logging: false,
+                        ignoreElements: (el) => el.classList.contains('ad-slot')
                     });
 
+                    // Gravure de l'URL
                     const ctx = canvas.getContext('2d');
                     const text = 'www.bestai-today.com';
                     ctx.font = '18px monospace';
@@ -812,7 +813,6 @@
                     const boxHeight = 35;
                     const boxY = canvas.height - boxHeight - 15;
                     const boxX = (canvas.width - textWidth) / 2 - padding;
-
                     ctx.fillStyle = 'rgba(0, 0, 0, 0.65)';
                     ctx.fillRect(boxX, boxY, textWidth + padding * 2, boxHeight);
                     ctx.fillStyle = '#00d4ff';
@@ -820,34 +820,38 @@
                     ctx.textBaseline = 'middle';
                     ctx.fillText(text, canvas.width / 2, boxY + boxHeight / 2);
 
-                    canvas.toBlob(async (blob) => {
-                        if (!blob) {
-                            alert('Erreur lors de la capture.');
-                            return;
-                        }
-                        if (navigator.share && navigator.canShare && navigator.canShare({files: [new File([blob], 'podium.png', {type:'image/png'})]})) {
-                            try {
-                                await navigator.share({
-                                    files: [new File([blob], 'podium.png', {type:'image/png'})],
-                                    title: 'Best AI Today - Podium',
-                                    text: 'Classement des meilleures IA'
-                                });
-                                return;
-                            } catch (shareErr) {
-                                console.log('Partage annulé', shareErr);
-                            }
-                        }
+                    // Conversion en blob (Promise)
+                    const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+                    if (!blob) throw new Error('Blob null');
+
+                    const file = new File([blob], 'bestai-today.png', { type: 'image/png' });
+
+                    // Web Share API (mobile)
+                    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
                         try {
-                            const item = new ClipboardItem({'image/png': blob});
-                            await navigator.clipboard.write([item]);
-                            alert(t.snapshotCopied);
-                        } catch (clipErr) {
-                            alert(t.snapshotError);
+                            await navigator.share({
+                                files: [file],
+                                title: 'Best AI Today',
+                                url: 'https://bestai-today.com'
+                            });
+                            return;
+                        } catch (shareErr) {
+                            // Partage annulé par l'utilisateur — pas une erreur
+                            if (shareErr.name === 'AbortError') return;
                         }
-                    }, 'image/png');
+                    }
+
+                    // Fallback clipboard (desktop)
+                    try {
+                        await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+                        alert(t.snapshotCopied);
+                    } catch (clipErr) {
+                        alert(t.snapshotError + ' (' + clipErr.message + ')');
+                    }
+
                 } catch (err) {
-                    console.error(err);
-                    alert('Erreur lors de la capture.');
+                    console.error('Snapshot error:', err);
+                    alert(t.snapshotError + ' (' + err.message + ')');
                 }
             });
 
