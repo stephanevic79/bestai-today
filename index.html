@@ -788,7 +788,7 @@
                 render();
             }));
 
-            // ---- Snapshot avec URL gravée — version corrigée mobile ----
+            // ---- Snapshot avec URL gravée — version mobile compatible ----
             snapshotBtn.addEventListener('click', async () => {
                 if (typeof html2canvas === 'undefined') {
                     alert('html2canvas non chargé.');
@@ -820,13 +820,12 @@
                     ctx.textBaseline = 'middle';
                     ctx.fillText(text, canvas.width / 2, boxY + boxHeight / 2);
 
-                    // Conversion en blob (Promise)
                     const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
                     if (!blob) throw new Error('Blob null');
 
                     const file = new File([blob], 'bestai-today.png', { type: 'image/png' });
 
-                    // Web Share API (mobile)
+                    // 1. Web Share API (mobile natif)
                     if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
                         try {
                             await navigator.share({
@@ -836,18 +835,30 @@
                             });
                             return;
                         } catch (shareErr) {
-                            // Partage annulé par l'utilisateur — pas une erreur
                             if (shareErr.name === 'AbortError') return;
                         }
                     }
 
-                    // Fallback clipboard (desktop)
-                    try {
-                        await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
-                        alert(t.snapshotCopied);
-                    } catch (clipErr) {
-                        alert(t.snapshotError + ' (' + clipErr.message + ')');
+                    // 2. Clipboard API (desktop)
+                    if (navigator.clipboard && navigator.clipboard.write && typeof ClipboardItem !== 'undefined') {
+                        try {
+                            await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+                            alert(t.snapshotCopied);
+                            return;
+                        } catch (clipErr) {
+                            // Continue vers le fallback téléchargement
+                        }
                     }
+
+                    // 3. Fallback universel : téléchargement de l'image
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'bestai-today.png';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
 
                 } catch (err) {
                     console.error('Snapshot error:', err);
