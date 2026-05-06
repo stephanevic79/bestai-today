@@ -6,7 +6,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1500.2375988480828,
     "score_code": 1548.8435748147633,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-6",
@@ -15,7 +15,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1496.4730384152542,
     "score_code": 1544.3569605375912,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-3.1-pro-preview",
@@ -24,7 +24,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1487.4276064376868,
     "score_code": 1454.7147188212,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-7-thinking",
@@ -33,7 +33,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1486.8240404728879,
     "score_code": 1567.8529685977903,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-3-pro",
@@ -42,7 +42,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1479.289786936216,
     "score_code": 1438.2195685468039,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-7",
@@ -51,7 +51,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1477.5457005439614,
     "score_code": 1561.9095335001916,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "muse-spark",
@@ -60,7 +60,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1476.6959004256084,
     "score_code": 1509.3754438411295,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.5-high",
@@ -69,7 +69,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1472.7884436424479,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "ernie-5.1-preview",
@@ -78,7 +78,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1472.5026323440854,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3.5-max-preview",
@@ -87,7 +87,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1469.1366697653148,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.4-high",
@@ -96,7 +96,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1468.8110994347905,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-5.1",
@@ -105,7 +105,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1467.7513946209533,
     "score_code": 1531.7028875970293,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-3-flash",
@@ -114,7 +114,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1466.6056610595938,
     "score_code": 1437.0440816478263,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.5",
@@ -123,7 +123,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1461.2314675819034,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-2.5-pro",
@@ -132,7 +132,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1459.9603614850507,
     "score_code": 1202.756857342892,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mimo-v2.5-pro",
@@ -141,7 +141,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1457.877824593149,
     "score_code": 1476.421229078333,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4.20-beta-0309-reasoning",
@@ -150,7 +150,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1455.1178424236311,
     "score_code": 1398.6477664704407,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "kimi-k2.6",
@@ -159,7 +159,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1454.6434687473395,
     "score_code": 1524.578903486125,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "dola-seed-2.0-pro",
@@ -168,7 +168,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1454.342480106144,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.4",
@@ -177,7 +177,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1452.2154451986203,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4.20-multi-agent-beta-0309",
@@ -186,7 +186,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1452.1112181577234,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "ernie-5.0-0110",
@@ -195,7 +195,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1449.8358244871554,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-experimental-chat-26-02-10",
@@ -204,7 +204,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1448.708025553806,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4.20-beta1",
@@ -213,7 +213,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1448.6237211169978,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-3-flash (thinking-minimal)",
@@ -222,7 +222,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1448.3449926977742,
     "score_code": 1389.5593555994624,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-sonnet-4-6",
@@ -231,7 +231,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1448.0244502982919,
     "score_code": 1526.1671325075845,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-5-20251101",
@@ -240,7 +240,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1447.6654231608939,
     "score_code": 1467.2087579817385,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v4-pro-thinking",
@@ -249,7 +249,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1446.669693163658,
     "score_code": 1454.6661341773006,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v4-pro",
@@ -258,7 +258,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1446.3690185297432,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-5-20251101-thinking-32k",
@@ -267,7 +267,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1446.3042003774676,
     "score_code": 1490.604316547731,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "kimi-k2.5-thinking",
@@ -276,7 +276,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1445.5985527714918,
     "score_code": 1429.7280585718224,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-5",
@@ -285,7 +285,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1444.998700687389,
     "score_code": 1435.918102082481,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3.5-397b-a17b",
@@ -294,7 +294,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1443.7933438465063,
     "score_code": 1387.2612930143923,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "ernie-5.0-preview-1203",
@@ -303,7 +303,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1442.3616985778283,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3.6-max-preview",
@@ -312,7 +312,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1441.8424391517776,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-4-31b",
@@ -321,7 +321,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1441.5481672486287,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.1-high",
@@ -330,7 +330,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1441.3019077489926,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3.6-plus",
@@ -339,7 +339,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1441.2703276451873,
     "score_code": 1463.9698470446676,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4.6",
@@ -348,7 +348,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1440.3947813218979,
     "score_code": 1354.8135703538699,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4.1-thinking",
@@ -357,7 +357,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1440.3006809081858,
     "score_code": 1207.5429787393205,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.2-chat-latest-20260210",
@@ -366,7 +366,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1439.167311641314,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-max-preview",
@@ -375,7 +375,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1438.5689664645276,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4.1",
@@ -384,7 +384,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1437.219667223381,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4.7",
@@ -393,7 +393,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1435.9782570201785,
     "score_code": 1439.9008534121922,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mimo-v2-pro",
@@ -402,7 +402,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1435.1226071750496,
     "score_code": 1428.514367475778,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-4-26b-a4b",
@@ -411,7 +411,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1434.3449021881506,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-sonnet-4-5-20250929",
@@ -420,7 +420,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1434.011598362259,
     "score_code": 1386.0,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "ernie-5.0-preview-1022",
@@ -429,7 +429,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1429.705351075243,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-large-3",
@@ -438,7 +438,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1429.647481605586,
     "score_code": 1222.3851834673717,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-sonnet-4-5-20250929-thinking-32k",
@@ -447,7 +447,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1429.570402248359,
     "score_code": 1388.1134727396498,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4.5",
@@ -456,7 +456,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1428.757280518619,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "chatgpt-4o-latest-20250326",
@@ -465,7 +465,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1428.514001025372,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-r1-0528",
@@ -474,7 +474,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1427.6870071419362,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4.3",
@@ -483,7 +483,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1425.958483837096,
     "score_code": 1405.0188843833091,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v4-flash",
@@ -492,7 +492,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1425.8465898224847,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "longcat-flash-chat-2602-exp",
@@ -501,7 +501,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1425.7048100891543,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-medium-2508",
@@ -510,7 +510,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1425.6657986150738,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-3-preview-02-24",
@@ -519,7 +519,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1424.6236064120365,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v4-flash-thinking",
@@ -528,7 +528,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1424.122830022502,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3.2-exp-thinking",
@@ -537,7 +537,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1423.464916790945,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3.2",
@@ -546,7 +546,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1423.2686715097302,
     "score_code": 1332.1595444860257,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-3.1-flash-lite-preview",
@@ -555,7 +555,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1422.6874953204683,
     "score_code": 1239.81707262641,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.1",
@@ -564,7 +564,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1422.3349232313494,
     "score_code": 1339.5443110929598,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3.2-exp",
@@ -573,7 +573,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1422.3104587750083,
     "score_code": 1286.338638088184,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "longcat-flash-chat",
@@ -582,7 +582,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1421.777394758834,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-vl-235b-a22b-instruct",
@@ -591,7 +591,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1421.025556522521,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "kimi-k2.5-instant",
@@ -600,7 +600,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1420.6536793768737,
     "score_code": 1407.8777171685829,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-experimental-chat-12-10",
@@ -609,7 +609,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1420.3748934752584,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.4-mini-high",
@@ -618,7 +618,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1419.469756604464,
     "score_code": 1400.8570505621174,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3.1-terminus-thinking",
@@ -627,7 +627,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1419.1599133799134,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3.1",
@@ -636,7 +636,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1419.1360916756278,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3.2-thinking",
@@ -645,7 +645,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1418.9410361556445,
     "score_code": 1368.308193998722,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3.5-122b-a10b",
@@ -654,7 +654,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1418.7763646816427,
     "score_code": 1363.2422497105813,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-235b-a22b-instruct-2507",
@@ -663,7 +663,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1418.3350618730312,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-next-80b-a3b-instruct",
@@ -672,7 +672,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1418.330580690061,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-1-20250805-thinking-16k",
@@ -681,7 +681,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1418.2460761002887,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.2-high",
@@ -690,7 +690,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1417.8543997853324,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-2.5-flash",
@@ -699,7 +699,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1417.8137753353496,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3.1-terminus",
@@ -708,7 +708,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1417.4691102842844,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-1-20250805",
@@ -717,7 +717,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1417.3327825860224,
     "score_code": 1385.1481851858166,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4.5-preview-2025-02-27",
@@ -726,7 +726,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1417.1803025484235,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3.1-thinking",
@@ -735,7 +735,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1416.5248395202316,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-experimental-chat-11-10",
@@ -744,7 +744,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1416.2861093015185,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mimo-v2.5",
@@ -753,7 +753,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1415.798709868121,
     "score_code": 1445.5562984857784,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.2",
@@ -762,7 +762,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1415.236511351562,
     "score_code": 1403.6385250281837,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "kimi-k2-thinking-turbo",
@@ -771,7 +771,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1414.2673725019347,
     "score_code": 1329.2988741044064,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-235b-a22b-thinking-2507",
@@ -780,7 +780,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1413.487089496554,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-max-2025-09-23",
@@ -789,7 +789,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1412.7988421341572,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-hy3-preview",
@@ -798,7 +798,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1412.0309407656591,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mimo-v2-flash (non-thinking)",
@@ -807,7 +807,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1411.2717322956112,
     "score_code": 1337.0051545193237,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4-0709",
@@ -816,7 +816,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1409.621145635582,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "o3-2025-04-16",
@@ -825,7 +825,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1409.0694028935231,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4-1-fast-reasoning",
@@ -834,7 +834,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1408.9636959507307,
     "score_code": 1233.7196365965933,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4-fast-chat",
@@ -843,7 +843,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1408.782564266944,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-2.5-flash-preview-09-2025",
@@ -852,7 +852,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1406.844458791108,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-vision-1.5-thinking",
@@ -861,7 +861,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1406.4939363055178,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5-high",
@@ -870,7 +870,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1405.0563705829022,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3.5-27b",
@@ -879,7 +879,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1404.709911417362,
     "score_code": 1350.374998652003,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5-chat",
@@ -888,7 +888,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1403.3416263970034,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "step-3.5-flash",
@@ -897,7 +897,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1401.2163362725305,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-vl-235b-a22b-thinking",
@@ -906,7 +906,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1400.824287402964,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-t1-20250711",
@@ -915,7 +915,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1399.4626644300897,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3.5-flash",
@@ -924,7 +924,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1399.0961746086002,
     "score_code": 1236.532806010847,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-experimental-chat-26-01-10",
@@ -933,7 +933,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1398.406652402037,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-4-fast-reasoning",
@@ -942,7 +942,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1397.1411514714534,
     "score_code": 1149.2796753937346,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3.5-35b-a3b",
@@ -951,7 +951,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1395.6725121554819,
     "score_code": 1248.6309305133118,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mimo-v2-flash (thinking)",
@@ -960,7 +960,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1395.423352536499,
     "score_code": 1300.4799968531293,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-experimental-chat-10-20",
@@ -969,7 +969,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1394.0098424770267,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-235b-a22b-no-thinking",
@@ -978,7 +978,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1393.5156572032706,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mai-1-preview",
@@ -987,7 +987,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1393.4219106147862,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "minimax-m2.7",
@@ -996,7 +996,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1392.2468144022048,
     "score_code": 1408.6895809158004,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "minimax-m2.1-preview",
@@ -1005,7 +1005,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1390.9910145640079,
     "score_code": 1391.8342808734292,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-haiku-4-5-20251001",
@@ -1014,7 +1014,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1387.976016420842,
     "score_code": 1316.745227368943,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-30b-a3b-instruct-2507",
@@ -1023,7 +1023,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1383.539249156344,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.3-chat-latest",
@@ -1032,7 +1032,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1383.1158775029187,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4.5-air",
@@ -1041,7 +1041,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1382.3915623526434,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4.1-2025-04-14",
@@ -1050,7 +1050,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1381.6668909329715,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "kimi-k2-0905-preview",
@@ -1059,7 +1059,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1379.486867433415,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
@@ -1068,7 +1068,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1378.7004931345266,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "nvidia-nemotron-3-super-120b-a12b",
@@ -1077,7 +1077,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1378.1207222234925,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5.4-nano-high",
@@ -1086,7 +1086,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1378.1027850716866,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-turbos-20250416",
@@ -1095,7 +1095,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1375.860811888077,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-20250514-thinking-16k",
@@ -1104,7 +1104,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1375.0989048281656,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4.6v",
@@ -1113,7 +1113,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1374.8628465510235,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3-0324",
@@ -1122,7 +1122,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1374.593002325783,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5-mini-high",
@@ -1131,7 +1131,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1373.4814892582494,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-r1",
@@ -1140,7 +1140,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1372.5110079768642,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "kimi-k2-0711-preview",
@@ -1149,7 +1149,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1370.6018457044972,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-medium-2505",
@@ -1158,7 +1158,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1369.1901484946418,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "minimax-m2.5",
@@ -1167,7 +1167,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1368.3829113223928,
     "score_code": 1382.5727165116848,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-2.5-flash-lite-preview-06-17-thinking",
@@ -1176,7 +1176,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1368.251419296596,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-next-80b-a3b-thinking",
@@ -1185,7 +1185,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1367.290394280195,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen2.5-max",
@@ -1194,7 +1194,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1366.4375126656514,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-3-mini-high",
@@ -1203,7 +1203,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1366.3624738841238,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "o1-2024-12-17",
@@ -1212,7 +1212,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1365.6777313107816,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-235b-a22b",
@@ -1221,7 +1221,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1365.5232557000315,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-oss-120b",
@@ -1230,7 +1230,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1365.2153835228141,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-opus-4-20250514",
@@ -1239,7 +1239,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1364.139842662639,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-experimental-chat-10-09",
@@ -1248,7 +1248,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1363.8374926661868,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "trinity-large-thinking",
@@ -1257,7 +1257,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1363.337910310058,
     "score_code": 1245.2637413138862,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "nova-2-lite",
@@ -1266,7 +1266,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1362.594714115456,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-3-mini-beta",
@@ -1275,7 +1275,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1362.501881431905,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "ling-flash-2.0",
@@ -1284,7 +1284,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1362.1917489085079,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-3-27b-it",
@@ -1293,7 +1293,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1357.9704687771464,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mercury-2",
@@ -1302,7 +1302,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1356.9737485386634,
     "score_code": 1165.1904422440675,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-coder-480b-a35b-instruct",
@@ -1311,7 +1311,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1356.2499956498748,
     "score_code": 1281.3108852615628,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "intellect-3",
@@ -1320,7 +1320,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1356.1651741733126,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-2.0-flash-001",
@@ -1329,7 +1329,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1353.8199833790623,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4.7-flash",
@@ -1338,7 +1338,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1353.242682248169,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "o1-preview",
@@ -1347,7 +1347,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1352.6646619897642,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "o4-mini-2025-04-16",
@@ -1356,7 +1356,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1352.5677117826176,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "nvidia-nemotron-3-nano-30b-a3b-bf16",
@@ -1365,7 +1365,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1349.2483093819233,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "step-3",
@@ -1374,7 +1374,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1349.0319806968,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-sonnet-4-20250514-thinking-32k",
@@ -1383,7 +1383,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1348.0939337270752,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "minimax-m1",
@@ -1392,7 +1392,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1342.1221079623717,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "minimax-m2",
@@ -1401,7 +1401,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1341.9757889922494,
     "score_code": 1304.3613270807634,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4.1-mini-2025-04-14",
@@ -1410,7 +1410,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1340.3257914474714,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-32b",
@@ -1419,7 +1419,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1339.8842534019245,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-small-2506",
@@ -1428,7 +1428,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1338.9872589005802,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-sonnet-4-20250514",
@@ -1437,7 +1437,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1337.6327719114652,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
@@ -1446,7 +1446,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1337.4552359920533,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "o3-mini-high",
@@ -1455,7 +1455,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1336.3959543518938,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "step-1o-turbo-202506",
@@ -1464,7 +1464,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1334.962020684319,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-3-12b-it",
@@ -1473,7 +1473,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1334.0233734294368,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4.5v",
@@ -1482,7 +1482,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1333.544820475126,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v3",
@@ -1491,7 +1491,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1332.3608006267204,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "ring-flash-2.0",
@@ -1500,7 +1500,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1331.2692353817215,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "command-a-03-2025",
@@ -1509,7 +1509,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1331.0682621951162,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4-plus-0111",
@@ -1518,7 +1518,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1330.6942576985255,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "trinity-large-preview",
@@ -1527,7 +1527,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1330.6201832454667,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-2.0-flash-lite-preview-02-05",
@@ -1536,7 +1536,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1329.4071254273153,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwq-32b",
@@ -1545,7 +1545,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1329.104553729312,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen-plus-0125",
@@ -1554,7 +1554,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1326.2687648729593,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "step-2-16k-exp-202412",
@@ -1563,7 +1563,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1320.8001893878345,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-5-nano-high",
@@ -1572,7 +1572,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1319.8078350054166,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-turbos-20250226",
@@ -1581,7 +1581,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1319.5723575137515,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.1-nemotron-ultra-253b-v1",
@@ -1590,7 +1590,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1319.2859471251263,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-1.5-pro-002",
@@ -1599,7 +1599,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1319.009153752204,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "o3-mini",
@@ -1608,7 +1608,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1318.799822136496,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen3-30b-a3b",
@@ -1617,7 +1617,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1317.1413738799001,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "o1-mini",
@@ -1626,7 +1626,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1316.959450003289,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-3-7-sonnet-20250219-thinking-32k",
@@ -1635,7 +1635,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1314.225687764601,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "olmo-3.1-32b-instruct",
@@ -1644,7 +1644,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1312.085289481919,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-turbo-0110",
@@ -1653,7 +1653,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1311.2645554968149,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.3-nemotron-49b-super-v1",
@@ -1662,7 +1662,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1308.2199063119883,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-3n-e4b-it",
@@ -1671,7 +1671,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1306.0867407100566,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-2-2024-08-13",
@@ -1680,7 +1680,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1304.4669157777457,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "yi-lightning",
@@ -1689,7 +1689,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1301.4133750244273,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4o-2024-05-13",
@@ -1698,7 +1698,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1300.3252198680734,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen2.5-plus-1127",
@@ -1707,7 +1707,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1299.0372792388557,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-3-7-sonnet-20250219",
@@ -1716,7 +1716,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1299.0322689302989,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "olmo-3-32b-think",
@@ -1725,7 +1725,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1298.3736592465384,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "Claude 3.5 Sonnet",
@@ -1734,7 +1734,7 @@
     "url": "https://claude.ai/upgrade",
     "score_general": 1297.477208925879,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "molmo-2-8b",
@@ -1743,7 +1743,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1295.3678296223914,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v2.5-1210",
@@ -1752,7 +1752,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1293.8334562225325,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "athene-v2-chat",
@@ -1761,7 +1761,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1291.3469847591246,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-3-4b-it",
@@ -1770,7 +1770,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1290.6167001239585,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4-plus",
@@ -1779,7 +1779,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1289.5354150487146,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-large-2025-02-10",
@@ -1788,7 +1788,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1287.8092819898986,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-4-maverick-17b-128e-instruct",
@@ -1797,7 +1797,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1287.499274855837,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-oss-20b",
@@ -1806,7 +1806,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1287.2295004158923,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-1.5-flash-002",
@@ -1815,7 +1815,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1286.5393214202625,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4o-mini-2024-07-18",
@@ -1824,7 +1824,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1286.3095238700541,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4.1-nano-2025-04-14",
@@ -1833,7 +1833,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1284.6029322594038,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.1-405b-instruct-bf16",
@@ -1842,7 +1842,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1283.5547334578453,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.1-nemotron-70b-instruct",
@@ -1851,7 +1851,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1282.5343024005524,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4o-2024-08-06",
@@ -1860,7 +1860,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1282.4296848612953,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mercury",
@@ -1869,7 +1869,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1282.0260661416294,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen-max-0919",
@@ -1878,7 +1878,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1281.762475472222,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.1-405b-instruct-fp8",
@@ -1887,7 +1887,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1281.6937546279853,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-3-5-sonnet-20240620",
@@ -1896,7 +1896,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1280.8031907149025,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "grok-2-mini-2024-08-13",
@@ -1905,7 +1905,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1280.5842678804374,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-4-scout-17b-16e-instruct",
@@ -1914,7 +1914,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1280.516673726528,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-advanced-0514",
@@ -1923,7 +1923,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1278.445328763873,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-small-3.1-24b-instruct-2503",
@@ -1932,7 +1932,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1277.5736693342476,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.3-70b-instruct",
@@ -1941,7 +1941,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1274.8698083733664,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-standard-2025-02-10",
@@ -1950,7 +1950,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1273.8545252938115,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-1.5-pro-001",
@@ -1959,7 +1959,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1273.3807960691067,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4-turbo-2024-04-09",
@@ -1968,7 +1968,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1271.5756107413417,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-v2.5",
@@ -1977,7 +1977,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1271.1339348445708,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "olmo-3.1-32b-think",
@@ -1986,7 +1986,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1270.6674209305888,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "Qwen 2.5 72B",
@@ -1995,7 +1995,7 @@
     "url": "https://huggingface.co/chat",
     "score_general": 1268.9094050677259,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "Mistral Large",
@@ -2004,7 +2004,7 @@
     "url": "https://chat.mistral.ai",
     "score_general": 1266.0284702379947,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-large-2411",
@@ -2013,7 +2013,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1265.1608357547163,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "athene-70b-0725",
@@ -2022,7 +2022,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1265.027756416041,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4-1106-preview",
@@ -2031,7 +2031,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1263.3225212370605,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-large-vision",
@@ -2040,7 +2040,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1263.246701463853,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4-0125-preview",
@@ -2049,7 +2049,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1262.0887603928677,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-3-opus-20240229",
@@ -2058,7 +2058,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1261.8951541484062,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "Llama 3.1 70B",
@@ -2067,7 +2067,7 @@
     "url": "https://huggingface.co/chat",
     "score_general": 1260.7992377424346,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-pro-v1.0",
@@ -2076,7 +2076,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1258.5487485684503,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.1-tulu-3-70b",
@@ -2085,7 +2085,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1255.6214627078436,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-3-5-haiku-20241022",
@@ -2094,7 +2094,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1255.213337086309,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "magistral-medium-2506",
@@ -2103,7 +2103,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1254.0688574394924,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "reka-core-20240904",
@@ -2112,7 +2112,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1248.2675014388233,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "ibm-granite-h-small",
@@ -2121,7 +2121,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1241.0928779021533,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-1.5-flash-001",
@@ -2130,7 +2130,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1239.1881204292965,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "jamba-1.5-large",
@@ -2139,7 +2139,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1236.9114980405132,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-small-24b-instruct-2501",
@@ -2148,7 +2148,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1233.386561860663,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-2-27b-it",
@@ -2157,7 +2157,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1231.2583038647156,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen2.5-coder-32b-instruct",
@@ -2166,7 +2166,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1229.935893491776,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "command-r-plus-08-2024",
@@ -2175,7 +2175,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1228.7853122287625,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-lite-v1.0",
@@ -2184,7 +2184,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1228.3557006726,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.1-nemotron-51b-instruct",
@@ -2193,7 +2193,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1227.8708268646956,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-2-9b-it-simpo",
@@ -2202,7 +2202,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1226.9514620409323,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "glm-4-0520",
@@ -2211,7 +2211,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1225.7951162053266,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-1.5-flash-8b-001",
@@ -2220,7 +2220,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1225.7470043870594,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "nemotron-4-340b-instruct",
@@ -2229,7 +2229,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1224.7003894163227,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "c4ai-aya-expanse-32b",
@@ -2238,7 +2238,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1223.9014026992488,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3-70b-instruct",
@@ -2247,7 +2247,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1220.6837851641558,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-3-sonnet-20240229",
@@ -2256,7 +2256,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1217.9251370796744,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "reka-flash-20240904",
@@ -2265,7 +2265,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1217.8066630833828,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "olmo-2-0325-32b-instruct",
@@ -2274,7 +2274,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1217.769042287182,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "phi-4",
@@ -2283,7 +2283,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1216.551050626737,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "amazon-nova-micro-v1.0",
@@ -2292,7 +2292,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1208.2913647230143,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-2-9b-it",
@@ -2301,7 +2301,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1207.272101788181,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4-0314",
@@ -2310,7 +2310,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1205.894896811335,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "command-r-plus",
@@ -2319,7 +2319,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1203.717601389801,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen2-72b-instruct",
@@ -2328,7 +2328,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1203.1592665350247,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "hunyuan-standard-256k",
@@ -2337,7 +2337,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1201.8064168191095,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "claude-3-haiku-20240307",
@@ -2346,7 +2346,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1194.5649477778832,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.1-tulu-3-8b",
@@ -2355,7 +2355,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1193.2040335590987,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-coder-v2",
@@ -2364,7 +2364,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1191.07769718379,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "ministral-8b-2410",
@@ -2373,7 +2373,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1190.7972652795966,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "command-r-08-2024",
@@ -2382,7 +2382,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1187.2456850602553,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "jamba-1.5-mini",
@@ -2391,7 +2391,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1186.5630261016188,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.1-8b-instruct",
@@ -2400,7 +2400,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1186.467144575054,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-4-0613",
@@ -2409,7 +2409,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1185.8927520497234,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "c4ai-aya-expanse-8b",
@@ -2418,7 +2418,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1185.0048783200637,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-large-2402",
@@ -2427,7 +2427,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1176.3635310614527,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen1.5-110b-chat",
@@ -2436,7 +2436,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1174.4570939254363,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "yi-1.5-34b-chat",
@@ -2445,7 +2445,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1172.8444316076452,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "reka-flash-21b-20240226-online",
@@ -2454,7 +2454,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1170.3187800371688,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen1.5-72b-chat",
@@ -2463,7 +2463,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1166.038290034443,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3-8b-instruct",
@@ -2472,7 +2472,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1165.4900753646166,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-medium",
@@ -2481,7 +2481,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1165.0242065750067,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "reka-flash-21b-20240226",
@@ -2490,7 +2490,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1164.8743938869343,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "command-r",
@@ -2499,7 +2499,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1163.0207021133342,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mixtral-8x22b-instruct-v0.1",
@@ -2508,7 +2508,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1161.8730265494555,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwq-32b-preview",
@@ -2517,7 +2517,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1161.686348979944,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "internlm2_5-20b-chat",
@@ -2526,7 +2526,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1158.3309687298138,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-2-2b-it",
@@ -2535,7 +2535,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1155.6546614996137,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "granite-3.1-8b-instruct",
@@ -2544,7 +2544,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1149.4227105348434,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-pro-dev-api",
@@ -2553,7 +2553,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1148.7338904867686,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "zephyr-orpo-141b-A35b-v0.1",
@@ -2562,7 +2562,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1143.5782050805672,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "phi-3-medium-4k-instruct",
@@ -2571,7 +2571,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1137.436235458874,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen1.5-32b-chat",
@@ -2580,7 +2580,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1137.0883098586246,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "starling-lm-7b-beta",
@@ -2589,7 +2589,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1131.9287129309064,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mixtral-8x7b-instruct-v0.1",
@@ -2598,7 +2598,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1131.4440763540658,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemini-pro",
@@ -2607,7 +2607,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1130.4237298412659,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "yi-34b-chat",
@@ -2616,7 +2616,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1128.3557329664704,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen1.5-14b-chat",
@@ -2625,7 +2625,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1127.5790976729343,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "granite-3.1-2b-instruct",
@@ -2634,7 +2634,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1127.3046379040995,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-3.5-turbo-0125",
@@ -2643,7 +2643,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1124.8062503862975,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "tulu-2-dpo-70b",
@@ -2652,7 +2652,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1120.920119433573,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "wizardlm-70b",
@@ -2661,7 +2661,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1119.4057344494322,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "dbrx-instruct-preview",
@@ -2670,7 +2670,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1118.7540846802801,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-2-70b-chat",
@@ -2679,7 +2679,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1115.1130076353484,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "nous-hermes-2-mixtral-8x7b-dpo",
@@ -2688,7 +2688,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1111.923883795124,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "phi-3-small-8k-instruct",
@@ -2697,7 +2697,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1109.7083289059292,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.2-3b-instruct",
@@ -2706,7 +2706,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1109.4197320910957,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "starling-lm-7b-alpha",
@@ -2715,7 +2715,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1107.5459136310092,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "openchat-3.5-0106",
@@ -2724,7 +2724,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1106.4934646345234,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "vicuna-33b",
@@ -2733,7 +2733,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1105.1448820727123,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "deepseek-llm-67b-chat",
@@ -2742,7 +2742,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1104.9143190429545,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "snowflake-arctic-instruct",
@@ -2751,7 +2751,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1100.8603877658284,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama2-70b-steerlm-chat",
@@ -2760,7 +2760,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1097.9752176973006,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "openchat-3.5",
@@ -2769,7 +2769,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1096.9168548270134,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "granite-3.0-8b-instruct",
@@ -2778,7 +2778,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1096.323240753914,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt-3.5-turbo-1106",
@@ -2787,7 +2787,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1094.0056711078037,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-1.1-7b-it",
@@ -2796,7 +2796,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1093.8573750183705,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "openhermes-2.5-mistral-7b",
@@ -2805,7 +2805,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1092.3837877080446,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-7b-instruct-v0.2",
@@ -2814,7 +2814,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1089.4495972325244,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-2-13b-chat",
@@ -2823,7 +2823,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1084.3416742311574,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen1.5-7b-chat",
@@ -2832,7 +2832,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1083.3443973953845,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "solar-10.7b-instruct-v1.0",
@@ -2841,7 +2841,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1082.971710443197,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "dolphin-2.2.1-mistral-7b",
@@ -2850,7 +2850,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1080.8572907745352,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "phi-3-mini-4k-instruct-june-2024",
@@ -2859,7 +2859,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1079.8406604144186,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "granite-3.0-2b-instruct",
@@ -2868,7 +2868,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1079.7266128568745,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "wizardlm-13b",
@@ -2877,7 +2877,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1076.4219197170066,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "phi-3-mini-4k-instruct",
@@ -2886,7 +2886,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1073.1905363498506,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "zephyr-7b-beta",
@@ -2895,7 +2895,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1069.3057615952491,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mpt-30b-chat",
@@ -2904,7 +2904,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1068.4929060075558,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "codellama-34b-instruct",
@@ -2913,7 +2913,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1065.367661802908,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "zephyr-7b-alpha",
@@ -2922,7 +2922,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1058.2530440339278,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "vicuna-13b",
@@ -2931,7 +2931,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1057.541655752917,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "codellama-70b-instruct",
@@ -2940,7 +2940,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1057.125828644216,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-7b-it",
@@ -2949,7 +2949,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1056.0386519486337,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-3.2-1b-instruct",
@@ -2958,7 +2958,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1054.5200816637898,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "falcon-180b-chat",
@@ -2967,7 +2967,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1054.2370955790373,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-2-7b-chat",
@@ -2976,7 +2976,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1053.2821962553003,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "guanaco-33b",
@@ -2985,7 +2985,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1053.2621166765,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen-14b-chat",
@@ -2994,7 +2994,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1050.910876450316,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "phi-3-mini-128k-instruct",
@@ -3003,7 +3003,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1050.2732139760446,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "smollm2-1.7b-instruct",
@@ -3012,7 +3012,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1041.912073495836,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "stripedhyena-nous-7b",
@@ -3021,7 +3021,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1038.3231672153813,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "olmo-7b-instruct",
@@ -3030,7 +3030,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1031.6944089750275,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "vicuna-7b",
@@ -3039,7 +3039,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1030.8298547832758,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "palm-2",
@@ -3048,7 +3048,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1027.120829303461,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mistral-7b-instruct",
@@ -3057,7 +3057,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1023.3908605727538,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-1.1-2b-it",
@@ -3066,7 +3066,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1022.1074594040936,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gemma-2b-it",
@@ -3075,7 +3075,7 @@
     "url": "https://lmarena.ai",
     "score_general": 1002.0303374989269,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "qwen1.5-4b-chat",
@@ -3084,7 +3084,7 @@
     "url": "https://lmarena.ai",
     "score_general": 997.1177219207771,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "koala-13b",
@@ -3093,7 +3093,7 @@
     "url": "https://lmarena.ai",
     "score_general": 989.4913029546206,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "chatglm3-6b",
@@ -3102,7 +3102,7 @@
     "url": "https://lmarena.ai",
     "score_general": 971.9207019827288,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "gpt4all-13b-snoozy",
@@ -3111,7 +3111,7 @@
     "url": "https://lmarena.ai",
     "score_general": 956.0634671365526,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "mpt-7b-chat",
@@ -3120,7 +3120,7 @@
     "url": "https://lmarena.ai",
     "score_general": 955.1010984407169,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "RWKV-4-Raven-14B",
@@ -3129,7 +3129,7 @@
     "url": "https://lmarena.ai",
     "score_general": 948.2679681727184,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "chatglm2-6b",
@@ -3138,7 +3138,7 @@
     "url": "https://lmarena.ai",
     "score_general": 938.5095540683587,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "alpaca-13b",
@@ -3147,7 +3147,7 @@
     "url": "https://lmarena.ai",
     "score_general": 932.6925682499834,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "chatglm-6b",
@@ -3156,7 +3156,7 @@
     "url": "https://lmarena.ai",
     "score_general": 918.3464046686513,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "oasst-pythia-12b",
@@ -3165,7 +3165,7 @@
     "url": "https://lmarena.ai",
     "score_general": 915.9483279239777,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "fastchat-t5-3b",
@@ -3174,7 +3174,7 @@
     "url": "https://lmarena.ai",
     "score_general": 894.2808858490578,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "stablelm-tuned-alpha-7b",
@@ -3183,7 +3183,7 @@
     "url": "https://lmarena.ai",
     "score_general": 866.4550033240828,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "dolly-v2-12b",
@@ -3192,7 +3192,7 @@
     "url": "https://lmarena.ai",
     "score_general": 851.0093308217058,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   },
   {
     "name": "llama-13b",
@@ -3201,6 +3201,6 @@
     "url": "https://lmarena.ai",
     "score_general": 833.3919166975711,
     "score_code": null,
-    "updated_at": "2026-05-05T12:40:47Z"
+    "updated_at": "2026-05-06T08:26:37Z"
   }
 ]
