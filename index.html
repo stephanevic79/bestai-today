@@ -48,7 +48,6 @@
             overflow-x: hidden;
         }
 
-        /* Lueur radiale fixe */
         body::before {
             content: "";
             position: fixed;
@@ -61,7 +60,6 @@
             z-index: 0;
         }
 
-        /* Grille (lignes uniquement, sans points) */
         body::after {
             content: "";
             position: fixed;
@@ -79,7 +77,6 @@
             -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
         }
 
-        /* Starfield (étoiles fixes, petites) */
         .starfield {
             position: fixed;
             top: 0;
@@ -100,7 +97,6 @@
             animation: none;
         }
 
-        /* ---- Conteneur principal ---- */
         .container {
             position: relative;
             z-index: 1;
@@ -108,10 +104,9 @@
             max-width: 900px;
             display: flex;
             flex-direction: column;
-            gap: 2rem;
+            gap: 1.5rem;
         }
 
-        /* ---- En-tête ---- */
         .header {
             text-align: center;
             margin-top: 1.5rem;
@@ -141,14 +136,13 @@
             opacity: 0.8;
         }
 
-        /* ---- Filtres centrés ---- */
         .filters {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             gap: 1rem;
-            margin: 0.5rem 0 1rem;
+            margin-bottom: 0;
         }
         .filter-group {
             display: flex;
@@ -188,26 +182,22 @@
             font-weight: 800;
         }
 
-        /* ---- Bandeau d'information métier ---- */
+        /* ---- Bandeau méta ---- */
         .meta-info {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: baseline;
             gap: 0.6rem 1.2rem;
-            background: rgba(0, 212, 255, 0.06);
-            border: 1px solid rgba(0, 212, 255, 0.15);
+            background: var(--card-bg);
+            border: none;
             border-radius: 14px;
-            padding: 0.7rem 1.5rem;
+            padding: 0.6rem 1.5rem;
             font-size: 0.9rem;
             font-weight: 500;
-            backdrop-filter: blur(6px);
+            backdrop-filter: blur(8px);
             color: var(--text-light);
-            opacity: 0;
-            animation: fadeIn 0.5s ease forwards;
-        }
-        @keyframes fadeIn {
-            to { opacity: 1; }
+            margin-top: -0.3rem;
         }
         .meta-info .meta-item {
             display: flex;
@@ -219,11 +209,8 @@
             color: var(--cyan);
             font-weight: 300;
         }
-        .meta-info .meta-icon {
-            font-size: 1rem;
-        }
 
-        /* ---- Podium escalier ---- */
+        /* ---- Podium ---- */
         .podium-container {
             display: flex;
             justify-content: center;
@@ -341,7 +328,6 @@
             width: 0%;
         }
 
-        /* ---- État vide / maintenance ---- */
         .status-message {
             display: none;
             text-align: center;
@@ -358,11 +344,11 @@
             100% { opacity: 0.6; }
         }
 
-        /* ---- Liste des autres modèles ---- */
+        /* ---- Liste des modèles ---- */
         .model-list {
             display: flex;
             flex-direction: column;
-            gap: 0.7rem;
+            gap: 0.3rem;
             margin-bottom: 1.5rem;
         }
 
@@ -370,14 +356,14 @@
             background: var(--card-bg);
             border: 1px solid rgba(0, 212, 255, 0.15);
             border-radius: 16px;
-            padding: 0.9rem 1.2rem;
+            padding: 0.5rem 0.8rem;
             display: flex;
             flex-direction: column;
             text-decoration: none;
             color: inherit;
             transition: all 0.25s ease;
             backdrop-filter: blur(8px);
-            gap: 0.6rem;
+            gap: 0.25rem;
         }
         .model-item:hover {
             border-color: var(--cyan);
@@ -389,60 +375,43 @@
             display: flex;
             align-items: center;
             flex-wrap: wrap;
-            gap: 0.5rem 1rem;
+            gap: 0.4rem;
+            font-size: 0.85rem;
         }
 
         .model-rank {
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: var(--cyan);
-            min-width: 2rem;
+            min-width: 1.5rem;
             text-align: center;
         }
 
         .model-name {
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
-            font-size: 1rem;
+            font-size: 0.9rem;
             display: flex;
             align-items: center;
-            gap: 0.4rem;
+            gap: 0.3rem;
         }
         .model-name .badge { margin: 0; }
 
         .model-vendor {
-            font-size: 0.8rem;
-            opacity: 0.75;
+            font-size: 0.75rem;
+            opacity: 0.6;
             font-weight: 500;
         }
 
-        .score-block {
-            margin-left: auto;
+        .model-bottom {
             display: flex;
             align-items: center;
-            gap: 0.3rem;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            font-size: 0.95rem;
-            white-space: nowrap;
-        }
-
-        .score-label {
-            font-size: 0.8rem;
-            font-weight: 500;
-            color: rgba(204, 232, 240, 0.55);
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-        }
-
-        .score-value {
-            color: var(--text-light);
-            font-weight: 700;
+            gap: 0.5rem;
         }
 
         .gauge-list {
-            width: 100%;
+            flex: 1;
             height: 8px;
             background: rgba(255,255,255,0.08);
             border-radius: 10px;
@@ -463,7 +432,27 @@
             box-shadow: 0 0 8px var(--orange);
         }
 
-        /* ---- Bouton Partager (séparateur) ---- */
+        .score-block {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            white-space: nowrap;
+            font-size: 0.85rem;
+        }
+
+        .score-label {
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: rgba(204, 232, 240, 0.55);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .score-value {
+            color: var(--text-light);
+            font-weight: 700;
+        }
+
         .share-container {
             display: flex;
             justify-content: center;
@@ -473,7 +462,6 @@
             gap: 0.4rem;
         }
 
-        /* ---- Emplacement publicitaire ---- */
         .ad-slot {
             min-height: 90px;
             width: 100%;
@@ -481,7 +469,6 @@
             margin: 0 auto;
         }
 
-        /* ---- Footer ---- */
         .footer {
             margin-top: 2rem;
             padding-top: 1.5rem;
@@ -513,7 +500,12 @@
             .meta-info {
                 flex-direction: column;
                 align-items: center;
-                text-align: center;
+                gap: 0.2rem;
+                padding: 0.5rem 1rem;
+                margin-top: -0.2rem;
+            }
+            .meta-info .separator {
+                display: none;
             }
             .podium-container {
                 flex-direction: column;
@@ -526,15 +518,11 @@
                 height: auto !important;
             }
             .model-row-top {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .score-block {
-                margin-left: 0;
+                font-size: 0.8rem;
             }
         }
 
-        /* ---- Toast notifications ---- */
+        /* ---- Toasts ---- */
         .toast-container {
             position: fixed;
             bottom: 2rem;
@@ -601,7 +589,6 @@
             <h1>BEST AI TODAY</h1>
             <div class="sub" id="subtitle"></div>
             <div class="header-info" id="scoreExplanation"></div>
-            <!-- L'ancien #updateInfo est supprimé, remplacé par le bandeau meta-info -->
         </header>
 
         <div class="filters">
@@ -616,7 +603,6 @@
             </div>
         </div>
 
-        <!-- Bandeau d'information métier -->
         <div id="metaInfo" class="meta-info" style="display: none;">
             <span class="meta-item"><span class="meta-icon">📅</span> <span id="rankingDateText"></span></span>
             <span class="separator">•</span>
@@ -654,12 +640,10 @@
         </footer>
     </div>
 
-    <!-- Toast container -->
     <div id="toastContainer" class="toast-container" aria-live="polite"></div>
 
     <script>
         (function() {
-            // ----- Internationalisation -----
             const i18n = {
                 fr: {
                     slogan: 'Quel modèle IA domine en ce moment ?',
@@ -711,7 +695,6 @@
             document.documentElement.lang = lang;
             const t = i18n[lang];
 
-            // Mise à jour des textes statiques
             document.getElementById('subtitle').textContent = t.slogan;
             document.getElementById('scoreExplanation').textContent = t.scoreExplanation;
             document.getElementById('filterAll').textContent = t.all;
@@ -728,7 +711,6 @@
             document.getElementById('footerLegal').innerHTML = `<a href="legal.html">${t.legal}</a>`;
             document.getElementById('footerCopyright').textContent = t.copyright;
 
-            // Variables d'état
             let currentType = 'all';
             let currentCategory = 'general';
             let updateInfoInterval = null;
@@ -744,26 +726,21 @@
             const catBtns = document.querySelectorAll('#categoryFilter .filter-btn');
             const snapshotBtn = document.getElementById('snapshotBtn');
 
-            // ----- Fonction utilitaire pour les toasts -----
             function showToast(message, type = 'info') {
                 const container = document.getElementById('toastContainer');
                 const toast = document.createElement('div');
                 toast.className = `toast ${type}`;
-                
                 let icon = '';
                 if (type === 'success') icon = '✅ ';
                 else if (type === 'error') icon = '❌ ';
                 else if (type === 'info') icon = 'ℹ️ ';
-                
                 toast.textContent = icon + message;
                 container.appendChild(toast);
-                
                 setTimeout(() => {
                     if (toast.parentNode) toast.remove();
                 }, 3400);
             }
 
-            // ----- Mise à jour du bandeau métier -----
             function updateMetaInfo() {
                 if (!window.DATA || !window.DATA.models || !window.DATA.models.length) {
                     metaInfoEl.style.display = 'none';
@@ -771,7 +748,6 @@
                 }
                 metaInfoEl.style.display = '';
 
-                // Date du classement
                 const rankingDate = window.DATA.ranking_date;
                 if (rankingDate) {
                     const date = new Date(rankingDate);
@@ -782,7 +758,6 @@
                     rankingDateTextEl.textContent = `${t.rankingDateLabel} —`;
                 }
 
-                // Vérifié il y a...
                 const retrievedAt = window.DATA.retrieved_at;
                 if (retrievedAt) {
                     const now = Date.now();
@@ -800,7 +775,6 @@
                     verifiedTextEl.textContent = `${t.verifiedLabel} —`;
                 }
 
-                // Nombre de modèles
                 const totalModels = window.DATA.models.length;
                 const filteredCount = getFilteredModels().length;
                 modelsCountTextEl.textContent = t.modelsCount
@@ -813,7 +787,6 @@
                 updateInfoInterval = setInterval(updateMetaInfo, 60000);
             }
 
-            // ----- Logique de modèles -----
             function getAllScores() {
                 if (!window.DATA || !window.DATA.models) return { general: [], code: [] };
                 const models = window.DATA.models;
@@ -878,16 +851,18 @@
                 return `
                     <a href="${model.url}" target="_blank" rel="noopener" class="model-item fade-in">
                         <div class="model-row-top">
-                            <span class="model-rank">#${rank}</span>
+                            <span class="model-rank">${rank}</span>
                             <span class="model-name">${model.name} ${badgeHtml(model.type)}</span>
                             <span class="model-vendor">${model.vendor}</span>
+                        </div>
+                        <div class="model-bottom">
+                            <div class="gauge-list">
+                                <div class="gauge-list-fill ${gaugeClass}" style="width:${pct}%"></div>
+                            </div>
                             <div class="score-block">
                                 <span class="score-label">Score</span>
                                 <span class="score-value">${pct}%</span>
                             </div>
-                        </div>
-                        <div class="gauge-list">
-                            <div class="gauge-list-fill ${gaugeClass}" style="width:${pct}%"></div>
                         </div>
                     </a>
                 `;
@@ -946,7 +921,6 @@
                 updatePodiumColorClass();
             }
 
-            // Event listeners filtres
             typeBtns.forEach(b => b.addEventListener('click', () => {
                 typeBtns.forEach(x => x.classList.remove('active'));
                 b.classList.add('active');
@@ -960,7 +934,6 @@
                 render();
             }));
 
-            // ---- Snapshot avec URL gravée — version mobile compatible ----
             snapshotBtn.addEventListener('click', async () => {
                 if (typeof html2canvas === 'undefined') {
                     showToast(t.html2canvasMissing, 'error');
@@ -976,7 +949,6 @@
                         ignoreElements: (el) => el.classList.contains('ad-slot')
                     });
 
-                    // Gravure de l'URL
                     const ctx = canvas.getContext('2d');
                     const text = 'www.bestai-today.com';
                     ctx.font = '18px monospace';
@@ -997,7 +969,6 @@
 
                     const file = new File([blob], 'bestai-today.png', { type: 'image/png' });
 
-                    // 1. Web Share API (mobile natif)
                     if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
                         try {
                             await navigator.share({
@@ -1011,18 +982,14 @@
                         }
                     }
 
-                    // 2. Clipboard API (desktop)
                     if (navigator.clipboard && navigator.clipboard.write && typeof ClipboardItem !== 'undefined') {
                         try {
                             await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
                             showToast(t.snapshotCopied, 'success');
                             return;
-                        } catch (clipErr) {
-                            // Fallback silencieux vers le téléchargement
-                        }
+                        } catch (clipErr) {}
                     }
 
-                    // 3. Fallback universel : téléchargement de l'image
                     const url = URL.createObjectURL(blob);
                     const a = document.createElement('a');
                     a.href = url;
@@ -1039,7 +1006,6 @@
                 }
             });
 
-            // Génération du starfield
             function generateStars(count) {
                 let shadows = [];
                 for (let i = 0; i < count; i++) {
@@ -1054,13 +1020,11 @@
             const starfieldEl = document.getElementById('starfield');
             starfieldEl.style.setProperty('--stars', generateStars(200));
 
-            // ----- Chargement dynamique des données -----
             async function loadData() {
                 try {
                     const resp = await fetch('data.json?v=' + Date.now());
                     if (!resp.ok) throw new Error('HTTP ' + resp.status);
                     const data = await resp.json();
-                    // Vérification de la nouvelle structure
                     if (!data || !Array.isArray(data.models) || data.models.length === 0) {
                         throw new Error('Invalid data structure');
                     }
