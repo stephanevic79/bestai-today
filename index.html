@@ -869,6 +869,7 @@
                 let filtered = [...window.DATA.models];
                 if (currentType !== 'all') filtered = filtered.filter(m => m.type === currentType);
                 const key = currentCategory === 'general' ? 'score_general' : 'score_code';
+                filtered = filtered.filter(m => m[key] != null);
                 filtered.sort((a, b) => b[key] - a[key]);
                 return filtered;
             }
