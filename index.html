@@ -29,11 +29,7 @@
             --glow: 0 0 15px var(--cyan);
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Roboto', sans-serif;
@@ -130,12 +126,8 @@
             opacity: 0.95;
             margin-bottom: 0.5rem;
         }
-        .header-info {
-            margin-top: 0.3rem;
-            font-size: 0.8rem;
-            opacity: 0.8;
-        }
 
+        /* ---- Filtres ---- */
         .filters {
             display: flex;
             flex-wrap: wrap;
@@ -182,32 +174,54 @@
             font-weight: 800;
         }
 
-        /* ---- Bandeau méta ---- */
+        /* ---- Bandeau méta unifié ---- */
         .meta-info {
+            background: var(--card-bg);
+            border: 1px solid rgba(0, 212, 255, 0.15);
+            border-radius: 14px;
+            padding: 0.6rem 1.5rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            backdrop-filter: blur(8px);
+            color: var(--text-light);
+            width: 100%;
+            max-width: 600px;
+            margin: -0.3rem auto 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+        }
+
+        .meta-filter-desc {
+            text-align: center;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: rgba(204, 232, 240, 0.8);
+        }
+        .meta-details {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: baseline;
             gap: 0.6rem 1.2rem;
-            background: var(--card-bg);
-            border: none;
-            border-radius: 14px;
-            padding: 0.6rem 1.5rem;
             font-size: 0.9rem;
-            font-weight: 500;
-            backdrop-filter: blur(8px);
-            color: var(--text-light);
-            margin-top: -0.3rem;
         }
-        .meta-info .meta-item {
+        .meta-details .meta-item {
             display: flex;
             align-items: center;
             gap: 0.35rem;
             white-space: nowrap;
         }
-        .meta-info .separator {
+        .meta-details .separator {
             color: var(--cyan);
             font-weight: 300;
+        }
+        .meta-score-explanation {
+            text-align: center;
+            font-size: 0.75rem;
+            color: rgba(204, 232, 240, 0.6);
+            font-weight: 400;
+            line-height: 1.3;
         }
 
         /* ---- Podium ---- */
@@ -247,17 +261,14 @@
             width: 220px;
             min-height: 180px;
         }
-
         .podium-card.no-anim {
             animation: none !important;
             opacity: 1 !important;
         }
-
         @keyframes fadeInUp {
             from { opacity: 0; transform: translateY(40px); }
             to { opacity: 1; transform: translateY(0); }
         }
-
         .podium-card:hover {
             transform: translateY(-5px);
             border-color: #fff;
@@ -274,11 +285,6 @@
             text-shadow: 0 0 20px var(--podium-color);
         }
 
-        .podium-card .badge {
-            margin-top: 0.2rem;
-            margin-bottom: 0.5rem;
-        }
-
         .badge {
             font-size: 0.65rem;
             font-weight: 800;
@@ -286,17 +292,33 @@
             border-radius: 20px;
             letter-spacing: 0.04em;
             text-transform: uppercase;
+            margin-top: 0.2rem;
+            margin-bottom: 0.5rem;
         }
         .badge.paid { background: var(--paid); color: #040c18; }
         .badge.unlimited { background: var(--unlimited); color: #040c18; }
 
-        .podium-card .name {
-            font-family: 'Roboto', sans-serif;
+        .name-wrapper {
+            width: 100%;
+            height: 2.8rem;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .name {
             font-weight: 700;
             font-size: 1.1rem;
             text-align: center;
-            margin-top: 0.2rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-word;
+            line-height: 1.3;
         }
+
         .podium-card .vendor {
             font-size: 0.8rem;
             opacity: 0.8;
@@ -344,14 +366,13 @@
             100% { opacity: 0.6; }
         }
 
-        /* ---- Liste des modèles ---- */
+        /* ---- Liste des modèles densifiée ---- */
         .model-list {
             display: flex;
             flex-direction: column;
             gap: 0.3rem;
             margin-bottom: 1.5rem;
         }
-
         .model-item {
             background: var(--card-bg);
             border: 1px solid rgba(0, 212, 255, 0.15);
@@ -374,11 +395,10 @@
         .model-row-top {
             display: flex;
             align-items: center;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             gap: 0.4rem;
             font-size: 0.85rem;
         }
-
         .model-rank {
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
@@ -386,22 +406,29 @@
             color: var(--cyan);
             min-width: 1.5rem;
             text-align: center;
+            flex-shrink: 0;
         }
-
         .model-name {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            font-size: 0.9rem;
             display: flex;
             align-items: center;
             gap: 0.3rem;
+            flex: 1 1 auto;
+            min-width: 0;
         }
-        .model-name .badge { margin: 0; }
-
+        .model-name-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+        .model-name .badge { margin: 0; flex-shrink: 0; }
         .model-vendor {
             font-size: 0.75rem;
             opacity: 0.6;
             font-weight: 500;
+            flex-shrink: 0;
+            margin-left: auto;
         }
 
         .model-bottom {
@@ -409,7 +436,6 @@
             align-items: center;
             gap: 0.5rem;
         }
-
         .gauge-list {
             flex: 1;
             height: 8px;
@@ -417,7 +443,6 @@
             border-radius: 10px;
             overflow: hidden;
         }
-
         .gauge-list-fill {
             height: 100%;
             border-radius: 10px;
@@ -439,7 +464,6 @@
             white-space: nowrap;
             font-size: 0.85rem;
         }
-
         .score-label {
             font-size: 0.75rem;
             font-weight: 500;
@@ -447,7 +471,6 @@
             text-transform: uppercase;
             letter-spacing: 0.03em;
         }
-
         .score-value {
             color: var(--text-light);
             font-weight: 700;
@@ -498,14 +521,22 @@
                 align-items: center;
             }
             .meta-info {
+                padding: 0.5rem 1rem;
+                gap: 0.2rem;
+            }
+            .meta-details {
                 flex-direction: column;
                 align-items: center;
-                gap: 0.2rem;
-                padding: 0.5rem 1rem;
-                margin-top: -0.2rem;
+                gap: 0.15rem;
             }
-            .meta-info .separator {
+            .meta-details .separator {
                 display: none;
+            }
+            .meta-filter-desc {
+                font-size: 0.8rem;
+            }
+            .meta-score-explanation {
+                font-size: 0.7rem;
             }
             .podium-container {
                 flex-direction: column;
@@ -533,7 +564,6 @@
             gap: 0.8rem;
             pointer-events: none;
         }
-
         .toast {
             background: rgba(6, 18, 36, 0.9);
             backdrop-filter: blur(12px);
@@ -554,7 +584,6 @@
             opacity: 0;
             transform: translateY(20px);
         }
-
         .toast.success {
             border-color: #00e676;
             box-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
@@ -570,7 +599,6 @@
             box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
             color: #cce8f0;
         }
-
         @keyframes toastIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -588,7 +616,7 @@
         <header class="header">
             <h1>BEST AI TODAY</h1>
             <div class="sub" id="subtitle"></div>
-            <div class="header-info" id="scoreExplanation"></div>
+            <!-- L'explication du score a été déplacée dans le bandeau méta -->
         </header>
 
         <div class="filters">
@@ -603,12 +631,17 @@
             </div>
         </div>
 
+        <!-- Bandeau méta unifié -->
         <div id="metaInfo" class="meta-info" style="display: none;">
-            <span class="meta-item"><span class="meta-icon">📅</span> <span id="rankingDateText"></span></span>
-            <span class="separator">•</span>
-            <span class="meta-item"><span class="meta-icon">✅</span> <span id="verifiedText"></span></span>
-            <span class="separator">•</span>
-            <span class="meta-item" id="modelsCountText"></span>
+            <div class="meta-filter-desc" id="filterDesc"></div>
+            <div class="meta-details">
+                <span class="meta-item">📅 <span id="rankingDateText"></span></span>
+                <span class="separator">•</span>
+                <span class="meta-item">✅ <span id="verifiedText"></span></span>
+                <span class="separator">•</span>
+                <span class="meta-item" id="modelsCountText"></span>
+            </div>
+            <div class="meta-score-explanation" id="scoreExplanationText"></div>
         </div>
 
         <div id="podium" class="podium-container category-general"></div>
@@ -632,11 +665,11 @@
         <div class="ad-slot" aria-hidden="true"></div>
 
         <footer class="footer">
-            <div class="footer-source" id="footerSource"></div>
-            <div class="footer-affiliate" id="footerAffiliate"></div>
-            <div class="footer-disclaimer" id="footerDisclaimer"></div>
-            <div class="footer-legal" id="footerLegal"></div>
-            <div class="footer-copyright" id="footerCopyright"></div>
+            <div id="footerSource"></div>
+            <div id="footerAffiliate"></div>
+            <div id="footerDisclaimer"></div>
+            <div id="footerLegal"></div>
+            <div id="footerCopyright"></div>
         </footer>
     </div>
 
@@ -644,24 +677,36 @@
 
     <script>
         (function() {
+            // ----- Internationalisation -----
             const i18n = {
                 fr: {
                     slogan: 'Quel modèle IA domine en ce moment ?',
                     all: 'Tous', unlimited: 'Illimité', paid: 'Payant',
                     general: 'Général', code: 'Code',
                     share: 'Partager',
-                    scoreExplanation: 'Score basé sur les duels Chatbot Arena — 100% = meilleur modèle du moment',
                     maintenance: '🛠️ En cours de maintenance',
                     empty: 'Aucun modèle trouvé pour cette sélection.',
                     snapshotCopied: '✅ Image copiée dans le presse-papiers !',
                     snapshotError: 'Impossible de partager automatiquement.',
                     html2canvasMissing: 'html2canvas non chargé.',
                     snapshotDownloaded: 'Image téléchargée.',
+
+                    // Bandeau méta
                     rankingDateLabel: 'Classement du',
                     verifiedLabel: 'Vérifié il y a',
-                    lessThanMinute: 'moins d\'une minute',
-                    modelsCount: '{filtered} / {total} modèles classés',
-                    affiliateNotice: 'Certains liens sont des liens d\'affiliation.',
+                    lessThanMinute: "moins d'une minute",
+                    modelsCount: '{filtered} / {total} modèles affichés',
+                    scoreExplanation: 'Score basé sur les duels Chatbot Arena — 100% = meilleur modèle du moment',
+
+                    // Descriptions des filtres
+                    filterAll: 'Tous les modèles',
+                    filterUnlimited: 'Modèles gratuits / illimités',
+                    filterPaid: 'Modèles payants',
+                    filterGeneral: 'conversation générale',
+                    filterCode: 'programmation & technique',
+
+                    // Footer
+                    affiliateNotice: "Certains liens sont des liens d'affiliation.",
                     source: 'Classement basé sur les données Chatbot Arena.',
                     disclaimer: 'Ce classement ne constitue pas un avis éditorial.',
                     legal: 'Mentions légales',
@@ -672,17 +717,25 @@
                     all: 'All', unlimited: 'Unlimited', paid: 'Paid',
                     general: 'General', code: 'Code',
                     share: 'Share',
-                    scoreExplanation: 'Score based on Chatbot Arena battles — 100% = best model right now',
                     maintenance: '🛠️ Under maintenance',
                     empty: 'No models found for this selection.',
                     snapshotCopied: '✅ Image copied to clipboard!',
                     snapshotError: 'Could not share automatically.',
                     html2canvasMissing: 'html2canvas not loaded.',
                     snapshotDownloaded: 'Image downloaded.',
+
                     rankingDateLabel: 'Ranking from',
                     verifiedLabel: 'Checked',
                     lessThanMinute: 'less than a minute',
-                    modelsCount: '{filtered} / {total} models ranked',
+                    modelsCount: '{filtered} / {total} models shown',
+                    scoreExplanation: 'Score based on Chatbot Arena battles — 100% = best model right now',
+
+                    filterAll: 'All models',
+                    filterUnlimited: 'Free / unlimited models',
+                    filterPaid: 'Paid models',
+                    filterGeneral: 'general conversation',
+                    filterCode: 'coding & technical',
+
                     affiliateNotice: 'Some links are affiliate links.',
                     source: 'Rankings based on Chatbot Arena data.',
                     disclaimer: 'This ranking is not editorial advice.',
@@ -695,8 +748,8 @@
             document.documentElement.lang = lang;
             const t = i18n[lang];
 
+            // Textes statiques
             document.getElementById('subtitle').textContent = t.slogan;
-            document.getElementById('scoreExplanation').textContent = t.scoreExplanation;
             document.getElementById('filterAll').textContent = t.all;
             document.getElementById('filterUnlimited').textContent = t.unlimited;
             document.getElementById('filterPaid').textContent = t.paid;
@@ -705,12 +758,14 @@
             document.getElementById('shareText').textContent = t.share;
             document.getElementById('maintenanceMsg').textContent = t.maintenance;
             document.getElementById('emptyMsg').textContent = t.empty;
+            document.getElementById('scoreExplanationText').textContent = t.scoreExplanation;
             document.getElementById('footerSource').textContent = t.source;
             document.getElementById('footerAffiliate').textContent = t.affiliateNotice;
             document.getElementById('footerDisclaimer').textContent = t.disclaimer;
             document.getElementById('footerLegal').innerHTML = `<a href="legal.html">${t.legal}</a>`;
             document.getElementById('footerCopyright').textContent = t.copyright;
 
+            // ----- État -----
             let currentType = 'all';
             let currentCategory = 'general';
             let updateInfoInterval = null;
@@ -719,6 +774,7 @@
             const listEl = document.getElementById('modelList');
             const emptyMsgEl = document.getElementById('emptyMsg');
             const metaInfoEl = document.getElementById('metaInfo');
+            const filterDescEl = document.getElementById('filterDesc');
             const rankingDateTextEl = document.getElementById('rankingDateText');
             const verifiedTextEl = document.getElementById('verifiedText');
             const modelsCountTextEl = document.getElementById('modelsCountText');
@@ -736,9 +792,7 @@
                 else if (type === 'info') icon = 'ℹ️ ';
                 toast.textContent = icon + message;
                 container.appendChild(toast);
-                setTimeout(() => {
-                    if (toast.parentNode) toast.remove();
-                }, 3400);
+                setTimeout(() => { if (toast.parentNode) toast.remove(); }, 3400);
             }
 
             function updateMetaInfo() {
@@ -748,6 +802,12 @@
                 }
                 metaInfoEl.style.display = '';
 
+                // Description des filtres
+                const typeKey = currentType === 'all' ? 'filterAll' : (currentType === 'unlimited' ? 'filterUnlimited' : 'filterPaid');
+                const catKey = currentCategory === 'general' ? 'filterGeneral' : 'filterCode';
+                filterDescEl.textContent = `🔍 ${t[typeKey]}, ${t[catKey]}`;
+
+                // Date du classement
                 const rankingDate = window.DATA.ranking_date;
                 if (rankingDate) {
                     const date = new Date(rankingDate);
@@ -758,6 +818,7 @@
                     rankingDateTextEl.textContent = `${t.rankingDateLabel} —`;
                 }
 
+                // Vérifié il y a...
                 const retrievedAt = window.DATA.retrieved_at;
                 if (retrievedAt) {
                     const now = Date.now();
@@ -775,6 +836,7 @@
                     verifiedTextEl.textContent = `${t.verifiedLabel} —`;
                 }
 
+                // Nombre de modèles affichés
                 const totalModels = window.DATA.models.length;
                 const filteredCount = getFilteredModels().length;
                 modelsCountTextEl.textContent = t.modelsCount
@@ -792,10 +854,9 @@
                 const models = window.DATA.models;
                 return {
                     general: models.map(m => m.score_general),
-                    code: models.map(m => m.score_code)
+                    code: models.map(m => m.score_code).filter(s => s !== null)
                 };
             }
-
             function normalize(score, category) {
                 const scores = getAllScores()[category];
                 if (!scores || scores.length === 0) return 0;
@@ -804,7 +865,6 @@
                 if (max === min) return 100;
                 return ((score - min) / (max - min)) * 100;
             }
-
             function getFilteredModels() {
                 if (!window.DATA || !window.DATA.models) return [];
                 let filtered = [...window.DATA.models];
@@ -816,16 +876,9 @@
 
             function badgeHtml(type) {
                 let cls, text;
-                if (type === 'paid') {
-                    cls = 'paid';
-                    text = t.paid;
-                } else if (type === 'unlimited') {
-                    cls = 'unlimited';
-                    text = t.unlimited;
-                } else {
-                    cls = '';
-                    text = type;
-                }
+                if (type === 'paid') { cls = 'paid'; text = t.paid; }
+                else if (type === 'unlimited') { cls = 'unlimited'; text = t.unlimited; }
+                else { cls = ''; text = type; }
                 return `<span class="badge ${cls}">${text}</span>`;
             }
 
@@ -836,7 +889,7 @@
                     <a href="${model.url}" target="_blank" rel="noopener" class="podium-card rank-${rank}">
                         <div class="rank-number">${rank}</div>
                         ${badgeHtml(model.type)}
-                        <div class="name">${model.name}</div>
+                        <div class="name-wrapper"><span class="name">${model.name}</span></div>
                         <div class="vendor">${model.vendor}</div>
                         <div class="score-val">${pct}%</div>
                         <div class="gauge"><div class="gauge-fill" style="width:${pct}%"></div></div>
@@ -852,7 +905,10 @@
                     <a href="${model.url}" target="_blank" rel="noopener" class="model-item fade-in">
                         <div class="model-row-top">
                             <span class="model-rank">${rank}</span>
-                            <span class="model-name">${model.name} ${badgeHtml(model.type)}</span>
+                            <span class="model-name">
+                                <span class="model-name-text">${model.name}</span>
+                                ${badgeHtml(model.type)}
+                            </span>
                             <span class="model-vendor">${model.vendor}</span>
                         </div>
                         <div class="model-bottom">
@@ -908,7 +964,6 @@
 
                 const podiumModels = filtered.slice(0, 3);
                 const listModels = filtered.slice(3);
-
                 podiumEl.innerHTML = podiumModels.map((m, i) => podiumCardHtml(m, i+1, currentCategory)).join('');
                 listEl.innerHTML = listModels.map((m, i) => listItemHtml(m, 4+i, currentCategory)).join('');
 
@@ -917,10 +972,10 @@
                 requestAnimationFrame(() => {
                     podiumEl.querySelectorAll('.podium-card').forEach(c => c.classList.remove('no-anim'));
                 });
-
                 updatePodiumColorClass();
             }
 
+            // Events filtres
             typeBtns.forEach(b => b.addEventListener('click', () => {
                 typeBtns.forEach(x => x.classList.remove('active'));
                 b.classList.add('active');
@@ -934,48 +989,88 @@
                 render();
             }));
 
+            // ---- Snapshot amélioré ----
             snapshotBtn.addEventListener('click', async () => {
                 if (typeof html2canvas === 'undefined') {
                     showToast(t.html2canvasMissing, 'error');
                     return;
                 }
                 try {
-                    const canvas = await html2canvas(podiumEl, {
+                    // Créer un conteneur temporaire pour la capture
+                    const captureDiv = document.createElement('div');
+                    captureDiv.style.cssText = `
+                        position:fixed; top:-9999px; left:-9999px; width: 800px;
+                        background: #040c18;
+                        padding: 2rem 1.5rem 1.5rem;
+                        display:flex; flex-direction:column; align-items:center; gap:1.2rem;
+                        font-family: 'Roboto', sans-serif; color: #cce8f0;
+                    `;
+
+                    // Titre
+                    const title = document.createElement('div');
+                    title.style.cssText = `
+                        font-family: 'Orbitron', sans-serif; font-size: 2.8rem; font-weight: 900;
+                        letter-spacing: 0.15em; color: #fff;
+                        text-shadow: 0 0 20px #00d4ff, 0 0 40px #00d4ff;
+                        text-align: center;
+                    `;
+                    title.textContent = 'BEST AI TODAY';
+
+                    // Bandeau méta
+                    const meta = document.createElement('div');
+                    meta.style.cssText = `
+                        background: rgba(6,18,36,0.75); border: 1px solid rgba(0,212,255,0.15);
+                        border-radius: 14px; padding: 0.6rem 1.8rem; font-size: 0.9rem;
+                        text-align: center; display: flex; flex-direction: column; gap: 0.25rem;
+                    `;
+                    meta.innerHTML = `
+                        <div style="opacity:0.85">${filterDescEl.textContent}</div>
+                        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:0.6rem 1.2rem;">
+                            <span>📅 ${rankingDateTextEl.textContent}</span>
+                            <span style="color:#00d4ff; font-weight:300;">•</span>
+                            <span>✅ ${verifiedTextEl.textContent}</span>
+                            <span style="color:#00d4ff; font-weight:300;">•</span>
+                            <span>${modelsCountTextEl.textContent}</span>
+                        </div>
+                        <div style="font-size:0.75rem; opacity:0.6;">${t.scoreExplanation}</div>
+                    `;
+
+                    // Podium (cloné)
+                    const podiumClone = podiumEl.cloneNode(true);
+                    podiumClone.querySelectorAll('.podium-card.no-anim').forEach(c => c.classList.remove('no-anim'));
+                    podiumClone.style.margin = '0';
+
+                    // Watermark
+                    const watermark = document.createElement('div');
+                    watermark.style.cssText = `
+                        font-family: monospace; font-size: 0.85rem; color: #00d4ff; opacity: 0.8; text-align: center;
+                    `;
+                    watermark.textContent = 'www.bestai-today.com';
+
+                    captureDiv.appendChild(title);
+                    captureDiv.appendChild(meta);
+                    captureDiv.appendChild(podiumClone);
+                    captureDiv.appendChild(watermark);
+                    document.body.appendChild(captureDiv);
+
+                    const canvas = await html2canvas(captureDiv, {
                         backgroundColor: '#040c18',
                         scale: 2,
                         useCORS: true,
                         allowTaint: false,
-                        logging: false,
-                        ignoreElements: (el) => el.classList.contains('ad-slot')
+                        logging: false
                     });
 
-                    const ctx = canvas.getContext('2d');
-                    const text = 'www.bestai-today.com';
-                    ctx.font = '18px monospace';
-                    const textWidth = ctx.measureText(text).width;
-                    const padding = 10;
-                    const boxHeight = 35;
-                    const boxY = canvas.height - boxHeight - 15;
-                    const boxX = (canvas.width - textWidth) / 2 - padding;
-                    ctx.fillStyle = 'rgba(0, 0, 0, 0.65)';
-                    ctx.fillRect(boxX, boxY, textWidth + padding * 2, boxHeight);
-                    ctx.fillStyle = '#00d4ff';
-                    ctx.textAlign = 'center';
-                    ctx.textBaseline = 'middle';
-                    ctx.fillText(text, canvas.width / 2, boxY + boxHeight / 2);
+                    document.body.removeChild(captureDiv);
 
-                    const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+                    const blob = await new Promise(r => canvas.toBlob(r, 'image/png'));
                     if (!blob) throw new Error('Blob null');
 
                     const file = new File([blob], 'bestai-today.png', { type: 'image/png' });
 
                     if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
                         try {
-                            await navigator.share({
-                                files: [file],
-                                title: 'Best AI Today',
-                                url: 'https://bestai-today.com'
-                            });
+                            await navigator.share({ files: [file], title: 'Best AI Today', url: 'https://bestai-today.com' });
                             return;
                         } catch (shareErr) {
                             if (shareErr.name === 'AbortError') return;
@@ -1006,6 +1101,7 @@
                 }
             });
 
+            // Starfield
             function generateStars(count) {
                 let shadows = [];
                 for (let i = 0; i < count; i++) {
@@ -1017,9 +1113,9 @@
                 }
                 return shadows.join(', ');
             }
-            const starfieldEl = document.getElementById('starfield');
-            starfieldEl.style.setProperty('--stars', generateStars(200));
+            document.getElementById('starfield').style.setProperty('--stars', generateStars(200));
 
+            // Chargement des données
             async function loadData() {
                 try {
                     const resp = await fetch('data.json?v=' + Date.now());
