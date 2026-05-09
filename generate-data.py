@@ -27,7 +27,6 @@ def load_hf_leaderboard(subset: str) -> dict[str, dict]:
                     "organization": row.get("organization", ""),
                     "license": row.get("license", ""),
                 }
-                # Récupère la date du classement depuis le premier modèle
                 if ranking_date is None:
                     ranking_date = row.get("leaderboard_publish_date")
         return result, ranking_date
@@ -72,6 +71,26 @@ def deduce_type(license_str: str) -> str:
     return "unlimited"
 
 
+def deduce_api_access(model_name: str, vendor: str, license_str: str) -> str:
+    """
+    Déduit l'accès API (free, freemium, paid) en fonction du fournisseur ou du nom du modèle.
+    Règles heuristiques (à compléter selon tes connaissances) :
+    - Google, OpenAI, Anthropic, xAI : paid (API généralement payante)
+    - DeepSeek, Alibaba (Qwen), Z.ai (GLM), Moonshot (Kimi) : freemium (proposent souvent un accès gratuit limité)
+    - Autres : paid par défaut
+    """
+    if vendor in ("Google", "OpenAI", "Anthropic", "xAI"):
+        return "paid"
+    if vendor in ("DeepSeek", "Alibaba", "Z.ai", "Moonshot"):
+        return "freemium"
+    # Quelques cas particuliers par nom
+    if "mistral" in model_name.lower():
+        return "freemium"
+    if "llama" in model_name.lower():
+        return "free"  # modèles open source souvent disponibles gratuitement via HF
+    return "paid"
+
+
 def main():
     # Chargement du config
     try:
@@ -108,12 +127,15 @@ def main():
             vendor = config_entry["vendor"]
             type_val = config_entry["type"]
             url = config_entry["url"]
+            # api_access depuis la config si présent, sinon on déduit
+            api_access = config_entry.get("api_access", deduce_api_access(arena_name, vendor, general_entry["license"]))
             found_in_config += 1
         else:
             model_name = arena_name
             vendor = deduce_vendor(arena_name, general_entry["organization"])
             type_val = deduce_type(general_entry["license"])
             url = "https://lmarena.ai"
+            api_access = deduce_api_access(arena_name, vendor, general_entry["license"])
             auto_added += 1
             auto_added_list.append(arena_name)
 
@@ -124,6 +146,7 @@ def main():
             "url": url,
             "score_general": general_entry["rating"],
             "score_code": code_entry["rating"] if code_entry else None,
+            "api_access": api_access
         })
 
     # Tri par score_general décroissant
