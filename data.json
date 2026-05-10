@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-05-01",
-  "retrieved_at": "2026-05-10T09:32:34Z",
+  "retrieved_at": "2026-05-10T20:44:57Z",
   "models": [
     {
       "name": "Claude Opus 4.6 Thinking",
@@ -104,7 +104,7 @@
     {
       "name": "GLM-5.1",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1467.7513946209533,
       "score_code": 1531.7028875970293,
@@ -140,7 +140,7 @@
     {
       "name": "MiMo 2.5 Pro",
       "vendor": "Xiaomi",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://xiaomi-ai.com",
       "score_general": 1457.877824593149,
       "score_code": 1476.421229078333,
@@ -158,7 +158,7 @@
     {
       "name": "Kimi K2.6",
       "vendor": "Moonshot",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://kimi.com",
       "score_general": 1454.6434687473395,
       "score_code": 1524.578903486125,
@@ -248,7 +248,7 @@
     {
       "name": "DeepSeek V4 Pro Thinking",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1446.669693163658,
       "score_code": 1454.6661341773006,
@@ -257,7 +257,7 @@
     {
       "name": "DeepSeek V4 Pro",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1446.3690185297432,
       "score_code": null,
@@ -275,7 +275,7 @@
     {
       "name": "Kimi K2.5 Thinking",
       "vendor": "Moonshot",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://kimi.com",
       "score_general": 1445.5985527714918,
       "score_code": 1429.7280585718224,
@@ -284,7 +284,7 @@
     {
       "name": "GLM-5",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1444.998700687389,
       "score_code": 1435.918102082481,
@@ -293,7 +293,7 @@
     {
       "name": "Qwen 3.5 397B A17B",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1443.7933438465063,
       "score_code": 1387.2612930143923,
@@ -320,7 +320,7 @@
     {
       "name": "Gemma 4 31B",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1441.5481672486287,
       "score_code": null,
@@ -347,7 +347,7 @@
     {
       "name": "GLM-4.6",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1440.3947813218979,
       "score_code": 1354.8135703538699,
@@ -392,7 +392,7 @@
     {
       "name": "GLM-4.7",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1435.9782570201785,
       "score_code": 1439.9008534121922,
@@ -410,7 +410,7 @@
     {
       "name": "Gemma 4 26B A4B",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1434.3449021881506,
       "score_code": null,
@@ -437,7 +437,7 @@
     {
       "name": "Mistral Large 3",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1429.647481605586,
       "score_code": 1222.3851834673717,
@@ -455,7 +455,7 @@
     {
       "name": "GLM-4.5",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1428.757280518619,
       "score_code": null,
@@ -473,7 +473,7 @@
     {
       "name": "DeepSeek R1",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1427.6870071419362,
       "score_code": null,
@@ -491,7 +491,7 @@
     {
       "name": "DeepSeek V4 Flash",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1425.8465898224847,
       "score_code": null,
@@ -527,7 +527,7 @@
     {
       "name": "DeepSeek V4 Flash Thinking",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1424.122830022502,
       "score_code": null,
@@ -536,7 +536,7 @@
     {
       "name": "DeepSeek V3.2 Exp Thinking",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1423.464916790945,
       "score_code": null,
@@ -545,7 +545,7 @@
     {
       "name": "DeepSeek V3.2",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1423.2686715097302,
       "score_code": 1332.1595444860257,
@@ -572,7 +572,7 @@
     {
       "name": "DeepSeek V3.2 Exp",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1422.3104587750083,
       "score_code": 1286.338638088184,
@@ -581,7 +581,7 @@
     {
       "name": "LongCat Flash Chat",
       "vendor": "Meituan",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1421.777394758834,
       "score_code": null,
@@ -590,7 +590,7 @@
     {
       "name": "Qwen 3 VL 235B A22B Instruct",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1421.025556522521,
       "score_code": null,
@@ -599,7 +599,7 @@
     {
       "name": "Kimi K2.5 Instant",
       "vendor": "Moonshot",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://kimi.com",
       "score_general": 1420.6536793768737,
       "score_code": 1407.8777171685829,
@@ -626,7 +626,7 @@
     {
       "name": "DeepSeek V3.1 Terminus Thinking",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1419.1599133799134,
       "score_code": null,
@@ -635,7 +635,7 @@
     {
       "name": "DeepSeek V3.1",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1419.1360916756278,
       "score_code": null,
@@ -644,7 +644,7 @@
     {
       "name": "DeepSeek V3.2 Thinking",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1418.9410361556445,
       "score_code": 1368.308193998722,
@@ -653,7 +653,7 @@
     {
       "name": "Qwen 3.5 122B A10B",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1418.7763646816427,
       "score_code": 1363.2422497105813,
@@ -662,7 +662,7 @@
     {
       "name": "Qwen 3 235B A22B Instruct",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1418.3350618730312,
       "score_code": null,
@@ -671,7 +671,7 @@
     {
       "name": "Qwen 3 Next 80B A3B Instruct",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1418.330580690061,
       "score_code": null,
@@ -707,7 +707,7 @@
     {
       "name": "DeepSeek V3.1 Terminus",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1417.4691102842844,
       "score_code": null,
@@ -734,7 +734,7 @@
     {
       "name": "DeepSeek V3.1 Thinking",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1416.5248395202316,
       "score_code": null,
@@ -752,7 +752,7 @@
     {
       "name": "MiMo V2.5",
       "vendor": "Xiaomi",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://xiaomi-ai.com",
       "score_general": 1415.798709868121,
       "score_code": 1445.5562984857784,
@@ -770,7 +770,7 @@
     {
       "name": "Kimi K2 Thinking Turbo",
       "vendor": "Moonshot",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://kimi.com",
       "score_general": 1414.2673725019347,
       "score_code": 1329.2988741044064,
@@ -779,7 +779,7 @@
     {
       "name": "Qwen 3 235B A22B Thinking",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1413.487089496554,
       "score_code": null,
@@ -797,7 +797,7 @@
     {
       "name": "Hunyuan HY3 Preview",
       "vendor": "Tencent",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://hunyuan.tencent.com",
       "score_general": 1412.0309407656591,
       "score_code": null,
@@ -806,7 +806,7 @@
     {
       "name": "MiMo V2 Flash",
       "vendor": "Xiaomi",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://xiaomi-ai.com",
       "score_general": 1411.2717322956112,
       "score_code": 1337.0051545193237,
@@ -878,7 +878,7 @@
     {
       "name": "Qwen 3.5 27B",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1404.709911417362,
       "score_code": 1350.374998652003,
@@ -896,7 +896,7 @@
     {
       "name": "Step 3.5 Flash",
       "vendor": "Stepfun",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1401.2163362725305,
       "score_code": null,
@@ -905,7 +905,7 @@
     {
       "name": "Qwen 3 VL 235B A22B Thinking",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1400.824287402964,
       "score_code": null,
@@ -950,7 +950,7 @@
     {
       "name": "Qwen 3.5 35B A3B",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1395.6725121554819,
       "score_code": 1248.6309305133118,
@@ -959,7 +959,7 @@
     {
       "name": "MiMo V2 Flash Thinking",
       "vendor": "Xiaomi",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://xiaomi-ai.com",
       "score_general": 1395.423352536499,
       "score_code": 1300.4799968531293,
@@ -977,7 +977,7 @@
     {
       "name": "Qwen 3 235B A22B No Thinking",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1393.5156572032706,
       "score_code": null,
@@ -995,7 +995,7 @@
     {
       "name": "MiniMax M2.7",
       "vendor": "MiniMax",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1392.2468144022048,
       "score_code": 1408.6895809158004,
@@ -1004,7 +1004,7 @@
     {
       "name": "MiniMax M2.1 Preview",
       "vendor": "MiniMax",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1390.9910145640079,
       "score_code": 1391.8342808734292,
@@ -1022,7 +1022,7 @@
     {
       "name": "Qwen 3 30B A3B Instruct",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1383.539249156344,
       "score_code": null,
@@ -1040,7 +1040,7 @@
     {
       "name": "GLM-4.5 Air",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1382.3915623526434,
       "score_code": null,
@@ -1058,7 +1058,7 @@
     {
       "name": "Kimi K2 Preview",
       "vendor": "Moonshot",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://kimi.com",
       "score_general": 1379.486867433415,
       "score_code": null,
@@ -1076,7 +1076,7 @@
     {
       "name": "Nvidia Nemotron 3 Super 120B",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1378.1207222234925,
       "score_code": null,
@@ -1112,7 +1112,7 @@
     {
       "name": "GLM-4.6V",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1374.8628465510235,
       "score_code": null,
@@ -1121,7 +1121,7 @@
     {
       "name": "DeepSeek V3",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1374.593002325783,
       "score_code": null,
@@ -1139,7 +1139,7 @@
     {
       "name": "DeepSeek R1",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1372.5110079768642,
       "score_code": null,
@@ -1148,7 +1148,7 @@
     {
       "name": "Kimi K2 Preview",
       "vendor": "Moonshot",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://kimi.com",
       "score_general": 1370.6018457044972,
       "score_code": null,
@@ -1166,7 +1166,7 @@
     {
       "name": "MiniMax M2.5",
       "vendor": "MiniMax",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1368.3829113223928,
       "score_code": 1382.5727165116848,
@@ -1184,7 +1184,7 @@
     {
       "name": "Qwen 3 Next 80B A3B Thinking",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1367.290394280195,
       "score_code": null,
@@ -1220,7 +1220,7 @@
     {
       "name": "Qwen 3 235B A22B",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1365.5232557000315,
       "score_code": null,
@@ -1229,7 +1229,7 @@
     {
       "name": "GPT-OSS 120B",
       "vendor": "OpenAI",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.openai.com",
       "score_general": 1365.2153835228141,
       "score_code": null,
@@ -1256,7 +1256,7 @@
     {
       "name": "Trinity Large Thinking",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1363.337910310058,
       "score_code": 1245.2637413138862,
@@ -1283,7 +1283,7 @@
     {
       "name": "Ling Flash 2.0",
       "vendor": "Ant Group",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1362.1917489085079,
       "score_code": null,
@@ -1292,7 +1292,7 @@
     {
       "name": "Gemma 3 27B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1357.9704687771464,
       "score_code": null,
@@ -1310,7 +1310,7 @@
     {
       "name": "Qwen 3 Coder 480B A35B Instruct",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1356.2499956498748,
       "score_code": 1281.3108852615628,
@@ -1319,7 +1319,7 @@
     {
       "name": "Intellect 3",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1356.1651741733126,
       "score_code": null,
@@ -1337,7 +1337,7 @@
     {
       "name": "GLM-4.7 Flash",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1353.242682248169,
       "score_code": null,
@@ -1364,7 +1364,7 @@
     {
       "name": "Nvidia Nemotron 3 Nano 30B",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1349.2483093819233,
       "score_code": null,
@@ -1373,7 +1373,7 @@
     {
       "name": "Step 3",
       "vendor": "Stepfun",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1349.0319806968,
       "score_code": null,
@@ -1391,7 +1391,7 @@
     {
       "name": "MiniMax M1",
       "vendor": "MiniMax",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1342.1221079623717,
       "score_code": null,
@@ -1400,7 +1400,7 @@
     {
       "name": "MiniMax M2",
       "vendor": "MiniMax",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1341.9757889922494,
       "score_code": 1304.3613270807634,
@@ -1418,7 +1418,7 @@
     {
       "name": "Qwen 3 32B",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1339.8842534019245,
       "score_code": null,
@@ -1427,7 +1427,7 @@
     {
       "name": "Mistral Small 2506",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1338.9872589005802,
       "score_code": null,
@@ -1445,7 +1445,7 @@
     {
       "name": "Llama 3.3 Nemotron Super 49B v1.5",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1337.4552359920533,
       "score_code": null,
@@ -1472,7 +1472,7 @@
     {
       "name": "Gemma 3 12B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1334.0233734294368,
       "score_code": null,
@@ -1481,7 +1481,7 @@
     {
       "name": "GLM-4.5V",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 1333.544820475126,
       "score_code": null,
@@ -1490,7 +1490,7 @@
     {
       "name": "DeepSeek V3",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1332.3608006267204,
       "score_code": null,
@@ -1499,7 +1499,7 @@
     {
       "name": "Ring Flash 2.0",
       "vendor": "Ant Group",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1331.2692353817215,
       "score_code": null,
@@ -1508,7 +1508,7 @@
     {
       "name": "Command A 03",
       "vendor": "Cohere",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://cohere.com/command",
       "score_general": 1331.0682621951162,
       "score_code": null,
@@ -1521,12 +1521,12 @@
       "url": "https://chat.z.ai",
       "score_general": 1330.6942576985255,
       "score_code": null,
-      "api_access": "free"
+      "api_access": "paid"
     },
     {
       "name": "Trinity Large Preview",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1330.6201832454667,
       "score_code": null,
@@ -1544,7 +1544,7 @@
     {
       "name": "QwQ 32B",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1329.104553729312,
       "score_code": null,
@@ -1589,7 +1589,7 @@
     {
       "name": "Llama 3.1 Nemotron Ultra 253B v1",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1319.2859471251263,
       "score_code": null,
@@ -1616,7 +1616,7 @@
     {
       "name": "Qwen 3 30B A3B",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1317.1413738799001,
       "score_code": null,
@@ -1643,7 +1643,7 @@
     {
       "name": "OLMo 3.1 32B Instruct",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1312.085289481919,
       "score_code": null,
@@ -1661,7 +1661,7 @@
     {
       "name": "Llama 3.3 Nemotron Super 49B v1",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1308.2199063119883,
       "score_code": null,
@@ -1670,7 +1670,7 @@
     {
       "name": "Gemma 3N E4B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1306.0867407100566,
       "score_code": null,
@@ -1724,17 +1724,17 @@
     {
       "name": "OLMo 3 32B Think",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1298.3736592465384,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "claude-3-5-sonnet-20241022",
+      "name": "Claude 3.5 Sonnet",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai/upgrade",
       "score_general": 1297.477208925879,
       "score_code": null,
       "api_access": "paid"
@@ -1742,7 +1742,7 @@
     {
       "name": "Molmo 2 8B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1295.3678296223914,
       "score_code": null,
@@ -1751,7 +1751,7 @@
     {
       "name": "DeepSeek V2.5",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1293.8334562225325,
       "score_code": null,
@@ -1760,7 +1760,7 @@
     {
       "name": "Athene V2 Chat",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1291.3469847591246,
       "score_code": null,
@@ -1769,7 +1769,7 @@
     {
       "name": "Gemma 3 4B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1290.6167001239585,
       "score_code": null,
@@ -1782,7 +1782,7 @@
       "url": "https://chat.z.ai",
       "score_general": 1289.5354150487146,
       "score_code": null,
-      "api_access": "free"
+      "api_access": "paid"
     },
     {
       "name": "Hunyuan Large",
@@ -1796,7 +1796,7 @@
     {
       "name": "Llama 4 Maverick 17B 128E Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1287.499274855837,
       "score_code": null,
@@ -1805,7 +1805,7 @@
     {
       "name": "GPT-OSS 20B",
       "vendor": "OpenAI",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.openai.com",
       "score_general": 1287.2295004158923,
       "score_code": null,
@@ -1841,7 +1841,7 @@
     {
       "name": "Llama 3.1 405B Instruct BF16",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1283.5547334578453,
       "score_code": null,
@@ -1850,7 +1850,7 @@
     {
       "name": "Llama 3.1 Nemotron 70B Instruct",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1282.5343024005524,
       "score_code": null,
@@ -1877,7 +1877,7 @@
     {
       "name": "Qwen Max",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1281.762475472222,
       "score_code": null,
@@ -1886,7 +1886,7 @@
     {
       "name": "Llama 3.1 405B Instruct FP8",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1281.6937546279853,
       "score_code": null,
@@ -1913,7 +1913,7 @@
     {
       "name": "Llama 4 Scout 17B 16E Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1280.516673726528,
       "score_code": null,
@@ -1931,7 +1931,7 @@
     {
       "name": "Mistral Small 3.1 24B Instruct",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1277.5736693342476,
       "score_code": null,
@@ -1940,7 +1940,7 @@
     {
       "name": "Llama 3.3 70B Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1274.8698083733664,
       "score_code": null,
@@ -1976,7 +1976,7 @@
     {
       "name": "DeepSeek V2.5",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1271.1339348445708,
       "score_code": null,
@@ -1985,34 +1985,34 @@
     {
       "name": "OLMo 3.1 32B Think",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1270.6674209305888,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen2.5-72b-instruct",
+      "name": "Qwen 2.5 72B",
       "vendor": "Alibaba",
-      "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "type": "free",
+      "url": "https://huggingface.co/chat",
       "score_general": 1268.9094050677259,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "mistral-large-2407",
+      "name": "Mistral Large",
       "vendor": "Mistral",
-      "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "type": "free",
+      "url": "https://chat.mistral.ai",
       "score_general": 1266.0284702379947,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
       "name": "Mistral Large 2411",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1265.1608357547163,
       "score_code": null,
@@ -2021,7 +2021,7 @@
     {
       "name": "Athene 70B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1265.027756416041,
       "score_code": null,
@@ -2064,10 +2064,10 @@
       "api_access": "paid"
     },
     {
-      "name": "llama-3.1-70b-instruct",
+      "name": "Llama 3.1 70B",
       "vendor": "Meta",
-      "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "type": "free",
+      "url": "https://huggingface.co/chat",
       "score_general": 1260.7992377424346,
       "score_code": null,
       "api_access": "free"
@@ -2084,7 +2084,7 @@
     {
       "name": "Llama 3.1 Tulu 3 70B",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1255.6214627078436,
       "score_code": null,
@@ -2120,7 +2120,7 @@
     {
       "name": "IBM Granite H Small",
       "vendor": "IBM",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.ibm.com/granite",
       "score_general": 1241.0928779021533,
       "score_code": null,
@@ -2138,7 +2138,7 @@
     {
       "name": "Jamba 1.5 Large",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1236.9114980405132,
       "score_code": null,
@@ -2147,7 +2147,7 @@
     {
       "name": "Mistral Small 24B Instruct",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1233.386561860663,
       "score_code": null,
@@ -2156,7 +2156,7 @@
     {
       "name": "Gemma 2 27B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1231.2583038647156,
       "score_code": null,
@@ -2165,7 +2165,7 @@
     {
       "name": "Qwen 2.5 Coder 32B Instruct",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1229.935893491776,
       "score_code": null,
@@ -2174,7 +2174,7 @@
     {
       "name": "Command R Plus",
       "vendor": "Cohere",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://cohere.com/command",
       "score_general": 1228.7853122287625,
       "score_code": null,
@@ -2192,7 +2192,7 @@
     {
       "name": "Llama 3.1 Nemotron 51B Instruct",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1227.8708268646956,
       "score_code": null,
@@ -2201,7 +2201,7 @@
     {
       "name": "Gemma 2 9B IT SimPO",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1226.9514620409323,
       "score_code": null,
@@ -2214,7 +2214,7 @@
       "url": "https://chat.z.ai",
       "score_general": 1225.7951162053266,
       "score_code": null,
-      "api_access": "free"
+      "api_access": "paid"
     },
     {
       "name": "Gemini 1.5 Flash 8B 001",
@@ -2228,7 +2228,7 @@
     {
       "name": "Nemotron 4 340B Instruct",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1224.7003894163227,
       "score_code": null,
@@ -2237,7 +2237,7 @@
     {
       "name": "C4AI Aya Expanse 32B",
       "vendor": "Cohere",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://cohere.com/command",
       "score_general": 1223.9014026992488,
       "score_code": null,
@@ -2246,7 +2246,7 @@
     {
       "name": "Llama 3 70B Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1220.6837851641558,
       "score_code": null,
@@ -2273,7 +2273,7 @@
     {
       "name": "OLMo 2 32B Instruct",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1217.769042287182,
       "score_code": null,
@@ -2282,7 +2282,7 @@
     {
       "name": "Phi-4",
       "vendor": "Microsoft",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1216.551050626737,
       "score_code": null,
@@ -2300,7 +2300,7 @@
     {
       "name": "Gemma 2 9B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1207.272101788181,
       "score_code": null,
@@ -2318,7 +2318,7 @@
     {
       "name": "Command R Plus",
       "vendor": "Cohere",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://cohere.com/command",
       "score_general": 1203.717601389801,
       "score_code": null,
@@ -2327,7 +2327,7 @@
     {
       "name": "Qwen 2 72B Instruct",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1203.1592665350247,
       "score_code": null,
@@ -2354,7 +2354,7 @@
     {
       "name": "Llama 3.1 Tulu 3 8B",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1193.2040335590987,
       "score_code": null,
@@ -2363,7 +2363,7 @@
     {
       "name": "DeepSeek Coder V2",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1191.07769718379,
       "score_code": null,
@@ -2372,7 +2372,7 @@
     {
       "name": "Ministral 8B",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1190.7972652795966,
       "score_code": null,
@@ -2381,7 +2381,7 @@
     {
       "name": "Command R",
       "vendor": "Cohere",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://cohere.com/command",
       "score_general": 1187.2456850602553,
       "score_code": null,
@@ -2390,7 +2390,7 @@
     {
       "name": "Jamba 1.5 Mini",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1186.5630261016188,
       "score_code": null,
@@ -2399,7 +2399,7 @@
     {
       "name": "Llama 3.1 8B Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1186.467144575054,
       "score_code": null,
@@ -2417,7 +2417,7 @@
     {
       "name": "C4AI Aya Expanse 8B",
       "vendor": "Cohere",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://cohere.com/command",
       "score_general": 1185.0048783200637,
       "score_code": null,
@@ -2435,7 +2435,7 @@
     {
       "name": "Qwen 1.5 110B Chat",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1174.4570939254363,
       "score_code": null,
@@ -2444,7 +2444,7 @@
     {
       "name": "Yi 1.5 34B Chat",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1172.8444316076452,
       "score_code": null,
@@ -2462,7 +2462,7 @@
     {
       "name": "Qwen 1.5 72B Chat",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1166.038290034443,
       "score_code": null,
@@ -2471,7 +2471,7 @@
     {
       "name": "Llama 3 8B Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1165.4900753646166,
       "score_code": null,
@@ -2498,7 +2498,7 @@
     {
       "name": "Command R",
       "vendor": "Cohere",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://cohere.com/command",
       "score_general": 1163.0207021133342,
       "score_code": null,
@@ -2507,7 +2507,7 @@
     {
       "name": "Mixtral 8x22B Instruct",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1161.8730265494555,
       "score_code": null,
@@ -2516,7 +2516,7 @@
     {
       "name": "QwQ 32B Preview",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1161.686348979944,
       "score_code": null,
@@ -2525,7 +2525,7 @@
     {
       "name": "InternLM2.5 20B Chat",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1158.3309687298138,
       "score_code": null,
@@ -2534,7 +2534,7 @@
     {
       "name": "Gemma 2 2B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1155.6546614996137,
       "score_code": null,
@@ -2543,7 +2543,7 @@
     {
       "name": "Granite 3.1 8B Instruct",
       "vendor": "IBM",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.ibm.com/granite",
       "score_general": 1149.4227105348434,
       "score_code": null,
@@ -2561,7 +2561,7 @@
     {
       "name": "Zephyr ORPO 141B A35B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1143.5782050805672,
       "score_code": null,
@@ -2570,7 +2570,7 @@
     {
       "name": "Phi-3 Medium 4K Instruct",
       "vendor": "Microsoft",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1137.436235458874,
       "score_code": null,
@@ -2579,7 +2579,7 @@
     {
       "name": "Qwen 1.5 32B Chat",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1137.0883098586246,
       "score_code": null,
@@ -2588,7 +2588,7 @@
     {
       "name": "Starling LM 7B Beta",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1131.9287129309064,
       "score_code": null,
@@ -2597,7 +2597,7 @@
     {
       "name": "Mixtral 8x7B Instruct",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1131.4440763540658,
       "score_code": null,
@@ -2615,7 +2615,7 @@
     {
       "name": "Yi 34B Chat",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1128.3557329664704,
       "score_code": null,
@@ -2624,7 +2624,7 @@
     {
       "name": "Qwen 1.5 14B Chat",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1127.5790976729343,
       "score_code": null,
@@ -2633,7 +2633,7 @@
     {
       "name": "Granite 3.1 2B Instruct",
       "vendor": "IBM",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.ibm.com/granite",
       "score_general": 1127.3046379040995,
       "score_code": null,
@@ -2651,7 +2651,7 @@
     {
       "name": "Tulu 2 DPO 70B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1120.920119433573,
       "score_code": null,
@@ -2660,7 +2660,7 @@
     {
       "name": "WizardLM 70B",
       "vendor": "Microsoft",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1119.4057344494322,
       "score_code": null,
@@ -2669,7 +2669,7 @@
     {
       "name": "DBRX Instruct Preview",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1118.7540846802801,
       "score_code": null,
@@ -2678,7 +2678,7 @@
     {
       "name": "Llama 2 70B Chat",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1115.1130076353484,
       "score_code": null,
@@ -2687,7 +2687,7 @@
     {
       "name": "Nous Hermes 2 Mixtral 8x7B DPO",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1111.923883795124,
       "score_code": null,
@@ -2696,7 +2696,7 @@
     {
       "name": "Phi-3 Small 8K Instruct",
       "vendor": "Microsoft",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1109.7083289059292,
       "score_code": null,
@@ -2705,7 +2705,7 @@
     {
       "name": "Llama 3.2 3B Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1109.4197320910957,
       "score_code": null,
@@ -2714,7 +2714,7 @@
     {
       "name": "Starling LM 7B Alpha",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1107.5459136310092,
       "score_code": null,
@@ -2723,7 +2723,7 @@
     {
       "name": "OpenChat 3.5",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1106.4934646345234,
       "score_code": null,
@@ -2732,7 +2732,7 @@
     {
       "name": "Vicuna 33B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1105.1448820727123,
       "score_code": null,
@@ -2741,7 +2741,7 @@
     {
       "name": "DeepSeek LLM 67B Chat",
       "vendor": "DeepSeek",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.deepseek.com",
       "score_general": 1104.9143190429545,
       "score_code": null,
@@ -2750,7 +2750,7 @@
     {
       "name": "Snowflake Arctic Instruct",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1100.8603877658284,
       "score_code": null,
@@ -2759,7 +2759,7 @@
     {
       "name": "Llama 2 70B SteerLM Chat",
       "vendor": "Nvidia",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1097.9752176973006,
       "score_code": null,
@@ -2768,7 +2768,7 @@
     {
       "name": "OpenChat 3.5",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1096.9168548270134,
       "score_code": null,
@@ -2777,7 +2777,7 @@
     {
       "name": "Granite 3.0 8B Instruct",
       "vendor": "IBM",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.ibm.com/granite",
       "score_general": 1096.323240753914,
       "score_code": null,
@@ -2795,7 +2795,7 @@
     {
       "name": "Gemma 1.1 7B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1093.8573750183705,
       "score_code": null,
@@ -2804,7 +2804,7 @@
     {
       "name": "OpenHermes 2.5 Mistral 7B",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1092.3837877080446,
       "score_code": null,
@@ -2813,7 +2813,7 @@
     {
       "name": "Mistral 7B Instruct v0.2",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1089.4495972325244,
       "score_code": null,
@@ -2822,7 +2822,7 @@
     {
       "name": "Llama 2 13B Chat",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1084.3416742311574,
       "score_code": null,
@@ -2831,7 +2831,7 @@
     {
       "name": "Qwen 1.5 7B Chat",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1083.3443973953845,
       "score_code": null,
@@ -2840,7 +2840,7 @@
     {
       "name": "Solar 10.7B Instruct",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1082.971710443197,
       "score_code": null,
@@ -2849,7 +2849,7 @@
     {
       "name": "Dolphin 2.2.1 Mistral 7B",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1080.8572907745352,
       "score_code": null,
@@ -2858,7 +2858,7 @@
     {
       "name": "Phi-3 Mini 4K Instruct",
       "vendor": "Microsoft",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1079.8406604144186,
       "score_code": null,
@@ -2867,7 +2867,7 @@
     {
       "name": "Granite 3.0 2B Instruct",
       "vendor": "IBM",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.ibm.com/granite",
       "score_general": 1079.7266128568745,
       "score_code": null,
@@ -2876,7 +2876,7 @@
     {
       "name": "WizardLM 13B",
       "vendor": "Microsoft",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1076.4219197170066,
       "score_code": null,
@@ -2885,7 +2885,7 @@
     {
       "name": "Phi-3 Mini 4K Instruct",
       "vendor": "Microsoft",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1073.1905363498506,
       "score_code": null,
@@ -2894,7 +2894,7 @@
     {
       "name": "Zephyr 7B Beta",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1069.3057615952491,
       "score_code": null,
@@ -2903,7 +2903,7 @@
     {
       "name": "MPT 30B Chat",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1068.4929060075558,
       "score_code": null,
@@ -2912,7 +2912,7 @@
     {
       "name": "Code Llama 34B Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1065.367661802908,
       "score_code": null,
@@ -2921,7 +2921,7 @@
     {
       "name": "Zephyr 7B Alpha",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1058.2530440339278,
       "score_code": null,
@@ -2930,7 +2930,7 @@
     {
       "name": "Vicuna 13B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1057.541655752917,
       "score_code": null,
@@ -2939,7 +2939,7 @@
     {
       "name": "Code Llama 70B Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1057.125828644216,
       "score_code": null,
@@ -2948,7 +2948,7 @@
     {
       "name": "Gemma 7B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1056.0386519486337,
       "score_code": null,
@@ -2957,7 +2957,7 @@
     {
       "name": "Llama 3.2 1B Instruct",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1054.5200816637898,
       "score_code": null,
@@ -2966,7 +2966,7 @@
     {
       "name": "Falcon 180B Chat",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1054.2370955790373,
       "score_code": null,
@@ -2975,7 +2975,7 @@
     {
       "name": "Llama 2 7B Chat",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 1053.2821962553003,
       "score_code": null,
@@ -2984,7 +2984,7 @@
     {
       "name": "Guanaco 33B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1053.2621166765,
       "score_code": null,
@@ -2993,7 +2993,7 @@
     {
       "name": "Qwen 14B Chat",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 1050.910876450316,
       "score_code": null,
@@ -3002,7 +3002,7 @@
     {
       "name": "Phi-3 Mini 128K Instruct",
       "vendor": "Microsoft",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1050.2732139760446,
       "score_code": null,
@@ -3011,7 +3011,7 @@
     {
       "name": "SmolLM2 1.7B Instruct",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1041.912073495836,
       "score_code": null,
@@ -3020,7 +3020,7 @@
     {
       "name": "StripedHyena Nous 7B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1038.3231672153813,
       "score_code": null,
@@ -3029,7 +3029,7 @@
     {
       "name": "OLMo 7B Instruct",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1031.6944089750275,
       "score_code": null,
@@ -3038,7 +3038,7 @@
     {
       "name": "Vicuna 7B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1030.8298547832758,
       "score_code": null,
@@ -3056,7 +3056,7 @@
     {
       "name": "Mistral 7B Instruct",
       "vendor": "Mistral",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.mistral.ai",
       "score_general": 1023.3908605727538,
       "score_code": null,
@@ -3065,7 +3065,7 @@
     {
       "name": "Gemma 1.1 2B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1022.1074594040936,
       "score_code": null,
@@ -3074,7 +3074,7 @@
     {
       "name": "Gemma 2B IT",
       "vendor": "Google",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://ai.google.dev/gemma",
       "score_general": 1002.0303374989269,
       "score_code": null,
@@ -3083,7 +3083,7 @@
     {
       "name": "Qwen 1.5 4B Chat",
       "vendor": "Alibaba",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://tongyi.aliyun.com",
       "score_general": 997.1177219207771,
       "score_code": null,
@@ -3092,7 +3092,7 @@
     {
       "name": "Koala 13B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 989.4913029546206,
       "score_code": null,
@@ -3101,7 +3101,7 @@
     {
       "name": "ChatGLM3 6B",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 971.9207019827288,
       "score_code": null,
@@ -3109,8 +3109,8 @@
     },
     {
       "name": "GPT4All 13B Snoozy",
-      "vendor": "OpenAI",
-      "type": "unlimited",
+      "vendor": "Nomic AI",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 956.0634671365526,
       "score_code": null,
@@ -3119,7 +3119,7 @@
     {
       "name": "MPT 7B Chat",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 955.1010984407169,
       "score_code": null,
@@ -3128,7 +3128,7 @@
     {
       "name": "RWKV-4 Raven 14B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 948.2679681727184,
       "score_code": null,
@@ -3137,7 +3137,7 @@
     {
       "name": "ChatGLM2 6B",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 938.5095540683587,
       "score_code": null,
@@ -3146,7 +3146,7 @@
     {
       "name": "Alpaca 13B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 932.6925682499834,
       "score_code": null,
@@ -3155,7 +3155,7 @@
     {
       "name": "ChatGLM 6B",
       "vendor": "Z.ai",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://chat.z.ai",
       "score_general": 918.3464046686513,
       "score_code": null,
@@ -3164,7 +3164,7 @@
     {
       "name": "OASST Pythia 12B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 915.9483279239777,
       "score_code": null,
@@ -3173,7 +3173,7 @@
     {
       "name": "FastChat T5 3B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 894.2808858490578,
       "score_code": null,
@@ -3182,7 +3182,7 @@
     {
       "name": "StableLM Tuned Alpha 7B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 866.4550033240828,
       "score_code": null,
@@ -3191,7 +3191,7 @@
     {
       "name": "Dolly v2 12B",
       "vendor": "Unknown",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 851.0093308217058,
       "score_code": null,
@@ -3200,7 +3200,7 @@
     {
       "name": "Llama 13B",
       "vendor": "Meta",
-      "type": "unlimited",
+      "type": "free",
       "url": "https://www.llama.com",
       "score_general": 833.3919166975711,
       "score_code": null,
