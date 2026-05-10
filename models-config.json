@@ -91,7 +91,7 @@
     "arena_name": "glm-5.1",
     "name": "GLM-5.1",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -123,7 +123,7 @@
     "arena_name": "mimo-v2.5-pro",
     "name": "MiMo 2.5 Pro",
     "vendor": "Xiaomi",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://xiaomi-ai.com",
     "api_access": "freemium"
   },
@@ -139,7 +139,7 @@
     "arena_name": "kimi-k2.6",
     "name": "Kimi K2.6",
     "vendor": "Moonshot",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://kimi.com",
     "api_access": "freemium"
   },
@@ -219,7 +219,7 @@
     "arena_name": "deepseek-v4-pro-thinking",
     "name": "DeepSeek V4 Pro Thinking",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -227,7 +227,7 @@
     "arena_name": "deepseek-v4-pro",
     "name": "DeepSeek V4 Pro",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -243,7 +243,7 @@
     "arena_name": "kimi-k2.5-thinking",
     "name": "Kimi K2.5 Thinking",
     "vendor": "Moonshot",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://kimi.com",
     "api_access": "freemium"
   },
@@ -251,7 +251,7 @@
     "arena_name": "glm-5",
     "name": "GLM-5",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -259,7 +259,7 @@
     "arena_name": "qwen3.5-397b-a17b",
     "name": "Qwen 3.5 397B A17B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -283,7 +283,7 @@
     "arena_name": "gemma-4-31b",
     "name": "Gemma 4 31B",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -307,7 +307,7 @@
     "arena_name": "glm-4.6",
     "name": "GLM-4.6",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -347,7 +347,7 @@
     "arena_name": "glm-4.7",
     "name": "GLM-4.7",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -363,7 +363,7 @@
     "arena_name": "gemma-4-26b-a4b",
     "name": "Gemma 4 26B A4B",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -387,7 +387,7 @@
     "arena_name": "mistral-large-3",
     "name": "Mistral Large 3",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -403,7 +403,7 @@
     "arena_name": "glm-4.5",
     "name": "GLM-4.5",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -419,7 +419,7 @@
     "arena_name": "deepseek-r1-0528",
     "name": "DeepSeek R1",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -435,7 +435,7 @@
     "arena_name": "deepseek-v4-flash",
     "name": "DeepSeek V4 Flash",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -467,7 +467,7 @@
     "arena_name": "deepseek-v4-flash-thinking",
     "name": "DeepSeek V4 Flash Thinking",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -475,7 +475,7 @@
     "arena_name": "deepseek-v3.2-exp-thinking",
     "name": "DeepSeek V3.2 Exp Thinking",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -483,7 +483,7 @@
     "arena_name": "deepseek-v3.2",
     "name": "DeepSeek V3.2",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -507,7 +507,7 @@
     "arena_name": "deepseek-v3.2-exp",
     "name": "DeepSeek V3.2 Exp",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -515,7 +515,7 @@
     "arena_name": "longcat-flash-chat",
     "name": "LongCat Flash Chat",
     "vendor": "Meituan",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -523,7 +523,7 @@
     "arena_name": "qwen3-vl-235b-a22b-instruct",
     "name": "Qwen 3 VL 235B A22B Instruct",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -531,7 +531,7 @@
     "arena_name": "kimi-k2.5-instant",
     "name": "Kimi K2.5 Instant",
     "vendor": "Moonshot",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://kimi.com",
     "api_access": "freemium"
   },
@@ -555,7 +555,7 @@
     "arena_name": "deepseek-v3.1-terminus-thinking",
     "name": "DeepSeek V3.1 Terminus Thinking",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -563,7 +563,7 @@
     "arena_name": "deepseek-v3.1",
     "name": "DeepSeek V3.1",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -571,7 +571,7 @@
     "arena_name": "deepseek-v3.2-thinking",
     "name": "DeepSeek V3.2 Thinking",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -579,7 +579,7 @@
     "arena_name": "qwen3.5-122b-a10b",
     "name": "Qwen 3.5 122B A10B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -587,7 +587,7 @@
     "arena_name": "qwen3-235b-a22b-instruct-2507",
     "name": "Qwen 3 235B A22B Instruct",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -595,7 +595,7 @@
     "arena_name": "qwen3-next-80b-a3b-instruct",
     "name": "Qwen 3 Next 80B A3B Instruct",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -627,7 +627,7 @@
     "arena_name": "deepseek-v3.1-terminus",
     "name": "DeepSeek V3.1 Terminus",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -651,7 +651,7 @@
     "arena_name": "deepseek-v3.1-thinking",
     "name": "DeepSeek V3.1 Thinking",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -667,7 +667,7 @@
     "arena_name": "mimo-v2.5",
     "name": "MiMo V2.5",
     "vendor": "Xiaomi",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://xiaomi-ai.com",
     "api_access": "freemium"
   },
@@ -683,7 +683,7 @@
     "arena_name": "kimi-k2-thinking-turbo",
     "name": "Kimi K2 Thinking Turbo",
     "vendor": "Moonshot",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://kimi.com",
     "api_access": "freemium"
   },
@@ -691,7 +691,7 @@
     "arena_name": "qwen3-235b-a22b-thinking-2507",
     "name": "Qwen 3 235B A22B Thinking",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -707,7 +707,7 @@
     "arena_name": "hunyuan-hy3-preview",
     "name": "Hunyuan HY3 Preview",
     "vendor": "Tencent",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://hunyuan.tencent.com",
     "api_access": "freemium"
   },
@@ -715,7 +715,7 @@
     "arena_name": "mimo-v2-flash (non-thinking)",
     "name": "MiMo V2 Flash",
     "vendor": "Xiaomi",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://xiaomi-ai.com",
     "api_access": "freemium"
   },
@@ -779,7 +779,7 @@
     "arena_name": "qwen3.5-27b",
     "name": "Qwen 3.5 27B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -795,7 +795,7 @@
     "arena_name": "step-3.5-flash",
     "name": "Step 3.5 Flash",
     "vendor": "Stepfun",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -803,7 +803,7 @@
     "arena_name": "qwen3-vl-235b-a22b-thinking",
     "name": "Qwen 3 VL 235B A22B Thinking",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -843,7 +843,7 @@
     "arena_name": "qwen3.5-35b-a3b",
     "name": "Qwen 3.5 35B A3B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -851,7 +851,7 @@
     "arena_name": "mimo-v2-flash (thinking)",
     "name": "MiMo V2 Flash Thinking",
     "vendor": "Xiaomi",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://xiaomi-ai.com",
     "api_access": "freemium"
   },
@@ -867,7 +867,7 @@
     "arena_name": "qwen3-235b-a22b-no-thinking",
     "name": "Qwen 3 235B A22B No Thinking",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -883,7 +883,7 @@
     "arena_name": "minimax-m2.7",
     "name": "MiniMax M2.7",
     "vendor": "MiniMax",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -891,7 +891,7 @@
     "arena_name": "minimax-m2.1-preview",
     "name": "MiniMax M2.1 Preview",
     "vendor": "MiniMax",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -907,7 +907,7 @@
     "arena_name": "qwen3-30b-a3b-instruct-2507",
     "name": "Qwen 3 30B A3B Instruct",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -923,7 +923,7 @@
     "arena_name": "glm-4.5-air",
     "name": "GLM-4.5 Air",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -939,7 +939,7 @@
     "arena_name": "kimi-k2-0905-preview",
     "name": "Kimi K2 Preview",
     "vendor": "Moonshot",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://kimi.com",
     "api_access": "freemium"
   },
@@ -955,7 +955,7 @@
     "arena_name": "nvidia-nemotron-3-super-120b-a12b",
     "name": "Nvidia Nemotron 3 Super 120B",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -987,7 +987,7 @@
     "arena_name": "glm-4.6v",
     "name": "GLM-4.6V",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -995,7 +995,7 @@
     "arena_name": "deepseek-v3-0324",
     "name": "DeepSeek V3",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -1011,7 +1011,7 @@
     "arena_name": "deepseek-r1",
     "name": "DeepSeek R1",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -1019,7 +1019,7 @@
     "arena_name": "kimi-k2-0711-preview",
     "name": "Kimi K2 Preview",
     "vendor": "Moonshot",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://kimi.com",
     "api_access": "freemium"
   },
@@ -1035,7 +1035,7 @@
     "arena_name": "minimax-m2.5",
     "name": "MiniMax M2.5",
     "vendor": "MiniMax",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1051,7 +1051,7 @@
     "arena_name": "qwen3-next-80b-a3b-thinking",
     "name": "Qwen 3 Next 80B A3B Thinking",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -1083,7 +1083,7 @@
     "arena_name": "qwen3-235b-a22b",
     "name": "Qwen 3 235B A22B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -1091,7 +1091,7 @@
     "arena_name": "gpt-oss-120b",
     "name": "GPT-OSS 120B",
     "vendor": "OpenAI",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.openai.com",
     "api_access": "paid"
   },
@@ -1115,7 +1115,7 @@
     "arena_name": "trinity-large-thinking",
     "name": "Trinity Large Thinking",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1139,7 +1139,7 @@
     "arena_name": "ling-flash-2.0",
     "name": "Ling Flash 2.0",
     "vendor": "Ant Group",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1147,7 +1147,7 @@
     "arena_name": "gemma-3-27b-it",
     "name": "Gemma 3 27B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -1163,7 +1163,7 @@
     "arena_name": "qwen3-coder-480b-a35b-instruct",
     "name": "Qwen 3 Coder 480B A35B Instruct",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -1171,7 +1171,7 @@
     "arena_name": "intellect-3",
     "name": "Intellect 3",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1187,7 +1187,7 @@
     "arena_name": "glm-4.7-flash",
     "name": "GLM-4.7 Flash",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -1211,7 +1211,7 @@
     "arena_name": "nvidia-nemotron-3-nano-30b-a3b-bf16",
     "name": "Nvidia Nemotron 3 Nano 30B",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -1219,7 +1219,7 @@
     "arena_name": "step-3",
     "name": "Step 3",
     "vendor": "Stepfun",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1235,7 +1235,7 @@
     "arena_name": "minimax-m1",
     "name": "MiniMax M1",
     "vendor": "MiniMax",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1243,7 +1243,7 @@
     "arena_name": "minimax-m2",
     "name": "MiniMax M2",
     "vendor": "MiniMax",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1259,7 +1259,7 @@
     "arena_name": "qwen3-32b",
     "name": "Qwen 3 32B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -1267,7 +1267,7 @@
     "arena_name": "mistral-small-2506",
     "name": "Mistral Small 2506",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -1283,7 +1283,7 @@
     "arena_name": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
     "name": "Llama 3.3 Nemotron Super 49B v1.5",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -1307,7 +1307,7 @@
     "arena_name": "gemma-3-12b-it",
     "name": "Gemma 3 12B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -1315,7 +1315,7 @@
     "arena_name": "glm-4.5v",
     "name": "GLM-4.5V",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -1323,7 +1323,7 @@
     "arena_name": "deepseek-v3",
     "name": "DeepSeek V3",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -1331,7 +1331,7 @@
     "arena_name": "ring-flash-2.0",
     "name": "Ring Flash 2.0",
     "vendor": "Ant Group",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1339,7 +1339,7 @@
     "arena_name": "command-a-03-2025",
     "name": "Command A 03",
     "vendor": "Cohere",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://cohere.com/command",
     "api_access": "freemium"
   },
@@ -1349,13 +1349,13 @@
     "vendor": "Z.ai",
     "type": "paid",
     "url": "https://chat.z.ai",
-    "api_access": "free"
+    "api_access": "paid"
   },
   {
     "arena_name": "trinity-large-preview",
     "name": "Trinity Large Preview",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1371,7 +1371,7 @@
     "arena_name": "qwq-32b",
     "name": "QwQ 32B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -1411,7 +1411,7 @@
     "arena_name": "llama-3.1-nemotron-ultra-253b-v1",
     "name": "Llama 3.1 Nemotron Ultra 253B v1",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -1435,7 +1435,7 @@
     "arena_name": "qwen3-30b-a3b",
     "name": "Qwen 3 30B A3B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -1459,7 +1459,7 @@
     "arena_name": "olmo-3.1-32b-instruct",
     "name": "OLMo 3.1 32B Instruct",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1475,7 +1475,7 @@
     "arena_name": "llama-3.3-nemotron-49b-super-v1",
     "name": "Llama 3.3 Nemotron Super 49B v1",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -1483,7 +1483,7 @@
     "arena_name": "gemma-3n-e4b-it",
     "name": "Gemma 3N E4B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -1531,12 +1531,12 @@
     "arena_name": "olmo-3-32b-think",
     "name": "OLMo 3 32B Think",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
   {
-    "arena_name": "Claude 3.5 Sonnet",
+    "arena_name": "claude-3-5-sonnet-20241022",
     "name": "Claude 3.5 Sonnet",
     "vendor": "Anthropic",
     "type": "paid",
@@ -1547,7 +1547,7 @@
     "arena_name": "molmo-2-8b",
     "name": "Molmo 2 8B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1555,7 +1555,7 @@
     "arena_name": "deepseek-v2.5-1210",
     "name": "DeepSeek V2.5",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -1563,7 +1563,7 @@
     "arena_name": "athene-v2-chat",
     "name": "Athene V2 Chat",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1571,7 +1571,7 @@
     "arena_name": "gemma-3-4b-it",
     "name": "Gemma 3 4B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -1581,7 +1581,7 @@
     "vendor": "Z.ai",
     "type": "paid",
     "url": "https://chat.z.ai",
-    "api_access": "free"
+    "api_access": "paid"
   },
   {
     "arena_name": "hunyuan-large-2025-02-10",
@@ -1595,7 +1595,7 @@
     "arena_name": "llama-4-maverick-17b-128e-instruct",
     "name": "Llama 4 Maverick 17B 128E Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -1603,7 +1603,7 @@
     "arena_name": "gpt-oss-20b",
     "name": "GPT-OSS 20B",
     "vendor": "OpenAI",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.openai.com",
     "api_access": "paid"
   },
@@ -1635,7 +1635,7 @@
     "arena_name": "llama-3.1-405b-instruct-bf16",
     "name": "Llama 3.1 405B Instruct BF16",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -1643,7 +1643,7 @@
     "arena_name": "llama-3.1-nemotron-70b-instruct",
     "name": "Llama 3.1 Nemotron 70B Instruct",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -1667,7 +1667,7 @@
     "arena_name": "qwen-max-0919",
     "name": "Qwen Max",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -1675,7 +1675,7 @@
     "arena_name": "llama-3.1-405b-instruct-fp8",
     "name": "Llama 3.1 405B Instruct FP8",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -1699,7 +1699,7 @@
     "arena_name": "llama-4-scout-17b-16e-instruct",
     "name": "Llama 4 Scout 17B 16E Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -1715,7 +1715,7 @@
     "arena_name": "mistral-small-3.1-24b-instruct-2503",
     "name": "Mistral Small 3.1 24B Instruct",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -1723,7 +1723,7 @@
     "arena_name": "llama-3.3-70b-instruct",
     "name": "Llama 3.3 70B Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -1755,7 +1755,7 @@
     "arena_name": "deepseek-v2.5",
     "name": "DeepSeek V2.5",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -1763,23 +1763,23 @@
     "arena_name": "olmo-3.1-32b-think",
     "name": "OLMo 3.1 32B Think",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
   {
-    "arena_name": "Qwen 2.5 72B",
+    "arena_name": "qwen2.5-72b-instruct",
     "name": "Qwen 2.5 72B",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://huggingface.co/chat",
     "api_access": "freemium"
   },
   {
-    "arena_name": "Mistral Large",
+    "arena_name": "mistral-large-2407",
     "name": "Mistral Large",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -1787,7 +1787,7 @@
     "arena_name": "mistral-large-2411",
     "name": "Mistral Large 2411",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -1795,7 +1795,7 @@
     "arena_name": "athene-70b-0725",
     "name": "Athene 70B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1832,10 +1832,10 @@
     "api_access": "paid"
   },
   {
-    "arena_name": "Llama 3.1 70B",
+    "arena_name": "llama-3.1-70b-instruct",
     "name": "Llama 3.1 70B",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://huggingface.co/chat",
     "api_access": "free"
   },
@@ -1851,7 +1851,7 @@
     "arena_name": "llama-3.1-tulu-3-70b",
     "name": "Llama 3.1 Tulu 3 70B",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -1883,7 +1883,7 @@
     "arena_name": "ibm-granite-h-small",
     "name": "IBM Granite H Small",
     "vendor": "IBM",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.ibm.com/granite",
     "api_access": "free"
   },
@@ -1899,7 +1899,7 @@
     "arena_name": "jamba-1.5-large",
     "name": "Jamba 1.5 Large",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -1907,7 +1907,7 @@
     "arena_name": "mistral-small-24b-instruct-2501",
     "name": "Mistral Small 24B Instruct",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -1915,7 +1915,7 @@
     "arena_name": "gemma-2-27b-it",
     "name": "Gemma 2 27B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -1923,7 +1923,7 @@
     "arena_name": "qwen2.5-coder-32b-instruct",
     "name": "Qwen 2.5 Coder 32B Instruct",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -1931,7 +1931,7 @@
     "arena_name": "command-r-plus-08-2024",
     "name": "Command R Plus",
     "vendor": "Cohere",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://cohere.com/command",
     "api_access": "freemium"
   },
@@ -1947,7 +1947,7 @@
     "arena_name": "llama-3.1-nemotron-51b-instruct",
     "name": "Llama 3.1 Nemotron 51B Instruct",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -1955,7 +1955,7 @@
     "arena_name": "gemma-2-9b-it-simpo",
     "name": "Gemma 2 9B IT SimPO",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -1965,7 +1965,7 @@
     "vendor": "Z.ai",
     "type": "paid",
     "url": "https://chat.z.ai",
-    "api_access": "free"
+    "api_access": "paid"
   },
   {
     "arena_name": "gemini-1.5-flash-8b-001",
@@ -1979,7 +1979,7 @@
     "arena_name": "nemotron-4-340b-instruct",
     "name": "Nemotron 4 340B Instruct",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -1987,7 +1987,7 @@
     "arena_name": "c4ai-aya-expanse-32b",
     "name": "C4AI Aya Expanse 32B",
     "vendor": "Cohere",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://cohere.com/command",
     "api_access": "freemium"
   },
@@ -1995,7 +1995,7 @@
     "arena_name": "llama-3-70b-instruct",
     "name": "Llama 3 70B Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2019,7 +2019,7 @@
     "arena_name": "olmo-2-0325-32b-instruct",
     "name": "OLMo 2 32B Instruct",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2027,7 +2027,7 @@
     "arena_name": "phi-4",
     "name": "Phi-4",
     "vendor": "Microsoft",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2043,7 +2043,7 @@
     "arena_name": "gemma-2-9b-it",
     "name": "Gemma 2 9B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -2059,7 +2059,7 @@
     "arena_name": "command-r-plus",
     "name": "Command R Plus",
     "vendor": "Cohere",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://cohere.com/command",
     "api_access": "freemium"
   },
@@ -2067,7 +2067,7 @@
     "arena_name": "qwen2-72b-instruct",
     "name": "Qwen 2 72B Instruct",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2091,7 +2091,7 @@
     "arena_name": "llama-3.1-tulu-3-8b",
     "name": "Llama 3.1 Tulu 3 8B",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2099,7 +2099,7 @@
     "arena_name": "deepseek-coder-v2",
     "name": "DeepSeek Coder V2",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -2107,7 +2107,7 @@
     "arena_name": "ministral-8b-2410",
     "name": "Ministral 8B",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -2115,7 +2115,7 @@
     "arena_name": "command-r-08-2024",
     "name": "Command R",
     "vendor": "Cohere",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://cohere.com/command",
     "api_access": "freemium"
   },
@@ -2123,7 +2123,7 @@
     "arena_name": "jamba-1.5-mini",
     "name": "Jamba 1.5 Mini",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2131,7 +2131,7 @@
     "arena_name": "llama-3.1-8b-instruct",
     "name": "Llama 3.1 8B Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2147,7 +2147,7 @@
     "arena_name": "c4ai-aya-expanse-8b",
     "name": "C4AI Aya Expanse 8B",
     "vendor": "Cohere",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://cohere.com/command",
     "api_access": "freemium"
   },
@@ -2163,7 +2163,7 @@
     "arena_name": "qwen1.5-110b-chat",
     "name": "Qwen 1.5 110B Chat",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2171,7 +2171,7 @@
     "arena_name": "yi-1.5-34b-chat",
     "name": "Yi 1.5 34B Chat",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2187,7 +2187,7 @@
     "arena_name": "qwen1.5-72b-chat",
     "name": "Qwen 1.5 72B Chat",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2195,7 +2195,7 @@
     "arena_name": "llama-3-8b-instruct",
     "name": "Llama 3 8B Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2219,7 +2219,7 @@
     "arena_name": "command-r",
     "name": "Command R",
     "vendor": "Cohere",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://cohere.com/command",
     "api_access": "freemium"
   },
@@ -2227,7 +2227,7 @@
     "arena_name": "mixtral-8x22b-instruct-v0.1",
     "name": "Mixtral 8x22B Instruct",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -2235,7 +2235,7 @@
     "arena_name": "qwq-32b-preview",
     "name": "QwQ 32B Preview",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2243,7 +2243,7 @@
     "arena_name": "internlm2_5-20b-chat",
     "name": "InternLM2.5 20B Chat",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2251,7 +2251,7 @@
     "arena_name": "gemma-2-2b-it",
     "name": "Gemma 2 2B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -2259,7 +2259,7 @@
     "arena_name": "granite-3.1-8b-instruct",
     "name": "Granite 3.1 8B Instruct",
     "vendor": "IBM",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.ibm.com/granite",
     "api_access": "free"
   },
@@ -2275,7 +2275,7 @@
     "arena_name": "zephyr-orpo-141b-A35b-v0.1",
     "name": "Zephyr ORPO 141B A35B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2283,7 +2283,7 @@
     "arena_name": "phi-3-medium-4k-instruct",
     "name": "Phi-3 Medium 4K Instruct",
     "vendor": "Microsoft",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2291,7 +2291,7 @@
     "arena_name": "qwen1.5-32b-chat",
     "name": "Qwen 1.5 32B Chat",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2299,7 +2299,7 @@
     "arena_name": "starling-lm-7b-beta",
     "name": "Starling LM 7B Beta",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2307,7 +2307,7 @@
     "arena_name": "mixtral-8x7b-instruct-v0.1",
     "name": "Mixtral 8x7B Instruct",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -2323,7 +2323,7 @@
     "arena_name": "yi-34b-chat",
     "name": "Yi 34B Chat",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2331,7 +2331,7 @@
     "arena_name": "qwen1.5-14b-chat",
     "name": "Qwen 1.5 14B Chat",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2339,7 +2339,7 @@
     "arena_name": "granite-3.1-2b-instruct",
     "name": "Granite 3.1 2B Instruct",
     "vendor": "IBM",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.ibm.com/granite",
     "api_access": "free"
   },
@@ -2355,7 +2355,7 @@
     "arena_name": "tulu-2-dpo-70b",
     "name": "Tulu 2 DPO 70B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2363,7 +2363,7 @@
     "arena_name": "wizardlm-70b",
     "name": "WizardLM 70B",
     "vendor": "Microsoft",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2371,7 +2371,7 @@
     "arena_name": "dbrx-instruct-preview",
     "name": "DBRX Instruct Preview",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2379,7 +2379,7 @@
     "arena_name": "llama-2-70b-chat",
     "name": "Llama 2 70B Chat",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2387,7 +2387,7 @@
     "arena_name": "nous-hermes-2-mixtral-8x7b-dpo",
     "name": "Nous Hermes 2 Mixtral 8x7B DPO",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -2395,7 +2395,7 @@
     "arena_name": "phi-3-small-8k-instruct",
     "name": "Phi-3 Small 8K Instruct",
     "vendor": "Microsoft",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2403,7 +2403,7 @@
     "arena_name": "llama-3.2-3b-instruct",
     "name": "Llama 3.2 3B Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2411,7 +2411,7 @@
     "arena_name": "starling-lm-7b-alpha",
     "name": "Starling LM 7B Alpha",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2419,7 +2419,7 @@
     "arena_name": "openchat-3.5-0106",
     "name": "OpenChat 3.5",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2427,7 +2427,7 @@
     "arena_name": "vicuna-33b",
     "name": "Vicuna 33B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2435,7 +2435,7 @@
     "arena_name": "deepseek-llm-67b-chat",
     "name": "DeepSeek LLM 67B Chat",
     "vendor": "DeepSeek",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.deepseek.com",
     "api_access": "free"
   },
@@ -2443,7 +2443,7 @@
     "arena_name": "snowflake-arctic-instruct",
     "name": "Snowflake Arctic Instruct",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2451,7 +2451,7 @@
     "arena_name": "llama2-70b-steerlm-chat",
     "name": "Llama 2 70B SteerLM Chat",
     "vendor": "Nvidia",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.nvidia.com/en-us/ai/",
     "api_access": "free"
   },
@@ -2459,7 +2459,7 @@
     "arena_name": "openchat-3.5",
     "name": "OpenChat 3.5",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2467,7 +2467,7 @@
     "arena_name": "granite-3.0-8b-instruct",
     "name": "Granite 3.0 8B Instruct",
     "vendor": "IBM",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.ibm.com/granite",
     "api_access": "free"
   },
@@ -2483,7 +2483,7 @@
     "arena_name": "gemma-1.1-7b-it",
     "name": "Gemma 1.1 7B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -2491,7 +2491,7 @@
     "arena_name": "openhermes-2.5-mistral-7b",
     "name": "OpenHermes 2.5 Mistral 7B",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -2499,7 +2499,7 @@
     "arena_name": "mistral-7b-instruct-v0.2",
     "name": "Mistral 7B Instruct v0.2",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -2507,7 +2507,7 @@
     "arena_name": "llama-2-13b-chat",
     "name": "Llama 2 13B Chat",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2515,7 +2515,7 @@
     "arena_name": "qwen1.5-7b-chat",
     "name": "Qwen 1.5 7B Chat",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2523,7 +2523,7 @@
     "arena_name": "solar-10.7b-instruct-v1.0",
     "name": "Solar 10.7B Instruct",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2531,7 +2531,7 @@
     "arena_name": "dolphin-2.2.1-mistral-7b",
     "name": "Dolphin 2.2.1 Mistral 7B",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -2539,7 +2539,7 @@
     "arena_name": "phi-3-mini-4k-instruct-june-2024",
     "name": "Phi-3 Mini 4K Instruct",
     "vendor": "Microsoft",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2547,7 +2547,7 @@
     "arena_name": "granite-3.0-2b-instruct",
     "name": "Granite 3.0 2B Instruct",
     "vendor": "IBM",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.ibm.com/granite",
     "api_access": "free"
   },
@@ -2555,7 +2555,7 @@
     "arena_name": "wizardlm-13b",
     "name": "WizardLM 13B",
     "vendor": "Microsoft",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2563,7 +2563,7 @@
     "arena_name": "phi-3-mini-4k-instruct",
     "name": "Phi-3 Mini 4K Instruct",
     "vendor": "Microsoft",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2571,7 +2571,7 @@
     "arena_name": "zephyr-7b-beta",
     "name": "Zephyr 7B Beta",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2579,7 +2579,7 @@
     "arena_name": "mpt-30b-chat",
     "name": "MPT 30B Chat",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2587,7 +2587,7 @@
     "arena_name": "codellama-34b-instruct",
     "name": "Code Llama 34B Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2595,7 +2595,7 @@
     "arena_name": "zephyr-7b-alpha",
     "name": "Zephyr 7B Alpha",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2603,7 +2603,7 @@
     "arena_name": "vicuna-13b",
     "name": "Vicuna 13B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2611,7 +2611,7 @@
     "arena_name": "codellama-70b-instruct",
     "name": "Code Llama 70B Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2619,7 +2619,7 @@
     "arena_name": "gemma-7b-it",
     "name": "Gemma 7B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -2627,7 +2627,7 @@
     "arena_name": "llama-3.2-1b-instruct",
     "name": "Llama 3.2 1B Instruct",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2635,7 +2635,7 @@
     "arena_name": "falcon-180b-chat",
     "name": "Falcon 180B Chat",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2643,7 +2643,7 @@
     "arena_name": "llama-2-7b-chat",
     "name": "Llama 2 7B Chat",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   },
@@ -2651,7 +2651,7 @@
     "arena_name": "guanaco-33b",
     "name": "Guanaco 33B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2659,7 +2659,7 @@
     "arena_name": "qwen-14b-chat",
     "name": "Qwen 14B Chat",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2667,7 +2667,7 @@
     "arena_name": "phi-3-mini-128k-instruct",
     "name": "Phi-3 Mini 128K Instruct",
     "vendor": "Microsoft",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2675,7 +2675,7 @@
     "arena_name": "smollm2-1.7b-instruct",
     "name": "SmolLM2 1.7B Instruct",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2683,7 +2683,7 @@
     "arena_name": "stripedhyena-nous-7b",
     "name": "StripedHyena Nous 7B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2691,7 +2691,7 @@
     "arena_name": "olmo-7b-instruct",
     "name": "OLMo 7B Instruct",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2699,7 +2699,7 @@
     "arena_name": "vicuna-7b",
     "name": "Vicuna 7B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2715,7 +2715,7 @@
     "arena_name": "mistral-7b-instruct",
     "name": "Mistral 7B Instruct",
     "vendor": "Mistral",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.mistral.ai",
     "api_access": "free"
   },
@@ -2723,7 +2723,7 @@
     "arena_name": "gemma-1.1-2b-it",
     "name": "Gemma 1.1 2B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -2731,7 +2731,7 @@
     "arena_name": "gemma-2b-it",
     "name": "Gemma 2B IT",
     "vendor": "Google",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://ai.google.dev/gemma",
     "api_access": "free"
   },
@@ -2739,7 +2739,7 @@
     "arena_name": "qwen1.5-4b-chat",
     "name": "Qwen 1.5 4B Chat",
     "vendor": "Alibaba",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://tongyi.aliyun.com",
     "api_access": "freemium"
   },
@@ -2747,7 +2747,7 @@
     "arena_name": "koala-13b",
     "name": "Koala 13B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2755,15 +2755,15 @@
     "arena_name": "chatglm3-6b",
     "name": "ChatGLM3 6B",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
   {
     "arena_name": "gpt4all-13b-snoozy",
     "name": "GPT4All 13B Snoozy",
-    "vendor": "OpenAI",
-    "type": "unlimited",
+    "vendor": "Nomic AI",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2771,7 +2771,7 @@
     "arena_name": "mpt-7b-chat",
     "name": "MPT 7B Chat",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2779,7 +2779,7 @@
     "arena_name": "RWKV-4-Raven-14B",
     "name": "RWKV-4 Raven 14B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2787,7 +2787,7 @@
     "arena_name": "chatglm2-6b",
     "name": "ChatGLM2 6B",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -2795,7 +2795,7 @@
     "arena_name": "alpaca-13b",
     "name": "Alpaca 13B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2803,7 +2803,7 @@
     "arena_name": "chatglm-6b",
     "name": "ChatGLM 6B",
     "vendor": "Z.ai",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://chat.z.ai",
     "api_access": "free"
   },
@@ -2811,7 +2811,7 @@
     "arena_name": "oasst-pythia-12b",
     "name": "OASST Pythia 12B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2819,7 +2819,7 @@
     "arena_name": "fastchat-t5-3b",
     "name": "FastChat T5 3B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2827,7 +2827,7 @@
     "arena_name": "stablelm-tuned-alpha-7b",
     "name": "StableLM Tuned Alpha 7B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2835,7 +2835,7 @@
     "arena_name": "dolly-v2-12b",
     "name": "Dolly v2 12B",
     "vendor": "Unknown",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://lmarena.ai",
     "api_access": "paid"
   },
@@ -2843,7 +2843,7 @@
     "arena_name": "llama-13b",
     "name": "Llama 13B",
     "vendor": "Meta",
-    "type": "unlimited",
+    "type": "free",
     "url": "https://www.llama.com",
     "api_access": "free"
   }
