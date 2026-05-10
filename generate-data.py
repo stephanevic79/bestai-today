@@ -65,10 +65,10 @@ def deduce_vendor(model_name: str, organization: str) -> str:
 
 
 def deduce_type(license_str: str) -> str:
-    """Proprietary → paid, tout le reste → unlimited (open source)."""
+    """Proprietary → paid, tout le reste → free (open source / gratuit)."""
     if not license_str or license_str.lower() == "proprietary":
         return "paid"
-    return "unlimited"
+    return "free"
 
 
 def deduce_api_access(model_name: str, vendor: str, license_str: str) -> str:
