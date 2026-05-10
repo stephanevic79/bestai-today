@@ -1,171 +1,171 @@
 {
   "ranking_date": "2026-05-01",
-  "retrieved_at": "2026-05-10T08:07:31Z",
+  "retrieved_at": "2026-05-10T09:32:34Z",
   "models": [
     {
-      "name": "claude-opus-4-6-thinking",
+      "name": "Claude Opus 4.6 Thinking",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1500.2375988480828,
       "score_code": 1548.8435748147633,
       "api_access": "paid"
     },
     {
-      "name": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1496.4730384152542,
       "score_code": 1544.3569605375912,
       "api_access": "paid"
     },
     {
-      "name": "gemini-3.1-pro-preview",
+      "name": "Gemini 3.1 Pro Preview",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1487.4276064376868,
       "score_code": 1454.7147188212,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "claude-opus-4-7-thinking",
+      "name": "Claude Opus 4.7 Thinking",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1486.8240404728879,
       "score_code": 1567.8529685977903,
       "api_access": "paid"
     },
     {
-      "name": "gemini-3-pro",
+      "name": "Gemini 3 Pro",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1479.289786936216,
       "score_code": 1438.2195685468039,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1477.5457005439614,
       "score_code": 1561.9095335001916,
       "api_access": "paid"
     },
     {
-      "name": "muse-spark",
+      "name": "Muse Spark",
       "vendor": "Meta",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1476.6959004256084,
       "score_code": 1509.3754438411295,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gpt-5.5-high",
-      "vendor": "Openai",
+      "name": "GPT-5.5 High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1472.7884436424479,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "ernie-5.1-preview",
+      "name": "Ernie 5.1 Preview",
       "vendor": "Baidu",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://yiyan.baidu.com",
       "score_general": 1472.5026323440854,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "qwen3.5-max-preview",
+      "name": "Qwen 3.5 Max Preview",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1469.1366697653148,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "gpt-5.4-high",
-      "vendor": "Openai",
+      "name": "GPT-5.4 High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1468.8110994347905,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "glm-5.1",
-      "vendor": "Zai",
+      "name": "GLM-5.1",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1467.7513946209533,
       "score_code": 1531.7028875970293,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gemini-3-flash",
+      "name": "Gemini 3 Flash",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1466.6056610595938,
       "score_code": 1437.0440816478263,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "gpt-5.5",
-      "vendor": "Openai",
+      "name": "GPT-5.5",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1461.2314675819034,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1459.9603614850507,
       "score_code": 1202.756857342892,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "mimo-v2.5-pro",
+      "name": "MiMo 2.5 Pro",
       "vendor": "Xiaomi",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://xiaomi-ai.com",
       "score_general": 1457.877824593149,
       "score_code": 1476.421229078333,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "grok-4.20-beta-0309-reasoning",
-      "vendor": "Xai",
+      "name": "Grok 4.20 Beta Reasoning",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1455.1178424236311,
       "score_code": 1398.6477664704407,
       "api_access": "paid"
     },
     {
-      "name": "kimi-k2.6",
+      "name": "Kimi K2.6",
       "vendor": "Moonshot",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://kimi.com",
       "score_general": 1454.6434687473395,
       "score_code": 1524.578903486125,
       "api_access": "freemium"
     },
     {
-      "name": "dola-seed-2.0-pro",
+      "name": "Dola Seed 2.0 Pro",
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -174,331 +174,331 @@
       "api_access": "paid"
     },
     {
-      "name": "gpt-5.4",
-      "vendor": "Openai",
+      "name": "GPT-5.4",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1452.2154451986203,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "grok-4.20-multi-agent-beta-0309",
-      "vendor": "Xai",
+      "name": "Grok 4.20 Multi-Agent Beta",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1452.1112181577234,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "ernie-5.0-0110",
+      "name": "Ernie 5.0",
       "vendor": "Baidu",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://yiyan.baidu.com",
       "score_general": 1449.8358244871554,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "amazon-nova-experimental-chat-26-02-10",
+      "name": "Amazon Nova Experimental Chat",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1448.708025553806,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "grok-4.20-beta1",
-      "vendor": "Xai",
+      "name": "Grok 4.20 Beta",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1448.6237211169978,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gemini-3-flash (thinking-minimal)",
+      "name": "Gemini 3 Flash Thinking Minimal",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1448.3449926977742,
       "score_code": 1389.5593555994624,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1448.0244502982919,
       "score_code": 1526.1671325075845,
       "api_access": "paid"
     },
     {
-      "name": "claude-opus-4-5-20251101",
+      "name": "Claude Opus 4.5",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1447.6654231608939,
       "score_code": 1467.2087579817385,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-v4-pro-thinking",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V4 Pro Thinking",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1446.669693163658,
       "score_code": 1454.6661341773006,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "deepseek-v4-pro",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V4 Pro",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1446.3690185297432,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "claude-opus-4-5-20251101-thinking-32k",
+      "name": "Claude Opus 4.5 Thinking 32k",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1446.3042003774676,
       "score_code": 1490.604316547731,
       "api_access": "paid"
     },
     {
-      "name": "kimi-k2.5-thinking",
+      "name": "Kimi K2.5 Thinking",
       "vendor": "Moonshot",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://kimi.com",
       "score_general": 1445.5985527714918,
       "score_code": 1429.7280585718224,
       "api_access": "freemium"
     },
     {
-      "name": "glm-5",
-      "vendor": "Zai",
+      "name": "GLM-5",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1444.998700687389,
       "score_code": 1435.918102082481,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "qwen3.5-397b-a17b",
+      "name": "Qwen 3.5 397B A17B",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1443.7933438465063,
       "score_code": 1387.2612930143923,
       "api_access": "freemium"
     },
     {
-      "name": "ernie-5.0-preview-1203",
+      "name": "Ernie 5.0 Preview",
       "vendor": "Baidu",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://yiyan.baidu.com",
       "score_general": 1442.3616985778283,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "qwen3.6-max-preview",
+      "name": "Qwen 3.6 Max Preview",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1441.8424391517776,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "gemma-4-31b",
+      "name": "Gemma 4 31B",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1441.5481672486287,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gpt-5.1-high",
-      "vendor": "Openai",
+      "name": "GPT-5.1 High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1441.3019077489926,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen3.6-plus",
+      "name": "Qwen 3.6 Plus",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1441.2703276451873,
       "score_code": 1463.9698470446676,
       "api_access": "freemium"
     },
     {
-      "name": "glm-4.6",
-      "vendor": "Zai",
+      "name": "GLM-4.6",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1440.3947813218979,
       "score_code": 1354.8135703538699,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "grok-4.1-thinking",
-      "vendor": "Xai",
+      "name": "Grok 4.1 Thinking",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1440.3006809081858,
       "score_code": 1207.5429787393205,
       "api_access": "paid"
     },
     {
-      "name": "gpt-5.2-chat-latest-20260210",
-      "vendor": "Openai",
+      "name": "GPT-5.2 Chat Latest",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1439.167311641314,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen3-max-preview",
+      "name": "Qwen 3 Max Preview",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1438.5689664645276,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "grok-4.1",
-      "vendor": "Xai",
+      "name": "Grok 4.1",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1437.219667223381,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "glm-4.7",
-      "vendor": "Zai",
+      "name": "GLM-4.7",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1435.9782570201785,
       "score_code": 1439.9008534121922,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "mimo-v2-pro",
+      "name": "MiMo V2 Pro",
       "vendor": "Xiaomi",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://xiaomi-ai.com",
       "score_general": 1435.1226071750496,
       "score_code": 1428.514367475778,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "gemma-4-26b-a4b",
+      "name": "Gemma 4 26B A4B",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1434.3449021881506,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "claude-sonnet-4-5-20250929",
+      "name": "Claude Sonnet 4.5",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1434.011598362259,
       "score_code": 1386.0,
       "api_access": "paid"
     },
     {
-      "name": "ernie-5.0-preview-1022",
+      "name": "Ernie 5.0 Preview 1022",
       "vendor": "Baidu",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://yiyan.baidu.com",
       "score_general": 1429.705351075243,
       "score_code": null,
-      "api_access": "paid"
-    },
-    {
-      "name": "mistral-large-3",
-      "vendor": "Mistral",
-      "type": "unlimited",
-      "url": "https://lmarena.ai",
-      "score_general": 1429.647481605586,
-      "score_code": 1222.3851834673717,
       "api_access": "freemium"
     },
     {
-      "name": "claude-sonnet-4-5-20250929-thinking-32k",
+      "name": "Mistral Large 3",
+      "vendor": "Mistral",
+      "type": "unlimited",
+      "url": "https://chat.mistral.ai",
+      "score_general": 1429.647481605586,
+      "score_code": 1222.3851834673717,
+      "api_access": "free"
+    },
+    {
+      "name": "Claude Sonnet 4.5 Thinking 32k",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1429.570402248359,
       "score_code": 1388.1134727396498,
       "api_access": "paid"
     },
     {
-      "name": "glm-4.5",
-      "vendor": "Zai",
+      "name": "GLM-4.5",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1428.757280518619,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "chatgpt-4o-latest-20250326",
-      "vendor": "Openai",
+      "name": "ChatGPT-4o Latest",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1428.514001025372,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-r1-0528",
-      "vendor": "Deepseek",
+      "name": "DeepSeek R1",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1427.6870071419362,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "grok-4.3",
-      "vendor": "Xai",
+      "name": "Grok 4.3",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1425.958483837096,
       "score_code": 1405.0188843833091,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-v4-flash",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V4 Flash",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1425.8465898224847,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "longcat-flash-chat-2602-exp",
+      "name": "LongCat Flash Chat",
       "vendor": "Meituan",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -507,79 +507,79 @@
       "api_access": "paid"
     },
     {
-      "name": "mistral-medium-2508",
+      "name": "Mistral Medium",
       "vendor": "Mistral",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1425.6657986150738,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "grok-3-preview-02-24",
-      "vendor": "Xai",
+      "name": "Grok 3 Preview",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1424.6236064120365,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-v4-flash-thinking",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V4 Flash Thinking",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1424.122830022502,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "deepseek-v3.2-exp-thinking",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3.2 Exp Thinking",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1423.464916790945,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "deepseek-v3.2",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3.2",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1423.2686715097302,
       "score_code": 1332.1595444860257,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gemini-3.1-flash-lite-preview",
+      "name": "Gemini 3.1 Flash Lite Preview",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1422.6874953204683,
       "score_code": 1239.81707262641,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "gpt-5.1",
-      "vendor": "Openai",
+      "name": "GPT-5.1",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1422.3349232313494,
       "score_code": 1339.5443110929598,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-v3.2-exp",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3.2 Exp",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1422.3104587750083,
       "score_code": 1286.338638088184,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "longcat-flash-chat",
+      "name": "LongCat Flash Chat",
       "vendor": "Meituan",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -588,313 +588,313 @@
       "api_access": "paid"
     },
     {
-      "name": "qwen3-vl-235b-a22b-instruct",
+      "name": "Qwen 3 VL 235B A22B Instruct",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1421.025556522521,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "kimi-k2.5-instant",
+      "name": "Kimi K2.5 Instant",
       "vendor": "Moonshot",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://kimi.com",
       "score_general": 1420.6536793768737,
       "score_code": 1407.8777171685829,
       "api_access": "freemium"
     },
     {
-      "name": "amazon-nova-experimental-chat-12-10",
+      "name": "Amazon Nova Experimental Chat 12/10",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1420.3748934752584,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gpt-5.4-mini-high",
-      "vendor": "Openai",
+      "name": "GPT-5.4 Mini High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1419.469756604464,
       "score_code": 1400.8570505621174,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-v3.1-terminus-thinking",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3.1 Terminus Thinking",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1419.1599133799134,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "deepseek-v3.1",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3.1",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1419.1360916756278,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "deepseek-v3.2-thinking",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3.2 Thinking",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1418.9410361556445,
       "score_code": 1368.308193998722,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "qwen3.5-122b-a10b",
+      "name": "Qwen 3.5 122B A10B",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1418.7763646816427,
       "score_code": 1363.2422497105813,
       "api_access": "freemium"
     },
     {
-      "name": "qwen3-235b-a22b-instruct-2507",
+      "name": "Qwen 3 235B A22B Instruct",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1418.3350618730312,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "qwen3-next-80b-a3b-instruct",
+      "name": "Qwen 3 Next 80B A3B Instruct",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1418.330580690061,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "claude-opus-4-1-20250805-thinking-16k",
+      "name": "Claude Opus 4.1 Thinking 16k",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1418.2460761002887,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gpt-5.2-high",
-      "vendor": "Openai",
+      "name": "GPT-5.2 High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1417.8543997853324,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1417.8137753353496,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "deepseek-v3.1-terminus",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3.1 Terminus",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1417.4691102842844,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "claude-opus-4-1-20250805",
+      "name": "Claude Opus 4.1",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1417.3327825860224,
       "score_code": 1385.1481851858166,
       "api_access": "paid"
     },
     {
-      "name": "gpt-4.5-preview-2025-02-27",
-      "vendor": "Openai",
+      "name": "GPT-4.5 Preview",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1417.1803025484235,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-v3.1-thinking",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3.1 Thinking",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1416.5248395202316,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "amazon-nova-experimental-chat-11-10",
+      "name": "Amazon Nova Experimental Chat 11/10",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1416.2861093015185,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "mimo-v2.5",
+      "name": "MiMo V2.5",
       "vendor": "Xiaomi",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://xiaomi-ai.com",
       "score_general": 1415.798709868121,
       "score_code": 1445.5562984857784,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "gpt-5.2",
-      "vendor": "Openai",
+      "name": "GPT-5.2",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1415.236511351562,
       "score_code": 1403.6385250281837,
       "api_access": "paid"
     },
     {
-      "name": "kimi-k2-thinking-turbo",
+      "name": "Kimi K2 Thinking Turbo",
       "vendor": "Moonshot",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://kimi.com",
       "score_general": 1414.2673725019347,
       "score_code": 1329.2988741044064,
       "api_access": "freemium"
     },
     {
-      "name": "qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen 3 235B A22B Thinking",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1413.487089496554,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "qwen3-max-2025-09-23",
+      "name": "Qwen 3 Max",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1412.7988421341572,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "hunyuan-hy3-preview",
+      "name": "Hunyuan HY3 Preview",
       "vendor": "Tencent",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1412.0309407656591,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "mimo-v2-flash (non-thinking)",
+      "name": "MiMo V2 Flash",
       "vendor": "Xiaomi",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://xiaomi-ai.com",
       "score_general": 1411.2717322956112,
       "score_code": 1337.0051545193237,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "grok-4-0709",
-      "vendor": "Xai",
+      "name": "Grok 4",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1409.621145635582,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "o3-2025-04-16",
-      "vendor": "Openai",
+      "name": "O3",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1409.0694028935231,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "grok-4-1-fast-reasoning",
-      "vendor": "Xai",
+      "name": "Grok 4.1 Fast Reasoning",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1408.9636959507307,
       "score_code": 1233.7196365965933,
       "api_access": "paid"
     },
     {
-      "name": "grok-4-fast-chat",
-      "vendor": "Xai",
+      "name": "Grok 4 Fast Chat",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1408.782564266944,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gemini-2.5-flash-preview-09-2025",
+      "name": "Gemini 2.5 Flash Preview",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1406.844458791108,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "hunyuan-vision-1.5-thinking",
+      "name": "Hunyuan Vision 1.5 Thinking",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1406.4939363055178,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gpt-5-high",
-      "vendor": "Openai",
+      "name": "GPT-5 High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1405.0563705829022,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen3.5-27b",
+      "name": "Qwen 3.5 27B",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1404.709911417362,
       "score_code": 1350.374998652003,
       "api_access": "freemium"
     },
     {
-      "name": "gpt-5-chat",
-      "vendor": "Openai",
+      "name": "GPT-5 Chat",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1403.3416263970034,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "step-3.5-flash",
+      "name": "Step 3.5 Flash",
       "vendor": "Stepfun",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -903,89 +903,89 @@
       "api_access": "paid"
     },
     {
-      "name": "qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen 3 VL 235B A22B Thinking",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1400.824287402964,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "hunyuan-t1-20250711",
+      "name": "Hunyuan T1",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1399.4626644300897,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen3.5-flash",
+      "name": "Qwen 3.5 Flash",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1399.0961746086002,
       "score_code": 1236.532806010847,
       "api_access": "freemium"
     },
     {
-      "name": "amazon-nova-experimental-chat-26-01-10",
+      "name": "Amazon Nova Experimental Chat 26/01",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1398.406652402037,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "grok-4-fast-reasoning",
-      "vendor": "Xai",
+      "name": "Grok 4 Fast Reasoning",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1397.1411514714534,
       "score_code": 1149.2796753937346,
       "api_access": "paid"
     },
     {
-      "name": "qwen3.5-35b-a3b",
+      "name": "Qwen 3.5 35B A3B",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1395.6725121554819,
       "score_code": 1248.6309305133118,
       "api_access": "freemium"
     },
     {
-      "name": "mimo-v2-flash (thinking)",
+      "name": "MiMo V2 Flash Thinking",
       "vendor": "Xiaomi",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://xiaomi-ai.com",
       "score_general": 1395.423352536499,
       "score_code": 1300.4799968531293,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "amazon-nova-experimental-chat-10-20",
+      "name": "Amazon Nova Experimental Chat 10/20",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1394.0098424770267,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen3-235b-a22b-no-thinking",
+      "name": "Qwen 3 235B A22B No Thinking",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1393.5156572032706,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "mai-1-preview",
-      "vendor": "Microsoft-Ai",
+      "name": "Mai-1 Preview",
+      "vendor": "Microsoft AI",
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1393.4219106147862,
@@ -993,8 +993,8 @@
       "api_access": "paid"
     },
     {
-      "name": "minimax-m2.7",
-      "vendor": "Minimax",
+      "name": "MiniMax M2.7",
+      "vendor": "MiniMax",
       "type": "unlimited",
       "url": "https://lmarena.ai",
       "score_general": 1392.2468144022048,
@@ -1002,8 +1002,8 @@
       "api_access": "paid"
     },
     {
-      "name": "minimax-m2.1-preview",
-      "vendor": "Minimax",
+      "name": "MiniMax M2.1 Preview",
+      "vendor": "MiniMax",
       "type": "unlimited",
       "url": "https://lmarena.ai",
       "score_general": 1390.9910145640079,
@@ -1011,161 +1011,161 @@
       "api_access": "paid"
     },
     {
-      "name": "claude-haiku-4-5-20251001",
+      "name": "Claude Haiku 4.5",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1387.976016420842,
       "score_code": 1316.745227368943,
       "api_access": "paid"
     },
     {
-      "name": "qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen 3 30B A3B Instruct",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1383.539249156344,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "gpt-5.3-chat-latest",
-      "vendor": "Openai",
+      "name": "GPT-5.3 Chat Latest",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1383.1158775029187,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "glm-4.5-air",
-      "vendor": "Zai",
+      "name": "GLM-4.5 Air",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1382.3915623526434,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gpt-4.1-2025-04-14",
-      "vendor": "Openai",
+      "name": "GPT-4.1",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1381.6668909329715,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "kimi-k2-0905-preview",
+      "name": "Kimi K2 Preview",
       "vendor": "Moonshot",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://kimi.com",
       "score_general": 1379.486867433415,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+      "name": "Gemini 2.5 Flash Lite Preview No Thinking",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1378.7004931345266,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "nvidia-nemotron-3-super-120b-a12b",
+      "name": "Nvidia Nemotron 3 Super 120B",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1378.1207222234925,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gpt-5.4-nano-high",
-      "vendor": "Openai",
+      "name": "GPT-5.4 Nano High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1378.1027850716866,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "hunyuan-turbos-20250416",
+      "name": "Hunyuan Turbos",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1375.860811888077,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "claude-opus-4-20250514-thinking-16k",
+      "name": "Claude Opus 4 Thinking 16k",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1375.0989048281656,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "glm-4.6v",
-      "vendor": "Zai",
+      "name": "GLM-4.6V",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1374.8628465510235,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "deepseek-v3-0324",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1374.593002325783,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gpt-5-mini-high",
-      "vendor": "Openai",
+      "name": "GPT-5 Mini High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1373.4814892582494,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-r1",
-      "vendor": "Deepseek",
+      "name": "DeepSeek R1",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1372.5110079768642,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "kimi-k2-0711-preview",
+      "name": "Kimi K2 Preview",
       "vendor": "Moonshot",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://kimi.com",
       "score_general": 1370.6018457044972,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "mistral-medium-2505",
+      "name": "Mistral Medium 2505",
       "vendor": "Mistral",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1369.1901484946418,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "minimax-m2.5",
-      "vendor": "Minimax",
+      "name": "MiniMax M2.5",
+      "vendor": "MiniMax",
       "type": "unlimited",
       "url": "https://lmarena.ai",
       "score_general": 1368.3829113223928,
@@ -1173,88 +1173,88 @@
       "api_access": "paid"
     },
     {
-      "name": "gemini-2.5-flash-lite-preview-06-17-thinking",
+      "name": "Gemini 2.5 Flash Lite Preview Thinking",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1368.251419296596,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "qwen3-next-80b-a3b-thinking",
+      "name": "Qwen 3 Next 80B A3B Thinking",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1367.290394280195,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "qwen2.5-max",
+      "name": "Qwen 2.5 Max",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1366.4375126656514,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "grok-3-mini-high",
-      "vendor": "Xai",
+      "name": "Grok 3 Mini High",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1366.3624738841238,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "o1-2024-12-17",
-      "vendor": "Openai",
+      "name": "O1",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1365.6777313107816,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen3-235b-a22b",
+      "name": "Qwen 3 235B A22B",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1365.5232557000315,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "gpt-oss-120b",
-      "vendor": "Openai",
+      "name": "GPT-OSS 120B",
+      "vendor": "OpenAI",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1365.2153835228141,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "claude-opus-4-20250514",
+      "name": "Claude Opus 4",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1364.139842662639,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "amazon-nova-experimental-chat-10-09",
+      "name": "Amazon Nova Experimental Chat 10/09",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1363.8374926661868,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "trinity-large-thinking",
+      "name": "Trinity Large Thinking",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1263,26 +1263,26 @@
       "api_access": "paid"
     },
     {
-      "name": "nova-2-lite",
+      "name": "Nova 2 Lite",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1362.594714115456,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "grok-3-mini-beta",
-      "vendor": "Xai",
+      "name": "Grok 3 Mini Beta",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1362.501881431905,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "ling-flash-2.0",
-      "vendor": "Ant-Group",
+      "name": "Ling Flash 2.0",
+      "vendor": "Ant Group",
       "type": "unlimited",
       "url": "https://lmarena.ai",
       "score_general": 1362.1917489085079,
@@ -1290,17 +1290,17 @@
       "api_access": "paid"
     },
     {
-      "name": "gemma-3-27b-it",
+      "name": "Gemma 3 27B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1357.9704687771464,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "mercury-2",
-      "vendor": "Inception-Ai",
+      "name": "Mercury 2",
+      "vendor": "Inception AI",
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1356.9737485386634,
@@ -1308,16 +1308,16 @@
       "api_access": "paid"
     },
     {
-      "name": "qwen3-coder-480b-a35b-instruct",
+      "name": "Qwen 3 Coder 480B A35B Instruct",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1356.2499956498748,
       "score_code": 1281.3108852615628,
       "api_access": "freemium"
     },
     {
-      "name": "intellect-3",
+      "name": "Intellect 3",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1326,52 +1326,52 @@
       "api_access": "paid"
     },
     {
-      "name": "gemini-2.0-flash-001",
+      "name": "Gemini 2.0 Flash 001",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1353.8199833790623,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "glm-4.7-flash",
-      "vendor": "Zai",
+      "name": "GLM-4.7 Flash",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1353.242682248169,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "o1-preview",
-      "vendor": "Openai",
+      "name": "O1 Preview",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1352.6646619897642,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "o4-mini-2025-04-16",
-      "vendor": "Openai",
+      "name": "O4 Mini",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1352.5677117826176,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "nvidia-nemotron-3-nano-30b-a3b-bf16",
+      "name": "Nvidia Nemotron 3 Nano 30B",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1349.2483093819233,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "step-3",
+      "name": "Step 3",
       "vendor": "Stepfun",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1380,17 +1380,17 @@
       "api_access": "paid"
     },
     {
-      "name": "claude-sonnet-4-20250514-thinking-32k",
+      "name": "Claude Sonnet 4 Thinking 32k",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1348.0939337270752,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "minimax-m1",
-      "vendor": "Minimax",
+      "name": "MiniMax M1",
+      "vendor": "MiniMax",
       "type": "unlimited",
       "url": "https://lmarena.ai",
       "score_general": 1342.1221079623717,
@@ -1398,8 +1398,8 @@
       "api_access": "paid"
     },
     {
-      "name": "minimax-m2",
-      "vendor": "Minimax",
+      "name": "MiniMax M2",
+      "vendor": "MiniMax",
       "type": "unlimited",
       "url": "https://lmarena.ai",
       "score_general": 1341.9757889922494,
@@ -1407,61 +1407,61 @@
       "api_access": "paid"
     },
     {
-      "name": "gpt-4.1-mini-2025-04-14",
-      "vendor": "Openai",
+      "name": "GPT-4.1 Mini",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1340.3257914474714,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen3-32b",
+      "name": "Qwen 3 32B",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1339.8842534019245,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "mistral-small-2506",
+      "name": "Mistral Small 2506",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1338.9872589005802,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "claude-sonnet-4-20250514",
+      "name": "Claude Sonnet 4",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1337.6327719114652,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
+      "name": "Llama 3.3 Nemotron Super 49B v1.5",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1337.4552359920533,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "o3-mini-high",
-      "vendor": "Openai",
+      "name": "O3 Mini High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1336.3959543518938,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "step-1o-turbo-202506",
+      "name": "Step 1o Turbo",
       "vendor": "Stepfun",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -1470,35 +1470,35 @@
       "api_access": "paid"
     },
     {
-      "name": "gemma-3-12b-it",
+      "name": "Gemma 3 12B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1334.0233734294368,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "glm-4.5v",
-      "vendor": "Zai",
+      "name": "GLM-4.5V",
+      "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1333.544820475126,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "deepseek-v3",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V3",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1332.3608006267204,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "ring-flash-2.0",
-      "vendor": "Ant-Group",
+      "name": "Ring Flash 2.0",
+      "vendor": "Ant Group",
       "type": "unlimited",
       "url": "https://lmarena.ai",
       "score_general": 1331.2692353817215,
@@ -1506,25 +1506,25 @@
       "api_access": "paid"
     },
     {
-      "name": "command-a-03-2025",
+      "name": "Command A 03",
       "vendor": "Cohere",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://cohere.com/command",
       "score_general": 1331.0682621951162,
-      "score_code": null,
-      "api_access": "paid"
-    },
-    {
-      "name": "glm-4-plus-0111",
-      "vendor": "Z.ai",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1330.6942576985255,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "trinity-large-preview",
+      "name": "GLM-4 Plus",
+      "vendor": "Z.ai",
+      "type": "paid",
+      "url": "https://chat.z.ai",
+      "score_general": 1330.6942576985255,
+      "score_code": null,
+      "api_access": "free"
+    },
+    {
+      "name": "Trinity Large Preview",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1533,34 +1533,34 @@
       "api_access": "paid"
     },
     {
-      "name": "gemini-2.0-flash-lite-preview-02-05",
+      "name": "Gemini 2.0 Flash Lite Preview",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1329.4071254273153,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "qwq-32b",
+      "name": "QwQ 32B",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1329.104553729312,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "qwen-plus-0125",
+      "name": "Qwen Plus",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1326.2687648729593,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "step-2-16k-exp-202412",
+      "name": "Step 2 16K Exp",
       "vendor": "Stepfun",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -1569,79 +1569,79 @@
       "api_access": "paid"
     },
     {
-      "name": "gpt-5-nano-high",
-      "vendor": "Openai",
+      "name": "GPT-5 Nano High",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1319.8078350054166,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "hunyuan-turbos-20250226",
+      "name": "Hunyuan Turbos",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1319.5723575137515,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "llama-3.1-nemotron-ultra-253b-v1",
+      "name": "Llama 3.1 Nemotron Ultra 253B v1",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1319.2859471251263,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "gemini-1.5-pro-002",
+      "name": "Gemini 1.5 Pro 002",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1319.009153752204,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "o3-mini",
-      "vendor": "Openai",
+      "name": "O3 Mini",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1318.799822136496,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen3-30b-a3b",
+      "name": "Qwen 3 30B A3B",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1317.1413738799001,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "o1-mini",
-      "vendor": "Openai",
+      "name": "O1 Mini",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1316.959450003289,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "claude-3-7-sonnet-20250219-thinking-32k",
+      "name": "Claude 3.7 Sonnet Thinking 32k",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1314.225687764601,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "olmo-3.1-32b-instruct",
+      "name": "OLMo 3.1 32B Instruct",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1650,43 +1650,43 @@
       "api_access": "paid"
     },
     {
-      "name": "hunyuan-turbo-0110",
+      "name": "Hunyuan Turbo",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1311.2645554968149,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "llama-3.3-nemotron-49b-super-v1",
+      "name": "Llama 3.3 Nemotron Super 49B v1",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1308.2199063119883,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "gemma-3n-e4b-it",
+      "name": "Gemma 3N E4B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1306.0867407100566,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "grok-2-2024-08-13",
-      "vendor": "Xai",
+      "name": "Grok 2",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1304.4669157777457,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "yi-lightning",
+      "name": "Yi Lightning",
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -1695,34 +1695,34 @@
       "api_access": "paid"
     },
     {
-      "name": "gpt-4o-2024-05-13",
-      "vendor": "Openai",
+      "name": "GPT-4o",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1300.3252198680734,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "qwen2.5-plus-1127",
+      "name": "Qwen 2.5 Plus",
       "vendor": "Alibaba",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1299.0372792388557,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "claude-3-7-sonnet-20250219",
+      "name": "Claude 3.7 Sonnet",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1299.0322689302989,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "olmo-3-32b-think",
+      "name": "OLMo 3 32B Think",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1731,16 +1731,16 @@
       "api_access": "paid"
     },
     {
-      "name": "Claude 3.5 Sonnet",
+      "name": "claude-3-5-sonnet-20241022",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://claude.ai/upgrade",
+      "url": "https://lmarena.ai",
       "score_general": 1297.477208925879,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "molmo-2-8b",
+      "name": "Molmo 2 8B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1749,16 +1749,16 @@
       "api_access": "paid"
     },
     {
-      "name": "deepseek-v2.5-1210",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V2.5",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1293.8334562225325,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "athene-v2-chat",
+      "name": "Athene V2 Chat",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1767,107 +1767,107 @@
       "api_access": "paid"
     },
     {
-      "name": "gemma-3-4b-it",
+      "name": "Gemma 3 4B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1290.6167001239585,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "glm-4-plus",
+      "name": "GLM-4 Plus",
       "vendor": "Z.ai",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1289.5354150487146,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "hunyuan-large-2025-02-10",
+      "name": "Hunyuan Large",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1287.8092819898986,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "llama-4-maverick-17b-128e-instruct",
+      "name": "Llama 4 Maverick 17B 128E Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1287.499274855837,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "gpt-oss-20b",
-      "vendor": "Openai",
+      "name": "GPT-OSS 20B",
+      "vendor": "OpenAI",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1287.2295004158923,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gemini-1.5-flash-002",
+      "name": "Gemini 1.5 Flash 002",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1286.5393214202625,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "gpt-4o-mini-2024-07-18",
-      "vendor": "Openai",
+      "name": "GPT-4o Mini",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1286.3095238700541,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gpt-4.1-nano-2025-04-14",
-      "vendor": "Openai",
+      "name": "GPT-4.1 Nano",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1284.6029322594038,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "llama-3.1-405b-instruct-bf16",
+      "name": "Llama 3.1 405B Instruct BF16",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1283.5547334578453,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "llama-3.1-nemotron-70b-instruct",
+      "name": "Llama 3.1 Nemotron 70B Instruct",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1282.5343024005524,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "gpt-4o-2024-08-06",
-      "vendor": "Openai",
+      "name": "GPT-4o 2024-08-06",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1282.4296848612953,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "mercury",
-      "vendor": "Inception-Ai",
+      "name": "Mercury",
+      "vendor": "Inception AI",
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1282.0260661416294,
@@ -1875,115 +1875,115 @@
       "api_access": "paid"
     },
     {
-      "name": "qwen-max-0919",
+      "name": "Qwen Max",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1281.762475472222,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "llama-3.1-405b-instruct-fp8",
+      "name": "Llama 3.1 405B Instruct FP8",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1281.6937546279853,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "claude-3-5-sonnet-20240620",
+      "name": "Claude 3.5 Sonnet",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1280.8031907149025,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "grok-2-mini-2024-08-13",
-      "vendor": "Xai",
+      "name": "Grok 2 Mini",
+      "vendor": "xAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://grok.x.ai",
       "score_general": 1280.5842678804374,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "llama-4-scout-17b-16e-instruct",
+      "name": "Llama 4 Scout 17B 16E Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1280.516673726528,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "gemini-advanced-0514",
+      "name": "Gemini Advanced",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1278.445328763873,
-      "score_code": null,
-      "api_access": "paid"
-    },
-    {
-      "name": "mistral-small-3.1-24b-instruct-2503",
-      "vendor": "Mistral",
-      "type": "unlimited",
-      "url": "https://lmarena.ai",
-      "score_general": 1277.5736693342476,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "llama-3.3-70b-instruct",
+      "name": "Mistral Small 3.1 24B Instruct",
+      "vendor": "Mistral",
+      "type": "unlimited",
+      "url": "https://chat.mistral.ai",
+      "score_general": 1277.5736693342476,
+      "score_code": null,
+      "api_access": "free"
+    },
+    {
+      "name": "Llama 3.3 70B Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1274.8698083733664,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "hunyuan-standard-2025-02-10",
+      "name": "Hunyuan Standard",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1273.8545252938115,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gemini-1.5-pro-001",
+      "name": "Gemini 1.5 Pro 001",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1273.3807960691067,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "gpt-4-turbo-2024-04-09",
-      "vendor": "Openai",
+      "name": "GPT-4 Turbo",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1271.5756107413417,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "deepseek-v2.5",
-      "vendor": "Deepseek",
+      "name": "DeepSeek V2.5",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1271.1339348445708,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "olmo-3.1-32b-think",
+      "name": "OLMo 3.1 32B Think",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -1992,34 +1992,34 @@
       "api_access": "paid"
     },
     {
-      "name": "Qwen 2.5 72B",
+      "name": "qwen2.5-72b-instruct",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://huggingface.co/chat",
+      "url": "https://lmarena.ai",
       "score_general": 1268.9094050677259,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "Mistral Large",
+      "name": "mistral-large-2407",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://chat.mistral.ai",
+      "url": "https://lmarena.ai",
       "score_general": 1266.0284702379947,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "mistral-large-2411",
+      "name": "Mistral Large 2411",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1265.1608357547163,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "athene-70b-0725",
+      "name": "Athene 70B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2028,88 +2028,88 @@
       "api_access": "paid"
     },
     {
-      "name": "gpt-4-1106-preview",
-      "vendor": "Openai",
+      "name": "GPT-4 1106 Preview",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1263.3225212370605,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "hunyuan-large-vision",
+      "name": "Hunyuan Large Vision",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1263.246701463853,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gpt-4-0125-preview",
-      "vendor": "Openai",
+      "name": "GPT-4 0125 Preview",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1262.0887603928677,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "claude-3-opus-20240229",
+      "name": "Claude 3 Opus",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1261.8951541484062,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "Llama 3.1 70B",
+      "name": "llama-3.1-70b-instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://huggingface.co/chat",
+      "url": "https://lmarena.ai",
       "score_general": 1260.7992377424346,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "amazon-nova-pro-v1.0",
+      "name": "Amazon Nova Pro v1.0",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1258.5487485684503,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "llama-3.1-tulu-3-70b",
+      "name": "Llama 3.1 Tulu 3 70B",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1255.6214627078436,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "claude-3-5-haiku-20241022",
+      "name": "Claude 3.5 Haiku",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1255.213337086309,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "magistral-medium-2506",
+      "name": "Magistral Medium 2506",
       "vendor": "Mistral",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1254.0688574394924,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "reka-core-20240904",
+      "name": "Reka Core",
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -2118,25 +2118,25 @@
       "api_access": "paid"
     },
     {
-      "name": "ibm-granite-h-small",
-      "vendor": "Ibm",
+      "name": "IBM Granite H Small",
+      "vendor": "IBM",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.ibm.com/granite",
       "score_general": 1241.0928779021533,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gemini-1.5-flash-001",
+      "name": "Gemini 1.5 Flash 001",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1239.1881204292965,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "jamba-1.5-large",
+      "name": "Jamba 1.5 Large",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2145,124 +2145,124 @@
       "api_access": "paid"
     },
     {
-      "name": "mistral-small-24b-instruct-2501",
+      "name": "Mistral Small 24B Instruct",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1233.386561860663,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "gemma-2-27b-it",
+      "name": "Gemma 2 27B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1231.2583038647156,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "qwen2.5-coder-32b-instruct",
+      "name": "Qwen 2.5 Coder 32B Instruct",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1229.935893491776,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "command-r-plus-08-2024",
+      "name": "Command R Plus",
       "vendor": "Cohere",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://cohere.com/command",
       "score_general": 1228.7853122287625,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "amazon-nova-lite-v1.0",
+      "name": "Amazon Nova Lite v1.0",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1228.3557006726,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "llama-3.1-nemotron-51b-instruct",
+      "name": "Llama 3.1 Nemotron 51B Instruct",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1227.8708268646956,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "gemma-2-9b-it-simpo",
+      "name": "Gemma 2 9B IT SimPO",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1226.9514620409323,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "glm-4-0520",
+      "name": "GLM-4",
       "vendor": "Z.ai",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 1225.7951162053266,
+      "score_code": null,
+      "api_access": "free"
+    },
+    {
+      "name": "Gemini 1.5 Flash 8B 001",
+      "vendor": "Google",
+      "type": "paid",
+      "url": "https://gemini.google.com",
+      "score_general": 1225.7470043870594,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "gemini-1.5-flash-8b-001",
-      "vendor": "Google",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1225.7470043870594,
-      "score_code": null,
-      "api_access": "paid"
-    },
-    {
-      "name": "nemotron-4-340b-instruct",
+      "name": "Nemotron 4 340B Instruct",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1224.7003894163227,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "c4ai-aya-expanse-32b",
+      "name": "C4AI Aya Expanse 32B",
       "vendor": "Cohere",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://cohere.com/command",
       "score_general": 1223.9014026992488,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "llama-3-70b-instruct",
+      "name": "Llama 3 70B Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1220.6837851641558,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "claude-3-sonnet-20240229",
+      "name": "Claude 3 Sonnet",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1217.9251370796744,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "reka-flash-20240904",
+      "name": "Reka Flash",
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -2271,7 +2271,7 @@
       "api_access": "paid"
     },
     {
-      "name": "olmo-2-0325-32b-instruct",
+      "name": "OLMo 2 32B Instruct",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2280,7 +2280,7 @@
       "api_access": "paid"
     },
     {
-      "name": "phi-4",
+      "name": "Phi-4",
       "vendor": "Microsoft",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2289,106 +2289,106 @@
       "api_access": "paid"
     },
     {
-      "name": "amazon-nova-micro-v1.0",
+      "name": "Amazon Nova Micro v1.0",
       "vendor": "Amazon",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://aws.amazon.com/nova",
       "score_general": 1208.2913647230143,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gemma-2-9b-it",
+      "name": "Gemma 2 9B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1207.272101788181,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gpt-4-0314",
-      "vendor": "Openai",
+      "name": "GPT-4 0314",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1205.894896811335,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "command-r-plus",
+      "name": "Command R Plus",
       "vendor": "Cohere",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://cohere.com/command",
       "score_general": 1203.717601389801,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "qwen2-72b-instruct",
+      "name": "Qwen 2 72B Instruct",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1203.1592665350247,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "hunyuan-standard-256k",
+      "name": "Hunyuan Standard 256K",
       "vendor": "Tencent",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://hunyuan.tencent.com",
       "score_general": 1201.8064168191095,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "claude-3-haiku-20240307",
+      "name": "Claude 3 Haiku",
       "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://claude.ai",
       "score_general": 1194.5649477778832,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "llama-3.1-tulu-3-8b",
+      "name": "Llama 3.1 Tulu 3 8B",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1193.2040335590987,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "deepseek-coder-v2",
-      "vendor": "Deepseek",
+      "name": "DeepSeek Coder V2",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1191.07769718379,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "ministral-8b-2410",
+      "name": "Ministral 8B",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1190.7972652795966,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "command-r-08-2024",
+      "name": "Command R",
       "vendor": "Cohere",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://cohere.com/command",
       "score_general": 1187.2456850602553,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "jamba-1.5-mini",
+      "name": "Jamba 1.5 Mini",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2397,52 +2397,52 @@
       "api_access": "paid"
     },
     {
-      "name": "llama-3.1-8b-instruct",
+      "name": "Llama 3.1 8B Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1186.467144575054,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "gpt-4-0613",
-      "vendor": "Openai",
+      "name": "GPT-4 0613",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1185.8927520497234,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "c4ai-aya-expanse-8b",
+      "name": "C4AI Aya Expanse 8B",
       "vendor": "Cohere",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://cohere.com/command",
       "score_general": 1185.0048783200637,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "mistral-large-2402",
+      "name": "Mistral Large 2402",
       "vendor": "Mistral",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1176.3635310614527,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "qwen1.5-110b-chat",
+      "name": "Qwen 1.5 110B Chat",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1174.4570939254363,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "yi-1.5-34b-chat",
+      "name": "Yi 1.5 34B Chat",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2451,7 +2451,7 @@
       "api_access": "paid"
     },
     {
-      "name": "reka-flash-21b-20240226-online",
+      "name": "Reka Flash 21B Online",
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -2460,34 +2460,34 @@
       "api_access": "paid"
     },
     {
-      "name": "qwen1.5-72b-chat",
+      "name": "Qwen 1.5 72B Chat",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1166.038290034443,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "llama-3-8b-instruct",
+      "name": "Llama 3 8B Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1165.4900753646166,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "mistral-medium",
+      "name": "Mistral Medium",
       "vendor": "Mistral",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1165.0242065750067,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "reka-flash-21b-20240226",
+      "name": "Reka Flash 21B",
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
@@ -2496,34 +2496,34 @@
       "api_access": "paid"
     },
     {
-      "name": "command-r",
+      "name": "Command R",
       "vendor": "Cohere",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://cohere.com/command",
       "score_general": 1163.0207021133342,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "mixtral-8x22b-instruct-v0.1",
+      "name": "Mixtral 8x22B Instruct",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1161.8730265494555,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "qwq-32b-preview",
+      "name": "QwQ 32B Preview",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1161.686348979944,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "internlm2_5-20b-chat",
+      "name": "InternLM2.5 20B Chat",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2532,34 +2532,34 @@
       "api_access": "paid"
     },
     {
-      "name": "gemma-2-2b-it",
+      "name": "Gemma 2 2B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1155.6546614996137,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "granite-3.1-8b-instruct",
-      "vendor": "Ibm",
+      "name": "Granite 3.1 8B Instruct",
+      "vendor": "IBM",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.ibm.com/granite",
       "score_general": 1149.4227105348434,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gemini-pro-dev-api",
+      "name": "Gemini Pro Dev API",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1148.7338904867686,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "zephyr-orpo-141b-A35b-v0.1",
+      "name": "Zephyr ORPO 141B A35B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2568,7 +2568,7 @@
       "api_access": "paid"
     },
     {
-      "name": "phi-3-medium-4k-instruct",
+      "name": "Phi-3 Medium 4K Instruct",
       "vendor": "Microsoft",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2577,16 +2577,16 @@
       "api_access": "paid"
     },
     {
-      "name": "qwen1.5-32b-chat",
+      "name": "Qwen 1.5 32B Chat",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1137.0883098586246,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "starling-lm-7b-beta",
+      "name": "Starling LM 7B Beta",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2595,25 +2595,25 @@
       "api_access": "paid"
     },
     {
-      "name": "mixtral-8x7b-instruct-v0.1",
+      "name": "Mixtral 8x7B Instruct",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1131.4440763540658,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gemini-pro",
+      "name": "Gemini Pro",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1130.4237298412659,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "freemium"
     },
     {
-      "name": "yi-34b-chat",
+      "name": "Yi 34B Chat",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2622,34 +2622,34 @@
       "api_access": "paid"
     },
     {
-      "name": "qwen1.5-14b-chat",
+      "name": "Qwen 1.5 14B Chat",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1127.5790976729343,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "granite-3.1-2b-instruct",
-      "vendor": "Ibm",
+      "name": "Granite 3.1 2B Instruct",
+      "vendor": "IBM",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.ibm.com/granite",
       "score_general": 1127.3046379040995,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gpt-3.5-turbo-0125",
-      "vendor": "Openai",
+      "name": "GPT-3.5 Turbo",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1124.8062503862975,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "tulu-2-dpo-70b",
+      "name": "Tulu 2 DPO 70B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2658,7 +2658,7 @@
       "api_access": "paid"
     },
     {
-      "name": "wizardlm-70b",
+      "name": "WizardLM 70B",
       "vendor": "Microsoft",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2667,7 +2667,7 @@
       "api_access": "paid"
     },
     {
-      "name": "dbrx-instruct-preview",
+      "name": "DBRX Instruct Preview",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2676,25 +2676,25 @@
       "api_access": "paid"
     },
     {
-      "name": "llama-2-70b-chat",
+      "name": "Llama 2 70B Chat",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1115.1130076353484,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "nous-hermes-2-mixtral-8x7b-dpo",
+      "name": "Nous Hermes 2 Mixtral 8x7B DPO",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1111.923883795124,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "phi-3-small-8k-instruct",
+      "name": "Phi-3 Small 8K Instruct",
       "vendor": "Microsoft",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2703,16 +2703,16 @@
       "api_access": "paid"
     },
     {
-      "name": "llama-3.2-3b-instruct",
+      "name": "Llama 3.2 3B Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1109.4197320910957,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "starling-lm-7b-alpha",
+      "name": "Starling LM 7B Alpha",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2721,7 +2721,7 @@
       "api_access": "paid"
     },
     {
-      "name": "openchat-3.5-0106",
+      "name": "OpenChat 3.5",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2730,7 +2730,7 @@
       "api_access": "paid"
     },
     {
-      "name": "vicuna-33b",
+      "name": "Vicuna 33B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2739,16 +2739,16 @@
       "api_access": "paid"
     },
     {
-      "name": "deepseek-llm-67b-chat",
-      "vendor": "Deepseek",
+      "name": "DeepSeek LLM 67B Chat",
+      "vendor": "DeepSeek",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.deepseek.com",
       "score_general": 1104.9143190429545,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "snowflake-arctic-instruct",
+      "name": "Snowflake Arctic Instruct",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2757,16 +2757,16 @@
       "api_access": "paid"
     },
     {
-      "name": "llama2-70b-steerlm-chat",
+      "name": "Llama 2 70B SteerLM Chat",
       "vendor": "Nvidia",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1097.9752176973006,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "openchat-3.5",
+      "name": "OpenChat 3.5",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2775,70 +2775,70 @@
       "api_access": "paid"
     },
     {
-      "name": "granite-3.0-8b-instruct",
-      "vendor": "Ibm",
+      "name": "Granite 3.0 8B Instruct",
+      "vendor": "IBM",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.ibm.com/granite",
       "score_general": 1096.323240753914,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gpt-3.5-turbo-1106",
-      "vendor": "Openai",
+      "name": "GPT-3.5 Turbo 1106",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.openai.com",
       "score_general": 1094.0056711078037,
       "score_code": null,
       "api_access": "paid"
     },
     {
-      "name": "gemma-1.1-7b-it",
+      "name": "Gemma 1.1 7B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1093.8573750183705,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "openhermes-2.5-mistral-7b",
+      "name": "OpenHermes 2.5 Mistral 7B",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1092.3837877080446,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "mistral-7b-instruct-v0.2",
+      "name": "Mistral 7B Instruct v0.2",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1089.4495972325244,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "llama-2-13b-chat",
+      "name": "Llama 2 13B Chat",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1084.3416742311574,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "qwen1.5-7b-chat",
+      "name": "Qwen 1.5 7B Chat",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1083.3443973953845,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "solar-10.7b-instruct-v1.0",
+      "name": "Solar 10.7B Instruct",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2847,16 +2847,16 @@
       "api_access": "paid"
     },
     {
-      "name": "dolphin-2.2.1-mistral-7b",
+      "name": "Dolphin 2.2.1 Mistral 7B",
       "vendor": "Mistral",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.mistral.ai",
       "score_general": 1080.8572907745352,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "phi-3-mini-4k-instruct-june-2024",
+      "name": "Phi-3 Mini 4K Instruct",
       "vendor": "Microsoft",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2865,16 +2865,16 @@
       "api_access": "paid"
     },
     {
-      "name": "granite-3.0-2b-instruct",
-      "vendor": "Ibm",
+      "name": "Granite 3.0 2B Instruct",
+      "vendor": "IBM",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.ibm.com/granite",
       "score_general": 1079.7266128568745,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "wizardlm-13b",
+      "name": "WizardLM 13B",
       "vendor": "Microsoft",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2883,7 +2883,7 @@
       "api_access": "paid"
     },
     {
-      "name": "phi-3-mini-4k-instruct",
+      "name": "Phi-3 Mini 4K Instruct",
       "vendor": "Microsoft",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2892,7 +2892,7 @@
       "api_access": "paid"
     },
     {
-      "name": "zephyr-7b-beta",
+      "name": "Zephyr 7B Beta",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2901,7 +2901,7 @@
       "api_access": "paid"
     },
     {
-      "name": "mpt-30b-chat",
+      "name": "MPT 30B Chat",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2910,16 +2910,16 @@
       "api_access": "paid"
     },
     {
-      "name": "codellama-34b-instruct",
+      "name": "Code Llama 34B Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1065.367661802908,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "zephyr-7b-alpha",
+      "name": "Zephyr 7B Alpha",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2928,7 +2928,7 @@
       "api_access": "paid"
     },
     {
-      "name": "vicuna-13b",
+      "name": "Vicuna 13B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2937,34 +2937,34 @@
       "api_access": "paid"
     },
     {
-      "name": "codellama-70b-instruct",
+      "name": "Code Llama 70B Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1057.125828644216,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "gemma-7b-it",
+      "name": "Gemma 7B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1056.0386519486337,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "llama-3.2-1b-instruct",
+      "name": "Llama 3.2 1B Instruct",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1054.5200816637898,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "falcon-180b-chat",
+      "name": "Falcon 180B Chat",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2973,16 +2973,16 @@
       "api_access": "paid"
     },
     {
-      "name": "llama-2-7b-chat",
+      "name": "Llama 2 7B Chat",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 1053.2821962553003,
       "score_code": null,
       "api_access": "free"
     },
     {
-      "name": "guanaco-33b",
+      "name": "Guanaco 33B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -2991,16 +2991,16 @@
       "api_access": "paid"
     },
     {
-      "name": "qwen-14b-chat",
+      "name": "Qwen 14B Chat",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 1050.910876450316,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "phi-3-mini-128k-instruct",
+      "name": "Phi-3 Mini 128K Instruct",
       "vendor": "Microsoft",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3009,7 +3009,7 @@
       "api_access": "paid"
     },
     {
-      "name": "smollm2-1.7b-instruct",
+      "name": "SmolLM2 1.7B Instruct",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3018,7 +3018,7 @@
       "api_access": "paid"
     },
     {
-      "name": "stripedhyena-nous-7b",
+      "name": "StripedHyena Nous 7B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3027,7 +3027,7 @@
       "api_access": "paid"
     },
     {
-      "name": "olmo-7b-instruct",
+      "name": "OLMo 7B Instruct",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3036,7 +3036,7 @@
       "api_access": "paid"
     },
     {
-      "name": "vicuna-7b",
+      "name": "Vicuna 7B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3045,52 +3045,52 @@
       "api_access": "paid"
     },
     {
-      "name": "palm-2",
+      "name": "PaLM 2",
       "vendor": "Google",
       "type": "paid",
-      "url": "https://lmarena.ai",
+      "url": "https://gemini.google.com",
       "score_general": 1027.120829303461,
-      "score_code": null,
-      "api_access": "paid"
-    },
-    {
-      "name": "mistral-7b-instruct",
-      "vendor": "Mistral",
-      "type": "unlimited",
-      "url": "https://lmarena.ai",
-      "score_general": 1023.3908605727538,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "gemma-1.1-2b-it",
+      "name": "Mistral 7B Instruct",
+      "vendor": "Mistral",
+      "type": "unlimited",
+      "url": "https://chat.mistral.ai",
+      "score_general": 1023.3908605727538,
+      "score_code": null,
+      "api_access": "free"
+    },
+    {
+      "name": "Gemma 1.1 2B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1022.1074594040936,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "gemma-2b-it",
+      "name": "Gemma 2B IT",
       "vendor": "Google",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://ai.google.dev/gemma",
       "score_general": 1002.0303374989269,
       "score_code": null,
-      "api_access": "paid"
+      "api_access": "free"
     },
     {
-      "name": "qwen1.5-4b-chat",
+      "name": "Qwen 1.5 4B Chat",
       "vendor": "Alibaba",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://tongyi.aliyun.com",
       "score_general": 997.1177219207771,
       "score_code": null,
       "api_access": "freemium"
     },
     {
-      "name": "koala-13b",
+      "name": "Koala 13B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3099,16 +3099,16 @@
       "api_access": "paid"
     },
     {
-      "name": "chatglm3-6b",
+      "name": "ChatGLM3 6B",
       "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 971.9207019827288,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "gpt4all-13b-snoozy",
+      "name": "GPT4All 13B Snoozy",
       "vendor": "OpenAI",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3117,7 +3117,7 @@
       "api_access": "paid"
     },
     {
-      "name": "mpt-7b-chat",
+      "name": "MPT 7B Chat",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3126,7 +3126,7 @@
       "api_access": "paid"
     },
     {
-      "name": "RWKV-4-Raven-14B",
+      "name": "RWKV-4 Raven 14B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3135,16 +3135,16 @@
       "api_access": "paid"
     },
     {
-      "name": "chatglm2-6b",
+      "name": "ChatGLM2 6B",
       "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 938.5095540683587,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "alpaca-13b",
+      "name": "Alpaca 13B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3153,16 +3153,16 @@
       "api_access": "paid"
     },
     {
-      "name": "chatglm-6b",
+      "name": "ChatGLM 6B",
       "vendor": "Z.ai",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://chat.z.ai",
       "score_general": 918.3464046686513,
       "score_code": null,
-      "api_access": "freemium"
+      "api_access": "free"
     },
     {
-      "name": "oasst-pythia-12b",
+      "name": "OASST Pythia 12B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3171,7 +3171,7 @@
       "api_access": "paid"
     },
     {
-      "name": "fastchat-t5-3b",
+      "name": "FastChat T5 3B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3180,7 +3180,7 @@
       "api_access": "paid"
     },
     {
-      "name": "stablelm-tuned-alpha-7b",
+      "name": "StableLM Tuned Alpha 7B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3189,7 +3189,7 @@
       "api_access": "paid"
     },
     {
-      "name": "dolly-v2-12b",
+      "name": "Dolly v2 12B",
       "vendor": "Unknown",
       "type": "unlimited",
       "url": "https://lmarena.ai",
@@ -3198,10 +3198,10 @@
       "api_access": "paid"
     },
     {
-      "name": "llama-13b",
+      "name": "Llama 13B",
       "vendor": "Meta",
       "type": "unlimited",
-      "url": "https://lmarena.ai",
+      "url": "https://www.llama.com",
       "score_general": 833.3919166975711,
       "score_code": null,
       "api_access": "free"
