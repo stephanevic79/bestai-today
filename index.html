@@ -70,6 +70,46 @@
             font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.4rem;
             color: var(--cyan); letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.95; margin-bottom: 0.5rem;
         }
+
+        /* ---- Bandeau méta ---- */
+        .meta-info {
+            background: var(--card-bg);
+            border: 1px solid rgba(0,212,255,0.15);
+            border-radius: 14px;
+            padding: 0.6rem 1.5rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            backdrop-filter: blur(8px);
+            color: var(--text-light);
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+            margin-bottom: -0.5rem;
+        }
+        .meta-details { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 0.6rem 1.2rem; font-size: 0.9rem; }
+        .meta-details .meta-item { display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
+        .meta-details .separator { color: var(--cyan); font-weight: 300; }
+        .meta-score-explanation { text-align: center; font-size: 0.75rem; color: rgba(204,232,240,0.6); font-weight: 400; line-height: 1.3; }
+        .meta-score-sep { color: rgba(204,232,240,0.6); }
+
+        /* ---- Bandeau API ---- */
+        .api-badge-info {
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid rgba(0,212,255,0.15);
+            border-radius: 14px;
+            padding: 0.5rem 1rem;
+            backdrop-filter: blur(8px);
+            font-size: 0.8rem;
+            color: rgba(204,232,240,0.7);
+            text-align: center;
+            margin-top: -0.5rem;
+            margin-bottom: -0.5rem;
+        }
+        .api-badge-info strong { color: var(--cyan); font-weight: 600; }
+
+        /* ---- Filtres ---- */
         .filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; width: 100%; }
         .filter-column { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
         .filter-group { display: flex; gap: 0.5rem; background: rgba(0,212,255,0.08); border-radius: 12px; padding: 0.3rem; backdrop-filter: blur(5px); }
@@ -82,23 +122,18 @@
         }
         .filter-btn:hover { color: var(--cyan); text-shadow: 0 0 10px var(--cyan); box-shadow: 0 0 12px rgba(0,212,255,0.4); }
         .filter-btn.active { background: var(--cyan); color: #040c18; text-shadow: none; box-shadow: 0 0 20px var(--cyan); font-weight: 800; }
-        .filter-description { font-size: 0.75rem; color: var(--cyan); text-align: center; line-height: 1.3; word-wrap: break-word; overflow-wrap: break-word; }
-        .api-badge-info {
-            width: 100%; background: var(--card-bg); border: 1px solid rgba(0,212,255,0.15);
-            border-radius: 14px; padding: 0.5rem 1rem; backdrop-filter: blur(8px);
-            font-size: 0.8rem; color: rgba(204,232,240,0.7); text-align: center;
+
+        .filter-description {
+            font-size: 0.75rem;
+            color: var(--cyan);
+            text-align: center;
+            line-height: 1.3;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            font-weight: 700;
+            text-shadow: 0 0 8px var(--cyan);
         }
-        .api-badge-info strong { color: var(--cyan); font-weight: 600; }
-        .meta-info {
-            background: var(--card-bg); border: 1px solid rgba(0,212,255,0.15); border-radius: 14px;
-            padding: 0.6rem 1.5rem; font-size: 0.85rem; font-weight: 500; backdrop-filter: blur(8px);
-            color: var(--text-light); width: 100%; display: flex; flex-direction: column; gap: 0.3rem;
-        }
-        .meta-details { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 0.6rem 1.2rem; font-size: 0.9rem; }
-        .meta-details .meta-item { display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
-        .meta-details .separator { color: var(--cyan); font-weight: 300; }
-        .meta-score-explanation { text-align: center; font-size: 0.75rem; color: rgba(204,232,240,0.6); font-weight: 400; line-height: 1.3; }
-        .meta-score-sep { color: rgba(204,232,240,0.6); }
+
         .podium-container {
             display: flex; justify-content: center; align-items: flex-end; gap: 0.8rem;
             margin: 1.5rem 0 0.5rem; flex-wrap: wrap; --podium-color: var(--cyan);
@@ -113,23 +148,18 @@
             position: relative; opacity: 0;
             animation: fadeInUp 0.6s cubic-bezier(0.25,0.8,0.25,1) forwards;
             transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-            width: 220px; min-height: 180px;
+            width: 220px;
         }
         .podium-card.no-anim { animation: none !important; opacity: 1 !important; }
         @keyframes fadeInUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
         .podium-card:hover { transform: translateY(-5px); border-color: #fff; box-shadow: 0 0 35px var(--podium-color), 0 0 60px var(--podium-color); }
-        .brain-icon-img { display: block; margin-bottom: 3.6rem; animation: brainPulse 3s infinite ease-in-out; }
-        .brain-icon-img.rank-1 { width: 9rem; }
-        .brain-icon-img.rank-2 { width: 7rem; }
-        .brain-icon-img.rank-3 { width: 5rem; }
-        @keyframes brainPulse { 0%,100% { transform: scale(1); opacity: 0.85; } 50% { transform: scale(1.08); opacity: 1; } }
         .rank-number { font-family: 'Roboto', sans-serif; font-weight: 900; font-size: 4.5rem; line-height: 1; margin-bottom: -0.2rem; color: var(--podium-color); text-shadow: 0 0 20px var(--podium-color); }
         .badge { font-size: 0.65rem; font-weight: 800; padding: 0.15rem 0.5rem; border-radius: 20px; letter-spacing: 0.04em; text-transform: uppercase; margin-top: 0.2rem; margin-bottom: 0.5rem; }
         .badge.paid { background: var(--paid); color: #040c18; }
         .badge.unlimited { background: var(--unlimited); color: #040c18; }
         .badge.api-free { background: #00e676; color: #040c18; }
         .badge.api-freemium { background: #ffa500; color: #040c18; }
-        .name-wrapper { width: 100%; height: 2.8rem; display: flex; align-items: flex-end; justify-content: center; overflow: hidden; }
+        .name-wrapper { width: 100%; display: flex; align-items: flex-end; justify-content: center; overflow: hidden; }
         .name { font-weight: 700; font-size: 1.1rem; text-align: center; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; word-break: break-word; line-height: 1.3; }
         .podium-card .vendor { font-size: 0.8rem; opacity: 0.8; margin: 0.2rem 0 0.5rem; font-weight: 500; }
         .podium-card .score-val { font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 2.2rem; margin: 0.3rem 0; line-height: 1; color: var(--podium-color); }
@@ -138,22 +168,129 @@
         .status-message { display: none; text-align: center; font-family: 'Orbitron', sans-serif; font-size: 1.5rem; color: var(--cyan); text-shadow: 0 0 15px var(--cyan); margin: 2rem 0; animation: pulse 2s infinite; }
         @keyframes pulse { 0%,100% { opacity: 0.6; } 50% { opacity: 1; text-shadow: 0 0 25px var(--cyan); } }
         .model-list { display: flex; flex-direction: column; gap: 0.3rem; margin-bottom: 1.5rem; }
-        .model-item { background: var(--card-bg); border: 1px solid rgba(0,212,255,0.15); border-radius: 16px; padding: 0.5rem 0.8rem; display: flex; flex-direction: column; text-decoration: none; color: inherit; transition: all 0.25s ease; backdrop-filter: blur(8px); gap: 0.25rem; }
-        .model-item:hover { border-color: var(--cyan); box-shadow: 0 0 22px rgba(0,212,255,0.4); transform: scale(1.01); }
-        .model-row-top { display: flex; align-items: center; flex-wrap: nowrap; gap: 0.4rem; font-size: 0.85rem; }
-        .model-rank { font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1rem; color: var(--cyan); min-width: 1.5rem; text-align: center; flex-shrink: 0; }
-        .model-name { display: flex; align-items: center; gap: 0.3rem; flex: 1 1 auto; min-width: 0; }
-        .model-name-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 700; font-size: 0.9rem; }
-        .model-name .badge { margin: 0; flex-shrink: 0; }
-        .model-vendor { font-size: 0.75rem; opacity: 0.6; font-weight: 500; flex-shrink: 0; margin-left: auto; }
-        .model-bottom { display: flex; align-items: center; gap: 0.5rem; }
-        .gauge-list { flex: 1; height: 8px; background: rgba(255,255,255,0.08); border-radius: 10px; overflow: hidden; }
-        .gauge-list-fill { height: 100%; border-radius: 10px; transition: width 0.5s ease; }
+
+        /* ---- Bloc modèle (conservé) ---- */
+        .model-item {
+            background: var(--card-bg);
+            border: 1px solid rgba(0,212,255,0.15);
+            border-radius: 16px;
+            padding: 0.5rem 0.8rem;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.25s ease;
+            backdrop-filter: blur(8px);
+            gap: 0.25rem;
+        }
+        .model-item:hover {
+            border-color: var(--cyan);
+            box-shadow: 0 0 22px rgba(0,212,255,0.4);
+            transform: scale(1.01);
+        }
+        .model-row-top {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 0.4rem;
+            font-size: 0.85rem;
+        }
+        .model-rank {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--cyan);
+            min-width: 1.5rem;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        .model-name {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            flex: 1 1 auto;
+            min-width: 0;
+        }
+        .model-name-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: 700;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            min-width: 0;
+        }
+        .model-vendor {
+            font-size: 0.75rem;
+            opacity: 0.6;
+            font-weight: 500;
+            flex-shrink: 0;
+            margin-left: auto;
+        }
+        .model-bottom {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .gauge-list {
+            flex: 1;
+            height: 8px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .gauge-list-fill {
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.5s ease;
+        }
         .gauge-list-fill.gauge-cyan { background: var(--cyan); box-shadow: 0 0 8px var(--cyan); }
         .gauge-list-fill.gauge-orange { background: var(--orange); box-shadow: 0 0 8px var(--orange); }
         .score-block { display: flex; align-items: center; gap: 0.3rem; white-space: nowrap; font-size: 0.85rem; }
         .score-label { font-size: 0.75rem; font-weight: 500; color: rgba(204,232,240,0.55); text-transform: uppercase; letter-spacing: 0.03em; }
         .score-value { color: var(--text-light); font-weight: 700; }
+
+        /* ---- Bouton flèche expansion ---- */
+        .expand-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--cyan);
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1;
+            cursor: pointer;
+            text-shadow: 0 0 8px var(--cyan);
+            padding: 0 0.1rem;
+            transition: text-shadow 0.2s, color 0.2s;
+            flex-shrink: 0;
+            font-family: 'Segoe UI Symbol', 'Arial Unicode MS', 'Roboto', sans-serif;
+        }
+        .expand-toggle:hover { text-shadow: 0 0 14px var(--cyan); color: #ffffff; }
+
+        .text-toggle-wrapper { display: contents; }
+
+        /* État expansé */
+        .model-item.expanded .model-name {
+            flex-wrap: wrap;
+            align-items: flex-start;
+            align-self: flex-start;
+        }
+        .model-item.expanded .text-toggle-wrapper {
+            display: block;
+            width: 100%;
+        }
+        .model-item.expanded .model-name-text {
+            white-space: normal;
+            overflow: visible;
+            text-overflow: clip;
+            display: inline;
+        }
+        .model-item.expanded .expand-toggle {
+            display: inline;
+            margin-left: 0.15rem;
+        }
+
         .share-container { display: flex; justify-content: center; margin: 1rem 0; }
         .share-container .filter-btn { gap: 0.4rem; }
         .ad-slot { min-height: 90px; width: 100%; max-width: 728px; margin: 0 auto; }
@@ -177,10 +314,10 @@
             .meta-details .separator { display: none; }
             .meta-score-explanation { font-size: 0.7rem; }
             .meta-score-explanation span { display: block; }
-            .meta-score-sep { display: none; }
+            .meta-score-sep { display: none !important; }
+            #scorePart1, #scorePart2 { display: block; }
             .podium-container { flex-direction: column; align-items: center; gap: 1rem; }
-            .podium-card { width: 85% !important; max-width: 320px; height: auto !important; }
-            .model-row-top { font-size: 0.8rem; }
+            .podium-card { width: 85% !important; max-width: 320px; }
             .sticky-footer { flex-direction: column; gap: 0.3rem; font-size: 0.8rem; }
         }
         .toast-container { position: fixed; bottom: 4rem; right: 2rem; z-index: 9999; display: flex; flex-direction: column-reverse; gap: 0.8rem; pointer-events: none; }
@@ -206,7 +343,26 @@
             <h1>BEST AI TODAY</h1>
             <div class="sub" id="subtitle"></div>
         </header>
-        <div class="filters">
+
+        <!-- Bandeau méta (masqué en maintenance) -->
+        <div id="metaInfo" class="meta-info" style="display: none;">
+            <div class="meta-details">
+                <span class="meta-item">📅 <span id="rankingDateText"></span></span>
+                <span class="separator">•</span>
+                <span class="meta-item">✅ <span id="verifiedText"></span></span>
+                <span class="separator">•</span>
+                <span class="meta-item" id="modelsCountText"></span>
+            </div>
+            <div class="meta-score-explanation">
+                <span id="scorePart1"></span><span class="meta-score-sep"> — </span><span id="scorePart2"></span>
+            </div>
+        </div>
+
+        <!-- Bandeau API (masqué en maintenance) -->
+        <div class="api-badge-info" id="apiBadgeInfo"></div>
+
+        <!-- Filtres (masqués en maintenance) -->
+        <div class="filters" id="filtersContainer">
             <div class="filter-column">
                 <div class="filter-group" id="typeFilter">
                     <button class="filter-btn active" data-type="all" id="filterAll"></button>
@@ -223,23 +379,11 @@
                 <div class="filter-description" id="categoryDesc"></div>
             </div>
         </div>
-        <div class="api-badge-info" id="apiBadgeInfo"></div>
-        <div id="metaInfo" class="meta-info" style="display: none;">
-            <div class="meta-details">
-                <span class="meta-item">📅 <span id="rankingDateText"></span></span>
-                <span class="separator">•</span>
-                <span class="meta-item">✅ <span id="verifiedText"></span></span>
-                <span class="separator">•</span>
-                <span class="meta-item" id="modelsCountText"></span>
-            </div>
-            <div class="meta-score-explanation">
-                <span id="scorePart1"></span><span class="meta-score-sep"> — </span><span id="scorePart2"></span>
-            </div>
-        </div>
+
         <div id="podium" class="podium-container category-general"></div>
         <div id="emptyMsg" class="status-message"></div>
         <div id="maintenanceMsg" class="status-message"></div>
-        <div class="share-container">
+        <div class="share-container" id="shareContainer">
             <button id="snapshotBtn" class="filter-btn">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
@@ -372,6 +516,10 @@
             const snapshotBtn = document.getElementById('snapshotBtn');
             const typeDescEl = document.getElementById('typeDesc');
             const categoryDescEl = document.getElementById('categoryDesc');
+            const filtersContainer = document.getElementById('filtersContainer');
+            const apiBadgeInfo = document.getElementById('apiBadgeInfo');
+            const shareContainer = document.getElementById('shareContainer');
+            const maintenanceMsgEl = document.getElementById('maintenanceMsg');
 
             const typeDescriptions = { all: t.typeAllDesc, unlimited: t.typeUnlimitedDesc, paid: t.typePaidDesc };
             const categoryDescriptions = { general: t.categoryGeneralDesc, code: t.categoryCodeDesc };
@@ -478,13 +626,12 @@
                 return '';
             }
 
+            // ---- Podium (sans cerveau, hauteurs proportionnelles) ----
             function podiumCardHtml(model, rank, category) {
                 const scoreVal = category === 'general' ? model.score_general : model.score_code;
                 const pct = Math.round(normalize(scoreVal, category));
-                const brainImg = rank <= 3 ? `<img src="Brain.png" class="brain-icon-img rank-${rank}" alt="">` : '';
                 return `
                     <a href="${model.url}" target="_blank" rel="noopener" class="podium-card rank-${rank}">
-                        ${brainImg}
                         <div class="rank-number">${rank}</div>
                         ${badgeHtml(model.type)}
                         ${apiBadgeHtml(model.api_access)}
@@ -495,20 +642,124 @@
                     </a>`;
             }
 
-            function listItemHtml(model, rank, category) {
-                const scoreVal = category === 'general' ? model.score_general : model.score_code;
-                const pct = Math.round(normalize(scoreVal, category));
-                const gaugeClass = category === 'general' ? 'gauge-cyan' : 'gauge-orange';
-                return `
-                    <a href="${model.url}" target="_blank" rel="noopener" class="model-item">
+            function adjustPodiumHeights() {
+                const cards = podiumEl.querySelectorAll('.podium-card');
+                if (!cards.length) return;
+                // Reset
+                cards.forEach(c => c.style.height = 'auto');
+                // Force layout
+                void podiumEl.offsetHeight;
+                const heights = Array.from(cards).map(c => c.getBoundingClientRect().height);
+                const maxH = Math.max(...heights);
+                const scale2 = 1.15; // rang 2
+                const scale1 = 1.30; // rang 1
+                cards.forEach(c => {
+                    if (c.classList.contains('rank-3')) c.style.height = `${maxH}px`;
+                    else if (c.classList.contains('rank-2')) c.style.height = `${Math.round(maxH * scale2)}px`;
+                    else if (c.classList.contains('rank-1')) c.style.height = `${Math.round(maxH * scale1)}px`;
+                });
+            }
+
+            function updatePodiumColorClass() {
+                podiumEl.classList.remove('category-general', 'category-code');
+                podiumEl.classList.add(`category-${currentCategory}`);
+            }
+
+            // ---- Gestion de l'expansion des noms ----
+            function setupExpandableNames() {
+                document.querySelectorAll('.model-name').forEach(container => {
+                    if (container.dataset.expandInitialized === 'true') return;
+                    container.dataset.expandInitialized = 'true';
+                    const textSpan = container.querySelector('.model-name-text');
+                    if (!textSpan) return;
+
+                    const wrapper = document.createElement('span');
+                    wrapper.className = 'text-toggle-wrapper';
+                    textSpan.parentNode.insertBefore(wrapper, textSpan);
+                    wrapper.appendChild(textSpan);
+
+                    const btn = document.createElement('button');
+                    btn.className = 'expand-toggle';
+                    btn.type = 'button';
+                    btn.textContent = '\u{1F853}\uFE0E'; // 🡓︎
+                    btn.setAttribute('aria-label', 'Afficher le nom complet');
+                    wrapper.appendChild(btn);
+
+                    btn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const item = this.closest('.model-item');
+                        if (!item) return;
+                        const expanded = item.classList.toggle('expanded');
+                        btn.textContent = expanded ? '\u{1F851}\uFE0E' : '\u{1F853}\uFE0E';
+                        btn.setAttribute('aria-label', expanded ? 'Réduire' : 'Afficher le nom complet');
+                    });
+
+                    container._textSpan = textSpan;
+                    container._toggleBtn = btn;
+                });
+            }
+
+            function updateToggleVisibility() {
+                document.querySelectorAll('.model-name').forEach(container => {
+                    const textSpan = container._textSpan;
+                    const btn = container._toggleBtn;
+                    if (!textSpan || !btn) return;
+                    const item = container.closest('.model-item');
+                    if (item && item.classList.contains('expanded')) {
+                        btn.style.display = 'inline';
+                        return;
+                    }
+                    const isOverflowing = textSpan.scrollWidth > textSpan.clientWidth;
+                    btn.style.display = isOverflowing ? 'inline' : 'none';
+                });
+            }
+
+            // ---- Rendu principal ----
+            function render() {
+                if (!window.DATA || !window.DATA.models) {
+                    podiumEl.innerHTML = '';
+                    listEl.innerHTML = '';
+                    metaInfoEl.style.display = 'none';
+                    apiBadgeInfo.style.display = 'none';
+                    filtersContainer.style.display = 'none';
+                    shareContainer.style.display = 'none';
+                    maintenanceMsgEl.style.display = 'block';
+                    emptyMsgEl.style.display = 'none';
+                    return;
+                }
+                // Mode normal : restaurer visibilité
+                apiBadgeInfo.style.display = '';
+                filtersContainer.style.display = '';
+                shareContainer.style.display = '';
+                maintenanceMsgEl.style.display = 'none';
+
+                const filtered = getFilteredModels();
+                updateMetaInfo();
+                if (filtered.length === 0) {
+                    podiumEl.innerHTML = '';
+                    listEl.innerHTML = '';
+                    emptyMsgEl.style.display = 'block';
+                    maintenanceMsgEl.style.display = 'none';
+                    return;
+                }
+                emptyMsgEl.style.display = 'none';
+                podiumEl.innerHTML = filtered.slice(0, 3).map((m, i) => podiumCardHtml(m, i+1, currentCategory)).join('');
+                listEl.innerHTML = filtered.slice(3).map((m, i) => {
+                    const rank = 4 + i;
+                    const scoreVal = currentCategory === 'general' ? m.score_general : m.score_code;
+                    const pct = Math.round(normalize(scoreVal, currentCategory));
+                    const gaugeClass = currentCategory === 'general' ? 'gauge-cyan' : 'gauge-orange';
+                    return `
+                    <a href="${m.url}" target="_blank" rel="noopener" class="model-item">
                         <div class="model-row-top">
                             <span class="model-rank">${rank}</span>
                             <span class="model-name">
-                                <span class="model-name-text">${model.name}</span>
-                                ${badgeHtml(model.type)}
-                                ${apiBadgeHtml(model.api_access)}
+                                <span class="model-name-text">${m.name}</span>
+                                ${badgeHtml(m.type)}
+                                ${apiBadgeHtml(m.api_access)}
                             </span>
-                            <span class="model-vendor">${model.vendor}</span>
+                            <span class="model-vendor">${m.vendor}</span>
                         </div>
                         <div class="model-bottom">
                             <div class="gauge-list"><div class="gauge-list-fill ${gaugeClass}" style="width:${pct}%"></div></div>
@@ -518,46 +769,39 @@
                             </div>
                         </div>
                     </a>`;
+                }).join('');
+
+                podiumEl.querySelectorAll('.podium-card').forEach(c => c.classList.add('no-anim'));
+                adjustPodiumHeights();
+                requestAnimationFrame(() => {
+                    podiumEl.querySelectorAll('.podium-card').forEach(c => c.classList.remove('no-anim'));
+                });
+                updatePodiumColorClass();
+
+                // Expansion : mise en place et vérification
+                setupExpandableNames();
+                updateToggleVisibility();
             }
 
-            function adjustPodiumHeights() {
-                const cards = podiumEl.querySelectorAll('.podium-card');
-                if (!cards.length) return;
-                cards.forEach(c => c.style.height = 'auto');
-                void podiumEl.offsetHeight;
-                const heights = Array.from(cards).map(c => c.getBoundingClientRect().height);
-                const maxH = Math.max(...heights);
-                cards.forEach(c => {
-                    if (c.classList.contains('rank-3')) c.style.height = `${maxH}px`;
-                    else if (c.classList.contains('rank-2')) c.style.height = `${maxH + 60}px`;
-                    else if (c.classList.contains('rank-1')) c.style.height = `${maxH + 120}px`;
+            // Observer pour réévaluer la troncature lors de redimensionnements
+            if (window.ResizeObserver) {
+                const observer = new ResizeObserver(() => updateToggleVisibility());
+                const observeTexts = () => {
+                    document.querySelectorAll('.model-name-text').forEach(el => observer.observe(el));
+                };
+                // après chaque render, on réobserve (les anciens éléments sont supprimés)
+                const originalRender = render;
+                render = function() {
+                    originalRender();
+                    observeTexts();
+                };
+            } else {
+                window.addEventListener('resize', () => {
+                    updateToggleVisibility();
                 });
             }
 
-            function updatePodiumColorClass() {
-                podiumEl.classList.remove('category-general', 'category-code');
-                podiumEl.classList.add(`category-${currentCategory}`);
-            }
-
-            function render() {
-                if (!window.DATA || !window.DATA.models) { podiumEl.innerHTML = ''; listEl.innerHTML = ''; return; }
-                const filtered = getFilteredModels();
-                updateMetaInfo();
-                if (filtered.length === 0) {
-                    podiumEl.innerHTML = ''; listEl.innerHTML = '';
-                    emptyMsgEl.style.display = 'block';
-                    document.getElementById('maintenanceMsg').style.display = 'none';
-                    return;
-                }
-                emptyMsgEl.style.display = 'none';
-                podiumEl.innerHTML = filtered.slice(0, 3).map((m, i) => podiumCardHtml(m, i+1, currentCategory)).join('');
-                listEl.innerHTML = filtered.slice(3).map((m, i) => listItemHtml(m, 4+i, currentCategory)).join('');
-                podiumEl.querySelectorAll('.podium-card').forEach(c => c.classList.add('no-anim'));
-                adjustPodiumHeights();
-                requestAnimationFrame(() => { podiumEl.querySelectorAll('.podium-card').forEach(c => c.classList.remove('no-anim')); });
-                updatePodiumColorClass();
-            }
-
+            // ---- Filtres et partage (existants) ----
             typeBtns.forEach(b => b.addEventListener('click', () => {
                 typeBtns.forEach(x => x.classList.remove('active'));
                 b.classList.add('active'); currentType = b.dataset.type;
@@ -578,7 +822,7 @@
                     title.style.cssText = "font-family:'Orbitron',sans-serif;font-size:2.8rem;font-weight:900;letter-spacing:0.15em;color:#fff;text-shadow:0 0 20px #00d4ff,0 0 40px #00d4ff;text-align:center;";
                     title.textContent = 'BEST AI TODAY';
                     const meta = document.createElement('div');
-                    meta.style.cssText = 'background:rgba(6,18,36,0.75);border:1px solid rgba(0,212,255,0.15);border-radius:14px;padding:0.6rem 1.8rem;font-size:0.9rem;text-align:center;display:flex;flex-direction:column;gap:0.25rem;';
+                    meta.style.cssText = 'background:rgba(6,18,36,0.75);border:1px solid rgba(0,212,255,0.15);border-radius:14px;padding:0.6rem 1.8rem;font-size:0.9rem;text-align:center;';
                     meta.innerHTML = `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.6rem 1.2rem;"><span>📅 ${rankingDateTextEl.textContent}</span><span style="color:#00d4ff;font-weight:300;">•</span><span>✅ ${verifiedTextEl.textContent}</span><span style="color:#00d4ff;font-weight:300;">•</span><span>${modelsCountTextEl.textContent}</span></div><div style="font-size:0.75rem;opacity:0.6;">${t.scorePart1} — ${t.scorePart2}</div>`;
                     const podiumClone = podiumEl.cloneNode(true);
                     podiumClone.querySelectorAll('.podium-card.no-anim').forEach(c => c.classList.remove('no-anim'));
@@ -639,14 +883,12 @@
 
             loadData().then(data => {
                 if (!data) {
-                    podiumEl.innerHTML = ''; listEl.innerHTML = '';
-                    metaInfoEl.style.display = 'none';
-                    document.getElementById('maintenanceMsg').style.display = 'block';
-                    return;
+                    window.DATA = null;
+                } else {
+                    window.DATA = data;
                 }
-                window.DATA = data;
                 render();
-                startAutoRefreshMeta();
+                if (window.DATA) startAutoRefreshMeta();
             });
         })();
     </script>
