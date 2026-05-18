@@ -235,13 +235,7 @@
             transform: scale(1.01);
         }
 
-        /* Lien étendu couvrant tout le bloc */
-        .model-item-link::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: 1;
-        }
+        /* Plus de stretched link, on gère le clic en JS */
 
         .model-row-top {
             display: flex;
@@ -419,7 +413,7 @@
             </div>
         </div>
 
-        <!-- Bandeau API (masqué en maintenance, texte mis à jour) -->
+        <!-- Bandeau API (masqué en maintenance) -->
         <div class="api-badge-info" id="apiBadgeInfo"></div>
 
         <!-- Filtres (masqués en maintenance) -->
@@ -679,13 +673,13 @@
                 return `<span class="badge">${type}</span>`;
             }
 
-            // Nouvelle fonction pour le badge API, avec tooltip et gestion URL vide
+            // Nouvelle fonction pour le badge API, avec lien direct d'obtention de clé
             function apiBadgeHtml(hasFreeApi, providers) {
                 if (!hasFreeApi || !providers || providers.length === 0) return '';
                 const provider = providers[0];
                 const url = provider.url && provider.url.trim() !== '' ? provider.url : null;
                 const label = t.apiFree;
-                const tooltip = provider.provider || '';
+                const tooltip = provider.provider || '';   // uniquement le nom de la plateforme
                 if (url) {
                     return `<a href="${url}" target="_blank" rel="noopener" class="badge api-free" data-tooltip="${tooltip}">${label}</a>`;
                 } else {
@@ -693,11 +687,10 @@
                 }
             }
 
-            // ---- Podium (inchangé, pas de lien API cliquable) ----
+            // ---- Podium (inchangé) ----
             function podiumCardHtml(model, rank, category) {
                 const scoreVal = category === 'general' ? model.score_general : model.score_code;
                 const pct = Math.round(normalize(scoreVal, category));
-                // Sur le podium, on garde le badge informatif (simple span) pour éviter les liens imbriqués
                 const apiBadge = model.has_free_api ? `<span class="badge api-free">${t.apiFree}</span>` : '';
                 return `
                     <a href="${model.url}" target="_blank" rel="noopener" class="podium-card rank-${rank}">
@@ -748,7 +741,7 @@
                     const btn = document.createElement('button');
                     btn.className = 'expand-toggle';
                     btn.type = 'button';
-                    btn.textContent = '\u{1F853}\uFE0E'; // 🡓️
+                    btn.textContent = '\u{1F853}\uFE0E'; // 🡓
                     btn.setAttribute('aria-label', 'Afficher le nom complet');
                     wrapper.appendChild(btn);
 
@@ -781,6 +774,20 @@
                     btn.style.display = isOverflowing ? 'inline' : 'none';
                 });
             }
+
+            // ---- Clic sur tout le bloc modèle (délégation) ----
+            listEl.addEventListener('click', function(e) {
+                // Si le clic provient du badge API ou du bouton d'expansion, on laisse agir
+                if (e.target.closest('.badge.api-free') || e.target.closest('.expand-toggle')) {
+                    return;
+                }
+                const item = e.target.closest('.model-item');
+                if (!item) return;
+                const url = item.dataset.modelUrl;
+                if (url) {
+                    window.open(url, '_blank', 'noopener');
+                }
+            });
 
             // ---- Rendu principal ----
             function render() {
@@ -817,8 +824,7 @@
                     const pct = Math.round(normalize(scoreVal, currentCategory));
                     const gaugeClass = currentCategory === 'general' ? 'gauge-cyan' : 'gauge-orange';
                     return `
-                    <div class="model-item">
-                        <a href="${m.url}" target="_blank" rel="noopener" class="model-item-link" aria-label="${m.name}"></a>
+                    <div class="model-item" data-model-url="${m.url}">
                         <div class="model-row-top">
                             <span class="model-rank">${rank}</span>
                             <span class="model-name">
