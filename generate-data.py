@@ -76,26 +76,17 @@ def deduce_type(license_str: str) -> str:
 
 def normalize_name(name: str) -> str:
     """Normalise un nom pour la comparaison : minuscules, sans ponctuation ni espaces multiples."""
-    # Supprime les liens markdown [text](url) -> text
     name = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', name)
-    # Supprime tout ce qui n'est pas alphanumérique ou espace
     name = re.sub(r'[^a-z0-9\s]', '', name.lower())
-    # Remplace les espaces multiples par un seul (puis on les enlève complètement pour la comparaison)
     name = re.sub(r'\s+', '', name)
     return name
 
 
 def clean_provider_name(raw: str) -> str:
-    """Nettoie le nom d'un fournisseur (issu du titre de section markdown).
-    Supprime les liens markdown, les crochets, et les textes superflus.
-    """
-    # Supprime les liens markdown [text](url) -> text
+    """Nettoie le nom d'un fournisseur (issu du titre de section markdown)."""
     raw = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', raw)
-    # Supprime les crochets résiduels
     raw = raw.replace('[', '').replace(']', '')
-    # Supprime d'éventuelles notes de bas de page ou parenthèses
     raw = re.sub(r'\([^)]*\)', '', raw)
-    # Supprime les espaces multiples
     raw = re.sub(r'\s+', ' ', raw).strip()
     return raw
 
@@ -103,7 +94,7 @@ def clean_provider_name(raw: str) -> str:
 def fetch_free_api_data():
     """
     Récupère la liste des modèles avec API gratuite, leurs fournisseurs et les liens
-    d'obtention de clé API depuis le README du dépôt awesome-free-llm-apis.
+    d'obtention de clé API depuis le README. Les liens sont extraits des titres de section.
     Retourne un dict : { normalized_model_name: [ { "provider": "...", "url": "..." } ] }
     """
     print(f"Fetching free API data from {FREE_API_README_URL}...")
@@ -115,59 +106,48 @@ def fetch_free_api_data():
         print(f"Warning: could not fetch free API list: {e}", file=sys.stderr)
         return {}
 
-    providers = {}          # { normalized_name -> [ {provider, url} ] }
+    providers = {}
     current_section = None
     current_link = None
-    # Pattern pour extraire l'URL d'un lien markdown [texte](url)
+    # Pattern pour extraire [texte](url) depuis un titre de section ou une ligne **Link**
     link_pattern = re.compile(r'\[([^\]]+)\]\(([^\)]+)\)')
 
     for line in content.splitlines():
         line = line.strip()
 
-        # Détection d'une section de fournisseur (ex: "### Google Gemini")
+        # Détection d'une section de fournisseur (ex: "### [Google Gemini](https://aistudio.google.com/app/apikey)")
         if line.startswith("### "):
             raw_section = line[4:].strip()
-            current_section = clean_provider_name(raw_section)
-            current_link = None   # reset à chaque nouvelle section
-            continue
-
-        # Extraction du lien **Link** (page d'obtention de clé)
-        if line.lower().startswith("**link**"):
-            # Format : **Link** : [texte](url) ou **Link:** [texte](url)
-            match = link_pattern.search(line)
+            match = link_pattern.search(raw_section)
             if match:
-                current_link = match.group(2)
+                current_section = clean_provider_name(match.group(1))
+                current_link = match.group(2)        # URL de la page d'obtention de clé
+            else:
+                current_section = clean_provider_name(raw_section)
+                current_link = None
             continue
 
         # Détection des tableaux de modèles
         if line.startswith('|') and line.endswith('|'):
-            # Ignorer les séparateurs de tableau
             if re.match(r'^\|[\s\-:]+\|', line):
                 continue
-            # Ignorer l'en-tête
             if '**Model**' in line or 'Model' == line.split('|')[1].strip():
                 continue
 
             cells = [cell.strip() for cell in line.split('|')[1:-1]]
             if cells:
                 model_name = cells[0]
-                # Nettoyer le markdown
                 model_name = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', model_name)
                 if model_name and model_name not in ('', 'Model', '**Model**'):
                     normalized = normalize_name(model_name)
                     if normalized:
                         if normalized not in providers:
                             providers[normalized] = []
-                        # Utiliser le lien du fournisseur s'il existe, sinon on ignore (pas de badge cliquable)
-                        if current_link:
-                            url = current_link
-                        else:
-                            url = ""   # pas de lien -> badge non cliquable côté front
+                        url = current_link if current_link else ""
                         provider_data = {
                             "provider": current_section or "Unknown",
                             "url": url
                         }
-                        # Éviter les doublons exacts
                         if provider_data not in providers[normalized]:
                             providers[normalized].append(provider_data)
 
@@ -226,7 +206,6 @@ def main():
         # Déterminer has_free_api et les fournisseurs
         has_free = False
         providers = []
-        # Tester le nom affiché, arena_name, et les alias de la config
         names_to_test = [model_name, arena_name]
         if config_entry and "free_api_names" in config_entry:
             names_to_test.extend(config_entry["free_api_names"])
@@ -239,7 +218,6 @@ def main():
                     if p not in providers:
                         providers.append(p)
 
-        # Si la config force une valeur (optionnel)
         if config_entry and "has_free_api" in config_entry:
             has_free = config_entry["has_free_api"]
 
@@ -260,14 +238,12 @@ def main():
         reverse=True
     )
 
-    # Nouvelle structure de sortie avec métadonnées globales
     output = {
         "ranking_date": str(ranking_date) if ranking_date else now[:10],
         "retrieved_at": now,
         "models": result
     }
 
-    # Sauvegarde
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
