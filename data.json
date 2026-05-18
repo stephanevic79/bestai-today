@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-05-14",
-  "retrieved_at": "2026-05-17T08:21:03Z",
+  "retrieved_at": "2026-05-18T08:12:22Z",
   "models": [
     {
       "name": "Claude Opus 4.6 Thinking",
@@ -9,7 +9,8 @@
       "url": "https://claude.ai",
       "score_general": 1499.6409255437052,
       "score_code": 1545.5695717323829,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Opus 4.6",
@@ -18,7 +19,8 @@
       "url": "https://claude.ai",
       "score_general": 1497.8023015658182,
       "score_code": 1540.8462450772831,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Opus 4.7 Thinking",
@@ -27,7 +29,8 @@
       "url": "https://claude.ai",
       "score_general": 1485.3906216898959,
       "score_code": 1567.3749826151043,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 3.1 Pro Preview",
@@ -36,7 +39,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1483.574108898731,
       "score_code": 1449.5089306612326,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 3 Pro",
@@ -45,7 +49,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1479.6581387784288,
       "score_code": 1438.3158115153396,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Opus 4.7",
@@ -54,7 +59,8 @@
       "url": "https://claude.ai",
       "score_general": 1478.6906172883987,
       "score_code": 1559.284828437876,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Muse Spark",
@@ -63,7 +69,8 @@
       "url": "https://www.llama.com",
       "score_general": 1475.6817722643996,
       "score_code": 1508.6964300475975,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "ernie-5.1",
@@ -72,7 +79,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1471.150801476352,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3.5 Max Preview",
@@ -81,7 +89,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1470.746405681669,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.4 High",
@@ -90,7 +99,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1470.5657496807974,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-5.1",
@@ -99,7 +109,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1469.3373317533878,
       "score_code": 1531.857979500117,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.5 High",
@@ -108,7 +119,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1468.8035085236268,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 3 Flash",
@@ -117,7 +129,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1466.5966918411134,
       "score_code": 1436.9578000847446,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.5",
@@ -126,7 +139,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1462.5114551739616,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 2.5 Pro",
@@ -135,7 +149,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1458.9501412639597,
       "score_code": 1203.2702181660165,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiMo 2.5 Pro",
@@ -144,7 +159,8 @@
       "url": "https://xiaomi-ai.com",
       "score_general": 1458.8957003922844,
       "score_code": 1472.349440403255,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Kimi K2.6",
@@ -153,7 +169,8 @@
       "url": "https://kimi.com",
       "score_general": 1455.551330455282,
       "score_code": 1518.5091607607392,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.4",
@@ -162,7 +179,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1454.1292101967056,
       "score_code": 1388.3409744711848,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4.20 Beta Reasoning",
@@ -171,7 +189,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1454.0673155775273,
       "score_code": 1396.8230029829542,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Sonnet 4.6",
@@ -180,7 +199,8 @@
       "url": "https://claude.ai",
       "score_general": 1453.0558076050622,
       "score_code": 1523.606523070221,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4.20 Multi-Agent Beta",
@@ -189,7 +209,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1452.4491159104623,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Dola Seed 2.0 Pro",
@@ -198,7 +219,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1450.7783890448954,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V4 Pro",
@@ -207,7 +229,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1450.3285209346975,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V4 Pro Thinking",
@@ -216,7 +239,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1449.2489490583428,
       "score_code": 1458.4240647928423,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Experimental Chat",
@@ -225,7 +249,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1449.0008852793978,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Ernie 5.0",
@@ -234,7 +259,8 @@
       "url": "https://yiyan.baidu.com",
       "score_general": 1448.4603880198738,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 3 Flash Thinking Minimal",
@@ -243,7 +269,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1448.2629926561247,
       "score_code": 1388.903068384116,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4.20 Beta",
@@ -252,7 +279,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1447.7926928401143,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Opus 4.5",
@@ -261,7 +289,8 @@
       "url": "https://claude.ai",
       "score_general": 1447.4556296274839,
       "score_code": 1467.0414365117422,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Opus 4.5 Thinking 32k",
@@ -270,7 +299,8 @@
       "url": "https://claude.ai",
       "score_general": 1446.5319458524148,
       "score_code": 1490.4550099903877,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-5",
@@ -279,7 +309,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1445.0921314082402,
       "score_code": 1435.3932911561928,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Kimi K2.5 Thinking",
@@ -288,7 +319,8 @@
       "url": "https://kimi.com",
       "score_general": 1445.0320637850036,
       "score_code": 1429.4493664686051,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3.6 Max Preview",
@@ -297,7 +329,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1443.3354553970332,
       "score_code": 1491.3053126020395,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Ernie 5.0 Preview",
@@ -306,7 +339,8 @@
       "url": "https://yiyan.baidu.com",
       "score_general": 1442.4529536103987,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 4 31B",
@@ -315,7 +349,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1441.9782294255224,
       "score_code": 1380.3770373572322,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3.5 397B A17B",
@@ -324,7 +359,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1441.6360072283514,
       "score_code": 1388.858990883421,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.1 High",
@@ -333,7 +369,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1441.593092734077,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4.6",
@@ -342,7 +379,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1440.4696266996918,
       "score_code": 1355.0816638106799,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3.6 Plus",
@@ -351,7 +389,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1439.8873666415138,
       "score_code": 1460.4331346573977,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.2 Chat Latest",
@@ -360,7 +399,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1439.7372124617964,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4.1 Thinking",
@@ -369,7 +409,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1439.566649703547,
       "score_code": 1208.3299071490424,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 Max Preview",
@@ -378,7 +419,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1438.786490960588,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4.1",
@@ -387,7 +429,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1437.3940518185611,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4.7",
@@ -396,7 +439,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1436.2423341388794,
       "score_code": 1440.124167017122,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Sonnet 4.5",
@@ -405,7 +449,8 @@
       "url": "https://claude.ai",
       "score_general": 1435.2087075517536,
       "score_code": 1386.0,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 4 26B A4B",
@@ -414,7 +459,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1434.6400182276107,
       "score_code": 1360.704530233935,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiMo V2 Pro",
@@ -423,7 +469,8 @@
       "url": "https://xiaomi-ai.com",
       "score_general": 1433.4355614646288,
       "score_code": 1432.884916234098,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Large 3",
@@ -432,7 +479,13 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1430.6098590516424,
       "score_code": 1222.7855255352824,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Mistral AI](https://console.mistral.ai/api-keys) 🇫🇷",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Claude Sonnet 4.5 Thinking 32k",
@@ -441,7 +494,8 @@
       "url": "https://claude.ai",
       "score_general": 1429.8765258146232,
       "score_code": 1388.1955706992258,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Ernie 5.0 Preview 1022",
@@ -450,7 +504,8 @@
       "url": "https://yiyan.baidu.com",
       "score_general": 1429.8724795037854,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V4 Flash",
@@ -459,7 +514,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1429.8192649498594,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4.5",
@@ -468,7 +524,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1428.9537138150943,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "ChatGPT-4o Latest",
@@ -477,7 +534,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1428.7440058527166,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek R1",
@@ -486,7 +544,17 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1427.9021695508327,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[GitHub Models](https://github.com/marketplace/models) 🇺🇸",
+          "url": ""
+        },
+        {
+          "provider": "[LLM7.io](https://token.llm7.io) 🇬🇧",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "DeepSeek V4 Flash Thinking",
@@ -495,7 +563,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1426.8344116710343,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Medium",
@@ -504,7 +573,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1425.7597489772836,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "LongCat Flash Chat",
@@ -513,7 +583,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1425.4818554772671,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 3 Preview",
@@ -522,7 +593,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1424.7520663322173,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3.2 Exp Thinking",
@@ -531,7 +603,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1423.6551760861876,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3.2",
@@ -540,7 +613,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1423.277071306145,
       "score_code": 1332.1353325039108,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3.2 Exp",
@@ -549,7 +623,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1422.5276622564509,
       "score_code": 1286.5673978745447,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.1",
@@ -558,7 +633,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1422.5075721361297,
       "score_code": 1339.6023567421566,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 3.1 Flash Lite Preview",
@@ -567,7 +643,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1422.3422246628954,
       "score_code": 1243.7281301450153,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "LongCat Flash Chat",
@@ -576,7 +653,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1421.9341107462205,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 VL 235B A22B Instruct",
@@ -585,7 +663,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1421.0750089475555,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Kimi K2.5 Instant",
@@ -594,7 +673,8 @@
       "url": "https://kimi.com",
       "score_general": 1420.9405372820997,
       "score_code": 1407.7586002730645,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4.3",
@@ -603,7 +683,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1420.746970525436,
       "score_code": 1388.5417859159588,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Experimental Chat 12/10",
@@ -612,7 +693,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1420.1889625382016,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3.5 122B A10B",
@@ -621,7 +703,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1419.5086068091466,
       "score_code": 1363.7651118808208,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiMo V2.5",
@@ -630,7 +713,8 @@
       "url": "https://xiaomi-ai.com",
       "score_general": 1419.5066165408628,
       "score_code": 1439.3334597168982,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3.1 Terminus Thinking",
@@ -639,7 +723,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1419.4725284716133,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3.1",
@@ -648,7 +733,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1419.3717704115684,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.2 High",
@@ -657,7 +743,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1419.226300921766,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3.2 Thinking",
@@ -666,7 +753,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1419.0858343712382,
       "score_code": 1368.4690336542658,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.4 Mini High",
@@ -675,7 +763,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1418.597715466399,
       "score_code": 1399.0870289493027,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 235B A22B Instruct",
@@ -684,7 +773,13 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1418.5696045727477,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Cerebras](https://cloud.cerebras.ai/) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Qwen 3 Next 80B A3B Instruct",
@@ -693,7 +788,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1418.55421962675,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Opus 4.1 Thinking 16k",
@@ -702,7 +798,8 @@
       "url": "https://claude.ai",
       "score_general": 1418.4187597828961,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "gpt-5.5-instant",
@@ -711,7 +808,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1418.364306619405,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 2.5 Flash",
@@ -720,7 +818,13 @@
       "url": "https://gemini.google.com",
       "score_general": 1417.9462321978745,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Google Gemini](https://aistudio.google.com/app/apikey) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "DeepSeek V3.1 Terminus",
@@ -729,7 +833,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1417.781805679519,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Opus 4.1",
@@ -738,7 +843,8 @@
       "url": "https://claude.ai",
       "score_general": 1417.5229721062658,
       "score_code": 1385.4240392299953,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4.5 Preview",
@@ -747,7 +853,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1417.3214026075573,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Experimental Chat 11/10",
@@ -756,7 +863,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1416.6168277332388,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3.1 Thinking",
@@ -765,7 +873,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1416.5850904291945,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Kimi K2 Thinking Turbo",
@@ -774,7 +883,8 @@
       "url": "https://kimi.com",
       "score_general": 1414.5345683442433,
       "score_code": 1329.6132286570594,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 235B A22B Thinking",
@@ -783,7 +893,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1413.731717620366,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.2",
@@ -792,7 +903,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1413.23737844701,
       "score_code": 1404.2731732490215,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 Max",
@@ -801,7 +913,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1412.9973517101434,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiMo V2 Flash",
@@ -810,7 +923,8 @@
       "url": "https://xiaomi-ai.com",
       "score_general": 1412.007205716576,
       "score_code": 1336.902986051894,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4",
@@ -819,7 +933,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1409.7806055977567,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "O3",
@@ -828,7 +943,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1409.3594984560075,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4 Fast Chat",
@@ -837,7 +953,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1409.0927451789635,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan HY3 Preview",
@@ -846,7 +963,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1409.0438358146719,
       "score_code": 1365.5703085958467,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4.1 Fast Reasoning",
@@ -855,7 +973,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1408.8296513383198,
       "score_code": 1233.650855416661,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3.5 27B",
@@ -864,7 +983,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1407.9339043596688,
       "score_code": 1354.6441186821921,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 2.5 Flash Preview",
@@ -873,7 +993,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1406.9488228692971,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan Vision 1.5 Thinking",
@@ -882,7 +1003,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1406.477159842909,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5 High",
@@ -891,7 +1013,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1405.2579659142402,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Step 3.5 Flash",
@@ -900,7 +1023,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1404.193672080972,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5 Chat",
@@ -909,7 +1033,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1403.5738649067985,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 VL 235B A22B Thinking",
@@ -918,7 +1043,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1400.7048502524026,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan T1",
@@ -927,7 +1053,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1399.6138562310432,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Experimental Chat 26/01",
@@ -936,7 +1063,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1398.6901005081663,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3.5 Flash",
@@ -945,7 +1073,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1398.1177181238527,
       "score_code": 1236.907375955413,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3.5 35B A3B",
@@ -954,7 +1083,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1397.9658168337362,
       "score_code": 1249.0375917290025,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 4 Fast Reasoning",
@@ -963,7 +1093,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1397.3261514390597,
       "score_code": 1149.2835613003417,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiMo V2 Flash Thinking",
@@ -972,7 +1103,8 @@
       "url": "https://xiaomi-ai.com",
       "score_general": 1395.4748828189981,
       "score_code": 1300.1433226070021,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiniMax M2.7",
@@ -981,7 +1113,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1395.1434505858201,
       "score_code": 1407.253470368301,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Experimental Chat 10/20",
@@ -990,7 +1123,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1394.3469536389864,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mai-1 Preview",
@@ -999,7 +1133,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1393.7313381414506,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 235B A22B No Thinking",
@@ -1008,7 +1143,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1393.621527232225,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiniMax M2.1 Preview",
@@ -1017,7 +1153,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1391.1808257424727,
       "score_code": 1391.613807878101,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Haiku 4.5",
@@ -1026,7 +1163,8 @@
       "url": "https://claude.ai",
       "score_general": 1389.9077845348015,
       "score_code": 1320.2928443830942,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.3 Chat Latest",
@@ -1035,7 +1173,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1385.812517814297,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 30B A3B Instruct",
@@ -1044,7 +1183,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1383.8440813531101,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4.5 Air",
@@ -1053,7 +1193,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1382.5069539532958,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4.1",
@@ -1062,7 +1203,13 @@
       "url": "https://chat.openai.com",
       "score_general": 1381.8316372218114,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[GitHub Models](https://github.com/marketplace/models) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Kimi K2 Preview",
@@ -1071,7 +1218,8 @@
       "url": "https://kimi.com",
       "score_general": 1379.4373337048928,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 2.5 Flash Lite Preview No Thinking",
@@ -1080,7 +1228,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1378.9957254076853,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5.4 Nano High",
@@ -1089,7 +1238,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1378.6791967481922,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Nvidia Nemotron 3 Super 120B",
@@ -1098,7 +1248,13 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1378.359695882057,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[NVIDIA NIM](https://build.nvidia.com/explore/discover) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Hunyuan Turbos",
@@ -1107,7 +1263,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1375.9173696564958,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Opus 4 Thinking 16k",
@@ -1116,7 +1273,8 @@
       "url": "https://claude.ai",
       "score_general": 1375.2897414377235,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4.6V",
@@ -1125,7 +1283,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1375.0267298525262,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3",
@@ -1134,7 +1293,13 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1374.7683082358728,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[LLM7.io](https://token.llm7.io) 🇬🇧",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "GPT-5 Mini High",
@@ -1143,7 +1308,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1373.5762572543497,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek R1",
@@ -1152,7 +1318,13 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1372.650864768823,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[GitHub Models](https://github.com/marketplace/models) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Kimi K2 Preview",
@@ -1161,7 +1333,8 @@
       "url": "https://kimi.com",
       "score_general": 1370.7609566850178,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Medium 2505",
@@ -1170,7 +1343,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1369.3608816890217,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 2.5 Flash Lite Preview Thinking",
@@ -1179,7 +1353,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1368.477712686366,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 Next 80B A3B Thinking",
@@ -1188,7 +1363,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1367.6389235142203,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 2.5 Max",
@@ -1197,7 +1373,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1366.5386541712917,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 3 Mini High",
@@ -1206,7 +1383,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1366.5253799609764,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "O1",
@@ -1215,7 +1393,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1365.8179320820805,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 235B A22B",
@@ -1224,7 +1403,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1365.7086773850408,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-OSS 120B",
@@ -1233,7 +1413,17 @@
       "url": "https://chat.openai.com",
       "score_general": 1365.4346154650123,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Cerebras](https://cloud.cerebras.ai/) 🇺🇸",
+          "url": ""
+        },
+        {
+          "provider": "[Groq](https://console.groq.com/keys) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Claude Opus 4",
@@ -1242,7 +1432,8 @@
       "url": "https://claude.ai",
       "score_general": 1364.2285554339776,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Experimental Chat 10/09",
@@ -1251,7 +1442,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1364.0469976845816,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiniMax M2.5",
@@ -1260,7 +1452,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1363.3684609199518,
       "score_code": 1382.130104919534,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Nova 2 Lite",
@@ -1269,7 +1462,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1362.7648238454603,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 3 Mini Beta",
@@ -1278,7 +1472,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1362.5558347768274,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Ling Flash 2.0",
@@ -1287,7 +1482,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1362.5548873919392,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 3 27B IT",
@@ -1296,7 +1492,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1358.1444136287098,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mercury 2",
@@ -1305,7 +1502,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1357.2252793497346,
       "score_code": 1165.343154636621,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Intellect 3",
@@ -1314,7 +1512,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1356.3789600905723,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 Coder 480B A35B Instruct",
@@ -1323,7 +1522,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1356.3030630550425,
       "score_code": 1281.3588184639755,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 2.0 Flash 001",
@@ -1332,7 +1532,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1353.9119032727135,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4.7 Flash",
@@ -1341,7 +1542,13 @@
       "url": "https://chat.z.ai",
       "score_general": 1353.745961840371,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Z AI (Zhipu AI)](https://open.bigmodel.cn/usercenter/apikeys) 🇨🇳",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "O1 Preview",
@@ -1350,7 +1557,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1352.801996842982,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "O4 Mini",
@@ -1359,7 +1567,13 @@
       "url": "https://chat.openai.com",
       "score_general": 1352.6706690243823,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[GitHub Models](https://github.com/marketplace/models) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Nvidia Nemotron 3 Nano 30B",
@@ -1368,7 +1582,8 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1349.4912188034364,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Step 3",
@@ -1377,7 +1592,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1349.3138868986848,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Sonnet 4 Thinking 32k",
@@ -1386,7 +1602,8 @@
       "url": "https://claude.ai",
       "score_general": 1348.303390691447,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Trinity Large Thinking",
@@ -1395,7 +1612,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1348.2546162063877,
       "score_code": 1244.9746723235166,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiniMax M1",
@@ -1404,7 +1622,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1342.4301218765545,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiniMax M2",
@@ -1413,7 +1632,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1342.026073262908,
       "score_code": 1304.5750070277427,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4.1 Mini",
@@ -1422,7 +1642,13 @@
       "url": "https://chat.openai.com",
       "score_general": 1340.4144918698676,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[GitHub Models](https://github.com/marketplace/models) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Qwen 3 32B",
@@ -1431,7 +1657,17 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1340.0236836281647,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Groq](https://console.groq.com/keys) 🇺🇸",
+          "url": ""
+        },
+        {
+          "provider": "[OVHcloud AI Endpoints](https://endpoints.ai.cloud.ovh.net/) 🇫🇷",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Mistral Small 2506",
@@ -1440,7 +1676,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1339.0510830344617,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude Sonnet 4",
@@ -1449,7 +1686,8 @@
       "url": "https://claude.ai",
       "score_general": 1337.7303500741555,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.3 Nemotron Super 49B v1.5",
@@ -1458,7 +1696,8 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1337.6970551794602,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "O3 Mini High",
@@ -1467,7 +1706,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1336.5369009699507,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Step 1o Turbo",
@@ -1476,7 +1716,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1335.118363204244,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 3 12B IT",
@@ -1485,7 +1726,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1334.1633967159119,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4.5V",
@@ -1494,7 +1736,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1333.6201229155968,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Trinity Large Preview",
@@ -1503,7 +1746,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1333.0017160988295,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3",
@@ -1512,7 +1756,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1332.498973576408,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Ring Flash 2.0",
@@ -1521,7 +1766,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1331.5918177010803,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Command A 03",
@@ -1530,7 +1776,8 @@
       "url": "https://cohere.com/command",
       "score_general": 1331.2594908521519,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4 Plus",
@@ -1539,7 +1786,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1330.8320478983733,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 2.0 Flash Lite Preview",
@@ -1548,7 +1796,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1329.5457919644894,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "QwQ 32B",
@@ -1557,7 +1806,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1329.1976439479295,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen Plus",
@@ -1566,7 +1816,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1326.4066313625322,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Step 2 16K Exp",
@@ -1575,7 +1826,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1320.938955345543,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-5 Nano High",
@@ -1584,7 +1836,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1320.0405966821377,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan Turbos",
@@ -1593,7 +1846,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1319.7104268562318,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 Nemotron Ultra 253B v1",
@@ -1602,7 +1856,8 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1319.425318833078,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 1.5 Pro 002",
@@ -1611,7 +1866,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1319.1467500427034,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "O3 Mini",
@@ -1620,7 +1876,13 @@
       "url": "https://chat.openai.com",
       "score_general": 1318.9772873865918,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[GitHub Models](https://github.com/marketplace/models) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Qwen 3 30B A3B",
@@ -1629,7 +1891,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1317.1910088364973,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "O1 Mini",
@@ -1638,7 +1901,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1317.096910977617,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude 3.7 Sonnet Thinking 32k",
@@ -1647,7 +1911,8 @@
       "url": "https://claude.ai",
       "score_general": 1314.3595769872159,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OLMo 3.1 32B Instruct",
@@ -1656,7 +1921,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1312.1632944142443,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan Turbo",
@@ -1665,7 +1931,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1311.4020507730324,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.3 Nemotron Super 49B v1",
@@ -1674,7 +1941,8 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1308.3567457837453,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 3N E4B IT",
@@ -1683,7 +1951,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1306.2063426988657,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 2",
@@ -1692,7 +1961,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1304.6045070327746,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Yi Lightning",
@@ -1701,7 +1971,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1301.5500050565386,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4o",
@@ -1710,7 +1981,13 @@
       "url": "https://chat.openai.com",
       "score_general": 1300.46249785185,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[GitHub Models](https://github.com/marketplace/models) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Qwen 2.5 Plus",
@@ -1719,7 +1996,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1299.1748796561728,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude 3.7 Sonnet",
@@ -1728,7 +2006,8 @@
       "url": "https://claude.ai",
       "score_general": 1299.153889056731,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OLMo 3 32B Think",
@@ -1737,7 +2016,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1298.7098665692533,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude 3.5 Sonnet",
@@ -1746,7 +2026,8 @@
       "url": "https://claude.ai/upgrade",
       "score_general": 1297.5868424974287,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Molmo 2 8B",
@@ -1755,7 +2036,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1295.4528557640601,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V2.5",
@@ -1764,7 +2046,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1293.9718478687514,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "granite-4.1-8b",
@@ -1773,7 +2056,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1293.2931535962289,
       "score_code": 1199.472530213529,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Athene V2 Chat",
@@ -1782,7 +2066,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1291.484728429968,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 3 4B IT",
@@ -1791,7 +2076,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1290.7552684342672,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4 Plus",
@@ -1800,7 +2086,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1289.6720942523884,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan Large",
@@ -1809,7 +2096,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1287.9473673180787,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 4 Maverick 17B 128E Instruct",
@@ -1818,7 +2106,13 @@
       "url": "https://www.llama.com",
       "score_general": 1287.6424353375396,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Groq](https://console.groq.com/keys) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "GPT-OSS 20B",
@@ -1827,7 +2121,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1287.4315259897746,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 1.5 Flash 002",
@@ -1836,7 +2131,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1286.6767611752985,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4o Mini",
@@ -1845,7 +2141,13 @@
       "url": "https://chat.openai.com",
       "score_general": 1286.4485380832357,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[LLM7.io](https://token.llm7.io) 🇬🇧",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "GPT-4.1 Nano",
@@ -1854,7 +2156,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1284.7426676814548,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 405B Instruct BF16",
@@ -1863,7 +2166,8 @@
       "url": "https://www.llama.com",
       "score_general": 1283.6941839126985,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 Nemotron 70B Instruct",
@@ -1872,7 +2176,8 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1282.6708060584365,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4o 2024-08-06",
@@ -1881,7 +2186,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1282.5669655920117,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mercury",
@@ -1890,7 +2196,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1282.470770491203,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen Max",
@@ -1899,7 +2206,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1281.8991376841009,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 405B Instruct FP8",
@@ -1908,7 +2216,8 @@
       "url": "https://www.llama.com",
       "score_general": 1281.8311041550776,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude 3.5 Sonnet",
@@ -1917,7 +2226,8 @@
       "url": "https://claude.ai",
       "score_general": 1280.940099565217,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Grok 2 Mini",
@@ -1926,7 +2236,8 @@
       "url": "https://grok.x.ai",
       "score_general": 1280.721844791407,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 4 Scout 17B 16E Instruct",
@@ -1935,7 +2246,13 @@
       "url": "https://www.llama.com",
       "score_general": 1280.7189564196701,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Groq](https://console.groq.com/keys) 🇺🇸",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Gemini Advanced",
@@ -1944,7 +2261,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1278.5826229084216,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Small 3.1 24B Instruct",
@@ -1953,7 +2271,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1277.7949336657516,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.3 70B Instruct",
@@ -1962,7 +2281,8 @@
       "url": "https://www.llama.com",
       "score_general": 1275.0419970973358,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan Standard",
@@ -1971,7 +2291,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1273.9926681023226,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 1.5 Pro 001",
@@ -1980,7 +2301,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1273.5181335130958,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4 Turbo",
@@ -1989,7 +2311,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1271.7125872203283,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V2.5",
@@ -1998,7 +2321,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1271.270724737381,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OLMo 3.1 32B Think",
@@ -2007,7 +2331,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1270.4377340912745,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 2.5 72B",
@@ -2016,7 +2341,8 @@
       "url": "https://huggingface.co/chat",
       "score_general": 1269.0467896157759,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Large",
@@ -2025,7 +2351,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1266.1653465873674,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Large 2411",
@@ -2034,7 +2361,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1265.3005581682028,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Athene 70B",
@@ -2043,7 +2371,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1265.1651176766277,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4 1106 Preview",
@@ -2052,7 +2381,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1263.459558845344,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan Large Vision",
@@ -2061,7 +2391,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1263.3807465227305,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4 0125 Preview",
@@ -2070,7 +2401,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1262.2257884561307,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude 3 Opus",
@@ -2079,7 +2411,8 @@
       "url": "https://claude.ai",
       "score_general": 1262.0325851762068,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 70B",
@@ -2088,7 +2421,8 @@
       "url": "https://huggingface.co/chat",
       "score_general": 1260.9365841731214,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Pro v1.0",
@@ -2097,7 +2431,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1258.688198040049,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 Tulu 3 70B",
@@ -2106,7 +2441,8 @@
       "url": "https://www.llama.com",
       "score_general": 1255.7601288153014,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude 3.5 Haiku",
@@ -2115,7 +2451,8 @@
       "url": "https://claude.ai",
       "score_general": 1255.3642253832152,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Magistral Medium 2506",
@@ -2124,7 +2461,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1254.3306463298704,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Reka Core",
@@ -2133,7 +2471,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1248.404851949643,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "IBM Granite H Small",
@@ -2142,7 +2481,8 @@
       "url": "https://www.ibm.com/granite",
       "score_general": 1241.1741905408735,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 1.5 Flash 001",
@@ -2151,7 +2491,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1239.3254586670987,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Jamba 1.5 Large",
@@ -2160,7 +2501,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1237.0488878758674,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Small 24B Instruct",
@@ -2169,7 +2511,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1233.5271212381926,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 2 27B IT",
@@ -2178,7 +2521,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1231.3958464662742,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 2.5 Coder 32B Instruct",
@@ -2187,7 +2531,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1230.073342698065,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Command R Plus",
@@ -2196,7 +2541,8 @@
       "url": "https://cohere.com/command",
       "score_general": 1228.9226577463735,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Lite v1.0",
@@ -2205,7 +2551,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1228.494833913729,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 Nemotron 51B Instruct",
@@ -2214,7 +2561,8 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1228.0072074812363,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 2 9B IT SimPO",
@@ -2223,7 +2571,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1227.0888475399415,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GLM-4",
@@ -2232,7 +2581,8 @@
       "url": "https://chat.z.ai",
       "score_general": 1225.9323486083292,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 1.5 Flash 8B 001",
@@ -2241,7 +2591,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1225.8843234977471,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Nemotron 4 340B Instruct",
@@ -2250,7 +2601,8 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1224.83763916764,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "C4AI Aya Expanse 32B",
@@ -2259,7 +2611,8 @@
       "url": "https://cohere.com/command",
       "score_general": 1224.0388723805827,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3 70B Instruct",
@@ -2268,7 +2621,8 @@
       "url": "https://www.llama.com",
       "score_general": 1220.821077006619,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude 3 Sonnet",
@@ -2277,7 +2631,8 @@
       "url": "https://claude.ai",
       "score_general": 1218.062398625905,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Reka Flash",
@@ -2286,7 +2641,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1217.9440057492238,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OLMo 2 32B Instruct",
@@ -2295,7 +2651,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1217.9106976609078,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Phi-4",
@@ -2304,7 +2661,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1216.691179215487,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Amazon Nova Micro v1.0",
@@ -2313,7 +2671,8 @@
       "url": "https://aws.amazon.com/nova",
       "score_general": 1208.430435092215,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 2 9B IT",
@@ -2322,7 +2681,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1207.4096383666988,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4 0314",
@@ -2331,7 +2691,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1206.0321088840674,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Command R Plus",
@@ -2340,7 +2701,8 @@
       "url": "https://cohere.com/command",
       "score_general": 1203.8548712094935,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 2 72B Instruct",
@@ -2349,7 +2711,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1203.2966039609462,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan Standard 256K",
@@ -2358,7 +2721,8 @@
       "url": "https://hunyuan.tencent.com",
       "score_general": 1201.9427076469701,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Claude 3 Haiku",
@@ -2367,7 +2731,8 @@
       "url": "https://claude.ai",
       "score_general": 1194.7019815730284,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 Tulu 3 8B",
@@ -2376,7 +2741,8 @@
       "url": "https://www.llama.com",
       "score_general": 1193.3427501626898,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek Coder V2",
@@ -2385,7 +2751,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1191.2149927773016,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Ministral 8B",
@@ -2394,7 +2761,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1190.9337458424177,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Command R",
@@ -2403,7 +2771,13 @@
       "url": "https://cohere.com/command",
       "score_general": 1187.383035348879,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Cohere](https://dashboard.cohere.com/api-keys) 🇨🇦",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Jamba 1.5 Mini",
@@ -2412,7 +2786,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1186.700427428208,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.1 8B Instruct",
@@ -2421,7 +2796,8 @@
       "url": "https://www.llama.com",
       "score_general": 1186.604483763132,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-4 0613",
@@ -2430,7 +2806,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1186.0300071597749,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "C4AI Aya Expanse 8B",
@@ -2439,7 +2816,8 @@
       "url": "https://cohere.com/command",
       "score_general": 1185.142954578544,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Large 2402",
@@ -2448,7 +2826,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1176.5007851982027,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 1.5 110B Chat",
@@ -2457,7 +2836,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1174.5943109385735,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Yi 1.5 34B Chat",
@@ -2466,7 +2846,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1172.9816827886061,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Reka Flash 21B Online",
@@ -2475,7 +2856,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1170.4559934794659,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 1.5 72B Chat",
@@ -2484,7 +2866,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1166.1755043568037,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3 8B Instruct",
@@ -2493,7 +2876,8 @@
       "url": "https://www.llama.com",
       "score_general": 1165.6273632530656,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral Medium",
@@ -2502,7 +2886,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1165.1614127592609,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Reka Flash 21B",
@@ -2511,7 +2896,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1165.0116229352136,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Command R",
@@ -2520,7 +2906,13 @@
       "url": "https://cohere.com/command",
       "score_general": 1163.157962201391,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Cohere](https://dashboard.cohere.com/api-keys) 🇨🇦",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Mixtral 8x22B Instruct",
@@ -2529,7 +2921,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1162.0103288779032,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "QwQ 32B Preview",
@@ -2538,7 +2931,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1161.8236782385047,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "InternLM2.5 20B Chat",
@@ -2547,7 +2941,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1158.4682545357227,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 2 2B IT",
@@ -2556,7 +2951,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1155.7922229612968,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Granite 3.1 8B Instruct",
@@ -2565,7 +2961,8 @@
       "url": "https://www.ibm.com/granite",
       "score_general": 1149.561551394505,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini Pro Dev API",
@@ -2574,7 +2971,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1148.87108508135,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Zephyr ORPO 141B A35B",
@@ -2583,7 +2981,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1143.7154175732087,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Phi-3 Medium 4K Instruct",
@@ -2592,7 +2991,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1137.5735626642722,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 1.5 32B Chat",
@@ -2601,7 +3001,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1137.2255332394452,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Starling LM 7B Beta",
@@ -2610,7 +3011,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1132.0659124212298,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mixtral 8x7B Instruct",
@@ -2619,7 +3021,17 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1131.5813241955857,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "[Hugging Face](https://huggingface.co/settings/tokens) 🇺🇸",
+          "url": ""
+        },
+        {
+          "provider": "[OVHcloud AI Endpoints](https://endpoints.ai.cloud.ovh.net/) 🇫🇷",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Gemini Pro",
@@ -2628,7 +3040,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1130.5609142512508,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Yi 34B Chat",
@@ -2637,7 +3050,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1128.492934804611,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 1.5 14B Chat",
@@ -2646,7 +3060,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1127.7163048234588,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Granite 3.1 2B Instruct",
@@ -2655,7 +3070,8 @@
       "url": "https://www.ibm.com/granite",
       "score_general": 1127.4434757023905,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-3.5 Turbo",
@@ -2664,7 +3080,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1124.9434874306073,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Tulu 2 DPO 70B",
@@ -2673,7 +3090,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1121.0573010586813,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "WizardLM 70B",
@@ -2682,7 +3100,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1119.5429136886287,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DBRX Instruct Preview",
@@ -2691,7 +3110,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1118.8913009779624,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 2 70B Chat",
@@ -2700,7 +3120,8 @@
       "url": "https://www.llama.com",
       "score_general": 1115.250209952132,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Nous Hermes 2 Mixtral 8x7B DPO",
@@ -2709,7 +3130,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1112.0610687373796,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Phi-3 Small 8K Instruct",
@@ -2718,7 +3140,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1109.8455831458941,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.2 3B Instruct",
@@ -2727,7 +3150,8 @@
       "url": "https://www.llama.com",
       "score_general": 1109.5570890100332,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Starling LM 7B Alpha",
@@ -2736,7 +3160,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1107.6831128055478,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OpenChat 3.5",
@@ -2745,7 +3170,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1106.6306572171864,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Vicuna 33B",
@@ -2754,7 +3180,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1105.2820751078589,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek LLM 67B Chat",
@@ -2763,7 +3190,8 @@
       "url": "https://chat.deepseek.com",
       "score_general": 1105.0515073216693,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Snowflake Arctic Instruct",
@@ -2772,7 +3200,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1100.9976110816356,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 2 70B SteerLM Chat",
@@ -2781,7 +3210,8 @@
       "url": "https://www.nvidia.com/en-us/ai/",
       "score_general": 1098.1124051655975,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OpenChat 3.5",
@@ -2790,7 +3220,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1097.0540342667173,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Granite 3.0 8B Instruct",
@@ -2799,7 +3230,8 @@
       "url": "https://www.ibm.com/granite",
       "score_general": 1096.4597637414586,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT-3.5 Turbo 1106",
@@ -2808,7 +3240,8 @@
       "url": "https://chat.openai.com",
       "score_general": 1094.1428534747972,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 1.1 7B IT",
@@ -2817,7 +3250,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1093.994604783165,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OpenHermes 2.5 Mistral 7B",
@@ -2826,7 +3260,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1092.5209653174354,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral 7B Instruct v0.2",
@@ -2835,7 +3270,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1089.5867962501634,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 2 13B Chat",
@@ -2844,7 +3280,8 @@
       "url": "https://www.llama.com",
       "score_general": 1084.4788737590452,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 1.5 7B Chat",
@@ -2853,7 +3290,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1083.481599898727,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Solar 10.7B Instruct",
@@ -2862,7 +3300,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1083.108900849488,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Dolphin 2.2.1 Mistral 7B",
@@ -2871,7 +3310,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1080.994468326113,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Phi-3 Mini 4K Instruct",
@@ -2880,7 +3320,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1079.9779847578152,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Granite 3.0 2B Instruct",
@@ -2889,7 +3330,8 @@
       "url": "https://www.ibm.com/granite",
       "score_general": 1079.8631335279126,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "WizardLM 13B",
@@ -2898,7 +3340,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1076.559091012192,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Phi-3 Mini 4K Instruct",
@@ -2907,7 +3350,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1073.3277873178172,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Zephyr 7B Beta",
@@ -2916,7 +3360,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1069.4429476151347,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MPT 30B Chat",
@@ -2925,7 +3370,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1068.6300735455745,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Code Llama 34B Instruct",
@@ -2934,7 +3380,8 @@
       "url": "https://www.llama.com",
       "score_general": 1065.5048414781784,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Zephyr 7B Alpha",
@@ -2943,7 +3390,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1058.3902384205562,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Vicuna 13B",
@@ -2952,7 +3400,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1057.6788501159413,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Code Llama 70B Instruct",
@@ -2961,7 +3410,8 @@
       "url": "https://www.llama.com",
       "score_general": 1057.263017190064,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 7B IT",
@@ -2970,7 +3420,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1056.1758498834768,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 3.2 1B Instruct",
@@ -2979,7 +3430,8 @@
       "url": "https://www.llama.com",
       "score_general": 1054.6574134832395,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Falcon 180B Chat",
@@ -2988,7 +3440,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1054.3742843646633,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 2 7B Chat",
@@ -2997,7 +3450,8 @@
       "url": "https://www.llama.com",
       "score_general": 1053.4193868481502,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Guanaco 33B",
@@ -3006,7 +3460,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1053.399284864735,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 14B Chat",
@@ -3015,7 +3470,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 1051.048066410715,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Phi-3 Mini 128K Instruct",
@@ -3024,7 +3480,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1050.4104371075941,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "SmolLM2 1.7B Instruct",
@@ -3033,7 +3490,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1042.0493800046147,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "StripedHyena Nous 7B",
@@ -3042,7 +3500,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1038.4603545763075,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OLMo 7B Instruct",
@@ -3051,7 +3510,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1031.8316058194512,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Vicuna 7B",
@@ -3060,7 +3520,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1030.9670379367928,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "PaLM 2",
@@ -3069,7 +3530,8 @@
       "url": "https://gemini.google.com",
       "score_general": 1027.2580024843558,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Mistral 7B Instruct",
@@ -3078,7 +3540,8 @@
       "url": "https://chat.mistral.ai",
       "score_general": 1023.5280574498165,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 1.1 2B IT",
@@ -3087,7 +3550,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1022.2446992786709,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemma 2B IT",
@@ -3096,7 +3560,8 @@
       "url": "https://ai.google.dev/gemma",
       "score_general": 1002.1675331756085,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 1.5 4B Chat",
@@ -3105,7 +3570,8 @@
       "url": "https://tongyi.aliyun.com",
       "score_general": 997.254909457891,
       "score_code": null,
-      "api_access": "freemium"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Koala 13B",
@@ -3114,7 +3580,8 @@
       "url": "https://lmarena.ai",
       "score_general": 989.6284914768703,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "ChatGLM3 6B",
@@ -3123,7 +3590,8 @@
       "url": "https://chat.z.ai",
       "score_general": 972.0578673702798,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT4All 13B Snoozy",
@@ -3132,7 +3600,8 @@
       "url": "https://lmarena.ai",
       "score_general": 956.2006301796205,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MPT 7B Chat",
@@ -3141,7 +3610,8 @@
       "url": "https://lmarena.ai",
       "score_general": 955.2382630064606,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "RWKV-4 Raven 14B",
@@ -3150,7 +3620,8 @@
       "url": "https://lmarena.ai",
       "score_general": 948.4051469877637,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "ChatGLM2 6B",
@@ -3159,7 +3630,8 @@
       "url": "https://chat.z.ai",
       "score_general": 938.6467122093103,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Alpaca 13B",
@@ -3168,7 +3640,8 @@
       "url": "https://lmarena.ai",
       "score_general": 932.8297467861339,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "ChatGLM 6B",
@@ -3177,7 +3650,8 @@
       "url": "https://chat.z.ai",
       "score_general": 918.4835802769396,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "OASST Pythia 12B",
@@ -3186,7 +3660,8 @@
       "url": "https://lmarena.ai",
       "score_general": 916.0855032455221,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "FastChat T5 3B",
@@ -3195,7 +3670,8 @@
       "url": "https://lmarena.ai",
       "score_general": 894.418052618808,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "StableLM Tuned Alpha 7B",
@@ -3204,7 +3680,8 @@
       "url": "https://lmarena.ai",
       "score_general": 866.5921487068625,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Dolly v2 12B",
@@ -3213,7 +3690,8 @@
       "url": "https://lmarena.ai",
       "score_general": 851.1464627043018,
       "score_code": null,
-      "api_access": "paid"
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Llama 13B",
@@ -3222,7 +3700,8 @@
       "url": "https://www.llama.com",
       "score_general": 833.529329859522,
       "score_code": null,
-      "api_access": "free"
+      "has_free_api": false,
+      "free_api_providers": []
     }
   ]
 }
