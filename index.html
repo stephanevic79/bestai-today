@@ -306,7 +306,7 @@
             display: none;
             background: none;
             border: none;
-            color: var(--cyan);
+            color: var(--cyan) !important;  /* priorité maximale */
             font-size: 0.8rem;
             font-weight: 700;
             line-height: 1;
@@ -319,7 +319,7 @@
             position: relative;
             z-index: 3;
         }
-        .expand-toggle:hover { text-shadow: 0 0 14px var(--cyan); color: #ffffff; }
+        .expand-toggle:hover { text-shadow: 0 0 14px var(--cyan); color: #ffffff !important; }
 
         .text-toggle-wrapper { display: contents; }
 
@@ -739,8 +739,8 @@
                     const btn = document.createElement('button');
                     btn.className = 'expand-toggle';
                     btn.type = 'button';
-                    const expandSymbol = '▸';   // triangle vers le bas (présent sur tous les systèmes)
-                    const collapseSymbol = '▴'; // triangle vers le haut
+                    const expandSymbol = '▼';   // triangle vers le bas (présent sur tous les systèmes)
+                    const collapseSymbol = '▲'; // triangle vers le haut
                     btn.textContent = expandSymbol;
                     btn.setAttribute('aria-label', 'Afficher le nom complet');
                     wrapper.appendChild(btn);
