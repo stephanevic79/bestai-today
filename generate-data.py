@@ -85,10 +85,25 @@ def normalize_name(name: str) -> str:
     return name
 
 
+def clean_provider_name(raw: str) -> str:
+    """Nettoie le nom d'un fournisseur (issu du titre de section markdown).
+    Supprime les liens markdown, les crochets, et les textes superflus.
+    """
+    # Supprime les liens markdown [text](url) -> text
+    raw = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', raw)
+    # Supprime les crochets résiduels
+    raw = raw.replace('[', '').replace(']', '')
+    # Supprime d'éventuelles notes de bas de page ou parenthèses
+    raw = re.sub(r'\([^)]*\)', '', raw)
+    # Supprime les espaces multiples
+    raw = re.sub(r'\s+', ' ', raw).strip()
+    return raw
+
+
 def fetch_free_api_data():
     """
-    Récupère la liste des modèles avec API gratuite et les liens des fournisseurs
-    depuis le README du dépôt awesome-free-llm-apis.
+    Récupère la liste des modèles avec API gratuite, leurs fournisseurs et les liens
+    d'obtention de clé API depuis le README du dépôt awesome-free-llm-apis.
     Retourne un dict : { normalized_model_name: [ { "provider": "...", "url": "..." } ] }
     """
     print(f"Fetching free API data from {FREE_API_README_URL}...")
@@ -103,24 +118,25 @@ def fetch_free_api_data():
     providers = {}          # { normalized_name -> [ {provider, url} ] }
     current_section = None
     current_link = None
+    # Pattern pour extraire l'URL d'un lien markdown [texte](url)
+    link_pattern = re.compile(r'\[([^\]]+)\]\(([^\)]+)\)')
 
     for line in content.splitlines():
         line = line.strip()
 
         # Détection d'une section de fournisseur (ex: "### Google Gemini")
         if line.startswith("### "):
-            current_section = line[4:].strip()
-            # Le lien direct est souvent juste après le titre, sous forme markdown
-            # Ex: **Link** : [Obtain API Key](https://...)
-            # On va chercher dans les lignes suivantes immédiates.
+            raw_section = line[4:].strip()
+            current_section = clean_provider_name(raw_section)
+            current_link = None   # reset à chaque nouvelle section
             continue
 
-        # Extraction du lien du fournisseur
+        # Extraction du lien **Link** (page d'obtention de clé)
         if line.lower().startswith("**link**"):
-            # Format : **Link** : [texte](url)
-            match = re.search(r'\(([^\)]+)\)', line)
+            # Format : **Link** : [texte](url) ou **Link:** [texte](url)
+            match = link_pattern.search(line)
             if match:
-                current_link = match.group(1)
+                current_link = match.group(2)
             continue
 
         # Détection des tableaux de modèles
@@ -142,8 +158,16 @@ def fetch_free_api_data():
                     if normalized:
                         if normalized not in providers:
                             providers[normalized] = []
-                        # Éviter les doublons de liens pour le même fournisseur
-                        provider_data = {"provider": current_section or "Unknown", "url": current_link or ""}
+                        # Utiliser le lien du fournisseur s'il existe, sinon on ignore (pas de badge cliquable)
+                        if current_link:
+                            url = current_link
+                        else:
+                            url = ""   # pas de lien -> badge non cliquable côté front
+                        provider_data = {
+                            "provider": current_section or "Unknown",
+                            "url": url
+                        }
+                        # Éviter les doublons exacts
                         if provider_data not in providers[normalized]:
                             providers[normalized].append(provider_data)
 
@@ -190,7 +214,6 @@ def main():
             vendor = config_entry["vendor"]
             type_val = config_entry["type"]
             url = config_entry["url"]
-            # api_access est supprimé, on ne l'utilise plus
             found_in_config += 1
         else:
             model_name = arena_name
@@ -212,7 +235,6 @@ def main():
             normalized = normalize_name(name)
             if normalized in free_api_data:
                 has_free = True
-                # Ajouter les fournisseurs (éviter les doublons)
                 for p in free_api_data[normalized]:
                     if p not in providers:
                         providers.append(p)
