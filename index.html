@@ -93,7 +93,7 @@
         .meta-score-explanation { text-align: center; font-size: 0.75rem; color: rgba(204,232,240,0.6); font-weight: 400; line-height: 1.3; }
         .meta-score-sep { color: rgba(204,232,240,0.6); }
 
-        /* ---- Bandeau API (mis à jour) ---- */
+        /* ---- Bandeau API ---- */
         .api-badge-info {
             width: 100%;
             background: var(--card-bg);
@@ -235,8 +235,6 @@
             transform: scale(1.01);
         }
 
-        /* Plus de stretched link, on gère le clic en JS */
-
         .model-row-top {
             display: flex;
             align-items: center;
@@ -309,7 +307,7 @@
             background: none;
             border: none;
             color: var(--cyan);
-            font-size: 1rem;
+            font-size: 0.8rem;
             font-weight: 700;
             line-height: 1;
             cursor: pointer;
@@ -673,13 +671,13 @@
                 return `<span class="badge">${type}</span>`;
             }
 
-            // Nouvelle fonction pour le badge API, avec lien direct d'obtention de clé
+            // Fonction pour le badge API, avec lien direct d'obtention de clé
             function apiBadgeHtml(hasFreeApi, providers) {
                 if (!hasFreeApi || !providers || providers.length === 0) return '';
                 const provider = providers[0];
                 const url = provider.url && provider.url.trim() !== '' ? provider.url : null;
                 const label = t.apiFree;
-                const tooltip = provider.provider || '';   // uniquement le nom de la plateforme
+                const tooltip = provider.provider || '';
                 if (url) {
                     return `<a href="${url}" target="_blank" rel="noopener" class="badge api-free" data-tooltip="${tooltip}">${label}</a>`;
                 } else {
@@ -725,7 +723,7 @@
                 podiumEl.classList.add(`category-${currentCategory}`);
             }
 
-            // ---- Gestion de l'expansion des noms ----
+            // ---- Gestion de l'expansion des noms (symboles universels) ----
             function setupExpandableNames() {
                 document.querySelectorAll('.model-name').forEach(container => {
                     if (container.dataset.expandInitialized === 'true') return;
@@ -741,7 +739,9 @@
                     const btn = document.createElement('button');
                     btn.className = 'expand-toggle';
                     btn.type = 'button';
-                    btn.textContent = '\u{1F853}\uFE0E'; // 🡓
+                    const expandSymbol = '▸';   // triangle vers le bas (présent sur tous les systèmes)
+                    const collapseSymbol = '▴'; // triangle vers le haut
+                    btn.textContent = expandSymbol;
                     btn.setAttribute('aria-label', 'Afficher le nom complet');
                     wrapper.appendChild(btn);
 
@@ -751,7 +751,7 @@
                         const item = this.closest('.model-item');
                         if (!item) return;
                         const expanded = item.classList.toggle('expanded');
-                        btn.textContent = expanded ? '\u{1F851}\uFE0E' : '\u{1F853}\uFE0E';
+                        btn.textContent = expanded ? collapseSymbol : expandSymbol;
                         btn.setAttribute('aria-label', expanded ? 'Réduire' : 'Afficher le nom complet');
                     });
 
@@ -777,7 +777,6 @@
 
             // ---- Clic sur tout le bloc modèle (délégation) ----
             listEl.addEventListener('click', function(e) {
-                // Si le clic provient du badge API ou du bouton d'expansion, on laisse agir
                 if (e.target.closest('.badge.api-free') || e.target.closest('.expand-toggle')) {
                     return;
                 }
