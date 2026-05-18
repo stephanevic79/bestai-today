@@ -6,11 +6,12 @@ import hashlib
 from datetime import datetime, timezone
 from datasets import load_dataset
 import requests
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 # ---- Configuration ----
 OUTPUT_PATH = "data.json"
-CACHE_PATH = "gemini-cache.json"               # cache des métadonnées corrigées par Gemini
+CACHE_PATH = "gemini-cache.json"
 FREE_API_README_URL = "https://raw.githubusercontent.com/mnfst/awesome-free-llm-apis/main/README.md"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = "gemini-2.5-flash"
@@ -23,7 +24,6 @@ def load_hf_leaderboard(subset: str):
             "lmarena-ai/leaderboard-dataset",
             subset,
             split="latest",
-            trust_remote_code=True
         )
         result = {}
         ranking_date = None
@@ -45,7 +45,6 @@ def load_hf_leaderboard(subset: str):
 
 
 def deduce_vendor(model_name: str, organization: str) -> str:
-    """Fallback heuristique si Gemini n'est pas disponible."""
     if organization:
         return organization.title()
     n = model_name.lower()
@@ -75,7 +74,6 @@ def deduce_vendor(model_name: str, organization: str) -> str:
 
 
 def deduce_type(license_str: str) -> str:
-    """Fallback heuristique : proprietary → paid, sinon free."""
     if not license_str or license_str.lower() == "proprietary":
         return "paid"
     return "free"
@@ -97,7 +95,6 @@ def clean_provider_name(raw: str) -> str:
 
 
 def fetch_free_api_data():
-    """Retourne { normalized_model_name: [ { provider, url } ] }."""
     print(f"Fetching free API data from {FREE_API_README_URL}...")
     try:
         resp = requests.get(FREE_API_README_URL, timeout=30)
@@ -142,7 +139,6 @@ def fetch_free_api_data():
 
 
 def load_gemini_cache():
-    """Charge le cache des corrections Gemini (ou {})."""
     try:
         with open(CACHE_PATH, encoding="utf-8") as f:
             return json.load(f)
@@ -156,18 +152,14 @@ def save_gemini_cache(cache):
 
 
 def call_gemini_for_new_models(new_models):
-    """
-    Appelle Gemini pour un lot de nouveaux modèles.
-    new_models est une liste de dicts contenant arena_name, organization, license.
-    Retourne un dict { arena_name: { name, vendor, type, url } } ou {} en cas d'erreur.
-    """
     if not GEMINI_API_KEY:
         print("No GEMINI_API_KEY, using fallback heuristics.", file=sys.stderr)
         return {}
 
     try:
-        genai.configure(api_key=GEMINI_API_KEY)
-        model = genai.GenerativeModel(model_name=GEMINI_MODEL, tools="google_search")
+        client = genai.Client(api_key=GEMINI_API_KEY)
+        grounding_tool = types.Tool(google_search=types.GoogleSearch())
+        config = types.GenerateContentConfig(tools=[grounding_tool])
 
         prompt = f"""
 Tu es un assistant spécialisé dans les modèles d'IA. Pour chaque modèle ci-dessous, tu dois :
@@ -187,9 +179,12 @@ Retourne UNIQUEMENT un tableau JSON valide (sans texte autour). Chaque élément
 Modèles à traiter :
 {json.dumps(new_models, indent=2)}
 """
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt,
+            config=config,
+        )
         text = response.text.strip()
-        # Nettoyer d'éventuels marqueurs markdown
         if text.startswith("```"):
             text = re.sub(r'^```(?:json)?\s*', '', text)
             text = re.sub(r'\s*```$', '', text)
@@ -203,11 +198,9 @@ Modèles à traiter :
 
 
 def main():
-    # 1. Charger le cache Gemini existant
     cache = load_gemini_cache()
     print(f"Loaded {len(cache)} models from Gemini cache.")
 
-    # 2. Charger Arena (General + Code)
     print("Loading General leaderboard (text/overall)...")
     general_data, arena_date = load_hf_leaderboard("text")
     print(f"Fetched {len(general_data)} models, date={arena_date}")
@@ -216,7 +209,7 @@ def main():
     code_data, _ = load_hf_leaderboard("webdev")
     print(f"Fetched {len(code_data)} models from Code leaderboard.")
 
-    # 3. Identifier les nouveaux modèles (absents du cache)
+    # Identifier les nouveaux modèles (absents du cache)
     new_models = []
     for arena_name, entry in general_data.items():
         if arena_name not in cache:
@@ -226,38 +219,34 @@ def main():
                 "license": entry["license"]
             })
 
-    # 4. Si nouveaux modèles, appeler Gemini
     if new_models:
         print(f"Found {len(new_models)} new models. Calling Gemini...")
         corrections = call_gemini_for_new_models(new_models)
-        # Ajouter les corrections au cache (avec fallback heuristique si Gemini échoue)
-        for arena_name in new_models:
+        for entry in new_models:
+            arena_name = entry["arena_name"]
             if arena_name in corrections:
                 cache[arena_name] = corrections[arena_name]
             else:
-                # Fallback heuristique
-                entry = general_data[arena_name]
+                e = general_data[arena_name]
                 cache[arena_name] = {
                     "arena_name": arena_name,
                     "name": arena_name,
-                    "vendor": deduce_vendor(arena_name, entry["organization"]),
-                    "type": deduce_type(entry["license"]),
+                    "vendor": deduce_vendor(arena_name, e["organization"]),
+                    "type": deduce_type(e["license"]),
                     "url": "https://lmarena.ai"
                 }
         save_gemini_cache(cache)
     else:
         print("No new models, skipping Gemini call.")
 
-    # 5. Récupérer les données d'API gratuites (toujours fraîches)
     free_api_data = fetch_free_api_data()
 
-    # 6. Construire la liste finale des modèles
     result = []
     now = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
     for arena_name, general_entry in general_data.items():
         meta = cache.get(arena_name)
-        if not meta:  # ne devrait pas arriver, mais sécurité
+        if not meta:
             meta = {
                 "name": arena_name,
                 "vendor": deduce_vendor(arena_name, general_entry["organization"]),
@@ -265,7 +254,6 @@ def main():
                 "url": "https://lmarena.ai"
             }
 
-        # has_free_api et providers
         has_free = False
         providers = []
         for test_name in (meta["name"], arena_name):
@@ -288,7 +276,6 @@ def main():
             "free_api_providers": providers
         })
 
-    # Tri par score_general décroissant
     result.sort(key=lambda x: x["score_general"] if x["score_general"] is not None else float("-inf"),
                 reverse=True)
 
