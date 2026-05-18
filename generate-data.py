@@ -1,10 +1,13 @@
 import json
 import sys
+import re
 from datetime import datetime, timezone
 from datasets import load_dataset
+import requests
 
 CONFIG_PATH = "models-config.json"
 OUTPUT_PATH = "data.json"
+FREE_API_README_URL = "https://raw.githubusercontent.com/mnfst/awesome-free-llm-apis/main/README.md"
 
 
 def load_hf_leaderboard(subset: str) -> dict[str, dict]:
@@ -71,24 +74,81 @@ def deduce_type(license_str: str) -> str:
     return "free"
 
 
-def deduce_api_access(model_name: str, vendor: str, license_str: str) -> str:
+def normalize_name(name: str) -> str:
+    """Normalise un nom pour la comparaison : minuscules, sans ponctuation ni espaces multiples."""
+    # Supprime les liens markdown [text](url) -> text
+    name = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', name)
+    # Supprime tout ce qui n'est pas alphanumérique ou espace
+    name = re.sub(r'[^a-z0-9\s]', '', name.lower())
+    # Remplace les espaces multiples par un seul (puis on les enlève complètement pour la comparaison)
+    name = re.sub(r'\s+', '', name)
+    return name
+
+
+def fetch_free_api_data():
     """
-    Déduit l'accès API (free, freemium, paid) en fonction du fournisseur ou du nom du modèle.
-    Règles heuristiques (à compléter selon tes connaissances) :
-    - Google, OpenAI, Anthropic, xAI : paid (API généralement payante)
-    - DeepSeek, Alibaba (Qwen), Z.ai (GLM), Moonshot (Kimi) : freemium (proposent souvent un accès gratuit limité)
-    - Autres : paid par défaut
+    Récupère la liste des modèles avec API gratuite et les liens des fournisseurs
+    depuis le README du dépôt awesome-free-llm-apis.
+    Retourne un dict : { normalized_model_name: [ { "provider": "...", "url": "..." } ] }
     """
-    if vendor in ("Google", "OpenAI", "Anthropic", "xAI"):
-        return "paid"
-    if vendor in ("DeepSeek", "Alibaba", "Z.ai", "Moonshot"):
-        return "freemium"
-    # Quelques cas particuliers par nom
-    if "mistral" in model_name.lower():
-        return "freemium"
-    if "llama" in model_name.lower():
-        return "free"  # modèles open source souvent disponibles gratuitement via HF
-    return "paid"
+    print(f"Fetching free API data from {FREE_API_README_URL}...")
+    try:
+        response = requests.get(FREE_API_README_URL, timeout=30)
+        response.raise_for_status()
+        content = response.text
+    except Exception as e:
+        print(f"Warning: could not fetch free API list: {e}", file=sys.stderr)
+        return {}
+
+    providers = {}          # { normalized_name -> [ {provider, url} ] }
+    current_section = None
+    current_link = None
+
+    for line in content.splitlines():
+        line = line.strip()
+
+        # Détection d'une section de fournisseur (ex: "### Google Gemini")
+        if line.startswith("### "):
+            current_section = line[4:].strip()
+            # Le lien direct est souvent juste après le titre, sous forme markdown
+            # Ex: **Link** : [Obtain API Key](https://...)
+            # On va chercher dans les lignes suivantes immédiates.
+            continue
+
+        # Extraction du lien du fournisseur
+        if line.lower().startswith("**link**"):
+            # Format : **Link** : [texte](url)
+            match = re.search(r'\(([^\)]+)\)', line)
+            if match:
+                current_link = match.group(1)
+            continue
+
+        # Détection des tableaux de modèles
+        if line.startswith('|') and line.endswith('|'):
+            # Ignorer les séparateurs de tableau
+            if re.match(r'^\|[\s\-:]+\|', line):
+                continue
+            # Ignorer l'en-tête
+            if '**Model**' in line or 'Model' == line.split('|')[1].strip():
+                continue
+
+            cells = [cell.strip() for cell in line.split('|')[1:-1]]
+            if cells:
+                model_name = cells[0]
+                # Nettoyer le markdown
+                model_name = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', model_name)
+                if model_name and model_name not in ('', 'Model', '**Model**'):
+                    normalized = normalize_name(model_name)
+                    if normalized:
+                        if normalized not in providers:
+                            providers[normalized] = []
+                        # Éviter les doublons de liens pour le même fournisseur
+                        provider_data = {"provider": current_section or "Unknown", "url": current_link or ""}
+                        if provider_data not in providers[normalized]:
+                            providers[normalized].append(provider_data)
+
+    print(f"Found {len(providers)} unique models with free APIs from {FREE_API_README_URL}")
+    return providers
 
 
 def main():
@@ -101,6 +161,9 @@ def main():
         config = []
     config_map = {m["arena_name"]: m for m in config}
     print(f"Loaded {len(config)} models from config.")
+
+    # Récupération de la liste des API gratuites
+    free_api_data = fetch_free_api_data()
 
     # Chargement des deux leaderboards HuggingFace
     print("Loading General leaderboard (text/overall)...")
@@ -127,17 +190,36 @@ def main():
             vendor = config_entry["vendor"]
             type_val = config_entry["type"]
             url = config_entry["url"]
-            # api_access depuis la config si présent, sinon on déduit
-            api_access = config_entry.get("api_access", deduce_api_access(arena_name, vendor, general_entry["license"]))
+            # api_access est supprimé, on ne l'utilise plus
             found_in_config += 1
         else:
             model_name = arena_name
             vendor = deduce_vendor(arena_name, general_entry["organization"])
             type_val = deduce_type(general_entry["license"])
             url = "https://lmarena.ai"
-            api_access = deduce_api_access(arena_name, vendor, general_entry["license"])
             auto_added += 1
             auto_added_list.append(arena_name)
+
+        # Déterminer has_free_api et les fournisseurs
+        has_free = False
+        providers = []
+        # Tester le nom affiché, arena_name, et les alias de la config
+        names_to_test = [model_name, arena_name]
+        if config_entry and "free_api_names" in config_entry:
+            names_to_test.extend(config_entry["free_api_names"])
+
+        for name in names_to_test:
+            normalized = normalize_name(name)
+            if normalized in free_api_data:
+                has_free = True
+                # Ajouter les fournisseurs (éviter les doublons)
+                for p in free_api_data[normalized]:
+                    if p not in providers:
+                        providers.append(p)
+
+        # Si la config force une valeur (optionnel)
+        if config_entry and "has_free_api" in config_entry:
+            has_free = config_entry["has_free_api"]
 
         result.append({
             "name": model_name,
@@ -146,7 +228,8 @@ def main():
             "url": url,
             "score_general": general_entry["rating"],
             "score_code": code_entry["rating"] if code_entry else None,
-            "api_access": api_access
+            "has_free_api": has_free,
+            "free_api_providers": providers
         })
 
     # Tri par score_general décroissant
@@ -167,11 +250,12 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print("\n=== Summary ===")
-    print(f"Ranking date   : {output['ranking_date']}")
-    print(f"Retrieved at   : {output['retrieved_at']}")
-    print(f"Total models   : {len(result)}")
-    print(f"Found in config: {found_in_config}")
-    print(f"Auto-added     : {auto_added}")
+    print(f"Ranking date        : {output['ranking_date']}")
+    print(f"Retrieved at        : {output['retrieved_at']}")
+    print(f"Total models        : {len(result)}")
+    print(f"Models with free API: {sum(1 for m in result if m['has_free_api'])}")
+    print(f"Found in config     : {found_in_config}")
+    print(f"Auto-added          : {auto_added}")
     if auto_added_list:
         print("Auto-added models for review:")
         for m in sorted(auto_added_list):
