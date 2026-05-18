@@ -1,17 +1,23 @@
 import json
 import sys
 import re
+import os
+import hashlib
 from datetime import datetime, timezone
 from datasets import load_dataset
 import requests
+import google.generativeai as genai
 
-CONFIG_PATH = "models-config.json"
+# ---- Configuration ----
 OUTPUT_PATH = "data.json"
+CACHE_PATH = "gemini-cache.json"               # cache des métadonnées corrigées par Gemini
 FREE_API_README_URL = "https://raw.githubusercontent.com/mnfst/awesome-free-llm-apis/main/README.md"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_MODEL = "gemini-2.5-flash"
 
 
-def load_hf_leaderboard(subset: str) -> dict[str, dict]:
-    """Charge un subset HuggingFace et retourne un dict indexé par model_name."""
+def load_hf_leaderboard(subset: str):
+    """Charge un subset HuggingFace et retourne (data dict, ranking_date)."""
     try:
         ds = load_dataset(
             "lmarena-ai/leaderboard-dataset",
@@ -32,13 +38,14 @@ def load_hf_leaderboard(subset: str) -> dict[str, dict]:
                 }
                 if ranking_date is None:
                     ranking_date = row.get("leaderboard_publish_date")
-        return result, ranking_date
+        return result, str(ranking_date) if ranking_date else None
     except Exception as e:
         print(f"Error loading HuggingFace subset '{subset}': {e}", file=sys.stderr)
         return {}, None
 
 
 def deduce_vendor(model_name: str, organization: str) -> str:
+    """Fallback heuristique si Gemini n'est pas disponible."""
     if organization:
         return organization.title()
     n = model_name.lower()
@@ -68,14 +75,13 @@ def deduce_vendor(model_name: str, organization: str) -> str:
 
 
 def deduce_type(license_str: str) -> str:
-    """Proprietary → paid, tout le reste → free (open source / gratuit)."""
+    """Fallback heuristique : proprietary → paid, sinon free."""
     if not license_str or license_str.lower() == "proprietary":
         return "paid"
     return "free"
 
 
 def normalize_name(name: str) -> str:
-    """Normalise un nom pour la comparaison : minuscules, sans ponctuation ni espaces multiples."""
     name = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', name)
     name = re.sub(r'[^a-z0-9\s]', '', name.lower())
     name = re.sub(r'\s+', '', name)
@@ -83,7 +89,6 @@ def normalize_name(name: str) -> str:
 
 
 def clean_provider_name(raw: str) -> str:
-    """Nettoie le nom d'un fournisseur (issu du titre de section markdown)."""
     raw = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', raw)
     raw = raw.replace('[', '').replace(']', '')
     raw = re.sub(r'\([^)]*\)', '', raw)
@@ -92,16 +97,12 @@ def clean_provider_name(raw: str) -> str:
 
 
 def fetch_free_api_data():
-    """
-    Récupère la liste des modèles avec API gratuite, leurs fournisseurs et les liens
-    d'obtention de clé API depuis le README. Les liens sont extraits des titres de section.
-    Retourne un dict : { normalized_model_name: [ { "provider": "...", "url": "..." } ] }
-    """
+    """Retourne { normalized_model_name: [ { provider, url } ] }."""
     print(f"Fetching free API data from {FREE_API_README_URL}...")
     try:
-        response = requests.get(FREE_API_README_URL, timeout=30)
-        response.raise_for_status()
-        content = response.text
+        resp = requests.get(FREE_API_README_URL, timeout=30)
+        resp.raise_for_status()
+        content = resp.text
     except Exception as e:
         print(f"Warning: could not fetch free API list: {e}", file=sys.stderr)
         return {}
@@ -109,123 +110,178 @@ def fetch_free_api_data():
     providers = {}
     current_section = None
     current_link = None
-    # Pattern pour extraire [texte](url) depuis un titre de section ou une ligne **Link**
     link_pattern = re.compile(r'\[([^\]]+)\]\(([^\)]+)\)')
 
     for line in content.splitlines():
         line = line.strip()
-
-        # Détection d'une section de fournisseur (ex: "### [Google Gemini](https://aistudio.google.com/app/apikey)")
         if line.startswith("### "):
-            raw_section = line[4:].strip()
-            match = link_pattern.search(raw_section)
-            if match:
-                current_section = clean_provider_name(match.group(1))
-                current_link = match.group(2)        # URL de la page d'obtention de clé
+            raw = line[4:].strip()
+            m = link_pattern.search(raw)
+            if m:
+                current_section = clean_provider_name(m.group(1))
+                current_link = m.group(2)
             else:
-                current_section = clean_provider_name(raw_section)
+                current_section = clean_provider_name(raw)
                 current_link = None
             continue
-
-        # Détection des tableaux de modèles
         if line.startswith('|') and line.endswith('|'):
-            if re.match(r'^\|[\s\-:]+\|', line):
-                continue
-            if '**Model**' in line or 'Model' == line.split('|')[1].strip():
-                continue
-
-            cells = [cell.strip() for cell in line.split('|')[1:-1]]
+            if re.match(r'^\|[\s\-:]+\|', line): continue
+            if '**Model**' in line or 'Model' == line.split('|')[1].strip(): continue
+            cells = [c.strip() for c in line.split('|')[1:-1]]
             if cells:
-                model_name = cells[0]
-                model_name = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', model_name)
-                if model_name and model_name not in ('', 'Model', '**Model**'):
-                    normalized = normalize_name(model_name)
-                    if normalized:
-                        if normalized not in providers:
-                            providers[normalized] = []
+                model_name = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', cells[0])
+                if model_name and model_name not in ('', 'Model'):
+                    n = normalize_name(model_name)
+                    if n:
+                        if n not in providers: providers[n] = []
                         url = current_link if current_link else ""
-                        provider_data = {
-                            "provider": current_section or "Unknown",
-                            "url": url
-                        }
-                        if provider_data not in providers[normalized]:
-                            providers[normalized].append(provider_data)
-
-    print(f"Found {len(providers)} unique models with free APIs from {FREE_API_README_URL}")
+                        entry = {"provider": current_section or "Unknown", "url": url}
+                        if entry not in providers[n]: providers[n].append(entry)
+    print(f"Found {len(providers)} unique models with free APIs.")
     return providers
 
 
-def main():
-    # Chargement du config
+def load_gemini_cache():
+    """Charge le cache des corrections Gemini (ou {})."""
     try:
-        with open(CONFIG_PATH, encoding="utf-8") as f:
-            config = json.load(f)
-    except FileNotFoundError:
-        print(f"Config file {CONFIG_PATH} not found. Proceeding with empty config.", file=sys.stderr)
-        config = []
-    config_map = {m["arena_name"]: m for m in config}
-    print(f"Loaded {len(config)} models from config.")
+        with open(CACHE_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
 
-    # Récupération de la liste des API gratuites
-    free_api_data = fetch_free_api_data()
 
-    # Chargement des deux leaderboards HuggingFace
+def save_gemini_cache(cache):
+    with open(CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+
+def call_gemini_for_new_models(new_models):
+    """
+    Appelle Gemini pour un lot de nouveaux modèles.
+    new_models est une liste de dicts contenant arena_name, organization, license.
+    Retourne un dict { arena_name: { name, vendor, type, url } } ou {} en cas d'erreur.
+    """
+    if not GEMINI_API_KEY:
+        print("No GEMINI_API_KEY, using fallback heuristics.", file=sys.stderr)
+        return {}
+
+    try:
+        genai.configure(api_key=GEMINI_API_KEY)
+        model = genai.GenerativeModel(model_name=GEMINI_MODEL, tools="google_search")
+
+        prompt = f"""
+Tu es un assistant spécialisé dans les modèles d'IA. Pour chaque modèle ci-dessous, tu dois :
+1. Normaliser le nom du fournisseur (vendor) : utilise le nom officiel complet (ex. "OpenAI", "Anthropic", "Google", "Meta", "Mistral", "Alibaba", "DeepSeek", "xAI", "Z.ai", "Baidu", "Moonshot", etc.).
+2. Déterminer le type d'accès : "free" si le modèle est open source ou accessible gratuitement, "paid" s'il nécessite un abonnement ou un paiement.
+3. Trouver l'URL officielle du modèle (page d'accueil du produit). Utilise la recherche web si nécessaire. Si tu ne trouves pas, utilise "https://lmarena.ai".
+
+Retourne UNIQUEMENT un tableau JSON valide (sans texte autour). Chaque élément doit avoir exactement ces champs :
+{{
+  "arena_name": "...",
+  "name": "...",
+  "vendor": "...",
+  "type": "free ou paid",
+  "url": "..."
+}}
+
+Modèles à traiter :
+{json.dumps(new_models, indent=2)}
+"""
+        response = model.generate_content(prompt)
+        text = response.text.strip()
+        # Nettoyer d'éventuels marqueurs markdown
+        if text.startswith("```"):
+            text = re.sub(r'^```(?:json)?\s*', '', text)
+            text = re.sub(r'\s*```$', '', text)
+        corrected_list = json.loads(text)
+        result = {item["arena_name"]: item for item in corrected_list}
+        print(f"Gemini corrected {len(result)} new models.")
+        return result
+    except Exception as e:
+        print(f"Gemini error: {e}. Falling back to heuristics.", file=sys.stderr)
+        return {}
+
+
+def main():
+    # 1. Charger le cache Gemini existant
+    cache = load_gemini_cache()
+    print(f"Loaded {len(cache)} models from Gemini cache.")
+
+    # 2. Charger Arena (General + Code)
     print("Loading General leaderboard (text/overall)...")
-    general_data, ranking_date = load_hf_leaderboard("text")
-    print(f"Fetched {len(general_data)} models from General leaderboard.")
+    general_data, arena_date = load_hf_leaderboard("text")
+    print(f"Fetched {len(general_data)} models, date={arena_date}")
 
     print("Loading Code leaderboard (webdev/overall)...")
     code_data, _ = load_hf_leaderboard("webdev")
     print(f"Fetched {len(code_data)} models from Code leaderboard.")
 
-    # Construction de la liste des modèles
+    # 3. Identifier les nouveaux modèles (absents du cache)
+    new_models = []
+    for arena_name, entry in general_data.items():
+        if arena_name not in cache:
+            new_models.append({
+                "arena_name": arena_name,
+                "organization": entry["organization"],
+                "license": entry["license"]
+            })
+
+    # 4. Si nouveaux modèles, appeler Gemini
+    if new_models:
+        print(f"Found {len(new_models)} new models. Calling Gemini...")
+        corrections = call_gemini_for_new_models(new_models)
+        # Ajouter les corrections au cache (avec fallback heuristique si Gemini échoue)
+        for arena_name in new_models:
+            if arena_name in corrections:
+                cache[arena_name] = corrections[arena_name]
+            else:
+                # Fallback heuristique
+                entry = general_data[arena_name]
+                cache[arena_name] = {
+                    "arena_name": arena_name,
+                    "name": arena_name,
+                    "vendor": deduce_vendor(arena_name, entry["organization"]),
+                    "type": deduce_type(entry["license"]),
+                    "url": "https://lmarena.ai"
+                }
+        save_gemini_cache(cache)
+    else:
+        print("No new models, skipping Gemini call.")
+
+    # 5. Récupérer les données d'API gratuites (toujours fraîches)
+    free_api_data = fetch_free_api_data()
+
+    # 6. Construire la liste finale des modèles
     result = []
-    found_in_config = 0
-    auto_added = 0
-    auto_added_list = []
     now = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
     for arena_name, general_entry in general_data.items():
-        config_entry = config_map.get(arena_name)
-        code_entry = code_data.get(arena_name)
+        meta = cache.get(arena_name)
+        if not meta:  # ne devrait pas arriver, mais sécurité
+            meta = {
+                "name": arena_name,
+                "vendor": deduce_vendor(arena_name, general_entry["organization"]),
+                "type": deduce_type(general_entry["license"]),
+                "url": "https://lmarena.ai"
+            }
 
-        if config_entry:
-            model_name = config_entry["name"]
-            vendor = config_entry["vendor"]
-            type_val = config_entry["type"]
-            url = config_entry["url"]
-            found_in_config += 1
-        else:
-            model_name = arena_name
-            vendor = deduce_vendor(arena_name, general_entry["organization"])
-            type_val = deduce_type(general_entry["license"])
-            url = "https://lmarena.ai"
-            auto_added += 1
-            auto_added_list.append(arena_name)
-
-        # Déterminer has_free_api et les fournisseurs
+        # has_free_api et providers
         has_free = False
         providers = []
-        names_to_test = [model_name, arena_name]
-        if config_entry and "free_api_names" in config_entry:
-            names_to_test.extend(config_entry["free_api_names"])
-
-        for name in names_to_test:
-            normalized = normalize_name(name)
-            if normalized in free_api_data:
+        for test_name in (meta["name"], arena_name):
+            n = normalize_name(test_name)
+            if n in free_api_data:
                 has_free = True
-                for p in free_api_data[normalized]:
+                for p in free_api_data[n]:
                     if p not in providers:
                         providers.append(p)
 
-        if config_entry and "has_free_api" in config_entry:
-            has_free = config_entry["has_free_api"]
-
+        code_entry = code_data.get(arena_name)
         result.append({
-            "name": model_name,
-            "vendor": vendor,
-            "type": type_val,
-            "url": url,
+            "name": meta["name"],
+            "vendor": meta["vendor"],
+            "type": meta["type"],
+            "url": meta["url"],
             "score_general": general_entry["rating"],
             "score_code": code_entry["rating"] if code_entry else None,
             "has_free_api": has_free,
@@ -233,13 +289,11 @@ def main():
         })
 
     # Tri par score_general décroissant
-    result.sort(
-        key=lambda x: x["score_general"] if x["score_general"] is not None else float("-inf"),
-        reverse=True
-    )
+    result.sort(key=lambda x: x["score_general"] if x["score_general"] is not None else float("-inf"),
+                reverse=True)
 
     output = {
-        "ranking_date": str(ranking_date) if ranking_date else now[:10],
+        "ranking_date": arena_date or now[:10],
         "retrieved_at": now,
         "models": result
     }
@@ -252,12 +306,6 @@ def main():
     print(f"Retrieved at        : {output['retrieved_at']}")
     print(f"Total models        : {len(result)}")
     print(f"Models with free API: {sum(1 for m in result if m['has_free_api'])}")
-    print(f"Found in config     : {found_in_config}")
-    print(f"Auto-added          : {auto_added}")
-    if auto_added_list:
-        print("Auto-added models for review:")
-        for m in sorted(auto_added_list):
-            print(f"  - {m}")
 
 
 if __name__ == "__main__":
