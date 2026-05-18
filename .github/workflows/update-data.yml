@@ -1,4 +1,4 @@
-name: Update AI Leaderboard Data
+name: Update Data
 
 on:
   schedule:
