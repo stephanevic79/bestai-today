@@ -1,0 +1,2508 @@
+{
+  "claude-opus-4-6-thinking": {
+    "arena_name": "claude-opus-4-6-thinking",
+    "name": "Claude Opus 4.6",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "claude-opus-4-6": {
+    "arena_name": "claude-opus-4-6",
+    "name": "Claude Opus 4.6",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "claude-opus-4-7-thinking": {
+    "arena_name": "claude-opus-4-7-thinking",
+    "name": "Claude Opus 4.7",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "gemini-3.1-pro-preview": {
+    "arena_name": "gemini-3.1-pro-preview",
+    "name": "Gemini 3.1 Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "gemini-3-pro": {
+    "arena_name": "gemini-3-pro",
+    "name": "Gemini 3 Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "claude-opus-4-7": {
+    "arena_name": "claude-opus-4-7",
+    "name": "Claude Opus 4.7",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "muse-spark": {
+    "arena_name": "muse-spark",
+    "name": "Muse Spark",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://ai.meta.com/"
+  },
+  "ernie-5.1": {
+    "arena_name": "ernie-5.1",
+    "name": "ERNIE 5.1",
+    "vendor": "Baidu",
+    "type": "free",
+    "url": "https://ernie.baidu.com/"
+  },
+  "qwen3.5-max-preview": {
+    "arena_name": "qwen3.5-max-preview",
+    "name": "Qwen 3.5 Max",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "gpt-5.4-high": {
+    "arena_name": "gpt-5.4-high",
+    "name": "GPT 5.4 High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "glm-5.1": {
+    "arena_name": "glm-5.1",
+    "name": "GLM 5.1",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "gpt-5.5-high": {
+    "arena_name": "gpt-5.5-high",
+    "name": "GPT 5.5 High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "gemini-3-flash": {
+    "arena_name": "gemini-3-flash",
+    "name": "Gemini 3 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "gpt-5.5": {
+    "arena_name": "gpt-5.5",
+    "name": "GPT 5.5",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "gemini-2.5-pro": {
+    "arena_name": "gemini-2.5-pro",
+    "name": "Gemini 2.5 Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "mimo-v2.5-pro": {
+    "arena_name": "mimo-v2.5-pro",
+    "name": "MiMo V2.5 Pro",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://www.mi.com/global/"
+  },
+  "kimi-k2.6": {
+    "arena_name": "kimi-k2.6",
+    "name": "Kimi K2.6",
+    "vendor": "Moonshot AI",
+    "type": "free",
+    "url": "https://www.moonshot.cn/"
+  },
+  "gpt-5.4": {
+    "arena_name": "gpt-5.4",
+    "name": "GPT 5.4",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "grok-4.20-beta-0309-reasoning": {
+    "arena_name": "grok-4.20-beta-0309-reasoning",
+    "name": "Grok 4.20",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "claude-sonnet-4-6": {
+    "arena_name": "claude-sonnet-4-6",
+    "name": "Claude Sonnet 4.6",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "grok-4.20-multi-agent-beta-0309": {
+    "arena_name": "grok-4.20-multi-agent-beta-0309",
+    "name": "Grok 4.20 Multi Agent",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "dola-seed-2.0-pro": {
+    "arena_name": "dola-seed-2.0-pro",
+    "name": "Dola Seed 2.0 Pro",
+    "vendor": "ByteDance",
+    "type": "paid",
+    "url": "https://www.bytedance.com/en/"
+  },
+  "deepseek-v4-pro": {
+    "arena_name": "deepseek-v4-pro",
+    "name": "DeepSeek V4 Pro",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "deepseek-v4-pro-thinking": {
+    "arena_name": "deepseek-v4-pro-thinking",
+    "name": "DeepSeek V4 Pro",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "amazon-nova-experimental-chat-26-02-10": {
+    "arena_name": "amazon-nova-experimental-chat-26-02-10",
+    "name": "Amazon Nova Experimental Chat",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "ernie-5.0-0110": {
+    "arena_name": "ernie-5.0-0110",
+    "name": "ERNIE 5.0",
+    "vendor": "Baidu",
+    "type": "paid",
+    "url": "https://ernie.baidu.com/"
+  },
+  "gemini-3-flash (thinking-minimal)": {
+    "arena_name": "gemini-3-flash (thinking-minimal)",
+    "name": "Gemini 3 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "grok-4.20-beta1": {
+    "arena_name": "grok-4.20-beta1",
+    "name": "Grok 4.20",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "claude-opus-4-5-20251101": {
+    "arena_name": "claude-opus-4-5-20251101",
+    "name": "Claude Opus 4.5",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "claude-opus-4-5-20251101-thinking-32k": {
+    "arena_name": "claude-opus-4-5-20251101-thinking-32k",
+    "name": "Claude Opus 4.5",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "glm-5": {
+    "arena_name": "glm-5",
+    "name": "GLM 5",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "kimi-k2.5-thinking": {
+    "arena_name": "kimi-k2.5-thinking",
+    "name": "Kimi K2.5",
+    "vendor": "Moonshot AI",
+    "type": "free",
+    "url": "https://www.moonshot.cn/"
+  },
+  "qwen3.6-max-preview": {
+    "arena_name": "qwen3.6-max-preview",
+    "name": "Qwen 3.6 Max",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "ernie-5.0-preview-1203": {
+    "arena_name": "ernie-5.0-preview-1203",
+    "name": "ERNIE 5.0",
+    "vendor": "Baidu",
+    "type": "paid",
+    "url": "https://ernie.baidu.com/"
+  },
+  "gemma-4-31b": {
+    "arena_name": "gemma-4-31b",
+    "name": "Gemma 4 31B",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "qwen3.5-397b-a17b": {
+    "arena_name": "qwen3.5-397b-a17b",
+    "name": "Qwen 3.5 397B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "gpt-5.1-high": {
+    "arena_name": "gpt-5.1-high",
+    "name": "GPT 5.1 High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "glm-4.6": {
+    "arena_name": "glm-4.6",
+    "name": "GLM 4.6",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "qwen3.6-plus": {
+    "arena_name": "qwen3.6-plus",
+    "name": "Qwen 3.6 Plus",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "gpt-5.2-chat-latest-20260210": {
+    "arena_name": "gpt-5.2-chat-latest-20260210",
+    "name": "GPT 5.2 Chat",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "grok-4.1-thinking": {
+    "arena_name": "grok-4.1-thinking",
+    "name": "Grok 4.1",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "qwen3-max-preview": {
+    "arena_name": "qwen3-max-preview",
+    "name": "Qwen 3 Max",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "grok-4.1": {
+    "arena_name": "grok-4.1",
+    "name": "Grok 4.1",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "glm-4.7": {
+    "arena_name": "glm-4.7",
+    "name": "GLM 4.7",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "claude-sonnet-4-5-20250929": {
+    "arena_name": "claude-sonnet-4-5-20250929",
+    "name": "Claude Sonnet 4.5",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "gemma-4-26b-a4b": {
+    "arena_name": "gemma-4-26b-a4b",
+    "name": "Gemma 4 26B",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "mimo-v2-pro": {
+    "arena_name": "mimo-v2-pro",
+    "name": "MiMo V2 Pro",
+    "vendor": "Xiaomi",
+    "type": "paid",
+    "url": "https://www.mi.com/global/"
+  },
+  "mistral-large-3": {
+    "arena_name": "mistral-large-3",
+    "name": "Mistral Large 3",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "claude-sonnet-4-5-20250929-thinking-32k": {
+    "arena_name": "claude-sonnet-4-5-20250929-thinking-32k",
+    "name": "Claude Sonnet 4.5",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "ernie-5.0-preview-1022": {
+    "arena_name": "ernie-5.0-preview-1022",
+    "name": "ERNIE 5.0",
+    "vendor": "Baidu",
+    "type": "paid",
+    "url": "https://ernie.baidu.com/"
+  },
+  "deepseek-v4-flash": {
+    "arena_name": "deepseek-v4-flash",
+    "name": "DeepSeek V4 Flash",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "glm-4.5": {
+    "arena_name": "glm-4.5",
+    "name": "GLM 4.5",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "chatgpt-4o-latest-20250326": {
+    "arena_name": "chatgpt-4o-latest-20250326",
+    "name": "ChatGPT 4o",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "deepseek-r1-0528": {
+    "arena_name": "deepseek-r1-0528",
+    "name": "DeepSeek R1",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "deepseek-v4-flash-thinking": {
+    "arena_name": "deepseek-v4-flash-thinking",
+    "name": "DeepSeek V4 Flash",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "mistral-medium-2508": {
+    "arena_name": "mistral-medium-2508",
+    "name": "Mistral Medium",
+    "vendor": "Mistral AI",
+    "type": "paid",
+    "url": "https://mistral.ai/"
+  },
+  "longcat-flash-chat-2602-exp": {
+    "arena_name": "longcat-flash-chat-2602-exp",
+    "name": "Longcat Flash Chat",
+    "vendor": "Meituan",
+    "type": "paid",
+    "url": "https://www.meituan.com/en-US/"
+  },
+  "grok-3-preview-02-24": {
+    "arena_name": "grok-3-preview-02-24",
+    "name": "Grok 3",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "deepseek-v3.2-exp-thinking": {
+    "arena_name": "deepseek-v3.2-exp-thinking",
+    "name": "DeepSeek V3.2",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "deepseek-v3.2": {
+    "arena_name": "deepseek-v3.2",
+    "name": "DeepSeek V3.2",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "deepseek-v3.2-exp": {
+    "arena_name": "deepseek-v3.2-exp",
+    "name": "DeepSeek V3.2",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "gpt-5.1": {
+    "arena_name": "gpt-5.1",
+    "name": "GPT 5.1",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "gemini-3.1-flash-lite-preview": {
+    "arena_name": "gemini-3.1-flash-lite-preview",
+    "name": "Gemini 3.1 Flash Lite",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "longcat-flash-chat": {
+    "arena_name": "longcat-flash-chat",
+    "name": "Longcat Flash Chat",
+    "vendor": "Meituan",
+    "type": "free",
+    "url": "https://www.meituan.com/en-US/"
+  },
+  "qwen3-vl-235b-a22b-instruct": {
+    "arena_name": "qwen3-vl-235b-a22b-instruct",
+    "name": "Qwen 3 VL 235B Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "kimi-k2.5-instant": {
+    "arena_name": "kimi-k2.5-instant",
+    "name": "Kimi K2.5 Instant",
+    "vendor": "Moonshot AI",
+    "type": "free",
+    "url": "https://www.moonshot.cn/"
+  },
+  "grok-4.3": {
+    "arena_name": "grok-4.3",
+    "name": "Grok 4.3",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "amazon-nova-experimental-chat-12-10": {
+    "arena_name": "amazon-nova-experimental-chat-12-10",
+    "name": "Amazon Nova Experimental Chat",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "qwen3.5-122b-a10b": {
+    "arena_name": "qwen3.5-122b-a10b",
+    "name": "Qwen 3.5 122B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "mimo-v2.5": {
+    "arena_name": "mimo-v2.5",
+    "name": "MiMo V2.5",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://www.mi.com/global/"
+  },
+  "deepseek-v3.1-terminus-thinking": {
+    "arena_name": "deepseek-v3.1-terminus-thinking",
+    "name": "DeepSeek V3.1 Terminus",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "deepseek-v3.1": {
+    "arena_name": "deepseek-v3.1",
+    "name": "DeepSeek V3.1",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "gpt-5.2-high": {
+    "arena_name": "gpt-5.2-high",
+    "name": "GPT 5.2 High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "deepseek-v3.2-thinking": {
+    "arena_name": "deepseek-v3.2-thinking",
+    "name": "DeepSeek V3.2",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "gpt-5.4-mini-high": {
+    "arena_name": "gpt-5.4-mini-high",
+    "name": "GPT 5.4 Mini High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "qwen3-235b-a22b-instruct-2507": {
+    "arena_name": "qwen3-235b-a22b-instruct-2507",
+    "name": "Qwen 3 235B Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "qwen3-next-80b-a3b-instruct": {
+    "arena_name": "qwen3-next-80b-a3b-instruct",
+    "name": "Qwen 3 Next 80B Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "claude-opus-4-1-20250805-thinking-16k": {
+    "arena_name": "claude-opus-4-1-20250805-thinking-16k",
+    "name": "Claude Opus 4.1",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "gpt-5.5-instant": {
+    "arena_name": "gpt-5.5-instant",
+    "name": "GPT 5.5 Instant",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "gemini-2.5-flash": {
+    "arena_name": "gemini-2.5-flash",
+    "name": "Gemini 2.5 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "deepseek-v3.1-terminus": {
+    "arena_name": "deepseek-v3.1-terminus",
+    "name": "DeepSeek V3.1 Terminus",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "claude-opus-4-1-20250805": {
+    "arena_name": "claude-opus-4-1-20250805",
+    "name": "Claude Opus 4.1",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "gpt-4.5-preview-2025-02-27": {
+    "arena_name": "gpt-4.5-preview-2025-02-27",
+    "name": "GPT 4.5 Preview",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "amazon-nova-experimental-chat-11-10": {
+    "arena_name": "amazon-nova-experimental-chat-11-10",
+    "name": "Amazon Nova Experimental Chat",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "deepseek-v3.1-thinking": {
+    "arena_name": "deepseek-v3.1-thinking",
+    "name": "DeepSeek V3.1",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "kimi-k2-thinking-turbo": {
+    "arena_name": "kimi-k2-thinking-turbo",
+    "name": "Kimi K2 Turbo",
+    "vendor": "Moonshot AI",
+    "type": "free",
+    "url": "https://www.moonshot.cn/"
+  },
+  "qwen3-235b-a22b-thinking-2507": {
+    "arena_name": "qwen3-235b-a22b-thinking-2507",
+    "name": "Qwen 3 235B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "gpt-5.2": {
+    "arena_name": "gpt-5.2",
+    "name": "GPT 5.2",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "qwen3-max-2025-09-23": {
+    "arena_name": "qwen3-max-2025-09-23",
+    "name": "Qwen 3 Max",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "mimo-v2-flash (non-thinking)": {
+    "arena_name": "mimo-v2-flash (non-thinking)",
+    "name": "MiMo V2 Flash",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://www.mi.com/global/"
+  },
+  "grok-4-0709": {
+    "arena_name": "grok-4-0709",
+    "name": "Grok 4",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "o3-2025-04-16": {
+    "arena_name": "o3-2025-04-16",
+    "name": "O3",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "grok-4-fast-chat": {
+    "arena_name": "grok-4-fast-chat",
+    "name": "Grok 4 Fast Chat",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "hunyuan-hy3-preview": {
+    "arena_name": "hunyuan-hy3-preview",
+    "name": "Hunyuan HY3",
+    "vendor": "Tencent",
+    "type": "free",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "grok-4-1-fast-reasoning": {
+    "arena_name": "grok-4-1-fast-reasoning",
+    "name": "Grok 4.1 Fast Reasoning",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "qwen3.5-27b": {
+    "arena_name": "qwen3.5-27b",
+    "name": "Qwen 3.5 27B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "gemini-2.5-flash-preview-09-2025": {
+    "arena_name": "gemini-2.5-flash-preview-09-2025",
+    "name": "Gemini 2.5 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "hunyuan-vision-1.5-thinking": {
+    "arena_name": "hunyuan-vision-1.5-thinking",
+    "name": "Hunyuan Vision 1.5",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "gpt-5-high": {
+    "arena_name": "gpt-5-high",
+    "name": "GPT 5 High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "step-3.5-flash": {
+    "arena_name": "step-3.5-flash",
+    "name": "Step 3.5 Flash",
+    "vendor": "StepFun",
+    "type": "free",
+    "url": "https://stepfun.com/"
+  },
+  "gpt-5-chat": {
+    "arena_name": "gpt-5-chat",
+    "name": "GPT 5 Chat",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "qwen3-vl-235b-a22b-thinking": {
+    "arena_name": "qwen3-vl-235b-a22b-thinking",
+    "name": "Qwen 3 VL 235B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "hunyuan-t1-20250711": {
+    "arena_name": "hunyuan-t1-20250711",
+    "name": "Hunyuan T1",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "amazon-nova-experimental-chat-26-01-10": {
+    "arena_name": "amazon-nova-experimental-chat-26-01-10",
+    "name": "Amazon Nova Experimental Chat",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "qwen3.5-flash": {
+    "arena_name": "qwen3.5-flash",
+    "name": "Qwen 3.5 Flash",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "qwen3.5-35b-a3b": {
+    "arena_name": "qwen3.5-35b-a3b",
+    "name": "Qwen 3.5 35B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "grok-4-fast-reasoning": {
+    "arena_name": "grok-4-fast-reasoning",
+    "name": "Grok 4 Fast Reasoning",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "mimo-v2-flash (thinking)": {
+    "arena_name": "mimo-v2-flash (thinking)",
+    "name": "MiMo V2 Flash",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://www.mi.com/global/"
+  },
+  "minimax-m2.7": {
+    "arena_name": "minimax-m2.7",
+    "name": "MiniMax M2.7",
+    "vendor": "MiniMax",
+    "type": "free",
+    "url": "https://www.minimax.ai/"
+  },
+  "amazon-nova-experimental-chat-10-20": {
+    "arena_name": "amazon-nova-experimental-chat-10-20",
+    "name": "Amazon Nova Experimental Chat",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "mai-1-preview": {
+    "arena_name": "mai-1-preview",
+    "name": "MAI 1",
+    "vendor": "Microsoft",
+    "type": "paid",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "qwen3-235b-a22b-no-thinking": {
+    "arena_name": "qwen3-235b-a22b-no-thinking",
+    "name": "Qwen 3 235B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "minimax-m2.1-preview": {
+    "arena_name": "minimax-m2.1-preview",
+    "name": "MiniMax M2.1",
+    "vendor": "MiniMax",
+    "type": "free",
+    "url": "https://www.minimax.ai/"
+  },
+  "claude-haiku-4-5-20251001": {
+    "arena_name": "claude-haiku-4-5-20251001",
+    "name": "Claude Haiku 4.5",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "gpt-5.3-chat-latest": {
+    "arena_name": "gpt-5.3-chat-latest",
+    "name": "GPT 5.3 Chat",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "qwen3-30b-a3b-instruct-2507": {
+    "arena_name": "qwen3-30b-a3b-instruct-2507",
+    "name": "Qwen 3 30B Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "glm-4.5-air": {
+    "arena_name": "glm-4.5-air",
+    "name": "GLM 4.5 Air",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "gpt-4.1-2025-04-14": {
+    "arena_name": "gpt-4.1-2025-04-14",
+    "name": "GPT 4.1",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "kimi-k2-0905-preview": {
+    "arena_name": "kimi-k2-0905-preview",
+    "name": "Kimi K2",
+    "vendor": "Moonshot AI",
+    "type": "free",
+    "url": "https://www.moonshot.cn/"
+  },
+  "gemini-2.5-flash-lite-preview-09-2025-no-thinking": {
+    "arena_name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+    "name": "Gemini 2.5 Flash Lite",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "gpt-5.4-nano-high": {
+    "arena_name": "gpt-5.4-nano-high",
+    "name": "GPT 5.4 Nano High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "nvidia-nemotron-3-super-120b-a12b": {
+    "arena_name": "nvidia-nemotron-3-super-120b-a12b",
+    "name": "NVIDIA Nemotron 3 Super 120B",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "hunyuan-turbos-20250416": {
+    "arena_name": "hunyuan-turbos-20250416",
+    "name": "Hunyuan Turbos",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "claude-opus-4-20250514-thinking-16k": {
+    "arena_name": "claude-opus-4-20250514-thinking-16k",
+    "name": "Claude Opus 4",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "glm-4.6v": {
+    "arena_name": "glm-4.6v",
+    "name": "GLM 4.6V",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "deepseek-v3-0324": {
+    "arena_name": "deepseek-v3-0324",
+    "name": "DeepSeek V3",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "gpt-5-mini-high": {
+    "arena_name": "gpt-5-mini-high",
+    "name": "GPT 5 Mini High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "deepseek-r1": {
+    "arena_name": "deepseek-r1",
+    "name": "DeepSeek R1",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "kimi-k2-0711-preview": {
+    "arena_name": "kimi-k2-0711-preview",
+    "name": "Kimi K2",
+    "vendor": "Moonshot AI",
+    "type": "free",
+    "url": "https://www.moonshot.cn/"
+  },
+  "mistral-medium-2505": {
+    "arena_name": "mistral-medium-2505",
+    "name": "Mistral Medium",
+    "vendor": "Mistral AI",
+    "type": "paid",
+    "url": "https://mistral.ai/"
+  },
+  "gemini-2.5-flash-lite-preview-06-17-thinking": {
+    "arena_name": "gemini-2.5-flash-lite-preview-06-17-thinking",
+    "name": "Gemini 2.5 Flash Lite",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "qwen3-next-80b-a3b-thinking": {
+    "arena_name": "qwen3-next-80b-a3b-thinking",
+    "name": "Qwen 3 Next 80B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "qwen2.5-max": {
+    "arena_name": "qwen2.5-max",
+    "name": "Qwen 2.5 Max",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "grok-3-mini-high": {
+    "arena_name": "grok-3-mini-high",
+    "name": "Grok 3 Mini High",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "o1-2024-12-17": {
+    "arena_name": "o1-2024-12-17",
+    "name": "O1",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "qwen3-235b-a22b": {
+    "arena_name": "qwen3-235b-a22b",
+    "name": "Qwen 3 235B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "gpt-oss-120b": {
+    "arena_name": "gpt-oss-120b",
+    "name": "GPT OSS 120B",
+    "vendor": "OpenAI",
+    "type": "free",
+    "url": "https://openai.com/"
+  },
+  "claude-opus-4-20250514": {
+    "arena_name": "claude-opus-4-20250514",
+    "name": "Claude Opus 4",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "amazon-nova-experimental-chat-10-09": {
+    "arena_name": "amazon-nova-experimental-chat-10-09",
+    "name": "Amazon Nova Experimental Chat",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "minimax-m2.5": {
+    "arena_name": "minimax-m2.5",
+    "name": "MiniMax M2.5",
+    "vendor": "MiniMax",
+    "type": "free",
+    "url": "https://www.minimax.ai/"
+  },
+  "nova-2-lite": {
+    "arena_name": "nova-2-lite",
+    "name": "Nova 2 Lite",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "grok-3-mini-beta": {
+    "arena_name": "grok-3-mini-beta",
+    "name": "Grok 3 Mini",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "ling-flash-2.0": {
+    "arena_name": "ling-flash-2.0",
+    "name": "Ling Flash 2.0",
+    "vendor": "Ant Group",
+    "type": "free",
+    "url": "https://www.antgroup.com/en-US"
+  },
+  "gemma-3-27b-it": {
+    "arena_name": "gemma-3-27b-it",
+    "name": "Gemma 3 27B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "mercury-2": {
+    "arena_name": "mercury-2",
+    "name": "Mercury 2",
+    "vendor": "Inception AI",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "intellect-3": {
+    "arena_name": "intellect-3",
+    "name": "Intellect 3",
+    "vendor": "https://lmarena.ai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "qwen3-coder-480b-a35b-instruct": {
+    "arena_name": "qwen3-coder-480b-a35b-instruct",
+    "name": "Qwen 3 Coder 480B Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "gemini-2.0-flash-001": {
+    "arena_name": "gemini-2.0-flash-001",
+    "name": "Gemini 2.0 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "glm-4.7-flash": {
+    "arena_name": "glm-4.7-flash",
+    "name": "GLM 4.7 Flash",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "o1-preview": {
+    "arena_name": "o1-preview",
+    "name": "O1 Preview",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "o4-mini-2025-04-16": {
+    "arena_name": "o4-mini-2025-04-16",
+    "name": "O4 Mini",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "nvidia-nemotron-3-nano-30b-a3b-bf16": {
+    "arena_name": "nvidia-nemotron-3-nano-30b-a3b-bf16",
+    "name": "NVIDIA Nemotron 3 Nano 30B",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "step-3": {
+    "arena_name": "step-3",
+    "name": "Step 3",
+    "vendor": "StepFun",
+    "type": "free",
+    "url": "https://stepfun.com/"
+  },
+  "claude-sonnet-4-20250514-thinking-32k": {
+    "arena_name": "claude-sonnet-4-20250514-thinking-32k",
+    "name": "Claude Sonnet 4",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "trinity-large-thinking": {
+    "arena_name": "trinity-large-thinking",
+    "name": "Trinity Large",
+    "vendor": "https://lmarena.ai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "minimax-m1": {
+    "arena_name": "minimax-m1",
+    "name": "MiniMax M1",
+    "vendor": "MiniMax",
+    "type": "free",
+    "url": "https://www.minimax.ai/"
+  },
+  "minimax-m2": {
+    "arena_name": "minimax-m2",
+    "name": "MiniMax M2",
+    "vendor": "MiniMax",
+    "type": "free",
+    "url": "https://www.minimax.ai/"
+  },
+  "gpt-4.1-mini-2025-04-14": {
+    "arena_name": "gpt-4.1-mini-2025-04-14",
+    "name": "GPT 4.1 Mini",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "qwen3-32b": {
+    "arena_name": "qwen3-32b",
+    "name": "Qwen 3 32B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "mistral-small-2506": {
+    "arena_name": "mistral-small-2506",
+    "name": "Mistral Small",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "claude-sonnet-4-20250514": {
+    "arena_name": "claude-sonnet-4-20250514",
+    "name": "Claude Sonnet 4",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "nvidia-llama-3.3-nemotron-super-49b-v1.5": {
+    "arena_name": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
+    "name": "NVIDIA Llama 3.3 Nemotron Super 49B V1.5",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "o3-mini-high": {
+    "arena_name": "o3-mini-high",
+    "name": "O3 Mini High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "step-1o-turbo-202506": {
+    "arena_name": "step-1o-turbo-202506",
+    "name": "Step 1O Turbo",
+    "vendor": "StepFun",
+    "type": "paid",
+    "url": "https://stepfun.com/"
+  },
+  "gemma-3-12b-it": {
+    "arena_name": "gemma-3-12b-it",
+    "name": "Gemma 3 12B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "glm-4.5v": {
+    "arena_name": "glm-4.5v",
+    "name": "GLM 4.5V",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "trinity-large-preview": {
+    "arena_name": "trinity-large-preview",
+    "name": "Trinity Large",
+    "vendor": "https://lmarena.ai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "deepseek-v3": {
+    "arena_name": "deepseek-v3",
+    "name": "DeepSeek V3",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "ring-flash-2.0": {
+    "arena_name": "ring-flash-2.0",
+    "name": "Ring Flash 2.0",
+    "vendor": "Ant Group",
+    "type": "free",
+    "url": "https://www.antgroup.com/en-US"
+  },
+  "command-a-03-2025": {
+    "arena_name": "command-a-03-2025",
+    "name": "Command A",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://cohere.com/"
+  },
+  "glm-4-plus-0111": {
+    "arena_name": "glm-4-plus-0111",
+    "name": "GLM 4 Plus",
+    "vendor": "Zhipu AI",
+    "type": "paid",
+    "url": "https://www.zhipu.ai/"
+  },
+  "gemini-2.0-flash-lite-preview-02-05": {
+    "arena_name": "gemini-2.0-flash-lite-preview-02-05",
+    "name": "Gemini 2.0 Flash Lite",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "qwq-32b": {
+    "arena_name": "qwq-32b",
+    "name": "QWQ 32B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "qwen-plus-0125": {
+    "arena_name": "qwen-plus-0125",
+    "name": "Qwen Plus",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "step-2-16k-exp-202412": {
+    "arena_name": "step-2-16k-exp-202412",
+    "name": "Step 2 16K",
+    "vendor": "StepFun",
+    "type": "paid",
+    "url": "https://stepfun.com/"
+  },
+  "gpt-5-nano-high": {
+    "arena_name": "gpt-5-nano-high",
+    "name": "GPT 5 Nano High",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "hunyuan-turbos-20250226": {
+    "arena_name": "hunyuan-turbos-20250226",
+    "name": "Hunyuan Turbos",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "llama-3.1-nemotron-ultra-253b-v1": {
+    "arena_name": "llama-3.1-nemotron-ultra-253b-v1",
+    "name": "Llama 3.1 Nemotron Ultra 253B V1",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "gemini-1.5-pro-002": {
+    "arena_name": "gemini-1.5-pro-002",
+    "name": "Gemini 1.5 Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "o3-mini": {
+    "arena_name": "o3-mini",
+    "name": "O3 Mini",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "qwen3-30b-a3b": {
+    "arena_name": "qwen3-30b-a3b",
+    "name": "Qwen 3 30B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "o1-mini": {
+    "arena_name": "o1-mini",
+    "name": "O1 Mini",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "claude-3-7-sonnet-20250219-thinking-32k": {
+    "arena_name": "claude-3-7-sonnet-20250219-thinking-32k",
+    "name": "Claude 3.7 Sonnet",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "olmo-3.1-32b-instruct": {
+    "arena_name": "olmo-3.1-32b-instruct",
+    "name": "OLMo 3.1 32B Instruct",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "hunyuan-turbo-0110": {
+    "arena_name": "hunyuan-turbo-0110",
+    "name": "Hunyuan Turbo",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "llama-3.3-nemotron-49b-super-v1": {
+    "arena_name": "llama-3.3-nemotron-49b-super-v1",
+    "name": "Llama 3.3 Nemotron 49B Super V1",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "gemma-3n-e4b-it": {
+    "arena_name": "gemma-3n-e4b-it",
+    "name": "Gemma 3N E4B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "grok-2-2024-08-13": {
+    "arena_name": "grok-2-2024-08-13",
+    "name": "Grok 2",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "yi-lightning": {
+    "arena_name": "yi-lightning",
+    "name": "Yi Lightning",
+    "vendor": "01.AI",
+    "type": "paid",
+    "url": "https://www.01.ai/"
+  },
+  "gpt-4o-2024-05-13": {
+    "arena_name": "gpt-4o-2024-05-13",
+    "name": "GPT 4o",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "qwen2.5-plus-1127": {
+    "arena_name": "qwen2.5-plus-1127",
+    "name": "Qwen 2.5 Plus",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "claude-3-7-sonnet-20250219": {
+    "arena_name": "claude-3-7-sonnet-20250219",
+    "name": "Claude 3.7 Sonnet",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "olmo-3-32b-think": {
+    "arena_name": "olmo-3-32b-think",
+    "name": "OLMo 3 32B",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "claude-3-5-sonnet-20241022": {
+    "arena_name": "claude-3-5-sonnet-20241022",
+    "name": "Claude 3.5 Sonnet",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "molmo-2-8b": {
+    "arena_name": "molmo-2-8b",
+    "name": "Molmo 2 8B",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "deepseek-v2.5-1210": {
+    "arena_name": "deepseek-v2.5-1210",
+    "name": "DeepSeek V2.5",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "granite-4.1-8b": {
+    "arena_name": "granite-4.1-8b",
+    "name": "Granite 4.1 8B",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://www.ibm.com/watson-x"
+  },
+  "athene-v2-chat": {
+    "arena_name": "athene-v2-chat",
+    "name": "Athene V2 Chat",
+    "vendor": "NexusFlow",
+    "type": "free",
+    "url": "https://www.nexusflow.ai/"
+  },
+  "gemma-3-4b-it": {
+    "arena_name": "gemma-3-4b-it",
+    "name": "Gemma 3 4B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "glm-4-plus": {
+    "arena_name": "glm-4-plus",
+    "name": "GLM 4 Plus",
+    "vendor": "Zhipu AI",
+    "type": "paid",
+    "url": "https://www.zhipu.ai/"
+  },
+  "hunyuan-large-2025-02-10": {
+    "arena_name": "hunyuan-large-2025-02-10",
+    "name": "Hunyuan Large",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "llama-4-maverick-17b-128e-instruct": {
+    "arena_name": "llama-4-maverick-17b-128e-instruct",
+    "name": "Llama 4 Maverick 17B 128E Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "gpt-oss-20b": {
+    "arena_name": "gpt-oss-20b",
+    "name": "GPT OSS 20B",
+    "vendor": "OpenAI",
+    "type": "free",
+    "url": "https://openai.com/"
+  },
+  "gemini-1.5-flash-002": {
+    "arena_name": "gemini-1.5-flash-002",
+    "name": "Gemini 1.5 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "gpt-4o-mini-2024-07-18": {
+    "arena_name": "gpt-4o-mini-2024-07-18",
+    "name": "GPT 4o Mini",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "gpt-4.1-nano-2025-04-14": {
+    "arena_name": "gpt-4.1-nano-2025-04-14",
+    "name": "GPT 4.1 Nano",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "llama-3.1-405b-instruct-bf16": {
+    "arena_name": "llama-3.1-405b-instruct-bf16",
+    "name": "Llama 3.1 405B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "llama-3.1-nemotron-70b-instruct": {
+    "arena_name": "llama-3.1-nemotron-70b-instruct",
+    "name": "Llama 3.1 Nemotron 70B Instruct",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "gpt-4o-2024-08-06": {
+    "arena_name": "gpt-4o-2024-08-06",
+    "name": "GPT 4o",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "mercury": {
+    "arena_name": "mercury",
+    "name": "Mercury",
+    "vendor": "Inception AI",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "qwen-max-0919": {
+    "arena_name": "qwen-max-0919",
+    "name": "Qwen Max",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "llama-3.1-405b-instruct-fp8": {
+    "arena_name": "llama-3.1-405b-instruct-fp8",
+    "name": "Llama 3.1 405B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "claude-3-5-sonnet-20240620": {
+    "arena_name": "claude-3-5-sonnet-20240620",
+    "name": "Claude 3.5 Sonnet",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "grok-2-mini-2024-08-13": {
+    "arena_name": "grok-2-mini-2024-08-13",
+    "name": "Grok 2 Mini",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/"
+  },
+  "llama-4-scout-17b-16e-instruct": {
+    "arena_name": "llama-4-scout-17b-16e-instruct",
+    "name": "Llama 4 Scout 17B 16E Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "gemini-advanced-0514": {
+    "arena_name": "gemini-advanced-0514",
+    "name": "Gemini Advanced",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "mistral-small-3.1-24b-instruct-2503": {
+    "arena_name": "mistral-small-3.1-24b-instruct-2503",
+    "name": "Mistral Small 3.1 24B Instruct",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "llama-3.3-70b-instruct": {
+    "arena_name": "llama-3.3-70b-instruct",
+    "name": "Llama 3.3 70B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "hunyuan-standard-2025-02-10": {
+    "arena_name": "hunyuan-standard-2025-02-10",
+    "name": "Hunyuan Standard",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "gemini-1.5-pro-001": {
+    "arena_name": "gemini-1.5-pro-001",
+    "name": "Gemini 1.5 Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "gpt-4-turbo-2024-04-09": {
+    "arena_name": "gpt-4-turbo-2024-04-09",
+    "name": "GPT 4 Turbo",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "deepseek-v2.5": {
+    "arena_name": "deepseek-v2.5",
+    "name": "DeepSeek V2.5",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "olmo-3.1-32b-think": {
+    "arena_name": "olmo-3.1-32b-think",
+    "name": "OLMo 3.1 32B",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "qwen2.5-72b-instruct": {
+    "arena_name": "qwen2.5-72b-instruct",
+    "name": "Qwen 2.5 72B Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "mistral-large-2407": {
+    "arena_name": "mistral-large-2407",
+    "name": "Mistral Large",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "mistral-large-2411": {
+    "arena_name": "mistral-large-2411",
+    "name": "Mistral Large",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "athene-70b-0725": {
+    "arena_name": "athene-70b-0725",
+    "name": "Athene 70B",
+    "vendor": "NexusFlow",
+    "type": "free",
+    "url": "https://www.nexusflow.ai/"
+  },
+  "gpt-4-1106-preview": {
+    "arena_name": "gpt-4-1106-preview",
+    "name": "GPT 4",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "hunyuan-large-vision": {
+    "arena_name": "hunyuan-large-vision",
+    "name": "Hunyuan Large Vision",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "gpt-4-0125-preview": {
+    "arena_name": "gpt-4-0125-preview",
+    "name": "GPT 4",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "claude-3-opus-20240229": {
+    "arena_name": "claude-3-opus-20240229",
+    "name": "Claude 3 Opus",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "llama-3.1-70b-instruct": {
+    "arena_name": "llama-3.1-70b-instruct",
+    "name": "Llama 3.1 70B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "amazon-nova-pro-v1.0": {
+    "arena_name": "amazon-nova-pro-v1.0",
+    "name": "Amazon Nova Pro V1.0",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "llama-3.1-tulu-3-70b": {
+    "arena_name": "llama-3.1-tulu-3-70b",
+    "name": "Llama 3.1 Tulu 3 70B",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "claude-3-5-haiku-20241022": {
+    "arena_name": "claude-3-5-haiku-20241022",
+    "name": "Claude 3.5 Haiku",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "magistral-medium-2506": {
+    "arena_name": "magistral-medium-2506",
+    "name": "Magistral Medium",
+    "vendor": "Mistral AI",
+    "type": "paid",
+    "url": "https://mistral.ai/"
+  },
+  "reka-core-20240904": {
+    "arena_name": "reka-core-20240904",
+    "name": "Reka Core",
+    "vendor": "Reka AI",
+    "type": "paid",
+    "url": "https://reka.ai/"
+  },
+  "ibm-granite-h-small": {
+    "arena_name": "ibm-granite-h-small",
+    "name": "IBM Granite H Small",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://www.ibm.com/watson-x"
+  },
+  "gemini-1.5-flash-001": {
+    "arena_name": "gemini-1.5-flash-001",
+    "name": "Gemini 1.5 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "jamba-1.5-large": {
+    "arena_name": "jamba-1.5-large",
+    "name": "Jamba 1.5 Large",
+    "vendor": "AI21 Labs",
+    "type": "free",
+    "url": "https://www.ai21.com/"
+  },
+  "mistral-small-24b-instruct-2501": {
+    "arena_name": "mistral-small-24b-instruct-2501",
+    "name": "Mistral Small 24B Instruct",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "gemma-2-27b-it": {
+    "arena_name": "gemma-2-27b-it",
+    "name": "Gemma 2 27B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "qwen2.5-coder-32b-instruct": {
+    "arena_name": "qwen2.5-coder-32b-instruct",
+    "name": "Qwen 2.5 Coder 32B Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "command-r-plus-08-2024": {
+    "arena_name": "command-r-plus-08-2024",
+    "name": "Command R Plus",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://cohere.com/"
+  },
+  "amazon-nova-lite-v1.0": {
+    "arena_name": "amazon-nova-lite-v1.0",
+    "name": "Amazon Nova Lite V1.0",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "llama-3.1-nemotron-51b-instruct": {
+    "arena_name": "llama-3.1-nemotron-51b-instruct",
+    "name": "Llama 3.1 Nemotron 51B Instruct",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "gemma-2-9b-it-simpo": {
+    "arena_name": "gemma-2-9b-it-simpo",
+    "name": "Gemma 2 9B IT Simpo",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "glm-4-0520": {
+    "arena_name": "glm-4-0520",
+    "name": "GLM 4",
+    "vendor": "Zhipu AI",
+    "type": "paid",
+    "url": "https://www.zhipu.ai/"
+  },
+  "gemini-1.5-flash-8b-001": {
+    "arena_name": "gemini-1.5-flash-8b-001",
+    "name": "Gemini 1.5 Flash 8B",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "nemotron-4-340b-instruct": {
+    "arena_name": "nemotron-4-340b-instruct",
+    "name": "Nemotron 4 340B Instruct",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "c4ai-aya-expanse-32b": {
+    "arena_name": "c4ai-aya-expanse-32b",
+    "name": "C4AI Aya Expanse 32B",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://cohere.com/"
+  },
+  "llama-3-70b-instruct": {
+    "arena_name": "llama-3-70b-instruct",
+    "name": "Llama 3 70B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "claude-3-sonnet-20240229": {
+    "arena_name": "claude-3-sonnet-20240229",
+    "name": "Claude 3 Sonnet",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "reka-flash-20240904": {
+    "arena_name": "reka-flash-20240904",
+    "name": "Reka Flash",
+    "vendor": "Reka AI",
+    "type": "paid",
+    "url": "https://reka.ai/"
+  },
+  "olmo-2-0325-32b-instruct": {
+    "arena_name": "olmo-2-0325-32b-instruct",
+    "name": "OLMo 2 32B Instruct",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "phi-4": {
+    "arena_name": "phi-4",
+    "name": "Phi 4",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "amazon-nova-micro-v1.0": {
+    "arena_name": "amazon-nova-micro-v1.0",
+    "name": "Amazon Nova Micro V1.0",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://aws.amazon.com/bedrock/"
+  },
+  "gemma-2-9b-it": {
+    "arena_name": "gemma-2-9b-it",
+    "name": "Gemma 2 9B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "gpt-4-0314": {
+    "arena_name": "gpt-4-0314",
+    "name": "GPT 4",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "command-r-plus": {
+    "arena_name": "command-r-plus",
+    "name": "Command R Plus",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://cohere.com/"
+  },
+  "qwen2-72b-instruct": {
+    "arena_name": "qwen2-72b-instruct",
+    "name": "Qwen 2 72B Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "hunyuan-standard-256k": {
+    "arena_name": "hunyuan-standard-256k",
+    "name": "Hunyuan Standard 256K",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://cloud.tencent.com/product/hunyuan"
+  },
+  "claude-3-haiku-20240307": {
+    "arena_name": "claude-3-haiku-20240307",
+    "name": "Claude 3 Haiku",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/"
+  },
+  "llama-3.1-tulu-3-8b": {
+    "arena_name": "llama-3.1-tulu-3-8b",
+    "name": "Llama 3.1 Tulu 3 8B",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "deepseek-coder-v2": {
+    "arena_name": "deepseek-coder-v2",
+    "name": "DeepSeek Coder V2",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "ministral-8b-2410": {
+    "arena_name": "ministral-8b-2410",
+    "name": "Ministral 8B",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "command-r-08-2024": {
+    "arena_name": "command-r-08-2024",
+    "name": "Command R",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://cohere.com/"
+  },
+  "jamba-1.5-mini": {
+    "arena_name": "jamba-1.5-mini",
+    "name": "Jamba 1.5 Mini",
+    "vendor": "AI21 Labs",
+    "type": "free",
+    "url": "https://www.ai21.com/"
+  },
+  "llama-3.1-8b-instruct": {
+    "arena_name": "llama-3.1-8b-instruct",
+    "name": "Llama 3.1 8B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "gpt-4-0613": {
+    "arena_name": "gpt-4-0613",
+    "name": "GPT 4",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "c4ai-aya-expanse-8b": {
+    "arena_name": "c4ai-aya-expanse-8b",
+    "name": "C4AI Aya Expanse 8B",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://cohere.com/"
+  },
+  "mistral-large-2402": {
+    "arena_name": "mistral-large-2402",
+    "name": "Mistral Large",
+    "vendor": "Mistral AI",
+    "type": "paid",
+    "url": "https://mistral.ai/"
+  },
+  "qwen1.5-110b-chat": {
+    "arena_name": "qwen1.5-110b-chat",
+    "name": "Qwen 1.5 110B Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "yi-1.5-34b-chat": {
+    "arena_name": "yi-1.5-34b-chat",
+    "name": "Yi 1.5 34B Chat",
+    "vendor": "01.AI",
+    "type": "free",
+    "url": "https://www.01.ai/"
+  },
+  "reka-flash-21b-20240226-online": {
+    "arena_name": "reka-flash-21b-20240226-online",
+    "name": "Reka Flash 21B",
+    "vendor": "Reka AI",
+    "type": "paid",
+    "url": "https://reka.ai/"
+  },
+  "qwen1.5-72b-chat": {
+    "arena_name": "qwen1.5-72b-chat",
+    "name": "Qwen 1.5 72B Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "llama-3-8b-instruct": {
+    "arena_name": "llama-3-8b-instruct",
+    "name": "Llama 3 8B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "mistral-medium": {
+    "arena_name": "mistral-medium",
+    "name": "Mistral Medium",
+    "vendor": "Mistral AI",
+    "type": "paid",
+    "url": "https://mistral.ai/"
+  },
+  "reka-flash-21b-20240226": {
+    "arena_name": "reka-flash-21b-20240226",
+    "name": "Reka Flash 21B",
+    "vendor": "Reka AI",
+    "type": "paid",
+    "url": "https://reka.ai/"
+  },
+  "command-r": {
+    "arena_name": "command-r",
+    "name": "Command R",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://cohere.com/"
+  },
+  "mixtral-8x22b-instruct-v0.1": {
+    "arena_name": "mixtral-8x22b-instruct-v0.1",
+    "name": "Mixtral 8x22B Instruct V0.1",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "qwq-32b-preview": {
+    "arena_name": "qwq-32b-preview",
+    "name": "QWQ 32B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "internlm2_5-20b-chat": {
+    "arena_name": "internlm2_5-20b-chat",
+    "name": "InternLM 2.5 20B Chat",
+    "vendor": "SenseTime",
+    "type": "free",
+    "url": "https://www.internlm.com/"
+  },
+  "gemma-2-2b-it": {
+    "arena_name": "gemma-2-2b-it",
+    "name": "Gemma 2 2B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "granite-3.1-8b-instruct": {
+    "arena_name": "granite-3.1-8b-instruct",
+    "name": "Granite 3.1 8B Instruct",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://www.ibm.com/watson-x"
+  },
+  "gemini-pro-dev-api": {
+    "arena_name": "gemini-pro-dev-api",
+    "name": "Gemini Pro Dev API",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "zephyr-orpo-141b-A35b-v0.1": {
+    "arena_name": "zephyr-orpo-141b-A35b-v0.1",
+    "name": "Zephyr Orpo 141B A35B V0.1",
+    "vendor": "Hugging Face",
+    "type": "free",
+    "url": "https://huggingface.co/"
+  },
+  "phi-3-medium-4k-instruct": {
+    "arena_name": "phi-3-medium-4k-instruct",
+    "name": "Phi 3 Medium 4K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "qwen1.5-32b-chat": {
+    "arena_name": "qwen1.5-32b-chat",
+    "name": "Qwen 1.5 32B Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "starling-lm-7b-beta": {
+    "arena_name": "starling-lm-7b-beta",
+    "name": "Starling LM 7B Beta",
+    "vendor": "LM-Sys",
+    "type": "free",
+    "url": "https://lmsys.org/"
+  },
+  "mixtral-8x7b-instruct-v0.1": {
+    "arena_name": "mixtral-8x7b-instruct-v0.1",
+    "name": "Mixtral 8x7B Instruct V0.1",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "gemini-pro": {
+    "arena_name": "gemini-pro",
+    "name": "Gemini Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "yi-34b-chat": {
+    "arena_name": "yi-34b-chat",
+    "name": "Yi 34B Chat",
+    "vendor": "01.AI",
+    "type": "free",
+    "url": "https://www.01.ai/"
+  },
+  "qwen1.5-14b-chat": {
+    "arena_name": "qwen1.5-14b-chat",
+    "name": "Qwen 1.5 14B Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "granite-3.1-2b-instruct": {
+    "arena_name": "granite-3.1-2b-instruct",
+    "name": "Granite 3.1 2B Instruct",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://www.ibm.com/watson-x"
+  },
+  "gpt-3.5-turbo-0125": {
+    "arena_name": "gpt-3.5-turbo-0125",
+    "name": "GPT 3.5 Turbo",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "tulu-2-dpo-70b": {
+    "arena_name": "tulu-2-dpo-70b",
+    "name": "Tulu 2 DPO 70B",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "wizardlm-70b": {
+    "arena_name": "wizardlm-70b",
+    "name": "WizardLM 70B",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "dbrx-instruct-preview": {
+    "arena_name": "dbrx-instruct-preview",
+    "name": "DBRX Instruct",
+    "vendor": "Databricks",
+    "type": "free",
+    "url": "https://www.databricks.com/product/databricks-llm"
+  },
+  "llama-2-70b-chat": {
+    "arena_name": "llama-2-70b-chat",
+    "name": "Llama 2 70B Chat",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "nous-hermes-2-mixtral-8x7b-dpo": {
+    "arena_name": "nous-hermes-2-mixtral-8x7b-dpo",
+    "name": "Nous Hermes 2 Mixtral 8x7B DPO",
+    "vendor": "Nous Research",
+    "type": "free",
+    "url": "https://nous.ai/"
+  },
+  "phi-3-small-8k-instruct": {
+    "arena_name": "phi-3-small-8k-instruct",
+    "name": "Phi 3 Small 8K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "llama-3.2-3b-instruct": {
+    "arena_name": "llama-3.2-3b-instruct",
+    "name": "Llama 3.2 3B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "starling-lm-7b-alpha": {
+    "arena_name": "starling-lm-7b-alpha",
+    "name": "Starling LM 7B Alpha",
+    "vendor": "LM-Sys",
+    "type": "free",
+    "url": "https://lmsys.org/"
+  },
+  "openchat-3.5-0106": {
+    "arena_name": "openchat-3.5-0106",
+    "name": "OpenChat 3.5",
+    "vendor": "OpenChat",
+    "type": "free",
+    "url": "https://openchat.team/"
+  },
+  "vicuna-33b": {
+    "arena_name": "vicuna-33b",
+    "name": "Vicuna 33B",
+    "vendor": "LM-Sys",
+    "type": "free",
+    "url": "https://lmsys.org/"
+  },
+  "deepseek-llm-67b-chat": {
+    "arena_name": "deepseek-llm-67b-chat",
+    "name": "DeepSeek LLM 67B Chat",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://www.deepseek.com/"
+  },
+  "snowflake-arctic-instruct": {
+    "arena_name": "snowflake-arctic-instruct",
+    "name": "Snowflake Arctic Instruct",
+    "vendor": "Snowflake",
+    "type": "free",
+    "url": "https://www.snowflake.com/en/data-cloud/snowflake-arctic/"
+  },
+  "llama2-70b-steerlm-chat": {
+    "arena_name": "llama2-70b-steerlm-chat",
+    "name": "Llama 2 70B SteerLM Chat",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/"
+  },
+  "openchat-3.5": {
+    "arena_name": "openchat-3.5",
+    "name": "OpenChat 3.5",
+    "vendor": "OpenChat",
+    "type": "free",
+    "url": "https://openchat.team/"
+  },
+  "granite-3.0-8b-instruct": {
+    "arena_name": "granite-3.0-8b-instruct",
+    "name": "Granite 3.0 8B Instruct",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://www.ibm.com/watson-x"
+  },
+  "gpt-3.5-turbo-1106": {
+    "arena_name": "gpt-3.5-turbo-1106",
+    "name": "GPT 3.5 Turbo",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/"
+  },
+  "gemma-1.1-7b-it": {
+    "arena_name": "gemma-1.1-7b-it",
+    "name": "Gemma 1.1 7B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "openhermes-2.5-mistral-7b": {
+    "arena_name": "openhermes-2.5-mistral-7b",
+    "name": "OpenHermes 2.5 Mistral 7B",
+    "vendor": "Nous Research",
+    "type": "free",
+    "url": "https://nous.ai/"
+  },
+  "mistral-7b-instruct-v0.2": {
+    "arena_name": "mistral-7b-instruct-v0.2",
+    "name": "Mistral 7B Instruct V0.2",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "llama-2-13b-chat": {
+    "arena_name": "llama-2-13b-chat",
+    "name": "Llama 2 13B Chat",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "qwen1.5-7b-chat": {
+    "arena_name": "qwen1.5-7b-chat",
+    "name": "Qwen 1.5 7B Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "solar-10.7b-instruct-v1.0": {
+    "arena_name": "solar-10.7b-instruct-v1.0",
+    "name": "Solar 10.7B Instruct V1.0",
+    "vendor": "Upstage",
+    "type": "free",
+    "url": "https://upstage.ai/"
+  },
+  "dolphin-2.2.1-mistral-7b": {
+    "arena_name": "dolphin-2.2.1-mistral-7b",
+    "name": "Dolphin 2.2.1 Mistral 7B",
+    "vendor": "Evolutions",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "phi-3-mini-4k-instruct-june-2024": {
+    "arena_name": "phi-3-mini-4k-instruct-june-2024",
+    "name": "Phi 3 Mini 4K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "granite-3.0-2b-instruct": {
+    "arena_name": "granite-3.0-2b-instruct",
+    "name": "Granite 3.0 2B Instruct",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://www.ibm.com/watson-x"
+  },
+  "wizardlm-13b": {
+    "arena_name": "wizardlm-13b",
+    "name": "WizardLM 13B",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "phi-3-mini-4k-instruct": {
+    "arena_name": "phi-3-mini-4k-instruct",
+    "name": "Phi 3 Mini 4K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "zephyr-7b-beta": {
+    "arena_name": "zephyr-7b-beta",
+    "name": "Zephyr 7B Beta",
+    "vendor": "Hugging Face",
+    "type": "free",
+    "url": "https://huggingface.co/"
+  },
+  "mpt-30b-chat": {
+    "arena_name": "mpt-30b-chat",
+    "name": "MPT 30B Chat",
+    "vendor": "MosaicML",
+    "type": "free",
+    "url": "https://www.mosaicml.com/"
+  },
+  "codellama-34b-instruct": {
+    "arena_name": "codellama-34b-instruct",
+    "name": "Code Llama 34B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "zephyr-7b-alpha": {
+    "arena_name": "zephyr-7b-alpha",
+    "name": "Zephyr 7B Alpha",
+    "vendor": "Hugging Face",
+    "type": "free",
+    "url": "https://huggingface.co/"
+  },
+  "vicuna-13b": {
+    "arena_name": "vicuna-13b",
+    "name": "Vicuna 13B",
+    "vendor": "LM-Sys",
+    "type": "free",
+    "url": "https://lmsys.org/"
+  },
+  "codellama-70b-instruct": {
+    "arena_name": "codellama-70b-instruct",
+    "name": "Code Llama 70B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "gemma-7b-it": {
+    "arena_name": "gemma-7b-it",
+    "name": "Gemma 7B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "llama-3.2-1b-instruct": {
+    "arena_name": "llama-3.2-1b-instruct",
+    "name": "Llama 3.2 1B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "falcon-180b-chat": {
+    "arena_name": "falcon-180b-chat",
+    "name": "Falcon 180B Chat",
+    "vendor": "Technology Innovation Institute",
+    "type": "free",
+    "url": "https://falconllm.tii.ae/"
+  },
+  "llama-2-7b-chat": {
+    "arena_name": "llama-2-7b-chat",
+    "name": "Llama 2 7B Chat",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  },
+  "guanaco-33b": {
+    "arena_name": "guanaco-33b",
+    "name": "Guanaco 33B",
+    "vendor": "https://lmarena.ai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "qwen-14b-chat": {
+    "arena_name": "qwen-14b-chat",
+    "name": "Qwen 14B Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "phi-3-mini-128k-instruct": {
+    "arena_name": "phi-3-mini-128k-instruct",
+    "name": "Phi 3 Mini 128K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://azure.microsoft.com/en-us/solutions/ai/"
+  },
+  "smollm2-1.7b-instruct": {
+    "arena_name": "smollm2-1.7b-instruct",
+    "name": "SmolLM 2 1.7B Instruct",
+    "vendor": "https://lmarena.ai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "stripedhyena-nous-7b": {
+    "arena_name": "stripedhyena-nous-7b",
+    "name": "StripedHyena Nous 7B",
+    "vendor": "Nous Research",
+    "type": "free",
+    "url": "https://nous.ai/"
+  },
+  "olmo-7b-instruct": {
+    "arena_name": "olmo-7b-instruct",
+    "name": "OLMo 7B Instruct",
+    "vendor": "Allen Institute for AI",
+    "type": "free",
+    "url": "https://allenai.org/"
+  },
+  "vicuna-7b": {
+    "arena_name": "vicuna-7b",
+    "name": "Vicuna 7B",
+    "vendor": "LM-Sys",
+    "type": "free",
+    "url": "https://lmsys.org/"
+  },
+  "palm-2": {
+    "arena_name": "palm-2",
+    "name": "PaLM 2",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google/"
+  },
+  "mistral-7b-instruct": {
+    "arena_name": "mistral-7b-instruct",
+    "name": "Mistral 7B Instruct",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://mistral.ai/"
+  },
+  "gemma-1.1-2b-it": {
+    "arena_name": "gemma-1.1-2b-it",
+    "name": "Gemma 1.1 2B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "gemma-2b-it": {
+    "arena_name": "gemma-2b-it",
+    "name": "Gemma 2B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://ai.google/"
+  },
+  "qwen1.5-4b-chat": {
+    "arena_name": "qwen1.5-4b-chat",
+    "name": "Qwen 1.5 4B Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://www.alibabacloud.com/product/qianwen"
+  },
+  "koala-13b": {
+    "arena_name": "koala-13b",
+    "name": "Koala 13B",
+    "vendor": "LM-Sys",
+    "type": "free",
+    "url": "https://lmsys.org/"
+  },
+  "chatglm3-6b": {
+    "arena_name": "chatglm3-6b",
+    "name": "ChatGLM 3 6B",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "gpt4all-13b-snoozy": {
+    "arena_name": "gpt4all-13b-snoozy",
+    "name": "GPT4All 13B Snoozy",
+    "vendor": "Nomic AI",
+    "type": "free",
+    "url": "https://gpt4all.io/"
+  },
+  "mpt-7b-chat": {
+    "arena_name": "mpt-7b-chat",
+    "name": "MPT 7B Chat",
+    "vendor": "MosaicML",
+    "type": "free",
+    "url": "https://www.mosaicml.com/"
+  },
+  "RWKV-4-Raven-14B": {
+    "arena_name": "RWKV-4-Raven-14B",
+    "name": "RWKV 4 Raven 14B",
+    "vendor": "RWKV",
+    "type": "free",
+    "url": "https://www.rwkv.com/"
+  },
+  "chatglm2-6b": {
+    "arena_name": "chatglm2-6b",
+    "name": "ChatGLM 2 6B",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "alpaca-13b": {
+    "arena_name": "alpaca-13b",
+    "name": "Alpaca 13B",
+    "vendor": "Stanford University",
+    "type": "free",
+    "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+  },
+  "chatglm-6b": {
+    "arena_name": "chatglm-6b",
+    "name": "ChatGLM 6B",
+    "vendor": "Zhipu AI",
+    "type": "free",
+    "url": "https://www.zhipu.ai/"
+  },
+  "oasst-pythia-12b": {
+    "arena_name": "oasst-pythia-12b",
+    "name": "OASST Pythia 12B",
+    "vendor": "OpenAssistant",
+    "type": "free",
+    "url": "https://open-assistant.io/"
+  },
+  "fastchat-t5-3b": {
+    "arena_name": "fastchat-t5-3b",
+    "name": "FastChat T5 3B",
+    "vendor": "LM-Sys",
+    "type": "free",
+    "url": "https://lmsys.org/"
+  },
+  "stablelm-tuned-alpha-7b": {
+    "arena_name": "stablelm-tuned-alpha-7b",
+    "name": "StableLM Tuned Alpha 7B",
+    "vendor": "Stability AI",
+    "type": "free",
+    "url": "https://stability.ai/"
+  },
+  "dolly-v2-12b": {
+    "arena_name": "dolly-v2-12b",
+    "name": "Dolly V2 12B",
+    "vendor": "Databricks",
+    "type": "free",
+    "url": "https://www.databricks.com/blog/2023/04/12/dolly-v2-databricks-new-sota-instruction-tuned-llm"
+  },
+  "llama-13b": {
+    "arena_name": "llama-13b",
+    "name": "Llama 13B",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://ai.meta.com/"
+  }
+}
