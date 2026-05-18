@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-05-14",
-  "retrieved_at": "2026-05-18T09:20:20Z",
+  "retrieved_at": "2026-05-18T09:33:40Z",
   "models": [
     {
       "name": "Claude Opus 4.6 Thinking",
@@ -482,8 +482,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Mistral AI 🇫🇷",
-          "url": ""
+          "provider": "Mistral AI",
+          "url": "https://console.mistral.ai/api-keys"
         }
       ]
     },
@@ -547,12 +547,12 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "GitHub Models 🇺🇸",
-          "url": ""
+          "provider": "GitHub Models",
+          "url": "https://github.com/marketplace/models"
         },
         {
-          "provider": "LLM7.io 🇬🇧",
-          "url": ""
+          "provider": "LLM7.io",
+          "url": "https://token.llm7.io"
         }
       ]
     },
@@ -776,8 +776,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Cerebras 🇺🇸",
-          "url": ""
+          "provider": "Cerebras",
+          "url": "https://cloud.cerebras.ai/"
         }
       ]
     },
@@ -821,8 +821,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Google Gemini 🇺🇸",
-          "url": ""
+          "provider": "Google Gemini",
+          "url": "https://aistudio.google.com/app/apikey"
         }
       ]
     },
@@ -1206,8 +1206,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "GitHub Models 🇺🇸",
-          "url": ""
+          "provider": "GitHub Models",
+          "url": "https://github.com/marketplace/models"
         }
       ]
     },
@@ -1251,8 +1251,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "NVIDIA NIM 🇺🇸",
-          "url": ""
+          "provider": "NVIDIA NIM",
+          "url": "https://build.nvidia.com/explore/discover"
         }
       ]
     },
@@ -1296,8 +1296,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "LLM7.io 🇬🇧",
-          "url": ""
+          "provider": "LLM7.io",
+          "url": "https://token.llm7.io"
         }
       ]
     },
@@ -1321,8 +1321,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "GitHub Models 🇺🇸",
-          "url": ""
+          "provider": "GitHub Models",
+          "url": "https://github.com/marketplace/models"
         }
       ]
     },
@@ -1416,12 +1416,12 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Cerebras 🇺🇸",
-          "url": ""
+          "provider": "Cerebras",
+          "url": "https://cloud.cerebras.ai/"
         },
         {
-          "provider": "Groq 🇺🇸",
-          "url": ""
+          "provider": "Groq",
+          "url": "https://console.groq.com/keys"
         }
       ]
     },
@@ -1545,8 +1545,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Z AI 🇨🇳",
-          "url": ""
+          "provider": "Z AI",
+          "url": "https://open.bigmodel.cn/usercenter/apikeys"
         }
       ]
     },
@@ -1570,8 +1570,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "GitHub Models 🇺🇸",
-          "url": ""
+          "provider": "GitHub Models",
+          "url": "https://github.com/marketplace/models"
         }
       ]
     },
@@ -1645,8 +1645,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "GitHub Models 🇺🇸",
-          "url": ""
+          "provider": "GitHub Models",
+          "url": "https://github.com/marketplace/models"
         }
       ]
     },
@@ -1660,12 +1660,12 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Groq 🇺🇸",
-          "url": ""
+          "provider": "Groq",
+          "url": "https://console.groq.com/keys"
         },
         {
-          "provider": "OVHcloud AI Endpoints 🇫🇷",
-          "url": ""
+          "provider": "OVHcloud AI Endpoints",
+          "url": "https://endpoints.ai.cloud.ovh.net/"
         }
       ]
     },
@@ -1879,8 +1879,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "GitHub Models 🇺🇸",
-          "url": ""
+          "provider": "GitHub Models",
+          "url": "https://github.com/marketplace/models"
         }
       ]
     },
@@ -1984,8 +1984,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "GitHub Models 🇺🇸",
-          "url": ""
+          "provider": "GitHub Models",
+          "url": "https://github.com/marketplace/models"
         }
       ]
     },
@@ -2109,8 +2109,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Groq 🇺🇸",
-          "url": ""
+          "provider": "Groq",
+          "url": "https://console.groq.com/keys"
         }
       ]
     },
@@ -2144,8 +2144,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "LLM7.io 🇬🇧",
-          "url": ""
+          "provider": "LLM7.io",
+          "url": "https://token.llm7.io"
         }
       ]
     },
@@ -2249,8 +2249,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Groq 🇺🇸",
-          "url": ""
+          "provider": "Groq",
+          "url": "https://console.groq.com/keys"
         }
       ]
     },
@@ -2774,8 +2774,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Cohere 🇨🇦",
-          "url": ""
+          "provider": "Cohere",
+          "url": "https://dashboard.cohere.com/api-keys"
         }
       ]
     },
@@ -2909,8 +2909,8 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Cohere 🇨🇦",
-          "url": ""
+          "provider": "Cohere",
+          "url": "https://dashboard.cohere.com/api-keys"
         }
       ]
     },
@@ -3024,12 +3024,12 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Hugging Face 🇺🇸",
-          "url": ""
+          "provider": "Hugging Face",
+          "url": "https://huggingface.co/settings/tokens"
         },
         {
-          "provider": "OVHcloud AI Endpoints 🇫🇷",
-          "url": ""
+          "provider": "OVHcloud AI Endpoints",
+          "url": "https://endpoints.ai.cloud.ovh.net/"
         }
       ]
     },
