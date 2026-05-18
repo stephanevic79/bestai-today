@@ -179,6 +179,31 @@
             background: #22c55e;
         }
 
+        /* Tooltip personnalisé */
+        .badge.api-free::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 120%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(6, 18, 36, 0.9);
+            color: var(--cyan);
+            font-size: 0.65rem;
+            font-weight: 500;
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
+            white-space: nowrap;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 10;
+            border: 1px solid rgba(0,212,255,0.15);
+            backdrop-filter: blur(4px);
+        }
+        .badge.api-free:hover::after {
+            opacity: 1;
+        }
+
         .name-wrapper { width: 100%; display: flex; align-items: flex-end; justify-content: center; overflow: hidden; }
         .name { font-weight: 700; font-size: 1.1rem; text-align: center; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; word-break: break-word; line-height: 1.3; }
         .podium-card .vendor { font-size: 0.8rem; opacity: 0.8; margin: 0.2rem 0 0.5rem; font-weight: 500; }
@@ -202,6 +227,7 @@
             backdrop-filter: blur(8px);
             gap: 0.25rem;
             position: relative;
+            cursor: pointer;
         }
         .model-item:hover {
             border-color: var(--cyan);
@@ -653,14 +679,18 @@
                 return `<span class="badge">${type}</span>`;
             }
 
-            // Nouvelle fonction pour le badge API, avec lien si fournisseur
+            // Nouvelle fonction pour le badge API, avec tooltip et gestion URL vide
             function apiBadgeHtml(hasFreeApi, providers) {
                 if (!hasFreeApi || !providers || providers.length === 0) return '';
-                // Prendre le premier fournisseur comme lien (on pourra évoluer plus tard)
                 const provider = providers[0];
-                const url = provider.url || '#';
+                const url = provider.url && provider.url.trim() !== '' ? provider.url : null;
                 const label = t.apiFree;
-                return `<a href="${url}" target="_blank" rel="noopener" class="badge api-free" title="${provider.provider}">${label}</a>`;
+                const tooltip = provider.provider || '';
+                if (url) {
+                    return `<a href="${url}" target="_blank" rel="noopener" class="badge api-free" data-tooltip="${tooltip}">${label}</a>`;
+                } else {
+                    return `<span class="badge api-free" data-tooltip="${tooltip}">${label}</span>`;
+                }
             }
 
             // ---- Podium (inchangé, pas de lien API cliquable) ----
@@ -786,7 +816,6 @@
                     const scoreVal = currentCategory === 'general' ? m.score_general : m.score_code;
                     const pct = Math.round(normalize(scoreVal, currentCategory));
                     const gaugeClass = currentCategory === 'general' ? 'gauge-cyan' : 'gauge-orange';
-                    // Construction du bloc avec stretched link et badge API cliquable
                     return `
                     <div class="model-item">
                         <a href="${m.url}" target="_blank" rel="noopener" class="model-item-link" aria-label="${m.name}"></a>
