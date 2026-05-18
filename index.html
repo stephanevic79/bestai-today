@@ -93,7 +93,7 @@
         .meta-score-explanation { text-align: center; font-size: 0.75rem; color: rgba(204,232,240,0.6); font-weight: 400; line-height: 1.3; }
         .meta-score-sep { color: rgba(204,232,240,0.6); }
 
-        /* ---- Bandeau API ---- */
+        /* ---- Bandeau API (mis à jour) ---- */
         .api-badge-info {
             width: 100%;
             background: var(--card-bg);
@@ -168,8 +168,16 @@
         }
         .badge.paid { background: var(--paid); color: #040c18; }
         .badge.free { background: var(--free); color: #040c18; }
-        .badge.api-free { background: #4ade80; color: #040c18; }
-        .badge.api-freemium { background: #60a5fa; color: #040c18; }
+        .badge.api-free {
+            background: #4ade80; color: #040c18;
+            text-decoration: none;
+            cursor: pointer;
+            position: relative;
+            z-index: 3;
+        }
+        .badge.api-free:hover {
+            background: #22c55e;
+        }
 
         .name-wrapper { width: 100%; display: flex; align-items: flex-end; justify-content: center; overflow: hidden; }
         .name { font-weight: 700; font-size: 1.1rem; text-align: center; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; word-break: break-word; line-height: 1.3; }
@@ -181,7 +189,7 @@
         @keyframes pulse { 0%,100% { opacity: 0.6; } 50% { opacity: 1; text-shadow: 0 0 25px var(--cyan); } }
         .model-list { display: flex; flex-direction: column; gap: 0.3rem; margin-bottom: 1.5rem; }
 
-        /* ---- Bloc modèle ---- */
+        /* ---- Bloc modèle (liste) ---- */
         .model-item {
             background: var(--card-bg);
             border: 1px solid rgba(0,212,255,0.15);
@@ -189,23 +197,34 @@
             padding: 0.5rem 0.8rem;
             display: flex;
             flex-direction: column;
-            text-decoration: none;
             color: inherit;
             transition: all 0.25s ease;
             backdrop-filter: blur(8px);
             gap: 0.25rem;
+            position: relative;
         }
         .model-item:hover {
             border-color: var(--cyan);
             box-shadow: 0 0 22px rgba(0,212,255,0.4);
             transform: scale(1.01);
         }
+
+        /* Lien étendu couvrant tout le bloc */
+        .model-item-link::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+        }
+
         .model-row-top {
             display: flex;
             align-items: center;
             flex-wrap: nowrap;
             gap: 0.4rem;
             font-size: 0.85rem;
+            position: relative;
+            z-index: 2;
         }
         .model-rank {
             font-family: 'Roboto', sans-serif;
@@ -243,6 +262,8 @@
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            position: relative;
+            z-index: 2;
         }
         .gauge-list {
             flex: 1;
@@ -277,6 +298,8 @@
             transition: text-shadow 0.2s, color 0.2s;
             flex-shrink: 0;
             font-family: 'Segoe UI Symbol', 'Arial Unicode MS', 'Roboto', sans-serif;
+            position: relative;
+            z-index: 3;
         }
         .expand-toggle:hover { text-shadow: 0 0 14px var(--cyan); color: #ffffff; }
 
@@ -370,7 +393,7 @@
             </div>
         </div>
 
-        <!-- Bandeau API (masqué en maintenance) -->
+        <!-- Bandeau API (masqué en maintenance, texte mis à jour) -->
         <div class="api-badge-info" id="apiBadgeInfo"></div>
 
         <!-- Filtres (masqués en maintenance) -->
@@ -446,8 +469,7 @@
                     categoryGeneralDesc: 'Performances en conversation générale.',
                     categoryCodeDesc: 'Performances en programmation et raisonnement technique.',
                     apiFree: 'API gratuite',
-                    apiFreemium: 'API freemium',
-                    apiBadgeInfoText: '💡 Le badge <strong>« API gratuite »</strong> indique les modèles utilisables gratuitement dans vos projets de développement.',
+                    apiBadgeInfoText: '💡 Le badge <strong>« API gratuite »</strong> indique les modèles pour lesquels il existe une API utilisable gratuitement (source : freellm.net).',
                     support: '☕ Soutenir le projet',
                     affiliateNotice: "Certains liens sont des liens d'affiliation.",
                     source: 'Classement basé sur les données Chatbot Arena.',
@@ -478,8 +500,7 @@
                     categoryGeneralDesc: 'Performance in general conversation.',
                     categoryCodeDesc: 'Performance in programming and technical reasoning.',
                     apiFree: 'Free API',
-                    apiFreemium: 'Freemium API',
-                    apiBadgeInfoText: '💡 The <strong>"Free API"</strong> badge indicates models you can use for free in your development projects.',
+                    apiBadgeInfoText: '💡 The <strong>"Free API"</strong> badge indicates models for which a free API exists (source: freellm.net).',
                     support: '☕ Support the project',
                     affiliateNotice: 'Some links are affiliate links.',
                     source: 'Rankings based on Chatbot Arena data.',
@@ -632,21 +653,27 @@
                 return `<span class="badge">${type}</span>`;
             }
 
-            function apiBadgeHtml(apiAccess) {
-                if (apiAccess === 'free') return `<span class="badge api-free">${t.apiFree}</span>`;
-                if (apiAccess === 'freemium') return `<span class="badge api-freemium">${t.apiFreemium}</span>`;
-                return '';
+            // Nouvelle fonction pour le badge API, avec lien si fournisseur
+            function apiBadgeHtml(hasFreeApi, providers) {
+                if (!hasFreeApi || !providers || providers.length === 0) return '';
+                // Prendre le premier fournisseur comme lien (on pourra évoluer plus tard)
+                const provider = providers[0];
+                const url = provider.url || '#';
+                const label = t.apiFree;
+                return `<a href="${url}" target="_blank" rel="noopener" class="badge api-free" title="${provider.provider}">${label}</a>`;
             }
 
-            // ---- Podium (sans cerveau, hauteurs proportionnelles) ----
+            // ---- Podium (inchangé, pas de lien API cliquable) ----
             function podiumCardHtml(model, rank, category) {
                 const scoreVal = category === 'general' ? model.score_general : model.score_code;
                 const pct = Math.round(normalize(scoreVal, category));
+                // Sur le podium, on garde le badge informatif (simple span) pour éviter les liens imbriqués
+                const apiBadge = model.has_free_api ? `<span class="badge api-free">${t.apiFree}</span>` : '';
                 return `
                     <a href="${model.url}" target="_blank" rel="noopener" class="podium-card rank-${rank}">
                         <div class="rank-number">${rank}</div>
                         ${badgeHtml(model.type)}
-                        ${apiBadgeHtml(model.api_access)}
+                        ${apiBadge}
                         <div class="name-wrapper"><span class="name">${model.name}</span></div>
                         <div class="vendor">${model.vendor}</div>
                         <div class="score-val">${pct}%</div>
@@ -759,14 +786,16 @@
                     const scoreVal = currentCategory === 'general' ? m.score_general : m.score_code;
                     const pct = Math.round(normalize(scoreVal, currentCategory));
                     const gaugeClass = currentCategory === 'general' ? 'gauge-cyan' : 'gauge-orange';
+                    // Construction du bloc avec stretched link et badge API cliquable
                     return `
-                    <a href="${m.url}" target="_blank" rel="noopener" class="model-item">
+                    <div class="model-item">
+                        <a href="${m.url}" target="_blank" rel="noopener" class="model-item-link" aria-label="${m.name}"></a>
                         <div class="model-row-top">
                             <span class="model-rank">${rank}</span>
                             <span class="model-name">
                                 <span class="model-name-text">${m.name}</span>
                                 ${badgeHtml(m.type)}
-                                ${apiBadgeHtml(m.api_access)}
+                                ${apiBadgeHtml(m.has_free_api, m.free_api_providers)}
                             </span>
                             <span class="model-vendor">${m.vendor}</span>
                         </div>
@@ -777,7 +806,7 @@
                                 <span class="score-value">${pct}%</span>
                             </div>
                         </div>
-                    </a>`;
+                    </div>`;
                 }).join('');
 
                 podiumEl.querySelectorAll('.podium-card').forEach(c => c.classList.add('no-anim'));
