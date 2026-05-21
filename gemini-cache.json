@@ -2504,5 +2504,19 @@
     "vendor": "Meta",
     "type": "free",
     "url": "https://ai.meta.com/"
+  },
+  "gemini-3.5-flash": {
+    "arena_name": "gemini-3.5-flash",
+    "name": "gemini-3.5-flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "qwen3.7-max-preview": {
+    "arena_name": "qwen3.7-max-preview",
+    "name": "qwen3.7-max-preview",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
