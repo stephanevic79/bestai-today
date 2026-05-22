@@ -197,6 +197,40 @@ Modèles à traiter :
         return {}
 
 
+def generate_sitemap(now_iso):
+    """Génère un sitemap.xml listant les deux pages du site."""
+    sitemap_content = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://bestai-today.com/</loc>
+    <lastmod>{now_iso[:10]}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://bestai-today.com/legal.html</loc>
+    <lastmod>{now_iso[:10]}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>"""
+    with open("sitemap.xml", "w", encoding="utf-8") as f:
+        f.write(sitemap_content)
+    print("sitemap.xml generated.")
+
+
+def generate_robots_txt():
+    """Génère un robots.txt autorisant tous les robots et pointant vers le sitemap."""
+    robots_content = """User-agent: *
+Allow: /
+
+Sitemap: https://bestai-today.com/sitemap.xml
+"""
+    with open("robots.txt", "w", encoding="utf-8") as f:
+        f.write(robots_content)
+    print("robots.txt generated.")
+
+
 def main():
     cache = load_gemini_cache()
     print(f"Loaded {len(cache)} models from Gemini cache.")
@@ -287,6 +321,10 @@ def main():
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+
+    # Générer sitemap.xml et robots.txt
+    generate_sitemap(now)
+    generate_robots_txt()
 
     print("\n=== Summary ===")
     print(f"Ranking date        : {output['ranking_date']}")
