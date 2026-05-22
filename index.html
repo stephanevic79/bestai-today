@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEST AI TODAY — Comparateur d'IA en temps réel</title>
-    <meta name="description" content="Découvrez en temps réel les meilleurs modèles d'IA — GPT-4, Claude, Gemini — classés par score Elo sur un podium interactif. Gratuit, payant, code : filtrez et partagez.">
     <meta property="og:title" content="Best AI Today — Real-time AI Leaderboard">
     <meta property="og:description" content="Découvrez en temps réel les meilleurs modèles d'IA classés par score Elo. Filtrez par compétence et partagez le podium.">
     <meta property="og:url" content="https://bestai-today.com">
@@ -465,7 +463,7 @@
         (function() {
             const i18n = {
                 fr: {
-                    slogan: 'Quel modèle IA domine en ce moment ?',
+                    slogan: 'Comparateur en temps réel – Scores, classements, API gratuites',
                     all: 'Tous', free: 'Gratuit', paid: 'Payant',
                     general: 'Général', code: 'Code',
                     share: 'Partager',
@@ -496,7 +494,7 @@
                     copyright: '© 2026 Best AI Today'
                 },
                 en: {
-                    slogan: 'Which AI model leads right now?',
+                    slogan: 'Real-time comparison – Scores, rankings, free APIs',
                     all: 'All', free: 'Free', paid: 'Paid',
                     general: 'General', code: 'Code',
                     share: 'Share',
@@ -531,6 +529,21 @@
             const lang = navigator.language.startsWith('fr') ? 'fr' : 'en';
             document.documentElement.lang = lang;
             const t = i18n[lang];
+
+            // Mise à jour du titre et de la meta description selon la langue
+            if (lang === 'fr') {
+                document.title = 'Best AI Today – Classement et comparatif des meilleurs modèles d\'IA (GPT, Claude, Gemini)';
+                const metaDesc = document.querySelector('meta[name="description"]');
+                if (metaDesc) {
+                    metaDesc.setAttribute('content', 'Comparez gratuitement les meilleurs modèles d\'IA en temps réel. Classement basé sur Chatbot Arena : GPT-4, Claude, Gemini, Llama, Mistral, DeepSeek. Découvrez pour chaque modèle s\'il existe une API gratuite, et accédez-y directement.');
+                }
+            } else {
+                document.title = 'Best AI Today – Ranking & Comparison of the Best AI Models (GPT, Claude, Gemini)';
+                const metaDesc = document.querySelector('meta[name="description"]');
+                if (metaDesc) {
+                    metaDesc.setAttribute('content', 'Compare the best AI models in real time. Rankings based on Chatbot Arena: GPT-4, Claude, Gemini, Llama, Mistral, DeepSeek. Find out which models offer a free API, and access it directly.');
+                }
+            }
 
             document.getElementById('subtitle').textContent = t.slogan;
             document.getElementById('filterAll').textContent = t.all;
