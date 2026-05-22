@@ -863,6 +863,54 @@
                 });
                 updatePodiumColorClass();
 
+                // ---- Données structurées JSON-LD ----
+                (function buildStructuredData() {
+                    const top10 = filtered.slice(0, 10);
+                    const structured = {
+                        "@context": "https://schema.org",
+                        "@type": "ItemList",
+                        "name": lang === 'fr' ? 'Classement des meilleurs modèles d’IA' : 'Best AI Models Ranking',
+                        "description": lang === 'fr' ? t.scorePart1 + ' — ' + t.scorePart2 : t.scorePart1 + ' — ' + t.scorePart2,
+                        "numberOfItems": top10.length,
+                        "itemListElement": top10.map((model, index) => {
+                            const scoreVal = currentCategory === 'general' ? model.score_general : model.score_code;
+                            const pct = Math.round(normalize(scoreVal, currentCategory));
+                            return {
+                                "@type": "SoftwareApplication",
+                                "name": model.name,
+                                "applicationCategory": "AI Model",
+                                "operatingSystem": "Web",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "price": model.type === 'free' ? "0" : undefined,
+                                    "priceCurrency": model.type === 'free' ? undefined : undefined
+                                },
+                                "aggregateRating": {
+                                    "@type": "AggregateRating",
+                                    "ratingValue": pct,
+                                    "bestRating": "100",
+                                    "worstRating": "0"
+                                },
+                                "position": index + 1,
+                                "provider": {
+                                    "@type": "Organization",
+                                    "name": model.vendor
+                                },
+                                "url": model.url
+                            };
+                        })
+                    };
+
+                    const oldScript = document.getElementById('structured-data');
+                    if (oldScript) oldScript.remove();
+
+                    const script = document.createElement('script');
+                    script.type = 'application/ld+json';
+                    script.id = 'structured-data';
+                    script.textContent = JSON.stringify(structured, null, 2);
+                    document.head.appendChild(script);
+                })();
+
                 setupExpandableNames();
                 updateToggleVisibility();
             }
