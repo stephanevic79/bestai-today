@@ -69,6 +69,30 @@
             color: var(--cyan); letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.95; margin-bottom: 0.5rem;
         }
 
+        /* ---- Bloc Hero (nouveau) ---- */
+        .hero {
+            background: var(--card-bg);
+            border: 1px solid rgba(0,212,255,0.2);
+            border-radius: 14px;
+            padding: 1rem 1.5rem;
+            backdrop-filter: blur(8px);
+            text-align: center;
+            margin-top: -0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .hero-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--cyan);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 8px var(--cyan);
+        }
+        .hero-text {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            line-height: 1.5;
+        }
+
         /* ---- Bandeau méta ---- */
         .meta-info {
             background: var(--card-bg);
@@ -395,6 +419,12 @@
             <div class="sub" id="subtitle"></div>
         </header>
 
+        <!-- Bloc Hero (visible uniquement avec données) -->
+        <div class="hero" id="hero" style="display: none;">
+            <div class="hero-title" id="heroTitle"></div>
+            <div class="hero-text" id="heroText"></div>
+        </div>
+
         <!-- Bandeau méta (masqué en maintenance) -->
         <div id="metaInfo" class="meta-info" style="display: none;">
             <div class="meta-details">
@@ -486,6 +516,8 @@
                     categoryCodeDesc: 'Performances en programmation et raisonnement technique.',
                     apiFree: 'API gratuite',
                     apiBadgeInfoText: '💡 Le badge <strong>« API gratuite »</strong> indique les modèles pour lesquels il existe une API utilisable gratuitement (source : freellm.net).',
+                    heroTitle: 'Trouvez le meilleur modèle d’IA pour votre projet',
+                    heroText: 'Évitez de payer pour ce que vous pouvez avoir gratuitement. Best AI Today classe les modèles selon leurs performances réelles (Chatbot Arena) et vous montre lesquels offrent une API gratuite. L’API est le seul moyen d’intégrer un LLM dans vos outils – cliquez sur le badge vert pour obtenir une clé.',
                     support: '☕ Soutenir le projet',
                     affiliateNotice: "Certains liens sont des liens d'affiliation.",
                     source: 'Classement basé sur les données Chatbot Arena.',
@@ -517,6 +549,8 @@
                     categoryCodeDesc: 'Performance in programming and technical reasoning.',
                     apiFree: 'Free API',
                     apiBadgeInfoText: '💡 The <strong>"Free API"</strong> badge indicates models for which a free API exists (source: freellm.net).',
+                    heroTitle: 'Find the best AI model for your project',
+                    heroText: 'Don’t pay for what you can get for free. Best AI Today ranks models by real performance (Chatbot Arena) and shows you which ones offer a free API. The API is the only way to integrate an LLM into your tools – click the green badge to get a key.',
                     support: '☕ Support the project',
                     affiliateNotice: 'Some links are affiliate links.',
                     source: 'Rankings based on Chatbot Arena data.',
@@ -546,6 +580,8 @@
             }
 
             document.getElementById('subtitle').innerHTML = t.slogan;
+            document.getElementById('heroTitle').textContent = t.heroTitle;
+            document.getElementById('heroText').textContent = t.heroText;
             document.getElementById('filterAll').textContent = t.all;
             document.getElementById('filterFree').textContent = t.free;
             document.getElementById('filterPaid').textContent = t.paid;
@@ -584,6 +620,7 @@
             const apiBadgeInfo = document.getElementById('apiBadgeInfo');
             const shareContainer = document.getElementById('shareContainer');
             const maintenanceMsgEl = document.getElementById('maintenanceMsg');
+            const heroEl = document.getElementById('hero');
 
             const typeDescriptions = { all: t.typeAllDesc, free: t.typeFreeDesc, paid: t.typePaidDesc };
             const categoryDescriptions = { general: t.categoryGeneralDesc, code: t.categoryCodeDesc };
@@ -823,6 +860,7 @@
                     apiBadgeInfo.style.display = 'none';
                     filtersContainer.style.display = 'none';
                     shareContainer.style.display = 'none';
+                    heroEl.style.display = 'none';
                     maintenanceMsgEl.style.display = 'block';
                     emptyMsgEl.style.display = 'none';
                     return;
@@ -830,6 +868,7 @@
                 apiBadgeInfo.style.display = '';
                 filtersContainer.style.display = '';
                 shareContainer.style.display = '';
+                heroEl.style.display = '';
                 maintenanceMsgEl.style.display = 'none';
 
                 const filtered = getFilteredModels();
