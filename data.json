@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-05-19",
-  "retrieved_at": "2026-05-22T09:21:13Z",
+  "retrieved_at": "2026-05-23T08:19:22Z",
   "models": [
     {
       "name": "Claude Opus 4.6",
@@ -179,8 +179,13 @@
       "url": "https://ai.google/",
       "score_general": 1458.3277289811588,
       "score_code": 1203.315363787631,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "Google Gemini",
+          "url": "https://aistudio.google.com/app/apikey"
+        }
+      ]
     },
     {
       "name": "Kimi K2.6",
@@ -429,8 +434,13 @@
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1438.8026489586575,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "Alibaba Cloud Model Studio",
+          "url": "https://bailian.console.alibabacloud.com/?apiKey=1"
+        }
+      ]
     },
     {
       "name": "Qwen 3.6 Plus",
@@ -569,6 +579,10 @@
         {
           "provider": "GitHub Models",
           "url": "https://github.com/marketplace/models"
+        },
+        {
+          "provider": "Nebius",
+          "url": "https://studio.nebius.com/settings/api-keys"
         },
         {
           "provider": "LLM7.io",
@@ -893,8 +907,13 @@
       "url": "https://x.ai/",
       "score_general": 1416.492106566486,
       "score_code": 1384.976304684541,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "xAI",
+          "url": "https://console.x.ai"
+        }
+      ]
     },
     {
       "name": "Kimi K2 Turbo",
@@ -923,8 +942,13 @@
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1413.0335119123847,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "Alibaba Cloud Model Studio",
+          "url": "https://bailian.console.alibabacloud.com/?apiKey=1"
+        }
+      ]
     },
     {
       "name": "GPT 5.2",
@@ -1332,6 +1356,10 @@
         {
           "provider": "LLM7.io",
           "url": "https://token.llm7.io"
+        },
+        {
+          "provider": "Nebius",
+          "url": "https://studio.nebius.com/settings/api-keys"
         }
       ]
     },
@@ -1357,6 +1385,10 @@
         {
           "provider": "GitHub Models",
           "url": "https://github.com/marketplace/models"
+        },
+        {
+          "provider": "Nebius",
+          "url": "https://studio.nebius.com/settings/api-keys"
         }
       ]
     },
@@ -1446,8 +1478,13 @@
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1365.7632514118282,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "Nebius",
+          "url": "https://studio.nebius.com/settings/api-keys"
+        }
+      ]
     },
     {
       "name": "GPT OSS 120B",
@@ -1465,6 +1502,14 @@
         {
           "provider": "Groq",
           "url": "https://console.groq.com/keys"
+        },
+        {
+          "provider": "Nebius",
+          "url": "https://studio.nebius.com/settings/api-keys"
+        },
+        {
+          "provider": "Nscale",
+          "url": "https://console.nscale.com/"
         }
       ]
     },
@@ -1525,8 +1570,13 @@
       "url": "https://x.ai/",
       "score_general": 1362.5733416594662,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "xAI",
+          "url": "https://console.x.ai"
+        }
+      ]
     },
     {
       "name": "Gemma 3 27B IT",
@@ -1703,8 +1753,16 @@
       "has_free_api": true,
       "free_api_providers": [
         {
+          "provider": "Cerebras",
+          "url": "https://cloud.cerebras.ai/"
+        },
+        {
           "provider": "Groq",
           "url": "https://console.groq.com/keys"
+        },
+        {
+          "provider": "Nscale",
+          "url": "https://console.nscale.com/"
         },
         {
           "provider": "OVHcloud AI Endpoints",
@@ -1919,13 +1977,8 @@
       "url": "https://openai.com/",
       "score_general": 1318.9856166296186,
       "score_code": null,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "GitHub Models",
-          "url": "https://github.com/marketplace/models"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 30B",
@@ -2297,6 +2350,10 @@
       "has_free_api": true,
       "free_api_providers": [
         {
+          "provider": "Cerebras",
+          "url": "https://cloud.cerebras.ai/"
+        },
+        {
           "provider": "Groq",
           "url": "https://console.groq.com/keys"
         }
@@ -2329,8 +2386,13 @@
       "url": "https://ai.meta.com/",
       "score_general": 1275.0550842314874,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "Nscale",
+          "url": "https://console.nscale.com/"
+        }
+      ]
     },
     {
       "name": "Hunyuan Standard",
