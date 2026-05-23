@@ -143,7 +143,7 @@
             padding: 1.2rem 1rem; text-decoration: none; color: inherit;
             display: flex; flex-direction: column; justify-content: flex-end; align-items: center;
             backdrop-filter: blur(8px); box-shadow: 0 0 25px var(--podium-color);
-            position: relative; opacity: 0;
+            position: relative; opacity: 0; cursor: pointer;
             animation: fadeInUp 0.6s cubic-bezier(0.25,0.8,0.25,1) forwards;
             transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
             width: 220px;
@@ -304,7 +304,7 @@
             display: none;
             background: none;
             border: none;
-            color: var(--cyan) !important;  /* priorité maximale */
+            color: var(--cyan) !important;
             font-size: 0.8rem;
             font-weight: 700;
             line-height: 1;
@@ -463,7 +463,7 @@
         (function() {
             const i18n = {
                 fr: {
-                    slogan: 'Comparateur en temps réel – Scores, classements, API gratuites',
+                    slogan: 'Comparateur en temps réel<br>Scores, classements, API gratuites',
                     all: 'Tous', free: 'Gratuit', paid: 'Payant',
                     general: 'Général', code: 'Code',
                     share: 'Partager',
@@ -494,7 +494,7 @@
                     copyright: '© 2026 Best AI Today'
                 },
                 en: {
-                    slogan: 'Real-time comparison – Scores, rankings, free APIs',
+                    slogan: 'Real-time comparison<br>Scores, rankings, free APIs',
                     all: 'All', free: 'Free', paid: 'Paid',
                     general: 'General', code: 'Code',
                     share: 'Share',
@@ -545,7 +545,7 @@
                 }
             }
 
-            document.getElementById('subtitle').textContent = t.slogan;
+            document.getElementById('subtitle').innerHTML = t.slogan;
             document.getElementById('filterAll').textContent = t.all;
             document.getElementById('filterFree').textContent = t.free;
             document.getElementById('filterPaid').textContent = t.paid;
@@ -698,13 +698,13 @@
                 }
             }
 
-            // ---- Podium (inchangé) ----
+            // ---- Podium (carte en div, lien indépendant pour le badge API) ----
             function podiumCardHtml(model, rank, category) {
                 const scoreVal = category === 'general' ? model.score_general : model.score_code;
                 const pct = Math.round(normalize(scoreVal, category));
-                const apiBadge = model.has_free_api ? `<span class="badge api-free">${t.apiFree}</span>` : '';
+                const apiBadge = apiBadgeHtml(model.has_free_api, model.free_api_providers);
                 return `
-                    <a href="${model.url}" target="_blank" rel="noopener" class="podium-card rank-${rank}">
+                    <div class="podium-card rank-${rank}" data-model-url="${model.url}">
                         <div class="rank-number">${rank}</div>
                         ${badgeHtml(model.type)}
                         ${apiBadge}
@@ -712,7 +712,7 @@
                         <div class="vendor">${model.vendor}</div>
                         <div class="score-val">${pct}%</div>
                         <div class="gauge"><div class="gauge-fill" style="width:${pct}%"></div></div>
-                    </a>`;
+                    </div>`;
             }
 
             function adjustPodiumHeights() {
@@ -752,8 +752,8 @@
                     const btn = document.createElement('button');
                     btn.className = 'expand-toggle';
                     btn.type = 'button';
-                    const expandSymbol = '▼';   // triangle vers le bas (présent sur tous les systèmes)
-                    const collapseSymbol = '▲'; // triangle vers le haut
+                    const expandSymbol = '▼';
+                    const collapseSymbol = '▲';
                     btn.textContent = expandSymbol;
                     btn.setAttribute('aria-label', 'Afficher le nom complet');
                     wrapper.appendChild(btn);
@@ -796,6 +796,19 @@
                 const item = e.target.closest('.model-item');
                 if (!item) return;
                 const url = item.dataset.modelUrl;
+                if (url) {
+                    window.open(url, '_blank', 'noopener');
+                }
+            });
+
+            // ---- Clic sur tout le bloc podium (délégation) ----
+            podiumEl.addEventListener('click', function(e) {
+                if (e.target.closest('.badge.api-free')) {
+                    return;  // le badge API gère son propre lien
+                }
+                const card = e.target.closest('.podium-card');
+                if (!card) return;
+                const url = card.dataset.modelUrl;
                 if (url) {
                     window.open(url, '_blank', 'noopener');
                 }
