@@ -65,11 +65,11 @@
             margin-bottom: 0.3rem;
         }
         .header .sub {
-            font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.4rem;
+            font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1.7rem;
             color: var(--cyan); letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.95; margin-bottom: 0.5rem;
         }
 
-        /* ---- Bloc Hero (nouveau) ---- */
+        /* ---- Bloc Hero ---- */
         .hero {
             background: var(--card-bg);
             border: 1px solid rgba(0,212,255,0.2);
@@ -78,7 +78,7 @@
             backdrop-filter: blur(8px);
             text-align: center;
             margin-top: -0.5rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: -0.5rem;
         }
         .hero-title {
             font-size: 1.1rem;
@@ -114,22 +114,6 @@
         .meta-details .separator { color: var(--cyan); font-weight: 300; }
         .meta-score-explanation { text-align: center; font-size: 0.75rem; color: rgba(204,232,240,0.6); font-weight: 400; line-height: 1.3; }
         .meta-score-sep { color: rgba(204,232,240,0.6); }
-
-        /* ---- Bandeau API ---- */
-        .api-badge-info {
-            width: 100%;
-            background: var(--card-bg);
-            border: 1px solid rgba(0,212,255,0.15);
-            border-radius: 14px;
-            padding: 0.5rem 1rem;
-            backdrop-filter: blur(8px);
-            font-size: 0.8rem;
-            color: rgba(204,232,240,0.7);
-            text-align: center;
-            margin-top: -0.5rem;
-            margin-bottom: -0.5rem;
-        }
-        .api-badge-info strong { color: var(--cyan); font-weight: 600; }
 
         /* ---- Filtres ---- */
         .filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; width: 100%; }
@@ -439,9 +423,6 @@
             </div>
         </div>
 
-        <!-- Bandeau API (masqué en maintenance) -->
-        <div class="api-badge-info" id="apiBadgeInfo"></div>
-
         <!-- Filtres (masqués en maintenance) -->
         <div class="filters" id="filtersContainer">
             <div class="filter-column">
@@ -478,6 +459,7 @@
         <div class="ad-slot" aria-hidden="true"></div>
         <footer class="footer">
             <div id="footerSource"></div>
+            <div id="footerAPISource"></div>
             <div id="footerAffiliate"></div>
             <div id="footerDisclaimer"></div>
             <div id="footerLegal"></div>
@@ -515,9 +497,9 @@
                     categoryGeneralDesc: 'Performances en conversation générale.',
                     categoryCodeDesc: 'Performances en programmation et raisonnement technique.',
                     apiFree: 'API gratuite',
-                    apiBadgeInfoText: '💡 Le badge <strong>« API gratuite »</strong> indique les modèles pour lesquels il existe une API utilisable gratuitement (source : freellm.net).',
                     heroTitle: 'Trouvez le meilleur modèle d’IA pour votre projet',
-                    heroText: 'Évitez de payer pour ce que vous pouvez avoir gratuitement. Best AI Today classe les modèles selon leurs performances réelles (Chatbot Arena) et vous montre lesquels offrent une API gratuite. L’API est le seul moyen d’intégrer un LLM dans vos outils – cliquez sur le badge vert pour obtenir une clé.',
+                    heroText: 'Évitez de payer pour ce que vous pouvez avoir gratuitement. Best AI Today classe les modèles selon leurs performances réelles (Chatbot Arena) et vous montre lesquels offrent une API gratuite. Cliquez sur le badge vert pour obtenir une clé. (Source : freellm.net)',
+                    footerAPISource: 'API gratuites vérifiées via freellm.net.',
                     support: '☕ Soutenir le projet',
                     affiliateNotice: "Certains liens sont des liens d'affiliation.",
                     source: 'Classement basé sur les données Chatbot Arena.',
@@ -548,9 +530,9 @@
                     categoryGeneralDesc: 'Performance in general conversation.',
                     categoryCodeDesc: 'Performance in programming and technical reasoning.',
                     apiFree: 'Free API',
-                    apiBadgeInfoText: '💡 The <strong>"Free API"</strong> badge indicates models for which a free API exists (source: freellm.net).',
                     heroTitle: 'Find the best AI model for your project',
-                    heroText: 'Don’t pay for what you can get for free. Best AI Today ranks models by real performance (Chatbot Arena) and shows you which ones offer a free API. The API is the only way to integrate an LLM into your tools – click the green badge to get a key.',
+                    heroText: 'Don’t pay for what you can get for free. Best AI Today ranks models by real performance (Chatbot Arena) and shows you which ones offer a free API. Click the green badge to get a key. (Source: freellm.net)',
+                    footerAPISource: 'Free APIs verified via freellm.net.',
                     support: '☕ Support the project',
                     affiliateNotice: 'Some links are affiliate links.',
                     source: 'Rankings based on Chatbot Arena data.',
@@ -564,7 +546,6 @@
             document.documentElement.lang = lang;
             const t = i18n[lang];
 
-            // Mise à jour du titre et de la meta description selon la langue
             if (lang === 'fr') {
                 document.title = 'Best AI Today – Classement et comparatif des meilleurs modèles d\'IA (GPT, Claude, Gemini)';
                 const metaDesc = document.querySelector('meta[name="description"]');
@@ -592,8 +573,8 @@
             document.getElementById('emptyMsg').textContent = t.empty;
             document.getElementById('scorePart1').textContent = t.scorePart1;
             document.getElementById('scorePart2').textContent = t.scorePart2;
-            document.getElementById('apiBadgeInfo').innerHTML = t.apiBadgeInfoText;
             document.getElementById('footerSource').textContent = t.source;
+            document.getElementById('footerAPISource').textContent = t.footerAPISource;
             document.getElementById('footerAffiliate').textContent = t.affiliateNotice;
             document.getElementById('footerDisclaimer').textContent = t.disclaimer;
             document.getElementById('footerLegal').innerHTML = `<a href="legal.html">${t.legal}</a>`;
@@ -617,7 +598,6 @@
             const typeDescEl = document.getElementById('typeDesc');
             const categoryDescEl = document.getElementById('categoryDesc');
             const filtersContainer = document.getElementById('filtersContainer');
-            const apiBadgeInfo = document.getElementById('apiBadgeInfo');
             const shareContainer = document.getElementById('shareContainer');
             const maintenanceMsgEl = document.getElementById('maintenanceMsg');
             const heroEl = document.getElementById('hero');
@@ -721,7 +701,6 @@
                 return `<span class="badge">${type}</span>`;
             }
 
-            // Fonction pour le badge API, avec lien direct d'obtention de clé
             function apiBadgeHtml(hasFreeApi, providers) {
                 if (!hasFreeApi || !providers || providers.length === 0) return '';
                 const provider = providers[0];
@@ -735,7 +714,6 @@
                 }
             }
 
-            // ---- Podium (carte en div, lien indépendant pour le badge API) ----
             function podiumCardHtml(model, rank, category) {
                 const scoreVal = category === 'general' ? model.score_general : model.score_code;
                 const pct = Math.round(normalize(scoreVal, category));
@@ -773,7 +751,6 @@
                 podiumEl.classList.add(`category-${currentCategory}`);
             }
 
-            // ---- Gestion de l'expansion des noms (symboles universels) ----
             function setupExpandableNames() {
                 document.querySelectorAll('.model-name').forEach(container => {
                     if (container.dataset.expandInitialized === 'true') return;
@@ -825,7 +802,6 @@
                 });
             }
 
-            // ---- Clic sur tout le bloc modèle (délégation) ----
             listEl.addEventListener('click', function(e) {
                 if (e.target.closest('.badge.api-free') || e.target.closest('.expand-toggle')) {
                     return;
@@ -838,10 +814,9 @@
                 }
             });
 
-            // ---- Clic sur tout le bloc podium (délégation) ----
             podiumEl.addEventListener('click', function(e) {
                 if (e.target.closest('.badge.api-free')) {
-                    return;  // le badge API gère son propre lien
+                    return;
                 }
                 const card = e.target.closest('.podium-card');
                 if (!card) return;
@@ -851,13 +826,11 @@
                 }
             });
 
-            // ---- Rendu principal ----
             function render() {
                 if (!window.DATA || !window.DATA.models) {
                     podiumEl.innerHTML = '';
                     listEl.innerHTML = '';
                     metaInfoEl.style.display = 'none';
-                    apiBadgeInfo.style.display = 'none';
                     filtersContainer.style.display = 'none';
                     shareContainer.style.display = 'none';
                     heroEl.style.display = 'none';
@@ -865,7 +838,6 @@
                     emptyMsgEl.style.display = 'none';
                     return;
                 }
-                apiBadgeInfo.style.display = '';
                 filtersContainer.style.display = '';
                 shareContainer.style.display = '';
                 heroEl.style.display = '';
@@ -967,7 +939,6 @@
                 updateToggleVisibility();
             }
 
-            // Observer pour réévaluer la troncature
             if (window.ResizeObserver) {
                 const observer = new ResizeObserver(() => updateToggleVisibility());
                 const observeTexts = () => {
@@ -982,7 +953,6 @@
                 window.addEventListener('resize', () => updateToggleVisibility());
             }
 
-            // ---- Filtres et partage ----
             typeBtns.forEach(b => b.addEventListener('click', () => {
                 typeBtns.forEach(x => x.classList.remove('active'));
                 b.classList.add('active'); currentType = b.dataset.type;
