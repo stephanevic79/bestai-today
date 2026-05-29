@@ -2518,5 +2518,12 @@
     "vendor": "Alibaba",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "mimo-v2-omni": {
+    "arena_name": "mimo-v2-omni",
+    "name": "mimo-v2-omni",
+    "vendor": "Xiaomi",
+    "type": "paid",
+    "url": "https://www.xiaomimimo.com"
   }
 }
