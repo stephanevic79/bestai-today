@@ -2525,5 +2525,40 @@
     "vendor": "Xiaomi",
     "type": "paid",
     "url": "https://www.xiaomimimo.com"
+  },
+  "claude-opus-4-8-thinking": {
+    "arena_name": "claude-opus-4-8-thinking",
+    "name": "Claude Opus 4.8 Thinking",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://claude.ai"
+  },
+  "claude-opus-4-8": {
+    "arena_name": "claude-opus-4-8",
+    "name": "Claude Opus 4.8",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://claude.ai"
+  },
+  "minimax-m3": {
+    "arena_name": "minimax-m3",
+    "name": "MiniMax M3",
+    "vendor": "MiniMax",
+    "type": "paid",
+    "url": "https://minimax.io"
+  },
+  "nvidia-nemotron-3-ultra-550b-a55b-nvfp4": {
+    "arena_name": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
+    "name": "Nemotron-3 Ultra 550B A55B NVFP4",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://developer.nvidia.com/"
+  },
+  "mistral-medium-3.5": {
+    "arena_name": "mistral-medium-3.5",
+    "name": "Mistral Medium 3.5",
+    "vendor": "Mistral AI",
+    "type": "free",
+    "url": "https://docs.mistral.ai/models/"
   }
 }
