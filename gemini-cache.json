@@ -2560,5 +2560,12 @@
     "vendor": "Mistral AI",
     "type": "free",
     "url": "https://docs.mistral.ai/models/"
+  },
+  "claude-fable-5": {
+    "arena_name": "claude-fable-5",
+    "name": "Claude Fable 5",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/claude-fable-5"
   }
 }
