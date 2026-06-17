@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-06-10",
-  "retrieved_at": "2026-06-16T11:09:05Z",
+  "retrieved_at": "2026-06-17T10:54:24Z",
   "models": [
     {
       "name": "Claude Fable 5",
@@ -204,8 +204,13 @@
       "url": "https://lmarena.ai",
       "score_general": 1445.1818110323518,
       "score_code": 1505.5517357025356,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "Google Gemini",
+          "url": "https://aistudio.google.com/app/apikey"
+        }
+      ]
     },
     {
       "name": "Gemini 3 Flash",
@@ -294,8 +299,13 @@
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1439.2145014205191,
       "score_code": 1394.7239730948686,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "OVHcloud AI Endpoints",
+          "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
+        }
+      ]
     },
     {
       "name": "MiMo V2.5 Pro",
@@ -481,10 +491,6 @@
           "url": "https://github.com/marketplace/models"
         },
         {
-          "provider": "Nebius",
-          "url": "https://studio.nebius.com/settings/api-keys"
-        },
-        {
           "provider": "LLM7.io",
           "url": "https://token.llm7.io"
         }
@@ -652,13 +658,8 @@
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1419.3118225676476,
       "score_code": null,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "Cerebras",
-          "url": "https://cloud.cerebras.ai/"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "DeepSeek V3.1",
@@ -667,8 +668,13 @@
       "url": "https://www.deepseek.com/",
       "score_general": 1419.1946250045953,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "SambaNova",
+          "url": "https://cloud.sambanova.ai/apis"
+        }
+      ]
     },
     {
       "name": "GPT 5.5 Instant",
@@ -772,8 +778,13 @@
       "url": "https://www.deepseek.com/",
       "score_general": 1416.886566233635,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "SambaNova",
+          "url": "https://cloud.sambanova.ai/apis"
+        }
+      ]
     },
     {
       "name": "GPT 5.2 High",
@@ -802,8 +813,13 @@
       "url": "https://ai.google/",
       "score_general": 1415.5100279507506,
       "score_code": 1248.4448167296584,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "Google Gemini",
+          "url": "https://aistudio.google.com/app/apikey"
+        }
+      ]
     },
     {
       "name": "Qwen 3.6 Plus",
@@ -842,13 +858,8 @@
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1412.974564914943,
       "score_code": null,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "Alibaba Cloud Model Studio",
-          "url": "https://bailian.console.alibabacloud.com/?apiKey=1"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT 5.4 Mini High",
@@ -1002,13 +1013,8 @@
       "url": "https://x.ai/",
       "score_general": 1403.5797496113273,
       "score_code": 1369.143932925184,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "xAI",
-          "url": "https://console.x.ai"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Qwen 3 Max",
@@ -1017,13 +1023,8 @@
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1403.5446516873635,
       "score_code": null,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "Alibaba Cloud Model Studio",
-          "url": "https://bailian.console.alibabacloud.com/?apiKey=1"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT 5 Chat",
@@ -1042,8 +1043,13 @@
       "url": "https://www.minimax.ai/",
       "score_general": 1403.3000581327397,
       "score_code": 1394.9058223899442,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "SambaNova",
+          "url": "https://cloud.sambanova.ai/apis"
+        }
+      ]
     },
     {
       "name": "Qwen 3 VL 235B",
@@ -1320,10 +1326,6 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Google Gemini",
-          "url": "https://aistudio.google.com/app/apikey"
-        },
-        {
           "provider": "LLM7.io",
           "url": "https://token.llm7.io"
         }
@@ -1376,10 +1378,6 @@
         {
           "provider": "LLM7.io",
           "url": "https://token.llm7.io"
-        },
-        {
-          "provider": "Nebius",
-          "url": "https://studio.nebius.com/settings/api-keys"
         }
       ]
     },
@@ -1425,10 +1423,6 @@
         {
           "provider": "GitHub Models",
           "url": "https://github.com/marketplace/models"
-        },
-        {
-          "provider": "Nebius",
-          "url": "https://studio.nebius.com/settings/api-keys"
         }
       ]
     },
@@ -1471,10 +1465,6 @@
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
-        {
-          "provider": "Google Gemini",
-          "url": "https://aistudio.google.com/app/apikey"
-        },
         {
           "provider": "LLM7.io",
           "url": "https://token.llm7.io"
@@ -1528,13 +1518,8 @@
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1365.7152386271014,
       "score_code": null,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "Nebius",
-          "url": "https://studio.nebius.com/settings/api-keys"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "GPT OSS 120B",
@@ -1554,12 +1539,12 @@
           "url": "https://console.groq.com/keys"
         },
         {
-          "provider": "Nebius",
-          "url": "https://studio.nebius.com/settings/api-keys"
+          "provider": "OVHcloud AI Endpoints",
+          "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
         },
         {
-          "provider": "Nscale",
-          "url": "https://console.nscale.com/"
+          "provider": "SambaNova",
+          "url": "https://cloud.sambanova.ai/apis"
         }
       ]
     },
@@ -1610,13 +1595,8 @@
       "url": "https://x.ai/",
       "score_general": 1362.57446942654,
       "score_code": null,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "xAI",
-          "url": "https://console.x.ai"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "MiniMax M2.5",
@@ -1813,20 +1793,12 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Cerebras",
-          "url": "https://cloud.cerebras.ai/"
-        },
-        {
           "provider": "Groq",
           "url": "https://console.groq.com/keys"
         },
         {
-          "provider": "Nscale",
-          "url": "https://console.nscale.com/"
-        },
-        {
           "provider": "OVHcloud AI Endpoints",
-          "url": "https://endpoints.ai.cloud.ovh.net/"
+          "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
         }
       ]
     },
@@ -2262,8 +2234,13 @@
       "url": "https://openai.com/",
       "score_general": 1287.7229269662685,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "OVHcloud AI Endpoints",
+          "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
+        }
+      ]
     },
     {
       "name": "Llama 4 Maverick 17B 128E Instruct",
@@ -2272,13 +2249,8 @@
       "url": "https://ai.meta.com/",
       "score_general": 1287.666430824622,
       "score_code": null,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "Groq",
-          "url": "https://console.groq.com/keys"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Gemini 1.5 Flash",
@@ -2400,10 +2372,6 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Cerebras",
-          "url": "https://cloud.cerebras.ai/"
-        },
-        {
           "provider": "Groq",
           "url": "https://console.groq.com/keys"
         }
@@ -2446,13 +2414,8 @@
       "url": "https://ai.meta.com/",
       "score_general": 1275.073035326156,
       "score_code": null,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "Nscale",
-          "url": "https://console.nscale.com/"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Hunyuan Standard",
@@ -2966,8 +2929,13 @@
       "url": "https://ai.meta.com/",
       "score_general": 1186.661573503072,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "OVHcloud AI Endpoints",
+          "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
+        }
+      ]
     },
     {
       "name": "GPT 4",
@@ -3196,10 +3164,6 @@
         {
           "provider": "Hugging Face",
           "url": "https://huggingface.co/settings/tokens"
-        },
-        {
-          "provider": "OVHcloud AI Endpoints",
-          "url": "https://endpoints.ai.cloud.ovh.net/"
         }
       ]
     },
