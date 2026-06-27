@@ -2574,5 +2574,12 @@
     "vendor": "Zai",
     "type": "free",
     "url": "https://lmarena.ai"
+  },
+  "qwen3.7-plus": {
+    "arena_name": "qwen3.7-plus",
+    "name": "Qwen 3.7 Plus",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://qwen.ai"
   }
 }
