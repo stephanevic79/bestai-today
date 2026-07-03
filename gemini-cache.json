@@ -2581,5 +2581,12 @@
     "vendor": "Alibaba",
     "type": "paid",
     "url": "https://qwen.ai"
+  },
+  "claude-sonnet-5-thinking": {
+    "arena_name": "claude-sonnet-5-thinking",
+    "name": "Claude Sonnet 5",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://claude.ai"
   }
 }
