@@ -2588,5 +2588,54 @@
     "vendor": "Anthropic",
     "type": "paid",
     "url": "https://claude.ai"
+  },
+  "gemini-3.5-flash-high": {
+    "arena_name": "gemini-3.5-flash-high",
+    "name": "gemini-3.5-flash-high",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google.dev/models/gemini_3_5_flash"
+  },
+  "muse-spark-1.1": {
+    "arena_name": "muse-spark-1.1",
+    "name": "muse-spark-1.1",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://meta.ai"
+  },
+  "gemini-3.5-flash-medium": {
+    "arena_name": "gemini-3.5-flash-medium",
+    "name": "gemini-3.5-flash-medium",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google.dev/models/gemini_3_5_flash"
+  },
+  "gpt-5.6-sol-xhigh": {
+    "arena_name": "gpt-5.6-sol-xhigh",
+    "name": "gpt-5.6-sol-xhigh",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://platform.openai.com/docs/models/gpt-5-6-sol"
+  },
+  "grok-4.5": {
+    "arena_name": "grok-4.5",
+    "name": "grok-4.5",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://x.ai/api"
+  },
+  "glm-5v-turbo": {
+    "arena_name": "glm-5v-turbo",
+    "name": "glm-5v-turbo",
+    "vendor": "Z.ai",
+    "type": "paid",
+    "url": "https://developer.z.ai/docs/glm-5v-turbo"
+  },
+  "claude-sonnet-5-high": {
+    "arena_name": "claude-sonnet-5-high",
+    "name": "claude-sonnet-5-high",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/news/claude-sonnet-5"
   }
 }
