@@ -2637,5 +2637,19 @@
     "vendor": "Anthropic",
     "type": "paid",
     "url": "https://www.anthropic.com/news/claude-sonnet-5"
+  },
+  "kimi-k3": {
+    "arena_name": "kimi-k3",
+    "name": "kimi-k3",
+    "vendor": "Moonshot AI",
+    "type": "paid",
+    "url": "https://kimi.com"
+  },
+  "inkling": {
+    "arena_name": "inkling",
+    "name": "inkling",
+    "vendor": "Thinking Machines Lab",
+    "type": "free",
+    "url": "https://www.thinkingmachines.lab/inkling"
   }
 }
