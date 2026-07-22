@@ -2651,5 +2651,19 @@
     "vendor": "Thinking Machines Lab",
     "type": "free",
     "url": "https://www.thinkingmachines.lab/inkling"
+  },
+  "gemini-3.6-flash": {
+    "arena_name": "gemini-3.6-flash",
+    "name": "gemini-3.6-flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google.dev/models/gemini-3-6-flash"
+  },
+  "gemini-3.5-flash-lite": {
+    "arena_name": "gemini-3.5-flash-lite",
+    "name": "gemini-3.5-flash-lite",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google.dev/models/gemini-3-5-flash-lite"
   }
 }
