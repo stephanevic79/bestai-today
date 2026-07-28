@@ -1,13 +1,13 @@
 {
-  "ranking_date": "2026-07-21",
-  "retrieved_at": "2026-07-27T09:49:55Z",
+  "ranking_date": "2026-07-27",
+  "retrieved_at": "2026-07-28T08:32:08Z",
   "models": [
     {
       "name": "GPT 5.4 High",
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1469.9203239665292,
+      "score_general": 1469.9082773329292,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -17,7 +17,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1469.484140204732,
+      "score_general": 1469.3878921032729,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -27,7 +27,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1465.0435185492315,
+      "score_general": 1464.8771442250209,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -37,8 +37,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://claude.ai",
-      "score_general": 1462.801810039189,
-      "score_code": 1567.5402477866276,
+      "score_general": 1462.9754543705508,
+      "score_code": 1568.3806730977496,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -47,8 +47,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1462.37337222839,
-      "score_code": 1223.6585263739814,
+      "score_general": 1462.596428404924,
+      "score_code": 1224.1012671956396,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -62,28 +62,8 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1461.8696547992095,
-      "score_code": 1389.9494255891038,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "grok-4.5",
-      "vendor": "xAI",
-      "type": "paid",
-      "url": "https://x.ai/api",
-      "score_general": 1461.3995003901387,
-      "score_code": 1550.2021485793491,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.5",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1459.5170275376095,
-      "score_code": 1466.9497834466417,
+      "score_general": 1461.222560919157,
+      "score_code": 1390.0494061808145,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -92,18 +72,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1457.1380279648715,
-      "score_code": 1437.852572263233,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "gpt-5.6-sol-xhigh",
-      "vendor": "OpenAI",
-      "type": "paid",
-      "url": "https://platform.openai.com/docs/models/gpt-5-6-sol",
-      "score_general": 1455.8478268012593,
-      "score_code": null,
+      "score_general": 1456.8707627387003,
+      "score_code": 1438.0678104380777,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -112,8 +82,28 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1455.0694320557818,
+      "score_general": 1455.3947839401335,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "gpt-5.6-sol-xhigh",
+      "vendor": "OpenAI",
+      "type": "paid",
+      "url": "https://platform.openai.com/docs/models/gpt-5-6-sol",
+      "score_general": 1455.2892466368594,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.6",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://www.anthropic.com/",
+      "score_general": 1454.4985381696893,
+      "score_code": 1545.9688450060803,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -122,38 +112,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/claude-fable-5",
-      "score_general": 1454.8851219795567,
-      "score_code": 1629.5645123555014,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.6",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1454.089188248443,
-      "score_code": 1546.3008101414027,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "inkling",
-      "vendor": "Thinking Machines Lab",
-      "type": "free",
-      "url": "https://www.thinkingmachines.lab/inkling",
-      "score_general": 1452.3875794527353,
-      "score_code": 1418.181708114068,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Gemini 3 Flash",
-      "vendor": "Google",
-      "type": "paid",
-      "url": "https://ai.google/",
-      "score_general": 1452.352134244081,
-      "score_code": 1383.3181565663976,
+      "score_general": 1453.7774413329078,
+      "score_code": 1629.1108940535353,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -162,58 +122,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://claude.ai",
-      "score_general": 1451.6092146548067,
-      "score_code": 1538.6969589641337,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "claude-sonnet-5-high",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "score_general": 1450.8387947330145,
-      "score_code": 1541.1031028418622,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Grok 4.20 Multi Agent",
-      "vendor": "xAI",
-      "type": "paid",
-      "url": "https://x.ai/",
-      "score_general": 1450.11157387802,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.6",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1448.9270029650647,
-      "score_code": 1536.8119562922939,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GLM 4.6",
-      "vendor": "Zhipu AI",
-      "type": "free",
-      "url": "https://www.zhipu.ai/",
-      "score_general": 1447.5059870547864,
-      "score_code": 1338.7482658367114,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.5",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1446.6034463239196,
-      "score_code": 1494.1899865013713,
+      "score_general": 1453.0152782474315,
+      "score_code": 1539.1678280027886,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -222,18 +132,88 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1446.546061278322,
-      "score_code": 1437.7391914300604,
+      "score_general": 1452.6264256898069,
+      "score_code": 1383.2661915164372,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "Claude Sonnet 4.6",
+      "name": "grok-4.5",
+      "vendor": "xAI",
+      "type": "paid",
+      "url": "https://x.ai/api",
+      "score_general": 1451.45698231387,
+      "score_code": 1550.416726455302,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Grok 4.20 Multi Agent",
+      "vendor": "xAI",
+      "type": "paid",
+      "url": "https://x.ai/",
+      "score_general": 1450.2002020865593,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.5",
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1446.4435662177384,
-      "score_code": 1522.7827874525492,
+      "score_general": 1449.2439617654827,
+      "score_code": 1467.1048450247094,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "claude-opus-5-high",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1449.064242721785,
+      "score_code": 1669.781035968175,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.6",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://www.anthropic.com/",
+      "score_general": 1448.813168600203,
+      "score_code": 1538.2989514461735,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GLM 4.6",
+      "vendor": "Zhipu AI",
+      "type": "free",
+      "url": "https://www.zhipu.ai/",
+      "score_general": 1447.5919818360126,
+      "score_code": 1338.9215771988129,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Gemini 3 Flash",
+      "vendor": "Google",
+      "type": "paid",
+      "url": "https://ai.google/",
+      "score_general": 1446.720540145188,
+      "score_code": 1437.9749255266865,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.5",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://www.anthropic.com/",
+      "score_general": 1446.5344761007027,
+      "score_code": 1494.3536112743082,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -242,18 +222,18 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://www.mi.com/global/",
-      "score_general": 1446.1921645274663,
-      "score_code": 1476.1467738167357,
+      "score_general": 1445.4554621715697,
+      "score_code": 1473.9872699880302,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "Grok 4.20",
-      "vendor": "xAI",
+      "name": "Claude Sonnet 4.6",
+      "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://x.ai/",
-      "score_general": 1445.258245843255,
-      "score_code": null,
+      "url": "https://www.anthropic.com/",
+      "score_general": 1445.412442086566,
+      "score_code": 1523.3376494152526,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -262,8 +242,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1445.0012319519203,
-      "score_code": 1445.7694044844018,
+      "score_general": 1445.2520604616816,
+      "score_code": 1445.712392276819,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -272,8 +252,28 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1444.4859963210781,
-      "score_code": 1374.7030007543278,
+      "score_general": 1444.97539460688,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Grok 4.20",
+      "vendor": "xAI",
+      "type": "paid",
+      "url": "https://x.ai/",
+      "score_general": 1444.8950875834298,
+      "score_code": 1373.764594683218,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "hy3",
+      "vendor": "Tencent",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1444.0128216579417,
+      "score_code": 1517.5465069646507,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -282,7 +282,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1442.7674784703465,
+      "score_general": 1443.9137169116784,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -292,8 +292,28 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1442.390395273239,
-      "score_code": 1364.4308631023496,
+      "score_general": 1442.432971578221,
+      "score_code": 1363.7565230789692,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.7",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://www.anthropic.com/",
+      "score_general": 1442.2924342099286,
+      "score_code": 1559.9898783067028,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "inkling",
+      "vendor": "Thinking Machines Lab",
+      "type": "free",
+      "url": "https://www.thinkingmachines.lab/inkling",
+      "score_general": 1441.9959977037956,
+      "score_code": 1418.4325828916192,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -302,28 +322,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google.dev/models/gemini_3_5_flash",
-      "score_general": 1442.3057451787276,
+      "score_general": 1441.6392843603428,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.7",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1442.231814422341,
-      "score_code": 1559.1558842497404,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "kimi-k3",
-      "vendor": "Moonshot AI",
-      "type": "paid",
-      "url": "https://kimi.com",
-      "score_general": 1442.0653422994808,
-      "score_code": 1682.0082161854211,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -332,8 +332,8 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1441.2357749721848,
-      "score_code": 1446.7064007819633,
+      "score_general": 1441.3240393997924,
+      "score_code": 1447.5700242902692,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -342,8 +342,28 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1441.2065381479765,
+      "score_general": 1441.165737895301,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "kimi-k3-max",
+      "vendor": "Moonshot",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1440.5735316584555,
+      "score_code": 1681.640203258205,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "claude-sonnet-5-high",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "score_general": 1440.3632146899877,
+      "score_code": 1544.5247631787656,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -352,8 +372,18 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1439.7129337502795,
-      "score_code": 1558.4314264663476,
+      "score_general": 1440.023185448205,
+      "score_code": 1556.5396539466908,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "gemini-3.6-flash",
+      "vendor": "Google",
+      "type": "paid",
+      "url": "https://ai.google.dev/models/gemini-3-6-flash",
+      "score_general": 1439.3013505881281,
+      "score_code": 1526.6586895667929,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -362,8 +392,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1439.1288172656937,
-      "score_code": 1399.7209608432022,
+      "score_general": 1439.0579923929968,
+      "score_code": 1400.554670394375,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -373,21 +403,11 @@
       ]
     },
     {
-      "name": "GLM 5",
-      "vendor": "Zhipu AI",
-      "type": "free",
-      "url": "https://www.zhipu.ai/",
-      "score_general": 1438.7583202762553,
-      "score_code": 1434.6557119550075,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
       "name": "GPT 5.2 Chat",
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1438.4216459922945,
+      "score_general": 1438.92448312761,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -397,8 +417,18 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google.dev/models/gemini-3-5-flash-lite",
-      "score_general": 1438.2557530930483,
-      "score_code": null,
+      "score_general": 1438.6096852669602,
+      "score_code": 1452.7492802035638,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GLM 5",
+      "vendor": "Zhipu AI",
+      "type": "free",
+      "url": "https://www.zhipu.ai/",
+      "score_general": 1438.4025102501005,
+      "score_code": 1434.6686762246409,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -407,28 +437,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1437.884276492441,
-      "score_code": 1384.9405591745249,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "glm-5.2 (max)",
-      "vendor": "Zai",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1437.8436820997417,
-      "score_code": 1587.6669508411626,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "gemini-3.5-flash-medium",
-      "vendor": "Google",
-      "type": "paid",
-      "url": "https://ai.google.dev/models/gemini_3_5_flash",
-      "score_general": 1437.6536857558142,
-      "score_code": 1484.2648334765827,
+      "score_general": 1437.7826463608426,
+      "score_code": 1385.1564599794538,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -437,18 +447,8 @@
       "vendor": "Baidu",
       "type": "paid",
       "url": "https://ernie.baidu.com/",
-      "score_general": 1436.4554832148942,
+      "score_general": 1436.54499736949,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "gemini-3.6-flash",
-      "vendor": "Google",
-      "type": "paid",
-      "url": "https://ai.google.dev/models/gemini-3-6-flash",
-      "score_general": 1435.5016106127634,
-      "score_code": 1525.8477531114754,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -457,8 +457,8 @@
       "vendor": "Xiaomi",
       "type": "paid",
       "url": "https://www.mi.com/global/",
-      "score_general": 1435.479344633163,
-      "score_code": 1432.68839297801,
+      "score_general": 1435.2830979933133,
+      "score_code": 1432.8254442190678,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -467,18 +467,8 @@
       "vendor": "Moonshot AI",
       "type": "free",
       "url": "https://www.moonshot.cn/",
-      "score_general": 1435.0829047134703,
-      "score_code": 1509.8477306298673,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "DeepSeek V4 Flash",
-      "vendor": "DeepSeek",
-      "type": "free",
-      "url": "https://www.deepseek.com/",
-      "score_general": 1434.5381651197079,
-      "score_code": null,
+      "score_general": 1434.8264709121245,
+      "score_code": 1509.7428965308811,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -487,8 +477,28 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1434.4981864398333,
-      "score_code": 1366.1090807161845,
+      "score_general": 1434.6882315894004,
+      "score_code": 1366.4559792190241,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "glm-5.2-max",
+      "vendor": "Zai",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1434.307708533784,
+      "score_code": 1586.84676006014,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "gemini-3.5-flash-medium",
+      "vendor": "Google",
+      "type": "paid",
+      "url": "https://ai.google.dev/models/gemini_3_5_flash",
+      "score_general": 1434.1968362399348,
+      "score_code": 1484.1850191727142,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -497,58 +507,8 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1434.2011502556895,
-      "score_code": 1464.1884351181982,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Mistral Medium 3.5",
-      "vendor": "Mistral AI",
-      "type": "free",
-      "url": "https://docs.mistral.ai/models/",
-      "score_general": 1432.864681333546,
-      "score_code": 1266.7688414719964,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Sonnet 4.5",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1432.8188831679724,
-      "score_code": 1391.563457516635,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GLM 4.7",
-      "vendor": "Zhipu AI",
-      "type": "free",
-      "url": "https://www.zhipu.ai/",
-      "score_general": 1432.3501990366128,
-      "score_code": 1433.196932941116,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GLM 5.1",
-      "vendor": "Zhipu AI",
-      "type": "free",
-      "url": "https://www.zhipu.ai/",
-      "score_general": 1430.9873050885315,
-      "score_code": 1519.6382374476796,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "DeepSeek V4 Flash",
-      "vendor": "DeepSeek",
-      "type": "free",
-      "url": "https://www.deepseek.com/",
-      "score_general": 1430.5742418481634,
-      "score_code": null,
+      "score_general": 1433.5318956660967,
+      "score_code": 1464.2446886498242,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -557,8 +517,68 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://qwen.ai",
-      "score_general": 1430.553469903568,
+      "score_general": 1433.1273994935166,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Sonnet 4.5",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://www.anthropic.com/",
+      "score_general": 1432.8881178564739,
+      "score_code": 1391.86944808713,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "vendor": "DeepSeek",
+      "type": "free",
+      "url": "https://www.deepseek.com/",
+      "score_general": 1432.7314174212108,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GLM 4.7",
+      "vendor": "Zhipu AI",
+      "type": "free",
+      "url": "https://www.zhipu.ai/",
+      "score_general": 1432.4134795594841,
+      "score_code": 1433.3930436710434,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Mistral Medium 3.5",
+      "vendor": "Mistral AI",
+      "type": "free",
+      "url": "https://docs.mistral.ai/models/",
+      "score_general": 1431.5668918079036,
+      "score_code": 1267.0369187632648,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "vendor": "DeepSeek",
+      "type": "free",
+      "url": "https://www.deepseek.com/",
+      "score_general": 1430.4987358540016,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "claude-opus-5-max",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1428.970778794009,
+      "score_code": 1725.3353439334512,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -567,7 +587,7 @@
       "vendor": "Zhipu AI",
       "type": "free",
       "url": "https://www.zhipu.ai/",
-      "score_general": 1429.018904362602,
+      "score_general": 1428.9422888335143,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -577,8 +597,18 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1428.8590307737065,
+      "score_general": 1428.8852584986753,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GLM 5.1",
+      "vendor": "Zhipu AI",
+      "type": "free",
+      "url": "https://www.zhipu.ai/",
+      "score_general": 1428.7867071171686,
+      "score_code": 1518.1851750801645,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -587,7 +617,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1427.9553232495766,
+      "score_general": 1428.0676560600837,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -606,8 +636,8 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1427.727958820779,
-      "score_code": 1477.9812526503633,
+      "score_general": 1427.6268134315783,
+      "score_code": 1477.7691611689095,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -616,8 +646,8 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://www.mi.com/global/",
-      "score_general": 1426.4086198351963,
-      "score_code": 1434.7461142530078,
+      "score_general": 1427.4807595370962,
+      "score_code": 1435.9614074964284,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -626,8 +656,8 @@
       "vendor": "Moonshot AI",
       "type": "free",
       "url": "https://www.moonshot.cn/",
-      "score_general": 1425.936078028534,
-      "score_code": 1404.8244886135485,
+      "score_general": 1426.8010663056293,
+      "score_code": 1405.020788141639,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -636,7 +666,7 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1425.0535066266477,
+      "score_general": 1425.0044692182669,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -646,8 +676,8 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1424.326024633745,
-      "score_code": 1323.077296397909,
+      "score_general": 1424.385181549259,
+      "score_code": 1323.216082639883,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -656,8 +686,18 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1424.0222695245309,
+      "score_general": 1424.1575003639714,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "glm-5v-turbo",
+      "vendor": "Z.ai",
+      "type": "paid",
+      "url": "https://developer.z.ai/docs/glm-5v-turbo",
+      "score_general": 1423.9606291711812,
+      "score_code": 1400.8618512499847,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -666,8 +706,8 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1422.574625967809,
-      "score_code": 1229.7654132325713,
+      "score_general": 1423.1255160898945,
+      "score_code": 1229.9298171837204,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -681,18 +721,8 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1422.557106593345,
-      "score_code": 1271.6235710791666,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "glm-5v-turbo",
-      "vendor": "Z.ai",
-      "type": "paid",
-      "url": "https://developer.z.ai/docs/glm-5v-turbo",
-      "score_general": 1422.3484389104626,
-      "score_code": 1400.2752168623624,
+      "score_general": 1422.7849585068134,
+      "score_code": 1271.7390571522415,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -701,7 +731,7 @@
       "vendor": "Meituan",
       "type": "free",
       "url": "https://www.meituan.com/en-US/",
-      "score_general": 1422.1726197499943,
+      "score_general": 1422.3155179497471,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -711,8 +741,8 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1422.0294533207598,
-      "score_code": 1341.0346774972836,
+      "score_general": 1422.106672583559,
+      "score_code": 1341.257501684434,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -721,7 +751,7 @@
       "vendor": "Xiaomi",
       "type": "paid",
       "url": "https://www.xiaomimimo.com",
-      "score_general": 1421.7228272156403,
+      "score_general": 1421.8727654978243,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -731,8 +761,18 @@
       "vendor": "Moonshot AI",
       "type": "free",
       "url": "https://www.moonshot.cn/",
-      "score_general": 1421.2840272121018,
-      "score_code": 1321.4218058051,
+      "score_general": 1421.1900409335503,
+      "score_code": 1322.06420233395,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "MiniMax M3",
+      "vendor": "MiniMax",
+      "type": "paid",
+      "url": "https://minimax.io",
+      "score_general": 1420.9955255972973,
+      "score_code": 1492.784495603545,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -741,18 +781,8 @@
       "vendor": "Moonshot AI",
       "type": "free",
       "url": "https://www.moonshot.cn/",
-      "score_general": 1420.2732594088793,
-      "score_code": 1436.5556649736386,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "DeepSeek V3.2",
-      "vendor": "DeepSeek",
-      "type": "free",
-      "url": "https://www.deepseek.com/",
-      "score_general": 1420.0984640462823,
-      "score_code": 1360.5428628031086,
+      "score_general": 1420.4106250478378,
+      "score_code": 1435.946687213716,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -761,8 +791,18 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1419.6362360870335,
+      "score_general": 1419.9309874461337,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "DeepSeek V3.2",
+      "vendor": "DeepSeek",
+      "type": "free",
+      "url": "https://www.deepseek.com/",
+      "score_general": 1419.867397506604,
+      "score_code": 1360.8108975792807,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -771,7 +811,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1419.5574934596207,
+      "score_general": 1419.679779986218,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -781,7 +821,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1419.4092715123238,
+      "score_general": 1419.3970462007514,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -796,18 +836,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1419.3905680196885,
+      "score_general": 1419.295269063411,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "MiniMax M3",
-      "vendor": "MiniMax",
-      "type": "paid",
-      "url": "https://minimax.io",
-      "score_general": 1419.3210933011464,
-      "score_code": 1492.5265099434025,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -816,7 +846,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1418.3485136360016,
+      "score_general": 1418.4089936457617,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -826,8 +856,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1418.0065250294358,
-      "score_code": 1359.4508491811603,
+      "score_general": 1417.7213133827418,
+      "score_code": 1359.5183968149709,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -836,8 +866,8 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1417.71475288072,
-      "score_code": 1457.7713770306918,
+      "score_general": 1417.5814731737719,
+      "score_code": 1457.644349318244,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -846,27 +876,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1417.4424302621085,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.1",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1417.3948340198456,
-      "score_code": 1388.3514190524427,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "DeepSeek V3.1 Terminus",
-      "vendor": "DeepSeek",
-      "type": "free",
-      "url": "https://www.deepseek.com/",
-      "score_general": 1417.2777094958158,
+      "score_general": 1417.4720634207774,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -876,7 +886,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1417.275708047796,
+      "score_general": 1417.4597250062766,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -887,12 +897,22 @@
       ]
     },
     {
-      "name": "muse-spark-1.1",
-      "vendor": "Meta",
+      "name": "Claude Opus 4.1",
+      "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://meta.ai",
-      "score_general": 1417.1975752601038,
-      "score_code": 1536.3170735401338,
+      "url": "https://www.anthropic.com/",
+      "score_general": 1417.421781456801,
+      "score_code": 1388.5313692061827,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "DeepSeek V3.1 Terminus",
+      "vendor": "DeepSeek",
+      "type": "free",
+      "url": "https://www.deepseek.com/",
+      "score_general": 1417.24718759402,
+      "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -901,7 +921,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1417.0824228551758,
+      "score_general": 1417.0501796757144,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -916,7 +936,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1416.1506358054337,
+      "score_general": 1416.2642702466733,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -926,7 +946,7 @@
       "vendor": "Mistral AI",
       "type": "paid",
       "url": "https://mistral.ai/",
-      "score_general": 1415.8339782460669,
+      "score_general": 1416.0136775629858,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -936,8 +956,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1414.7599162714134,
-      "score_code": 1256.2490615544696,
+      "score_general": 1415.2441067660834,
+      "score_code": 1256.2985981327813,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -951,7 +971,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1413.722558107507,
+      "score_general": 1413.740365452646,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -961,7 +981,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1413.083787650143,
+      "score_general": 1413.1868832118207,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -971,8 +991,18 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1412.9256405738884,
-      "score_code": 1398.8491856074436,
+      "score_general": 1412.704981127093,
+      "score_code": 1399.0274913860833,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GPT 5.2",
+      "vendor": "OpenAI",
+      "type": "paid",
+      "url": "https://openai.com/",
+      "score_general": 1411.7554260034549,
+      "score_code": 1419.127778918938,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -981,7 +1011,7 @@
       "vendor": "Baidu",
       "type": "paid",
       "url": "https://ernie.baidu.com/",
-      "score_general": 1411.7833788397427,
+      "score_general": 1411.7385383195387,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -991,18 +1021,18 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://www.mi.com/global/",
-      "score_general": 1411.3586971128345,
-      "score_code": 1330.4620522105097,
+      "score_general": 1411.287813145117,
+      "score_code": 1330.6719192019245,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "GPT 5.2",
-      "vendor": "OpenAI",
+      "name": "muse-spark-1.1",
+      "vendor": "Meta",
       "type": "paid",
-      "url": "https://openai.com/",
-      "score_general": 1410.7731222051068,
-      "score_code": 1418.9189934383126,
+      "url": "https://meta.ai",
+      "score_general": 1410.2760413549227,
+      "score_code": 1537.3419315104775,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1011,7 +1041,7 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1409.8655280226646,
+      "score_general": 1409.9083721251295,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1021,7 +1051,7 @@
       "vendor": "Baidu",
       "type": "free",
       "url": "https://ernie.baidu.com/",
-      "score_general": 1409.220641329332,
+      "score_general": 1409.2664879253666,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1031,7 +1061,7 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1409.0667124961003,
+      "score_general": 1409.1250091676561,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1041,8 +1071,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1408.529720052484,
-      "score_code": 1357.1815857494942,
+      "score_general": 1408.077634429033,
+      "score_code": 1357.546735819466,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1051,7 +1081,7 @@
       "vendor": "Meituan",
       "type": "paid",
       "url": "https://www.meituan.com/en-US/",
-      "score_general": 1407.405191745958,
+      "score_general": 1407.2256163902177,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1061,7 +1091,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1406.9085754901855,
+      "score_general": 1406.9239558083077,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1076,7 +1106,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1405.8316870450117,
+      "score_general": 1406.0350309911191,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1086,7 +1116,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1405.4492258936577,
+      "score_general": 1405.4792979672684,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1096,8 +1126,8 @@
       "vendor": "MiniMax",
       "type": "free",
       "url": "https://www.minimax.ai/",
-      "score_general": 1405.1519063072544,
-      "score_code": 1397.6101956465216,
+      "score_general": 1405.3238788848698,
+      "score_code": 1397.4787914510935,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -1111,7 +1141,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1404.7329994122756,
+      "score_general": 1404.718939894476,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1121,8 +1151,8 @@
       "vendor": "Tencent",
       "type": "free",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1404.1658710572628,
-      "score_code": 1356.6394708751857,
+      "score_general": 1404.377975119528,
+      "score_code": 1356.6790631094702,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1131,17 +1161,7 @@
       "vendor": "StepFun",
       "type": "free",
       "url": "https://stepfun.com/",
-      "score_general": 1404.1482094791127,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GPT 5 Chat",
-      "vendor": "OpenAI",
-      "type": "paid",
-      "url": "https://openai.com/",
-      "score_general": 1403.7751648320911,
+      "score_general": 1404.0428927414082,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1151,7 +1171,17 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1402.8025789606088,
+      "score_general": 1403.9395060908107,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GPT 5 Chat",
+      "vendor": "OpenAI",
+      "type": "paid",
+      "url": "https://openai.com/",
+      "score_general": 1403.784008768479,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1161,27 +1191,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1400.596876641973,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Grok 4.1",
-      "vendor": "xAI",
-      "type": "paid",
-      "url": "https://x.ai/",
-      "score_general": 1399.6519161127974,
-      "score_code": 1210.061656131041,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Hunyuan T1",
-      "vendor": "Tencent",
-      "type": "paid",
-      "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1399.6089789551738,
+      "score_general": 1401.065022695951,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1191,8 +1201,28 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1399.4502595430804,
-      "score_code": 1359.4167204448731,
+      "score_general": 1399.771401496103,
+      "score_code": 1358.0372253429837,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Grok 4.1",
+      "vendor": "xAI",
+      "type": "paid",
+      "url": "https://x.ai/",
+      "score_general": 1399.745455471129,
+      "score_code": 1210.2539484083782,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Hunyuan T1",
+      "vendor": "Tencent",
+      "type": "paid",
+      "url": "https://cloud.tencent.com/product/hunyuan",
+      "score_general": 1399.6502122819065,
+      "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1201,18 +1231,8 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1398.0122151284856,
-      "score_code": 1159.4660688731524,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Qwen 3.5 Flash",
-      "vendor": "Alibaba",
-      "type": "paid",
-      "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1397.744273403619,
-      "score_code": 1237.8152040104019,
+      "score_general": 1397.8538076651116,
+      "score_code": 1159.6855911285475,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1221,8 +1241,18 @@
       "vendor": "Baidu",
       "type": "paid",
       "url": "https://ernie.baidu.com/",
-      "score_general": 1397.6989508933616,
+      "score_general": 1397.7607626274137,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Qwen 3.5 Flash",
+      "vendor": "Alibaba",
+      "type": "paid",
+      "url": "https://www.alibabacloud.com/product/qianwen",
+      "score_general": 1397.750947115404,
+      "score_code": 1237.9686656824188,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1231,8 +1261,8 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1396.8610524734543,
-      "score_code": 1239.8410597132054,
+      "score_general": 1396.7564437110073,
+      "score_code": 1239.9859533309284,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1241,8 +1271,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1395.8651919648476,
-      "score_code": 1250.7391836665058,
+      "score_general": 1395.597806115663,
+      "score_code": 1250.469306312892,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1251,8 +1281,8 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://www.mi.com/global/",
-      "score_general": 1395.2157476774014,
-      "score_code": 1291.10277332278,
+      "score_general": 1395.1980251515874,
+      "score_code": 1291.168246502938,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1261,7 +1291,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1393.910578674013,
+      "score_general": 1394.0727053211037,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1271,17 +1301,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1393.7799465649252,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "O3",
-      "vendor": "OpenAI",
-      "type": "paid",
-      "url": "https://openai.com/",
-      "score_general": 1393.524673713859,
+      "score_general": 1393.7772150148517,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1291,17 +1311,17 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1393.4365521781763,
-      "score_code": 1324.3554473624924,
+      "score_general": 1393.7244503082202,
+      "score_code": 1324.4227739800172,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "Amazon Nova Experimental Chat",
-      "vendor": "Amazon",
+      "name": "O3",
+      "vendor": "OpenAI",
       "type": "paid",
-      "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1393.1988486068194,
+      "url": "https://openai.com/",
+      "score_general": 1393.6739256123535,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1311,7 +1331,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1392.6349935362337,
+      "score_general": 1392.714586730146,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1321,7 +1341,17 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1391.5354032624095,
+      "score_general": 1391.6155318792437,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Amazon Nova Experimental Chat",
+      "vendor": "Amazon",
+      "type": "paid",
+      "url": "https://aws.amazon.com/bedrock/",
+      "score_general": 1391.3789106958125,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1331,8 +1361,8 @@
       "vendor": "MiniMax",
       "type": "free",
       "url": "https://www.minimax.ai/",
-      "score_general": 1390.7840804440777,
-      "score_code": 1388.1934144450358,
+      "score_general": 1391.055789986296,
+      "score_code": 1388.3786583472038,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1341,17 +1371,7 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1389.8185774767428,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Nemotron-3 Ultra 550B A55B NVFP4",
-      "vendor": "NVIDIA",
-      "type": "free",
-      "url": "https://developer.nvidia.com/",
-      "score_general": 1388.1280577861232,
+      "score_general": 1389.7577054775286,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1361,17 +1381,17 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1387.892489402164,
+      "score_general": 1387.637750239362,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "Muse Spark",
-      "vendor": "Meta",
-      "type": "paid",
-      "url": "https://ai.meta.com/",
-      "score_general": 1384.5479201462454,
+      "name": "Nemotron-3 Ultra 550B A55B NVFP4",
+      "vendor": "NVIDIA",
+      "type": "free",
+      "url": "https://developer.nvidia.com/",
+      "score_general": 1387.0516466231588,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1381,7 +1401,17 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1383.8264098624722,
+      "score_general": 1383.938539827786,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Muse Spark",
+      "vendor": "Meta",
+      "type": "paid",
+      "url": "https://ai.meta.com/",
+      "score_general": 1383.7042873956434,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1391,7 +1421,7 @@
       "vendor": "Zhipu AI",
       "type": "free",
       "url": "https://www.zhipu.ai/",
-      "score_general": 1382.7333863213196,
+      "score_general": 1382.655452207297,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1401,7 +1431,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1382.0414220720331,
+      "score_general": 1382.0595590106277,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1416,7 +1446,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1380.820453430774,
+      "score_general": 1380.9220286434315,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1426,7 +1456,7 @@
       "vendor": "Moonshot AI",
       "type": "free",
       "url": "https://www.moonshot.cn/",
-      "score_general": 1379.3360051826567,
+      "score_general": 1379.4453953109464,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1436,7 +1466,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1379.1685934814702,
+      "score_general": 1379.2389114488092,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1451,7 +1481,7 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1378.649753464791,
+      "score_general": 1378.048580263533,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1466,7 +1496,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1375.8884176551157,
+      "score_general": 1376.0431529668845,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1476,7 +1506,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1375.432792869698,
+      "score_general": 1375.4470309124463,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1486,7 +1516,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1374.9858652044818,
+      "score_general": 1374.9490223352636,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1501,17 +1531,7 @@
       "vendor": "Zhipu AI",
       "type": "free",
       "url": "https://www.zhipu.ai/",
-      "score_general": 1374.8525741433525,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GPT 5.4 Nano High",
-      "vendor": "OpenAI",
-      "type": "paid",
-      "url": "https://openai.com/",
-      "score_general": 1374.163555365401,
+      "score_general": 1374.8396389565264,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1521,7 +1541,17 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1373.8270163417087,
+      "score_general": 1373.8422922061495,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GPT 5.4 Nano High",
+      "vendor": "OpenAI",
+      "type": "paid",
+      "url": "https://openai.com/",
+      "score_general": 1373.0366862902617,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1531,7 +1561,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1372.7575599038669,
+      "score_general": 1372.79077624749,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1546,7 +1576,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1371.2303435555143,
+      "score_general": 1371.1761475750936,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1556,7 +1586,7 @@
       "vendor": "Moonshot AI",
       "type": "free",
       "url": "https://www.moonshot.cn/",
-      "score_general": 1370.727398124072,
+      "score_general": 1370.7462022634186,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1566,7 +1596,7 @@
       "vendor": "Mistral AI",
       "type": "paid",
       "url": "https://mistral.ai/",
-      "score_general": 1369.3843968775855,
+      "score_general": 1369.433713958458,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1576,7 +1606,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1368.482699786777,
+      "score_general": 1368.591049836782,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1591,7 +1621,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1367.8851918681105,
+      "score_general": 1367.7828690466122,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1601,7 +1631,7 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1366.9105947723128,
+      "score_general": 1367.0032692860182,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1611,7 +1641,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1366.59099018664,
+      "score_general": 1366.6481732691877,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1621,7 +1651,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1365.938982135612,
+      "score_general": 1365.9643408491133,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1631,7 +1661,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1365.8639170304273,
+      "score_general": 1365.9367024733456,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1641,7 +1671,7 @@
       "vendor": "OpenAI",
       "type": "free",
       "url": "https://openai.com/",
-      "score_general": 1365.571014522052,
+      "score_general": 1365.6804681025478,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1664,21 +1694,21 @@
       ]
     },
     {
-      "name": "Amazon Nova Experimental Chat",
-      "vendor": "Amazon",
+      "name": "Claude Opus 4",
+      "vendor": "Anthropic",
       "type": "paid",
-      "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1364.4813605639501,
+      "url": "https://www.anthropic.com/",
+      "score_general": 1364.5737905293004,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "Claude Opus 4",
-      "vendor": "Anthropic",
+      "name": "Amazon Nova Experimental Chat",
+      "vendor": "Amazon",
       "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1364.444770760073,
+      "url": "https://aws.amazon.com/bedrock/",
+      "score_general": 1364.5644198643902,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1688,7 +1718,7 @@
       "vendor": "Ant Group",
       "type": "free",
       "url": "https://www.antgroup.com/en-US",
-      "score_general": 1363.019191205675,
+      "score_general": 1363.1940510583217,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1698,7 +1728,7 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1362.7915191757138,
+      "score_general": 1362.7359490316749,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1708,7 +1738,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1362.7411548857385,
+      "score_general": 1362.7026052942088,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1718,8 +1748,8 @@
       "vendor": "MiniMax",
       "type": "free",
       "url": "https://www.minimax.ai/",
-      "score_general": 1358.8799876423002,
-      "score_code": 1386.2175055098971,
+      "score_general": 1358.546909748522,
+      "score_code": 1386.2590946234375,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1728,7 +1758,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1358.2350625562033,
+      "score_general": 1358.294556631406,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1738,8 +1768,8 @@
       "vendor": "Inception AI",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1357.3951895718549,
-      "score_code": 1166.2820463766336,
+      "score_general": 1357.6505520411895,
+      "score_code": 1166.3630410365527,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1748,8 +1778,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1356.2243061778636,
-      "score_code": 1272.1350771436962,
+      "score_general": 1356.3934332153426,
+      "score_code": 1272.1996081363209,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1758,7 +1788,7 @@
       "vendor": "https://lmarena.ai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1356.0521198595281,
+      "score_general": 1356.1367521665425,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1768,7 +1798,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1354.1433457690844,
+      "score_general": 1354.1679778901384,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1778,7 +1808,7 @@
       "vendor": "Zhipu AI",
       "type": "free",
       "url": "https://www.zhipu.ai/",
-      "score_general": 1353.693187292462,
+      "score_general": 1353.380539308661,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1793,7 +1823,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1352.9219987134838,
+      "score_general": 1352.9387063681224,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1803,7 +1833,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1352.7059667176502,
+      "score_general": 1352.7397092319281,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1818,7 +1848,7 @@
       "vendor": "StepFun",
       "type": "free",
       "url": "https://stepfun.com/",
-      "score_general": 1349.5908576182435,
+      "score_general": 1349.741941849294,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1828,7 +1858,7 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1349.1306772720943,
+      "score_general": 1349.1788507035944,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1838,7 +1868,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1348.3160552477777,
+      "score_general": 1348.4240417756403,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1848,7 +1878,7 @@
       "vendor": "ByteDance",
       "type": "paid",
       "url": "https://www.bytedance.com/en/",
-      "score_general": 1344.8057822947835,
+      "score_general": 1344.8019922616172,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1858,7 +1888,7 @@
       "vendor": "MiniMax",
       "type": "free",
       "url": "https://www.minimax.ai/",
-      "score_general": 1342.4319568624271,
+      "score_general": 1342.5055623748108,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1868,8 +1898,8 @@
       "vendor": "MiniMax",
       "type": "free",
       "url": "https://www.minimax.ai/",
-      "score_general": 1342.253074820252,
-      "score_code": 1296.431176748183,
+      "score_general": 1342.3680644886467,
+      "score_code": 1296.6329378208072,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1878,8 +1908,8 @@
       "vendor": "https://lmarena.ai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1341.960382087475,
-      "score_code": 1239.3714933254432,
+      "score_general": 1341.570193824145,
+      "score_code": 1239.4736094645464,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1888,7 +1918,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1340.5844274630535,
+      "score_general": 1340.686181673433,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1903,7 +1933,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1340.0902348143072,
+      "score_general": 1340.1475559285457,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1922,7 +1952,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1339.1276500701683,
+      "score_general": 1339.1226710680642,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1932,17 +1962,7 @@
       "vendor": "https://lmarena.ai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1338.801687573657,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Sonnet 4",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://www.anthropic.com/",
-      "score_general": 1337.8642707097974,
+      "score_general": 1338.896128952855,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1952,7 +1972,17 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1337.789433101094,
+      "score_general": 1337.9630859882486,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Sonnet 4",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://www.anthropic.com/",
+      "score_general": 1337.8958335408797,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1962,7 +1992,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1336.6571773727883,
+      "score_general": 1336.6868836256049,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1972,7 +2002,7 @@
       "vendor": "StepFun",
       "type": "paid",
       "url": "https://stepfun.com/",
-      "score_general": 1335.4393714671694,
+      "score_general": 1335.4979800556362,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1982,7 +2012,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1334.2409282828983,
+      "score_general": 1334.2928483814073,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1992,7 +2022,7 @@
       "vendor": "Zhipu AI",
       "type": "free",
       "url": "https://www.zhipu.ai/",
-      "score_general": 1333.627835245355,
+      "score_general": 1333.6407341353902,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2002,7 +2032,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1332.618104657105,
+      "score_general": 1332.639472562802,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2012,7 +2042,7 @@
       "vendor": "Ant Group",
       "type": "free",
       "url": "https://www.antgroup.com/en-US",
-      "score_general": 1331.8717377240137,
+      "score_general": 1331.7708257457384,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2022,7 +2052,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://cohere.com/",
-      "score_general": 1331.3504813467907,
+      "score_general": 1331.465652400436,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2032,7 +2062,7 @@
       "vendor": "Zhipu AI",
       "type": "paid",
       "url": "https://www.zhipu.ai/",
-      "score_general": 1330.9495937161105,
+      "score_general": 1330.9712806160396,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2042,7 +2072,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1329.6508857788897,
+      "score_general": 1329.6841053363937,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2052,7 +2082,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1329.2880790331399,
+      "score_general": 1329.360401640037,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2062,7 +2092,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1326.524128237907,
+      "score_general": 1326.5466542394693,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2072,7 +2102,7 @@
       "vendor": "StepFun",
       "type": "paid",
       "url": "https://stepfun.com/",
-      "score_general": 1321.054093610219,
+      "score_general": 1321.0738922365988,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2082,7 +2112,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1320.1730303671416,
+      "score_general": 1320.2420065933811,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2092,7 +2122,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1319.834120533311,
+      "score_general": 1319.857322752668,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2102,7 +2132,7 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1319.5242383758282,
+      "score_general": 1319.5743849983126,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2112,7 +2142,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1319.2671664601378,
+      "score_general": 1319.2860762090845,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2122,7 +2152,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1319.1318442929896,
+      "score_general": 1319.1236587371063,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2132,7 +2162,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1317.2163330431952,
+      "score_general": 1317.234578795621,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2142,7 +2172,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1317.049947144445,
+      "score_general": 1317.104386921733,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2152,17 +2182,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1314.4652093804907,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "OLMo 3.1 32B Instruct",
-      "vendor": "Allen Institute for AI",
-      "type": "free",
-      "url": "https://allenai.org/",
-      "score_general": 1311.6267936129418,
+      "score_general": 1314.5300606064511,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2172,7 +2192,17 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1311.525592681631,
+      "score_general": 1311.5492173239882,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "OLMo 3.1 32B Instruct",
+      "vendor": "Allen Institute for AI",
+      "type": "free",
+      "url": "https://allenai.org/",
+      "score_general": 1311.3801823566623,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2182,7 +2212,7 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1308.4796668018842,
+      "score_general": 1308.5040528764148,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2192,7 +2222,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1306.1369771100442,
+      "score_general": 1306.198337956324,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2202,7 +2232,7 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1304.723995486996,
+      "score_general": 1304.741352737355,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2212,7 +2242,7 @@
       "vendor": "01.AI",
       "type": "paid",
       "url": "https://www.01.ai/",
-      "score_general": 1301.6737554932513,
+      "score_general": 1301.6891932254866,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2222,7 +2252,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1300.5831739313467,
+      "score_general": 1300.5995528267847,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -2237,7 +2267,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1299.3107638465915,
+      "score_general": 1299.3221423073048,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2247,7 +2277,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1299.2911532673004,
+      "score_general": 1299.3118560608173,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2257,7 +2287,7 @@
       "vendor": "Allen Institute for AI",
       "type": "free",
       "url": "https://allenai.org/",
-      "score_general": 1298.8017333375278,
+      "score_general": 1298.7801100730794,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2267,7 +2297,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1297.8210888869644,
+      "score_general": 1297.7942693215218,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2277,7 +2307,7 @@
       "vendor": "Allen Institute for AI",
       "type": "free",
       "url": "https://allenai.org/",
-      "score_general": 1294.4716110876734,
+      "score_general": 1295.3914698004237,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2287,7 +2317,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1294.0865889117579,
+      "score_general": 1294.105390172193,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2297,8 +2327,8 @@
       "vendor": "IBM",
       "type": "free",
       "url": "https://www.ibm.com/watson-x",
-      "score_general": 1292.8383261470688,
-      "score_code": 1193.8635745557092,
+      "score_general": 1292.5999533759768,
+      "score_code": 1193.8495721914185,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2307,7 +2337,7 @@
       "vendor": "NexusFlow",
       "type": "free",
       "url": "https://www.nexusflow.ai/",
-      "score_general": 1291.6027043773004,
+      "score_general": 1291.621769677835,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2317,7 +2347,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1290.8319498447377,
+      "score_general": 1290.8833637129605,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2327,7 +2357,7 @@
       "vendor": "Zhipu AI",
       "type": "paid",
       "url": "https://www.zhipu.ai/",
-      "score_general": 1289.7956412763492,
+      "score_general": 1289.811155610511,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2337,7 +2367,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1288.0646120345664,
+      "score_general": 1288.0877860114756,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2347,7 +2377,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1287.7739987704856,
+      "score_general": 1287.8048312388055,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2357,7 +2387,7 @@
       "vendor": "OpenAI",
       "type": "free",
       "url": "https://openai.com/",
-      "score_general": 1287.5715722206141,
+      "score_general": 1287.5753026950417,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -2372,7 +2402,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1286.79625062407,
+      "score_general": 1286.8142808278028,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2382,7 +2412,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1286.5675798843922,
+      "score_general": 1286.5706992638566,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -2397,7 +2427,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1284.8240464511036,
+      "score_general": 1284.8736458321011,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2407,7 +2437,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1283.814772018892,
+      "score_general": 1283.8379096641838,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2417,7 +2447,7 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1282.7949911829098,
+      "score_general": 1282.8102151637374,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2427,7 +2457,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1282.68771021845,
+      "score_general": 1282.7041568402415,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -2442,7 +2472,7 @@
       "vendor": "Inception AI",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1282.4063696741684,
+      "score_general": 1282.5885160739326,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2452,7 +2482,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1282.0228798031442,
+      "score_general": 1282.0383147388447,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2462,7 +2492,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1281.9512534169796,
+      "score_general": 1281.9678476728004,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2472,7 +2502,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1281.0628104695993,
+      "score_general": 1281.078485720036,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2482,7 +2512,7 @@
       "vendor": "xAI",
       "type": "paid",
       "url": "https://x.ai/",
-      "score_general": 1280.8414089670168,
+      "score_general": 1280.858696689878,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2492,7 +2522,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1280.8285827547375,
+      "score_general": 1280.854107284757,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -2507,7 +2537,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1278.7038191535091,
+      "score_general": 1278.7197687408823,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2517,7 +2547,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1277.8208483240135,
+      "score_general": 1277.8897803192424,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2527,7 +2557,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1274.9972177789707,
+      "score_general": 1275.0576360412058,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2537,7 +2567,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1274.1098718607573,
+      "score_general": 1274.133040142288,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2547,7 +2577,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1273.6391774172862,
+      "score_general": 1273.65546807578,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2557,7 +2587,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1271.8350067251122,
+      "score_general": 1271.8507789111884,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2567,7 +2597,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1271.3938739090565,
+      "score_general": 1271.4095321556051,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2577,7 +2607,7 @@
       "vendor": "Allen Institute for AI",
       "type": "free",
       "url": "https://allenai.org/",
-      "score_general": 1270.0889715269975,
+      "score_general": 1270.3109411356836,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2587,7 +2617,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1269.166200625928,
+      "score_general": 1269.1840233746316,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2597,7 +2627,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1266.2881441061456,
+      "score_general": 1266.3038492737128,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2607,7 +2637,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1265.4194528624118,
+      "score_general": 1265.4449390273712,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2617,7 +2647,7 @@
       "vendor": "NexusFlow",
       "type": "free",
       "url": "https://www.nexusflow.ai/",
-      "score_general": 1265.2861429996276,
+      "score_general": 1265.3023627437342,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2627,7 +2657,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1263.5817701006065,
+      "score_general": 1263.597561658491,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2637,7 +2667,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1263.1786144589073,
+      "score_general": 1263.4393739377024,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2647,7 +2677,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1262.348013883715,
+      "score_general": 1262.3638201767908,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2657,7 +2687,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1262.1527056886312,
+      "score_general": 1262.1694444264679,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2667,7 +2697,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1261.0567564712667,
+      "score_general": 1261.0733492791169,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2677,7 +2707,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1258.7974285851622,
+      "score_general": 1258.827136568134,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2687,7 +2717,7 @@
       "vendor": "Allen Institute for AI",
       "type": "free",
       "url": "https://allenai.org/",
-      "score_general": 1255.8749896991355,
+      "score_general": 1255.8943812174005,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2697,7 +2727,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1255.417526104472,
+      "score_general": 1255.4422979610517,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2707,7 +2737,7 @@
       "vendor": "Mistral AI",
       "type": "paid",
       "url": "https://mistral.ai/",
-      "score_general": 1254.7299245320553,
+      "score_general": 1254.5751883274027,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2717,7 +2747,7 @@
       "vendor": "Reka AI",
       "type": "paid",
       "url": "https://reka.ai/",
-      "score_general": 1248.52588674631,
+      "score_general": 1248.542323323233,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2727,7 +2757,7 @@
       "vendor": "IBM",
       "type": "free",
       "url": "https://www.ibm.com/watson-x",
-      "score_general": 1241.6236484613858,
+      "score_general": 1241.65390838325,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2737,7 +2767,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1239.4465203890495,
+      "score_general": 1239.4627785963685,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2747,7 +2777,7 @@
       "vendor": "AI21 Labs",
       "type": "free",
       "url": "https://www.ai21.com/",
-      "score_general": 1237.1698920416602,
+      "score_general": 1237.1861168676805,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2757,7 +2787,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1233.6468396997934,
+      "score_general": 1233.6755561042826,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2767,7 +2797,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1231.5163416032935,
+      "score_general": 1231.5346103635466,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2777,7 +2807,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1230.192812378438,
+      "score_general": 1230.2093150239318,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2787,7 +2817,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://cohere.com/",
-      "score_general": 1229.0436933968713,
+      "score_general": 1229.0600943917925,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2797,7 +2827,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1228.614665830674,
+      "score_general": 1228.637020374575,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2807,7 +2837,7 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1228.1318074802941,
+      "score_general": 1228.1467761826925,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2817,7 +2847,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1227.209861037911,
+      "score_general": 1227.226089018805,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2827,7 +2857,7 @@
       "vendor": "Zhipu AI",
       "type": "paid",
       "url": "https://www.zhipu.ai/",
-      "score_general": 1226.0536725304412,
+      "score_general": 1226.0698146063664,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2837,7 +2867,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1226.0039028995739,
+      "score_general": 1226.021756349338,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2847,7 +2877,7 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1224.9589375203998,
+      "score_general": 1224.9750810455575,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2857,7 +2887,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://cohere.com/",
-      "score_general": 1224.1569577382932,
+      "score_general": 1224.1757535731047,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2867,7 +2897,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1220.942259373993,
+      "score_general": 1220.9582781188788,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2877,7 +2907,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1218.18371255966,
+      "score_general": 1218.199619827033,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2887,7 +2917,7 @@
       "vendor": "Reka AI",
       "type": "paid",
       "url": "https://reka.ai/",
-      "score_general": 1218.065048491385,
+      "score_general": 1218.0814935571952,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2897,7 +2927,7 @@
       "vendor": "Allen Institute for AI",
       "type": "free",
       "url": "https://allenai.org/",
-      "score_general": 1218.019739789239,
+      "score_general": 1218.0560700333524,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2907,7 +2937,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://azure.microsoft.com/en-us/solutions/ai/",
-      "score_general": 1216.8118272740328,
+      "score_general": 1216.8367524357532,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2917,7 +2947,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://aws.amazon.com/bedrock/",
-      "score_general": 1208.550166384297,
+      "score_general": 1208.5725603018113,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2927,7 +2957,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1207.530223579892,
+      "score_general": 1207.5484529381536,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2937,7 +2967,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1206.153447812561,
+      "score_general": 1206.169529960404,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2947,7 +2977,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://cohere.com/",
-      "score_general": 1203.9761330611302,
+      "score_general": 1203.9920919791232,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2957,7 +2987,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1203.4177145859596,
+      "score_general": 1203.4338754068442,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2967,7 +2997,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://cloud.tencent.com/product/hunyuan",
-      "score_general": 1202.0677581844773,
+      "score_general": 1202.0824997026898,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2977,7 +3007,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://www.anthropic.com/",
-      "score_general": 1194.8241888631715,
+      "score_general": 1194.8400201495747,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2987,7 +3017,7 @@
       "vendor": "Allen Institute for AI",
       "type": "free",
       "url": "https://allenai.org/",
-      "score_general": 1193.457460517596,
+      "score_general": 1193.476903225292,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2997,7 +3027,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1191.336238305911,
+      "score_general": 1191.3520748866172,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3007,7 +3037,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1191.057943836987,
+      "score_general": 1191.0732649614647,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3017,7 +3047,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://cohere.com/",
-      "score_general": 1187.5040822160126,
+      "score_general": 1187.5204729800917,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -3032,7 +3062,7 @@
       "vendor": "AI21 Labs",
       "type": "free",
       "url": "https://www.ai21.com/",
-      "score_general": 1186.8214220304287,
+      "score_general": 1186.8376593078174,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3042,7 +3072,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1186.724913802037,
+      "score_general": 1186.7414732783227,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -3057,7 +3087,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1186.1512765471978,
+      "score_general": 1186.167307310095,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3067,7 +3097,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://cohere.com/",
-      "score_general": 1185.2589162906315,
+      "score_general": 1185.2790944939143,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3077,7 +3107,7 @@
       "vendor": "Mistral AI",
       "type": "paid",
       "url": "https://mistral.ai/",
-      "score_general": 1176.6221036417642,
+      "score_general": 1176.6380317132648,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3087,7 +3117,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1174.7156852271,
+      "score_general": 1174.7316981729998,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3097,7 +3127,7 @@
       "vendor": "01.AI",
       "type": "free",
       "url": "https://www.01.ai/",
-      "score_general": 1173.1029947514596,
+      "score_general": 1173.1191054664082,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3107,7 +3137,7 @@
       "vendor": "Reka AI",
       "type": "paid",
       "url": "https://reka.ai/",
-      "score_general": 1170.577387998268,
+      "score_general": 1170.5933866952987,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3117,7 +3147,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1166.2968925926698,
+      "score_general": 1166.3129070543075,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3127,7 +3157,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1165.7485529389096,
+      "score_general": 1165.7645837916136,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3137,7 +3167,7 @@
       "vendor": "Mistral AI",
       "type": "paid",
       "url": "https://mistral.ai/",
-      "score_general": 1165.2828208808314,
+      "score_general": 1165.2988277481463,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3147,7 +3177,7 @@
       "vendor": "Reka AI",
       "type": "paid",
       "url": "https://reka.ai/",
-      "score_general": 1165.1329846427216,
+      "score_general": 1165.1489991576545,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3157,7 +3187,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://cohere.com/",
-      "score_general": 1163.2792612365802,
+      "score_general": 1163.295194200872,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -3172,7 +3202,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1162.1315056718563,
+      "score_general": 1162.1475830897302,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3182,7 +3212,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1161.9438283494342,
+      "score_general": 1161.9607314833197,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3192,7 +3222,7 @@
       "vendor": "SenseTime",
       "type": "free",
       "url": "https://www.internlm.com/",
-      "score_general": 1158.5895175286832,
+      "score_general": 1158.6059158218563,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3202,7 +3232,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1155.9126626043328,
+      "score_general": 1155.9309667962855,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3212,7 +3242,7 @@
       "vendor": "IBM",
       "type": "free",
       "url": "https://www.ibm.com/watson-x",
-      "score_general": 1149.6761959568105,
+      "score_general": 1149.6959563702926,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3222,7 +3252,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1148.992527393868,
+      "score_general": 1149.0085282758587,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3232,7 +3262,7 @@
       "vendor": "Hugging Face",
       "type": "free",
       "url": "https://huggingface.co/",
-      "score_general": 1143.8368255379482,
+      "score_general": 1143.852829158192,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3242,7 +3272,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://azure.microsoft.com/en-us/solutions/ai/",
-      "score_general": 1137.6947038265455,
+      "score_general": 1137.7108227096182,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3252,7 +3282,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1137.3469076794509,
+      "score_general": 1137.3629210608651,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3262,7 +3292,7 @@
       "vendor": "LM-Sys",
       "type": "free",
       "url": "https://lmsys.org/",
-      "score_general": 1132.1873457048532,
+      "score_general": 1132.203342053971,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3272,7 +3302,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1131.7026386886137,
+      "score_general": 1131.718629303959,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -3287,7 +3317,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1130.6823595973501,
+      "score_general": 1130.6983514370868,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3297,7 +3327,7 @@
       "vendor": "01.AI",
       "type": "free",
       "url": "https://www.01.ai/",
-      "score_general": 1128.6143446889173,
+      "score_general": 1128.6303508164992,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3307,7 +3337,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1127.8377315263165,
+      "score_general": 1127.853727092806,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3317,7 +3347,7 @@
       "vendor": "IBM",
       "type": "free",
       "url": "https://www.ibm.com/watson-x",
-      "score_general": 1127.5581249567547,
+      "score_general": 1127.5778631164026,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3327,7 +3357,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1125.064807854373,
+      "score_general": 1125.080799729535,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3337,7 +3367,7 @@
       "vendor": "Allen Institute for AI",
       "type": "free",
       "url": "https://allenai.org/",
-      "score_general": 1121.178758469168,
+      "score_general": 1121.1947525330474,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3347,7 +3377,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://azure.microsoft.com/en-us/solutions/ai/",
-      "score_general": 1119.6643740384018,
+      "score_general": 1119.680372112698,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3357,7 +3387,7 @@
       "vendor": "Databricks",
       "type": "free",
       "url": "https://www.databricks.com/product/databricks-llm",
-      "score_general": 1119.0126801231818,
+      "score_general": 1119.028697527524,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3367,7 +3397,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1115.3716156479707,
+      "score_general": 1115.38762815211,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3377,7 +3407,7 @@
       "vendor": "Nous Research",
       "type": "free",
       "url": "https://nous.ai/",
-      "score_general": 1112.1825302972811,
+      "score_general": 1112.198513114692,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3387,7 +3417,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://azure.microsoft.com/en-us/solutions/ai/",
-      "score_general": 1109.9668783744876,
+      "score_general": 1109.982992535212,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3397,7 +3427,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1109.678099197938,
+      "score_general": 1109.6945850618763,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3407,7 +3437,7 @@
       "vendor": "LM-Sys",
       "type": "free",
       "url": "https://lmsys.org/",
-      "score_general": 1107.8045577569765,
+      "score_general": 1107.820545098521,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3417,7 +3447,7 @@
       "vendor": "OpenChat",
       "type": "free",
       "url": "https://openchat.team/",
-      "score_general": 1106.7520982748217,
+      "score_general": 1106.7680977647901,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3427,7 +3457,7 @@
       "vendor": "LM-Sys",
       "type": "free",
       "url": "https://lmsys.org/",
-      "score_general": 1105.403490326632,
+      "score_general": 1105.4195214533697,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3437,7 +3467,7 @@
       "vendor": "DeepSeek",
       "type": "free",
       "url": "https://www.deepseek.com/",
-      "score_general": 1105.1729635188133,
+      "score_general": 1105.188951396291,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3447,7 +3477,7 @@
       "vendor": "Snowflake",
       "type": "free",
       "url": "https://www.snowflake.com/en/data-cloud/snowflake-arctic/",
-      "score_general": 1101.1189783955833,
+      "score_general": 1101.1349872394371,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3457,7 +3487,7 @@
       "vendor": "NVIDIA",
       "type": "free",
       "url": "https://www.nvidia.com/en-us/ai-data-science/",
-      "score_general": 1098.2338631350437,
+      "score_general": 1098.2498487455791,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3467,7 +3497,7 @@
       "vendor": "OpenChat",
       "type": "free",
       "url": "https://openchat.team/",
-      "score_general": 1097.1754938983672,
+      "score_general": 1097.1914909124403,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3477,7 +3507,7 @@
       "vendor": "IBM",
       "type": "free",
       "url": "https://www.ibm.com/watson-x",
-      "score_general": 1096.583898821951,
+      "score_general": 1096.5990897301956,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3487,7 +3517,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1094.2643075827384,
+      "score_general": 1094.280307901563,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3497,7 +3527,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1094.1159803302896,
+      "score_general": 1094.1320321041453,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3507,7 +3537,7 @@
       "vendor": "Nous Research",
       "type": "free",
       "url": "https://nous.ai/",
-      "score_general": 1092.64242889348,
+      "score_general": 1092.6584156967074,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3517,7 +3547,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1089.7082151053125,
+      "score_general": 1089.72421987198,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3527,7 +3557,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1084.60027056763,
+      "score_general": 1084.6163013009195,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3537,7 +3567,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1083.603016775782,
+      "score_general": 1083.6190196287416,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3547,7 +3577,7 @@
       "vendor": "Upstage",
       "type": "free",
       "url": "https://upstage.ai/",
-      "score_general": 1083.2303535641847,
+      "score_general": 1083.246329987092,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3557,7 +3587,7 @@
       "vendor": "Evolutions",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1081.115939112944,
+      "score_general": 1081.1319300313492,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3567,7 +3597,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://azure.microsoft.com/en-us/solutions/ai/",
-      "score_general": 1080.0990827928783,
+      "score_general": 1080.115151352215,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3577,7 +3607,7 @@
       "vendor": "IBM",
       "type": "free",
       "url": "https://www.ibm.com/watson-x",
-      "score_general": 1079.987255612581,
+      "score_general": 1080.0024380217424,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3587,7 +3617,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://azure.microsoft.com/en-us/solutions/ai/",
-      "score_general": 1076.6804921971147,
+      "score_general": 1076.6965754972794,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3597,7 +3627,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://azure.microsoft.com/en-us/solutions/ai/",
-      "score_general": 1073.449117075237,
+      "score_general": 1073.4652206023252,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3607,7 +3637,7 @@
       "vendor": "Hugging Face",
       "type": "free",
       "url": "https://huggingface.co/",
-      "score_general": 1069.5643883191856,
+      "score_general": 1069.5803928881087,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3617,7 +3647,7 @@
       "vendor": "MosaicML",
       "type": "free",
       "url": "https://www.mosaicml.com/",
-      "score_general": 1068.751421635093,
+      "score_general": 1068.767543063719,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3627,7 +3657,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1065.626294578683,
+      "score_general": 1065.6423004183093,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3637,7 +3667,7 @@
       "vendor": "Hugging Face",
       "type": "free",
       "url": "https://huggingface.co/",
-      "score_general": 1058.5116526536904,
+      "score_general": 1058.5276676607684,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3647,7 +3677,7 @@
       "vendor": "LM-Sys",
       "type": "free",
       "url": "https://lmsys.org/",
-      "score_general": 1057.8002518215383,
+      "score_general": 1057.8162975071318,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3657,7 +3687,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1057.3844894832416,
+      "score_general": 1057.40049362416,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3667,7 +3697,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1056.2972813637323,
+      "score_general": 1056.313281583417,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3677,7 +3707,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1054.7784718777712,
+      "score_general": 1054.7949428315087,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3687,7 +3717,7 @@
       "vendor": "Technology Innovation Institute",
       "type": "free",
       "url": "https://falconllm.tii.ae/",
-      "score_general": 1054.4957134990068,
+      "score_general": 1054.5117236282017,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3697,7 +3727,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 1053.5408049997943,
+      "score_general": 1053.5568284920957,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3707,7 +3737,7 @@
       "vendor": "https://lmarena.ai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1053.5206169239939,
+      "score_general": 1053.5367552942125,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3717,7 +3747,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 1051.1695152804405,
+      "score_general": 1051.1855105932277,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3727,7 +3757,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://azure.microsoft.com/en-us/solutions/ai/",
-      "score_general": 1050.5318201800806,
+      "score_general": 1050.5478131573477,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3737,7 +3767,7 @@
       "vendor": "https://lmarena.ai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1042.1697894080585,
+      "score_general": 1042.1868571475916,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3747,7 +3777,7 @@
       "vendor": "Nous Research",
       "type": "free",
       "url": "https://nous.ai/",
-      "score_general": 1038.5818094377862,
+      "score_general": 1038.5977972427909,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3757,7 +3787,7 @@
       "vendor": "Allen Institute for AI",
       "type": "free",
       "url": "https://allenai.org/",
-      "score_general": 1031.9530317414208,
+      "score_general": 1031.96904826443,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3767,7 +3797,7 @@
       "vendor": "LM-Sys",
       "type": "free",
       "url": "https://lmsys.org/",
-      "score_general": 1031.0884092805545,
+      "score_general": 1031.1045156412474,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3777,7 +3807,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
-      "score_general": 1027.3793994038983,
+      "score_general": 1027.3954851959384,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3787,7 +3817,7 @@
       "vendor": "Mistral AI",
       "type": "free",
       "url": "https://mistral.ai/",
-      "score_general": 1023.6494813218542,
+      "score_general": 1023.6654956136882,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3797,7 +3827,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1022.3660304660764,
+      "score_general": 1022.3820583872258,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3807,7 +3837,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://ai.google/",
-      "score_general": 1002.2889591302605,
+      "score_general": 1002.3049862581692,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3817,7 +3847,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
-      "score_general": 997.3763476296081,
+      "score_general": 997.3923489291516,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3827,7 +3857,7 @@
       "vendor": "LM-Sys",
       "type": "free",
       "url": "https://lmsys.org/",
-      "score_general": 989.7497673609928,
+      "score_general": 989.7659909557059,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3837,7 +3867,7 @@
       "vendor": "Zhipu AI",
       "type": "free",
       "url": "https://www.zhipu.ai/",
-      "score_general": 972.1793538484985,
+      "score_general": 972.1953322533828,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3847,7 +3877,7 @@
       "vendor": "Nomic AI",
       "type": "free",
       "url": "https://gpt4all.io/",
-      "score_general": 956.3219203638414,
+      "score_general": 956.3381184528371,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3857,7 +3887,7 @@
       "vendor": "MosaicML",
       "type": "free",
       "url": "https://www.mosaicml.com/",
-      "score_general": 955.359571038183,
+      "score_general": 955.3757746112757,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3867,7 +3897,7 @@
       "vendor": "RWKV",
       "type": "free",
       "url": "https://www.rwkv.com/",
-      "score_general": 948.5264459297873,
+      "score_general": 948.542668206804,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3877,7 +3907,7 @@
       "vendor": "Zhipu AI",
       "type": "free",
       "url": "https://www.zhipu.ai/",
-      "score_general": 938.7681743048283,
+      "score_general": 938.7842265535457,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3887,7 +3917,7 @@
       "vendor": "Stanford University",
       "type": "free",
       "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html",
-      "score_general": 932.9510467292939,
+      "score_general": 932.9672729205272,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3897,7 +3927,7 @@
       "vendor": "Zhipu AI",
       "type": "free",
       "url": "https://www.zhipu.ai/",
-      "score_general": 918.6048785084033,
+      "score_general": 918.6211177710144,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3907,7 +3937,7 @@
       "vendor": "OpenAssistant",
       "type": "free",
       "url": "https://open-assistant.io/",
-      "score_general": 916.2068019205396,
+      "score_general": 916.2230419444312,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3917,7 +3947,7 @@
       "vendor": "LM-Sys",
       "type": "free",
       "url": "https://lmsys.org/",
-      "score_general": 894.5393547586045,
+      "score_general": 894.5556060867372,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3927,7 +3957,7 @@
       "vendor": "Stability AI",
       "type": "free",
       "url": "https://stability.ai/",
-      "score_general": 866.7134095877996,
+      "score_general": 866.7297708785331,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3937,7 +3967,7 @@
       "vendor": "Databricks",
       "type": "free",
       "url": "https://www.databricks.com/blog/2023/04/12/dolly-v2-databricks-new-sota-instruction-tuned-llm",
-      "score_general": 851.2677330356739,
+      "score_general": 851.2841031284613,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3947,7 +3977,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://ai.meta.com/",
-      "score_general": 833.6505110169255,
+      "score_general": 833.6670303217638,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
