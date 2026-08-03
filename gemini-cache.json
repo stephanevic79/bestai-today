@@ -2714,5 +2714,26 @@
     "vendor": "OpenAI",
     "type": "paid",
     "url": "https://platform.openai.com/docs/models/gpt-5.6-luna"
+  },
+  "qwen3.8-max": {
+    "arena_name": "qwen3.8-max",
+    "name": "qwen3.8-max",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://qwen.ai"
+  },
+  "deepseek-v4-pro-high-preview": {
+    "arena_name": "deepseek-v4-pro-high-preview",
+    "name": "deepseek-v4-pro-high-preview",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://deepseek.com"
+  },
+  "deepseek-v4-flash-high-preview": {
+    "arena_name": "deepseek-v4-flash-high-preview",
+    "name": "deepseek-v4-flash-high-preview",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://deepseek.com"
   }
 }
