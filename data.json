@@ -1,6 +1,6 @@
 {
-  "ranking_date": "2026-08-02",
-  "retrieved_at": "2026-08-03T09:41:37Z",
+  "ranking_date": "2026-08-03",
+  "retrieved_at": "2026-08-04T08:34:18Z",
   "models": [
     {
       "name": "claude-opus-5-max",
@@ -83,22 +83,22 @@
       "free_api_providers": []
     },
     {
-      "name": "gemini-3.5-flash-high",
-      "vendor": "Google",
-      "type": "paid",
-      "url": "https://ai.google.dev/models/gemini_3_5_flash",
-      "score_general": 1480.480296511278,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
       "name": "Gemini 3 Pro",
       "vendor": "Google",
       "type": "paid",
       "url": "https://ai.google/",
       "score_general": 1479.5739439890067,
       "score_code": 1438.1475018993888,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "gemini-3.5-flash-high",
+      "vendor": "Google",
+      "type": "paid",
+      "url": "https://ai.google.dev/models/gemini_3_5_flash",
+      "score_general": 1479.2562601397963,
+      "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -164,16 +164,6 @@
       "url": "https://ai.meta.com/",
       "score_general": 1473.0893420370112,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "kimi-k3-max",
-      "vendor": "Moonshot",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1472.9595730288056,
-      "score_code": 1675.5597474148117,
       "has_free_api": false,
       "free_api_providers": []
     },
