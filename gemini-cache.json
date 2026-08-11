@@ -2742,5 +2742,12 @@
     "vendor": "Meta",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "muse-glimmer": {
+    "arena_name": "muse-glimmer",
+    "name": "muse-glimmer",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
   }
 }
