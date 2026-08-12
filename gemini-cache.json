@@ -2749,5 +2749,19 @@
     "vendor": "Meta",
     "type": "free",
     "url": "https://lmarena.ai"
+  },
+  "solar-pro4": {
+    "arena_name": "solar-pro4",
+    "name": "Solar Pro 4",
+    "vendor": "Upstage",
+    "type": "paid",
+    "url": "https://upstage.ai/en/"
+  },
+  "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4": {
+    "arena_name": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
+    "name": "Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+    "vendor": "NVIDIA",
+    "type": "free",
+    "url": "https://developer.nvidia.com/nemotron"
   }
 }
