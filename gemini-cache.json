@@ -2763,5 +2763,54 @@
     "vendor": "NVIDIA",
     "type": "free",
     "url": "https://developer.nvidia.com/nemotron"
+  },
+  "claude-opus-4-6-high": {
+    "arena_name": "claude-opus-4-6-high",
+    "name": "Claude Opus",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/claude"
+  },
+  "claude-opus-4-7-high": {
+    "arena_name": "claude-opus-4-7-high",
+    "name": "Claude Opus",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/claude"
+  },
+  "gemini-3.6-flash-high": {
+    "arena_name": "gemini-3.6-flash-high",
+    "name": "Gemini Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://gemini.google.com/"
+  },
+  "claude-opus-4-8-high": {
+    "arena_name": "claude-opus-4-8-high",
+    "name": "Claude Opus",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/claude"
+  },
+  "claude-opus-4-5-20251101-high-32k": {
+    "arena_name": "claude-opus-4-5-20251101-high-32k",
+    "name": "Claude Opus",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/claude"
+  },
+  "grok-4.6-high": {
+    "arena_name": "grok-4.6-high",
+    "name": "Grok",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://grok.com/"
+  },
+  "claude-sonnet-4-5-20250929-high-32k": {
+    "arena_name": "claude-sonnet-4-5-20250929-high-32k",
+    "name": "Claude Sonnet",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/claude"
   }
 }
