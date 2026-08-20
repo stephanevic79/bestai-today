@@ -2812,5 +2812,33 @@
     "vendor": "Anthropic",
     "type": "paid",
     "url": "https://www.anthropic.com/claude"
+  },
+  "gemini-3.7-flash-high": {
+    "arena_name": "gemini-3.7-flash-high",
+    "name": "gemini-3.7-flash-high",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://ai.google.dev/gemini-api"
+  },
+  "glm-5.3-max": {
+    "arena_name": "glm-5.3-max",
+    "name": "glm-5.3-max",
+    "vendor": "Z.ai",
+    "type": "free",
+    "url": "https://z.ai"
+  },
+  "deepseek-v4-pro-high-20260813": {
+    "arena_name": "deepseek-v4-pro-high-20260813",
+    "name": "deepseek-v4-pro-high-20260813",
+    "vendor": "DeepSeek",
+    "type": "free",
+    "url": "https://deepseek.com"
+  },
+  "Inkling Small": {
+    "arena_name": "Inkling Small",
+    "name": "Inkling Small",
+    "vendor": "Thinking Machines Lab",
+    "type": "free",
+    "url": "https://www.thinkingmachines.com"
   }
 }
