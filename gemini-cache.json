@@ -2840,5 +2840,12 @@
     "vendor": "Thinking Machines Lab",
     "type": "free",
     "url": "https://www.thinkingmachines.com"
+  },
+  "qwen3.8-27b": {
+    "arena_name": "qwen3.8-27b",
+    "name": "qwen3.8-27b",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
   }
 }
