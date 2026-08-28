@@ -2847,5 +2847,12 @@
     "vendor": "Alibaba",
     "type": "free",
     "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+  },
+  "glm-5.3-flash": {
+    "arena_name": "glm-5.3-flash",
+    "name": "glm-5.3-flash",
+    "vendor": "Z.ai",
+    "type": "free",
+    "url": "https://z.ai"
   }
 }
