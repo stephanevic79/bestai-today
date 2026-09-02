@@ -2854,5 +2854,26 @@
     "vendor": "Z.ai",
     "type": "free",
     "url": "https://z.ai"
+  },
+  "granite-4.2-30b": {
+    "arena_name": "granite-4.2-30b",
+    "name": "granite-4.2-30b",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://developer.ibm.com/languages/granite-models/"
+  },
+  "granite-4.2-8b": {
+    "arena_name": "granite-4.2-8b",
+    "name": "granite-4.2-8b",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://developer.ibm.com/languages/granite-models/"
+  },
+  "granite-4.2-3b": {
+    "arena_name": "granite-4.2-3b",
+    "name": "granite-4.2-3b",
+    "vendor": "IBM",
+    "type": "free",
+    "url": "https://developer.ibm.com/languages/granite-models/"
   }
 }
