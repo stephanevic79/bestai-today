@@ -2875,5 +2875,19 @@
     "vendor": "IBM",
     "type": "free",
     "url": "https://developer.ibm.com/languages/granite-models/"
+  },
+  "claude-fable-5.1-max": {
+    "arena_name": "claude-fable-5.1-max",
+    "name": "claude-fable-5.1-max",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://claude.ai"
+  },
+  "gemini-3.8-flash-high": {
+    "arena_name": "gemini-3.8-flash-high",
+    "name": "gemini-3.8-flash-high",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://gemini.google.com"
   }
 }
