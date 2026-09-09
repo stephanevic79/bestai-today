@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-09-02",
-  "retrieved_at": "2026-09-08T10:37:48Z",
+  "retrieved_at": "2026-09-09T10:47:53Z",
   "models": [
     {
       "name": "claude-fable-5.1-max",
@@ -8,7 +8,7 @@
       "type": "paid",
       "url": "https://claude.ai",
       "score_general": 1513.6991395858593,
-      "score_code": 1762.2464527581055,
+      "score_code": 1763.9548775807018,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -18,7 +18,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1505.0213139748148,
-      "score_code": 1661.4983146102377,
+      "score_code": 1661.305977741446,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -28,7 +28,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1504.830109483847,
-      "score_code": 1687.610196102199,
+      "score_code": 1687.8558944764031,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -38,7 +38,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/claude",
       "score_general": 1503.14090507237,
-      "score_code": 1546.0107932226183,
+      "score_code": 1546.4091883497754,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -48,7 +48,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/",
       "score_general": 1497.6753087331238,
-      "score_code": 1537.0814294519737,
+      "score_code": 1537.000199244155,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -58,7 +58,7 @@
       "type": "paid",
       "url": "https://gemini.google.com",
       "score_general": 1495.230004368004,
-      "score_code": 1567.230734798693,
+      "score_code": 1568.232879435718,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -68,7 +68,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/claude-fable-5",
       "score_general": 1494.1388872188338,
-      "score_code": 1629.0458934793564,
+      "score_code": 1628.2738774974382,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -78,7 +78,7 @@
       "type": "paid",
       "url": "https://ai.google.dev/gemini-api",
       "score_general": 1491.4411255644447,
-      "score_code": 1586.8941808184122,
+      "score_code": 1587.0017781572126,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -88,7 +88,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/claude",
       "score_general": 1490.2984673932815,
-      "score_code": 1555.6336798646312,
+      "score_code": 1555.0804532995717,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -98,7 +98,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1488.8235924115597,
-      "score_code": 1534.1885008047357,
+      "score_code": 1534.2907444683801,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -108,7 +108,7 @@
       "type": "paid",
       "url": "https://ai.google.dev/models/gemini_3_5_flash",
       "score_general": 1483.7532543924196,
-      "score_code": 1500.4139255270989,
+      "score_code": 1499.8634391544379,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -118,7 +118,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/",
       "score_general": 1483.3305266978043,
-      "score_code": 1557.285079186198,
+      "score_code": 1557.3666946797828,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -128,7 +128,7 @@
       "type": "paid",
       "url": "https://ai.google/",
       "score_general": 1480.0555603932517,
-      "score_code": 1445.521203913088,
+      "score_code": 1446.4886756546064,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -138,7 +138,7 @@
       "type": "paid",
       "url": "https://qwen.ai",
       "score_general": 1479.8823247705418,
-      "score_code": 1670.1373486263906,
+      "score_code": 1669.7864571084338,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -148,7 +148,7 @@
       "type": "paid",
       "url": "https://ai.google/",
       "score_general": 1479.479823314087,
-      "score_code": 1438.5512837238227,
+      "score_code": 1438.8182169212164,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -158,7 +158,7 @@
       "type": "paid",
       "url": "https://meta.ai",
       "score_general": 1479.4154121841705,
-      "score_code": 1541.0075339882792,
+      "score_code": 1541.437768458221,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -168,7 +168,7 @@
       "type": "paid",
       "url": "https://ai.google.dev/models/gemini_3_5_flash",
       "score_general": 1476.7671688665732,
-      "score_code": 1491.5510181210184,
+      "score_code": 1491.4145881811762,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -178,7 +178,7 @@
       "type": "paid",
       "url": "https://gemini.google.com/",
       "score_general": 1476.304999178371,
-      "score_code": 1538.3722550096727,
+      "score_code": 1536.8099251841757,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -188,7 +188,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1475.9659418010938,
-      "score_code": 1674.3489254278888,
+      "score_code": 1674.2450311147732,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -208,7 +208,7 @@
       "type": "free",
       "url": "https://z.ai",
       "score_general": 1473.5421478844326,
-      "score_code": 1608.9613186750753,
+      "score_code": 1612.509577734168,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -248,7 +248,7 @@
       "type": "free",
       "url": "https://z.ai",
       "score_general": 1470.8396223086356,
-      "score_code": 1604.9672594041967,
+      "score_code": 1604.517224957169,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -278,7 +278,7 @@
       "type": "paid",
       "url": "https://ai.google/",
       "score_general": 1466.7475449040226,
-      "score_code": 1437.7238671086834,
+      "score_code": 1437.985346138384,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -288,7 +288,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1466.6953002706352,
-      "score_code": 1586.5739929234114,
+      "score_code": 1589.2285970714236,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -308,7 +308,7 @@
       "type": "free",
       "url": "https://www.mi.com/global/",
       "score_general": 1465.3411400253704,
-      "score_code": 1474.895416095404,
+      "score_code": 1474.6314638758552,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -318,7 +318,7 @@
       "type": "free",
       "url": "https://www.zhipu.ai/",
       "score_general": 1462.743869809574,
-      "score_code": 1508.111304359068,
+      "score_code": 1508.445757972833,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -328,7 +328,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/claude",
       "score_general": 1461.660465185595,
-      "score_code": 1562.7152909914344,
+      "score_code": 1561.0348481069682,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -338,7 +338,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/",
       "score_general": 1458.010971779737,
-      "score_code": 1521.4895156151356,
+      "score_code": 1521.0491590062888,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -348,7 +348,7 @@
       "type": "paid",
       "url": "https://ai.google/",
       "score_general": 1457.7493087728108,
-      "score_code": 1225.5140820087881,
+      "score_code": 1225.876055133997,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -363,7 +363,7 @@
       "type": "free",
       "url": "https://www.moonshot.cn/",
       "score_general": 1455.1343452302638,
-      "score_code": 1508.7620479697612,
+      "score_code": 1508.7083608071514,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -393,7 +393,7 @@
       "type": "paid",
       "url": "https://x.ai/api",
       "score_general": 1452.8999917396827,
-      "score_code": 1555.8721675772772,
+      "score_code": 1555.5083987998125,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -403,7 +403,7 @@
       "type": "paid",
       "url": "https://openai.com/",
       "score_general": 1452.5605833302784,
-      "score_code": 1388.3124028618963,
+      "score_code": 1385.5763920062413,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -413,7 +413,7 @@
       "type": "paid",
       "url": "https://claude.ai",
       "score_general": 1451.9796529211933,
-      "score_code": 1540.134716201152,
+      "score_code": 1539.7220867088777,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -423,7 +423,7 @@
       "type": "free",
       "url": "https://www.deepseek.com/",
       "score_general": 1451.0713096812992,
-      "score_code": 1445.5294983806511,
+      "score_code": 1445.596177953618,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -438,7 +438,7 @@
       "type": "paid",
       "url": "https://x.ai/",
       "score_general": 1450.9501146072114,
-      "score_code": 1373.6636514818324,
+      "score_code": 1373.4443708169335,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -448,7 +448,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/",
       "score_general": 1450.3813464324392,
-      "score_code": 1467.8817296886325,
+      "score_code": 1468.1484590787034,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -488,7 +488,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/claude",
       "score_general": 1447.1443702489282,
-      "score_code": 1494.648600294498,
+      "score_code": 1494.8617387417592,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -508,7 +508,7 @@
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1446.4081642910346,
-      "score_code": 1478.7545108115191,
+      "score_code": 1478.7487952861761,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -518,7 +518,7 @@
       "type": "free",
       "url": "https://www.zhipu.ai/",
       "score_general": 1446.3616472539131,
-      "score_code": 1435.718981264792,
+      "score_code": 1435.6885045262356,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -528,7 +528,7 @@
       "type": "free",
       "url": "https://www.moonshot.cn/",
       "score_general": 1445.7734974662471,
-      "score_code": 1436.1888070984123,
+      "score_code": 1436.3171584550864,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -538,7 +538,7 @@
       "type": "free",
       "url": "https://deepseek.com",
       "score_general": 1445.1302603461322,
-      "score_code": 1463.591005032884,
+      "score_code": 1463.5305371426223,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -578,7 +578,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
       "score_general": 1443.154471841232,
-      "score_code": 1536.9121369341315,
+      "score_code": 1537.842767822195,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -598,7 +598,7 @@
       "type": "paid",
       "url": "https://ai.google/",
       "score_general": 1442.460860132967,
-      "score_code": 1383.0209931655925,
+      "score_code": 1382.9992233136577,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -608,7 +608,7 @@
       "type": "free",
       "url": "https://ai.google/",
       "score_general": 1441.818632531696,
-      "score_code": 1363.065714830294,
+      "score_code": 1363.2284614851196,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -633,7 +633,7 @@
       "type": "free",
       "url": "https://www.zhipu.ai/",
       "score_general": 1440.4319978759843,
-      "score_code": 1340.461324374597,
+      "score_code": 1340.7488327971944,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -643,7 +643,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1439.8991190196305,
-      "score_code": 1511.6468605447617,
+      "score_code": 1510.217296465505,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -653,7 +653,7 @@
       "type": "free",
       "url": "https://deepseek.com",
       "score_general": 1439.8117306205547,
-      "score_code": 1581.681919303248,
+      "score_code": 1580.2935594592457,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -683,7 +683,7 @@
       "type": "free",
       "url": "https://www.thinkingmachines.lab/inkling",
       "score_general": 1438.4756901832552,
-      "score_code": 1408.675879436946,
+      "score_code": 1408.6586923772568,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -693,7 +693,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/",
       "score_general": 1438.2650909322153,
-      "score_code": 1385.2012441617949,
+      "score_code": 1385.5690112462587,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -703,7 +703,7 @@
       "type": "free",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "score_general": 1437.9201514317435,
-      "score_code": 1593.7282930220022,
+      "score_code": 1591.4557486524577,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -713,7 +713,7 @@
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1437.602327882997,
-      "score_code": 1398.55126177761,
+      "score_code": 1398.8562338683407,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -732,7 +732,7 @@
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1437.1819003759435,
-      "score_code": 1460.013889744188,
+      "score_code": 1460.2097602859787,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -742,7 +742,7 @@
       "type": "paid",
       "url": "https://x.ai/",
       "score_general": 1437.1059546092617,
-      "score_code": 1210.6679340066728,
+      "score_code": 1211.0205312793614,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -752,7 +752,7 @@
       "type": "paid",
       "url": "https://developer.z.ai/docs/glm-5v-turbo",
       "score_general": 1436.827259905684,
-      "score_code": 1400.2976022612834,
+      "score_code": 1400.195932942475,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -762,7 +762,7 @@
       "type": "paid",
       "url": "https://www.mi.com/global/",
       "score_general": 1436.445924651772,
-      "score_code": 1433.2146094325935,
+      "score_code": 1433.4226861905017,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -772,7 +772,7 @@
       "type": "paid",
       "url": "https://ai.google.dev/models/gemini-3-5-flash-lite",
       "score_general": 1436.424766488584,
-      "score_code": 1449.0146361191325,
+      "score_code": 1448.9483280105585,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -797,7 +797,7 @@
       "type": "free",
       "url": "https://www.zhipu.ai/",
       "score_general": 1435.9045441335504,
-      "score_code": 1434.497144651133,
+      "score_code": 1434.782992756935,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -807,7 +807,7 @@
       "type": "paid",
       "url": "https://minimax.io",
       "score_general": 1435.2064758328156,
-      "score_code": 1487.300425499026,
+      "score_code": 1486.2607982066777,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -822,7 +822,7 @@
       "type": "free",
       "url": "https://ai.google/",
       "score_general": 1434.8648630736839,
-      "score_code": 1361.2023531016964,
+      "score_code": 1361.663534151382,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -837,7 +837,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/claude",
       "score_general": 1433.9750710449289,
-      "score_code": 1392.3567358310934,
+      "score_code": 1392.7157285065277,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -902,7 +902,7 @@
       "type": "free",
       "url": "https://mistral.ai/",
       "score_general": 1427.6806395521808,
-      "score_code": 1229.2302833091712,
+      "score_code": 1229.558958324096,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -917,7 +917,7 @@
       "type": "free",
       "url": "https://www.mi.com/global/",
       "score_general": 1427.5183048188178,
-      "score_code": 1437.7051381505491,
+      "score_code": 1436.8686215280295,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -967,7 +967,7 @@
       "type": "free",
       "url": "https://www.deepseek.com/",
       "score_general": 1424.7755584647202,
-      "score_code": 1324.5746211476203,
+      "score_code": 1324.9175539354542,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -987,7 +987,7 @@
       "type": "free",
       "url": "https://deepseek.com",
       "score_general": 1424.2286034809083,
-      "score_code": 1430.8500159865357,
+      "score_code": 1430.694409861409,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1007,7 +1007,7 @@
       "type": "free",
       "url": "https://www.deepseek.com/",
       "score_general": 1422.5887317877955,
-      "score_code": 1271.524681092444,
+      "score_code": 1271.8632003414261,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1017,7 +1017,7 @@
       "type": "paid",
       "url": "https://openai.com/",
       "score_general": 1422.5457061285647,
-      "score_code": 1340.6264247812678,
+      "score_code": 1340.9405403428646,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1037,7 +1037,7 @@
       "type": "free",
       "url": "https://docs.mistral.ai/models/",
       "score_general": 1421.028659948435,
-      "score_code": 1265.0296802752273,
+      "score_code": 1264.8994336939827,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1067,7 +1067,7 @@
       "type": "free",
       "url": "https://www.moonshot.cn/",
       "score_general": 1420.3130192989695,
-      "score_code": 1405.4102690340362,
+      "score_code": 1405.6588918338828,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1087,7 +1087,7 @@
       "type": "free",
       "url": "https://www.deepseek.com/",
       "score_general": 1419.8192051422182,
-      "score_code": 1360.2852472834757,
+      "score_code": 1360.5279241100134,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1137,7 +1137,7 @@
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1418.1034132361976,
-      "score_code": 1357.8392130253717,
+      "score_code": 1357.9128043339385,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1147,7 +1147,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/",
       "score_general": 1418.0342476770363,
-      "score_code": 1388.9568714355896,
+      "score_code": 1389.2396722100648,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1232,7 +1232,7 @@
       "type": "paid",
       "url": "https://ai.google/",
       "score_general": 1415.3406315642092,
-      "score_code": 1254.1790071341557,
+      "score_code": 1254.1487915667108,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -1257,7 +1257,7 @@
       "type": "free",
       "url": "https://www.moonshot.cn/",
       "score_general": 1414.371046464034,
-      "score_code": 1322.4366771820569,
+      "score_code": 1323.102292049404,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1267,7 +1267,7 @@
       "type": "free",
       "url": "https://www.thinkingmachines.com",
       "score_general": 1413.864378247597,
-      "score_code": 1404.9961681527584,
+      "score_code": 1405.85297207579,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1287,7 +1287,7 @@
       "type": "paid",
       "url": "https://openai.com/",
       "score_general": 1412.4912441463039,
-      "score_code": 1416.3882847978045,
+      "score_code": 1416.7152997620587,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1297,7 +1297,7 @@
       "type": "paid",
       "url": "https://openai.com/",
       "score_general": 1412.1783379615167,
-      "score_code": 1397.1873915845285,
+      "score_code": 1396.971099838701,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1317,7 +1317,7 @@
       "type": "free",
       "url": "https://www.mi.com/global/",
       "score_general": 1411.2138797823948,
-      "score_code": 1330.7115568262184,
+      "score_code": 1330.875322588919,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1337,7 +1337,7 @@
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1408.0374865289878,
-      "score_code": 1357.1338379876024,
+      "score_code": 1357.4852430710018,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1347,7 +1347,7 @@
       "type": "paid",
       "url": "https://x.ai/",
       "score_general": 1407.8757543767206,
-      "score_code": 1240.179955504369,
+      "score_code": 1240.4731644042404,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1402,7 +1402,7 @@
       "type": "free",
       "url": "https://cloud.tencent.com/product/hunyuan",
       "score_general": 1405.4990705331836,
-      "score_code": 1356.609639730253,
+      "score_code": 1356.2862867274284,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1412,7 +1412,7 @@
       "type": "free",
       "url": "https://www.minimax.ai/",
       "score_general": 1404.6437988506236,
-      "score_code": 1398.4674589301735,
+      "score_code": 1397.6340119325878,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -1467,7 +1467,7 @@
       "type": "paid",
       "url": "https://x.ai/",
       "score_general": 1398.6917730493165,
-      "score_code": 1161.8760046134848,
+      "score_code": 1161.7762951429434,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1477,7 +1477,7 @@
       "type": "paid",
       "url": "https://x.ai/",
       "score_general": 1398.3557173157938,
-      "score_code": 1356.4933547551022,
+      "score_code": 1356.992458210543,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1497,7 +1497,7 @@
       "type": "paid",
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1397.7516381178657,
-      "score_code": 1237.9625128123819,
+      "score_code": 1238.1947321133919,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1507,7 +1507,7 @@
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1395.5773667295243,
-      "score_code": 1249.924529221946,
+      "score_code": 1250.1598820632616,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1517,7 +1517,7 @@
       "type": "paid",
       "url": "https://www.anthropic.com/",
       "score_general": 1395.0899255590734,
-      "score_code": 1328.9038613398989,
+      "score_code": 1329.3465496818635,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1537,7 +1537,7 @@
       "type": "free",
       "url": "https://www.mi.com/global/",
       "score_general": 1394.324575155423,
-      "score_code": 1292.6715704534429,
+      "score_code": 1292.946100913667,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1557,7 +1557,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1392.0976650309485,
-      "score_code": 1359.5625050481303,
+      "score_code": 1359.3298697895975,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1567,7 +1567,7 @@
       "type": "free",
       "url": "https://www.minimax.ai/",
       "score_general": 1391.240806779181,
-      "score_code": 1387.274497440465,
+      "score_code": 1387.5456815184273,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1657,7 +1657,7 @@
       "type": "paid",
       "url": "https://upstage.ai/en/",
       "score_general": 1377.5397009093365,
-      "score_code": 1370.722312965464,
+      "score_code": 1371.3325062942808,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1901,7 +1901,7 @@
       "type": "free",
       "url": "https://www.minimax.ai/",
       "score_general": 1359.160916830795,
-      "score_code": 1383.9560061233678,
+      "score_code": 1384.032224748691,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1911,7 +1911,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1357.6286488588844,
-      "score_code": 1166.1948487619356,
+      "score_code": 1166.3361073323015,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1931,7 +1931,7 @@
       "type": "free",
       "url": "https://www.alibabacloud.com/product/qianwen",
       "score_general": 1356.2697862602129,
-      "score_code": 1273.5528706339337,
+      "score_code": 1273.7413776619765,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2036,7 +2036,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1341.9618389944008,
-      "score_code": 1236.4204358591496,
+      "score_code": 1236.6004017171977,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2046,7 +2046,7 @@
       "type": "free",
       "url": "https://www.minimax.ai/",
       "score_general": 1341.913344595391,
-      "score_code": 1297.54091104803,
+      "score_code": 1297.8455918953005,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2481,7 +2481,7 @@
       "type": "free",
       "url": "https://www.ibm.com/watson-x",
       "score_general": 1292.083436639687,
-      "score_code": 1191.4341024471328,
+      "score_code": 1191.8340606365612,
       "has_free_api": false,
       "free_api_providers": []
     },
