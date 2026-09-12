@@ -2889,5 +2889,12 @@
     "vendor": "Google",
     "type": "paid",
     "url": "https://gemini.google.com"
+  },
+  "gpt-6-astra-max": {
+    "arena_name": "gpt-6-astra-max",
+    "name": "gpt-6-astra-max",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/index/gpt-6-astra/"
   }
 }
