@@ -2896,5 +2896,12 @@
     "vendor": "OpenAI",
     "type": "paid",
     "url": "https://openai.com/index/gpt-6-astra/"
+  },
+  "muse-spark-1.3-max": {
+    "arena_name": "muse-spark-1.3-max",
+    "name": "muse-spark-1.3-max",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://dev.meta.ai"
   }
 }
