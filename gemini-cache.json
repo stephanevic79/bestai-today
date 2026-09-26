@@ -2903,5 +2903,61 @@
     "vendor": "Meta",
     "type": "paid",
     "url": "https://dev.meta.ai"
+  },
+  "claude-opus-5.5-high": {
+    "arena_name": "claude-opus-5.5-high",
+    "name": "claude-opus-5.5-high",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/claude"
+  },
+  "claude-fable-5-high": {
+    "arena_name": "claude-fable-5-high",
+    "name": "claude-fable-5-high",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://www.anthropic.com/claude"
+  },
+  "mimo-v2.6-pro": {
+    "arena_name": "mimo-v2.6-pro",
+    "name": "mimo-v2.6-pro",
+    "vendor": "Xiaomi",
+    "type": "paid",
+    "url": "https://mimo.xiaomi.com/"
+  },
+  "deepseek-v4.1-flash-max": {
+    "arena_name": "deepseek-v4.1-flash-max",
+    "name": "deepseek-v4.1-flash-max",
+    "vendor": "DeepSeek",
+    "type": "paid",
+    "url": "https://deepseek.com/"
+  },
+  "mimo-v2.6-flash": {
+    "arena_name": "mimo-v2.6-flash",
+    "name": "mimo-v2.6-flash",
+    "vendor": "Xiaomi",
+    "type": "paid",
+    "url": "https://mimo.xiaomi.com/"
+  },
+  "grok-4.7-xhigh": {
+    "arena_name": "grok-4.7-xhigh",
+    "name": "grok-4.7-xhigh",
+    "vendor": "xAI",
+    "type": "paid",
+    "url": "https://grok.com/"
+  },
+  "gpt-6-sol-max": {
+    "arena_name": "gpt-6-sol-max",
+    "name": "gpt-6-sol-max",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/models/gpt-6-sol"
+  },
+  "gpt-6-luna-max": {
+    "arena_name": "gpt-6-luna-max",
+    "name": "gpt-6-luna-max",
+    "vendor": "OpenAI",
+    "type": "paid",
+    "url": "https://openai.com/models/gpt-6-luna"
   }
 }
