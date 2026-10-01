@@ -2959,5 +2959,12 @@
     "vendor": "OpenAI",
     "type": "paid",
     "url": "https://openai.com/models/gpt-6-luna"
+  },
+  "gemini-4-argon-high": {
+    "arena_name": "gemini-4-argon-high",
+    "name": "gemini-4-argon-high",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
