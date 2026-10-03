@@ -2966,5 +2966,26 @@
     "vendor": "Google",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "claude-sonnet-5.5-xhigh": {
+    "arena_name": "claude-sonnet-5.5-xhigh",
+    "name": "claude-sonnet-5.5-xhigh",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Step 5 Preview": {
+    "arena_name": "Step 5 Preview",
+    "name": "Step 5 Preview",
+    "vendor": "Stepfun",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "gpt-6.1-sol-max": {
+    "arena_name": "gpt-6.1-sol-max",
+    "name": "gpt-6.1-sol-max",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
