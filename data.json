@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-10-02",
-  "retrieved_at": "2026-10-04T11:49:04Z",
+  "retrieved_at": "2026-10-05T13:40:44Z",
   "models": [
     {
       "name": "gemini-4-argon-high",
@@ -754,8 +754,13 @@
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "score_general": 1440.6844984727147,
       "score_code": 1591.235093957948,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "OVHcloud AI Endpoints",
+          "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
+        }
+      ]
     },
     {
       "name": "hy3",
