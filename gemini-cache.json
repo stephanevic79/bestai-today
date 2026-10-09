@@ -2987,5 +2987,12 @@
     "vendor": "Openai",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "mistral-large-4": {
+    "arena_name": "mistral-large-4",
+    "name": "mistral-large-4",
+    "vendor": "Mistral",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
