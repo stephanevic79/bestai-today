@@ -2994,5 +2994,12 @@
     "vendor": "Mistral",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "muse-wonder-max": {
+    "arena_name": "muse-wonder-max",
+    "name": "muse-wonder-max",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
