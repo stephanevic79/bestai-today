@@ -3001,5 +3001,152 @@
     "vendor": "Meta",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "Gemini 4 Argon (High)": {
+    "arena_name": "Gemini 4 Argon (High)",
+    "name": "Gemini 4 Argon (High)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 5.5 (High)": {
+    "arena_name": "Claude Opus 5.5 (High)",
+    "name": "Claude Opus 5.5 (High)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Fable 5.1 (Max)": {
+    "arena_name": "Claude Fable 5.1 (Max)",
+    "name": "Claude Fable 5.1 (Max)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 5 (Max)": {
+    "arena_name": "Claude Opus 5 (Max)",
+    "name": "Claude Opus 5 (Max)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 5 (High)": {
+    "arena_name": "Claude Opus 5 (High)",
+    "name": "Claude Opus 5 (High)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.6 (High)": {
+    "arena_name": "Claude Opus 4.6 (High)",
+    "name": "Claude Opus 4.6 (High)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Muse Wonder (Max)": {
+    "arena_name": "Muse Wonder (Max)",
+    "name": "Muse Wonder (Max)",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3.8 Flash (High)": {
+    "arena_name": "Gemini 3.8 Flash (High)",
+    "name": "Gemini 3.8 Flash (High)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.6": {
+    "arena_name": "Claude Opus 4.6",
+    "name": "Claude Opus 4.6",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Fable 5 (High)": {
+    "arena_name": "Claude Fable 5 (High)",
+    "name": "Claude Fable 5 (High)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Muse Spark 1.3 (Max)": {
+    "arena_name": "Muse Spark 1.3 (Max)",
+    "name": "Muse Spark 1.3 (Max)",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.7 (High)": {
+    "arena_name": "Claude Opus 4.7 (High)",
+    "name": "Claude Opus 4.7 (High)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3.7 Flash (High)": {
+    "arena_name": "Gemini 3.7 Flash (High)",
+    "name": "Gemini 3.7 Flash (High)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Muse Spark 1.2 (xHigh)": {
+    "arena_name": "Muse Spark 1.2 (xHigh)",
+    "name": "Muse Spark 1.2 (xHigh)",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.7": {
+    "arena_name": "Claude Opus 4.7",
+    "name": "Claude Opus 4.7",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3.1 Pro Preview": {
+    "arena_name": "Gemini 3.1 Pro Preview",
+    "name": "Gemini 3.1 Pro Preview",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3 Pro": {
+    "arena_name": "Gemini 3 Pro",
+    "name": "Gemini 3 Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Muse Spark 1.1": {
+    "arena_name": "Muse Spark 1.1",
+    "name": "Muse Spark 1.1",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Kimi K3 (Max)": {
+    "arena_name": "Kimi K3 (Max)",
+    "name": "Kimi K3 (Max)",
+    "vendor": "Moonshot",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Muse Spark": {
+    "arena_name": "Muse Spark",
+    "name": "Muse Spark",
+    "vendor": "Meta",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "nvidia-nemotron-3.5-super-vl-120b-a12b-nvfp4": {
+    "arena_name": "nvidia-nemotron-3.5-super-vl-120b-a12b-nvfp4",
+    "name": "nvidia-nemotron-3.5-super-vl-120b-a12b-nvfp4",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
   }
 }
