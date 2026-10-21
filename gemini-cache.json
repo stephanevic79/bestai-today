@@ -3148,5 +3148,2742 @@
     "vendor": "Nvidia",
     "type": "free",
     "url": "https://lmarena.ai"
+  },
+  "MiMo-V2.6-Pro": {
+    "arena_name": "MiMo-V2.6-Pro",
+    "name": "MiMo-V2.6-Pro",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.8-Max": {
+    "arena_name": "Qwen3.8-Max",
+    "name": "Qwen3.8-Max",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3.5 Flash (High)": {
+    "arena_name": "Gemini 3.5 Flash (High)",
+    "name": "Gemini 3.5 Flash (High)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3.6 Flash (High)": {
+    "arena_name": "Gemini 3.6 Flash (High)",
+    "name": "Gemini 3.6 Flash (High)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3.5 Flash (Medium)": {
+    "arena_name": "Gemini 3.5 Flash (Medium)",
+    "name": "Gemini 3.5 Flash (Medium)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.7-Max-Preview": {
+    "arena_name": "Qwen3.7-Max-Preview",
+    "name": "Qwen3.7-Max-Preview",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-5.3 (Max)": {
+    "arena_name": "GLM-5.3 (Max)",
+    "name": "GLM-5.3 (Max)",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Sonnet 5.5 (xHigh)": {
+    "arena_name": "Claude Sonnet 5.5 (xHigh)",
+    "name": "Claude Sonnet 5.5 (xHigh)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-5.3-Flash": {
+    "arena_name": "GLM-5.3-Flash",
+    "name": "GLM-5.3-Flash",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.5 (High)": {
+    "arena_name": "GPT-5.5 (High)",
+    "name": "GPT-5.5 (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.5-Max-Preview": {
+    "arena_name": "Qwen3.5-Max-Preview",
+    "name": "Qwen3.5-Max-Preview",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-5.2 (Max)": {
+    "arena_name": "GLM-5.2 (Max)",
+    "name": "GLM-5.2 (Max)",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.4 (High)": {
+    "arena_name": "GPT-5.4 (High)",
+    "name": "GPT-5.4 (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "ERNIE 5.1": {
+    "arena_name": "ERNIE 5.1",
+    "name": "ERNIE 5.1",
+    "vendor": "Baidu",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.5": {
+    "arena_name": "GPT-5.5",
+    "name": "GPT-5.5",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3 Flash": {
+    "arena_name": "Gemini 3 Flash",
+    "name": "Gemini 3 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "MiMo-V2.5-Pro": {
+    "arena_name": "MiMo-V2.5-Pro",
+    "name": "MiMo-V2.5-Pro",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V4.1-Flash-20260910 (Max)": {
+    "arena_name": "DeepSeek-V4.1-Flash-20260910 (Max)",
+    "name": "DeepSeek-V4.1-Flash-20260910 (Max)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-5.1": {
+    "arena_name": "GLM-5.1",
+    "name": "GLM-5.1",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.8 (High)": {
+    "arena_name": "Claude Opus 4.8 (High)",
+    "name": "Claude Opus 4.8 (High)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Sonnet 4.6": {
+    "arena_name": "Claude Sonnet 4.6",
+    "name": "Claude Sonnet 4.6",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 2.5 Pro": {
+    "arena_name": "Gemini 2.5 Pro",
+    "name": "Gemini 2.5 Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.6 Sol (xHigh)": {
+    "arena_name": "GPT-5.6 Sol (xHigh)",
+    "name": "GPT-5.6 Sol (xHigh)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Kimi K2.6": {
+    "arena_name": "Kimi K2.6",
+    "name": "Kimi K2.6",
+    "vendor": "Moonshot",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.7-Plus": {
+    "arena_name": "Qwen3.7-Plus",
+    "name": "Qwen3.7-Plus",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.8": {
+    "arena_name": "Claude Opus 4.8",
+    "name": "Claude Opus 4.8",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "MiMo-V2.6-Flash": {
+    "arena_name": "MiMo-V2.6-Flash",
+    "name": "MiMo-V2.6-Flash",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.4": {
+    "arena_name": "GPT-5.4",
+    "name": "GPT-5.4",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V4-Pro": {
+    "arena_name": "DeepSeek-V4-Pro",
+    "name": "DeepSeek-V4-Pro",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.5 (20251101)": {
+    "arena_name": "Claude Opus 4.5 (20251101)",
+    "name": "Claude Opus 4.5 (20251101)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.20 Beta (Reasoning, 0309)": {
+    "arena_name": "Grok 4.20 Beta (Reasoning, 0309)",
+    "name": "Grok 4.20 Beta (Reasoning, 0309)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.20 Multi-Agent Beta (0309)": {
+    "arena_name": "Grok 4.20 Multi-Agent Beta (0309)",
+    "name": "Grok 4.20 Multi-Agent Beta (0309)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "amazon-nova-experimental-chat (26-02-10)": {
+    "arena_name": "amazon-nova-experimental-chat (26-02-10)",
+    "name": "amazon-nova-experimental-chat (26-02-10)",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Dola Seed 2.0 Pro": {
+    "arena_name": "Dola Seed 2.0 Pro",
+    "name": "Dola Seed 2.0 Pro",
+    "vendor": "Bytedance",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.5 (High, 32K, 20251101)": {
+    "arena_name": "Claude Opus 4.5 (High, 32K, 20251101)",
+    "name": "Claude Opus 4.5 (High, 32K, 20251101)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.6 Terra (xHigh)": {
+    "arena_name": "GPT-5.6 Terra (xHigh)",
+    "name": "GPT-5.6 Terra (xHigh)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.5": {
+    "arena_name": "Grok 4.5",
+    "name": "Grok 4.5",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.6-Max-Preview": {
+    "arena_name": "Qwen3.6-Max-Preview",
+    "name": "Qwen3.6-Max-Preview",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-5": {
+    "arena_name": "GLM-5",
+    "name": "GLM-5",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V4-Pro (High, 20260813)": {
+    "arena_name": "DeepSeek-V4-Pro (High, 20260813)",
+    "name": "DeepSeek-V4-Pro (High, 20260813)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Kimi K2.5 (Thinking)": {
+    "arena_name": "Kimi K2.5 (Thinking)",
+    "name": "Kimi K2.5 (Thinking)",
+    "vendor": "Moonshot",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V4-Pro Preview (High)": {
+    "arena_name": "DeepSeek-V4-Pro Preview (High)",
+    "name": "DeepSeek-V4-Pro Preview (High)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)": {
+    "arena_name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+    "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "ERNIE 5.0 (0110)": {
+    "arena_name": "ERNIE 5.0 (0110)",
+    "name": "ERNIE 5.0 (0110)",
+    "vendor": "Baidu",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.20 Beta 1": {
+    "arena_name": "Grok 4.20 Beta 1",
+    "name": "Grok 4.20 Beta 1",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-6.1 Sol (Max)": {
+    "arena_name": "GPT-6.1 Sol (Max)",
+    "name": "GPT-6.1 Sol (Max)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.1 (High)": {
+    "arena_name": "GPT-5.1 (High)",
+    "name": "GPT-5.1 (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 4 31B": {
+    "arena_name": "Gemma 4 31B",
+    "name": "Gemma 4 31B",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "ERNIE-5.0-Preview (1203)": {
+    "arena_name": "ERNIE-5.0-Preview (1203)",
+    "name": "ERNIE-5.0-Preview (1203)",
+    "vendor": "Baidu",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3 Flash (Minimal)": {
+    "arena_name": "Gemini 3 Flash (Minimal)",
+    "name": "Gemini 3 Flash (Minimal)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Sonnet 5 (High)": {
+    "arena_name": "Claude Sonnet 5 (High)",
+    "name": "Claude Sonnet 5 (High)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Inkling": {
+    "arena_name": "Inkling",
+    "name": "Inkling",
+    "vendor": "Thinky",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-6 Astra (Max)": {
+    "arena_name": "GPT-6 Astra (Max)",
+    "name": "GPT-6 Astra (Max)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4.6": {
+    "arena_name": "GLM-4.6",
+    "name": "GLM-4.6",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.8-27B": {
+    "arena_name": "Qwen3.8-27B",
+    "name": "Qwen3.8-27B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-Max-Preview": {
+    "arena_name": "Qwen3-Max-Preview",
+    "name": "Qwen3-Max-Preview",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Sonnet 4.5 (20250929)": {
+    "arena_name": "Claude Sonnet 4.5 (20250929)",
+    "name": "Claude Sonnet 4.5 (20250929)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.2 Chat (20260210)": {
+    "arena_name": "GPT-5.2 Chat (20260210)",
+    "name": "GPT-5.2 Chat (20260210)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Hy3": {
+    "arena_name": "Hy3",
+    "name": "Hy3",
+    "vendor": "Tencent",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.5-397B-A17B": {
+    "arena_name": "Qwen3.5-397B-A17B",
+    "name": "Qwen3.5-397B-A17B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-5V-Turbo": {
+    "arena_name": "GLM-5V-Turbo",
+    "name": "GLM-5V-Turbo",
+    "vendor": "Zai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.1 (Thinking)": {
+    "arena_name": "Grok 4.1 (Thinking)",
+    "name": "Grok 4.1 (Thinking)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.6-Plus": {
+    "arena_name": "Qwen3.6-Plus",
+    "name": "Qwen3.6-Plus",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "MiMo-V2-Pro": {
+    "arena_name": "MiMo-V2-Pro",
+    "name": "MiMo-V2-Pro",
+    "vendor": "Xiaomi",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.1": {
+    "arena_name": "Grok 4.1",
+    "name": "Grok 4.1",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4.7": {
+    "arena_name": "GLM-4.7",
+    "name": "GLM-4.7",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3.5 Flash-Lite": {
+    "arena_name": "Gemini 3.5 Flash-Lite",
+    "name": "Gemini 3.5 Flash-Lite",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Sonnet 4.5 (High, 32K, 20250929)": {
+    "arena_name": "Claude Sonnet 4.5 (High, 32K, 20250929)",
+    "name": "Claude Sonnet 4.5 (High, 32K, 20250929)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 4 26B A4B": {
+    "arena_name": "Gemma 4 26B A4B",
+    "name": "Gemma 4 26B A4B",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "MiniMax-M3": {
+    "arena_name": "MiniMax-M3",
+    "name": "MiniMax-M3",
+    "vendor": "Minimax",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V4-Flash": {
+    "arena_name": "DeepSeek-V4-Flash",
+    "name": "DeepSeek-V4-Flash",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Large 4": {
+    "arena_name": "Mistral Large 4",
+    "name": "Mistral Large 4",
+    "vendor": "Mistral",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.6 Luna (xHigh)": {
+    "arena_name": "GPT-5.6 Luna (xHigh)",
+    "name": "GPT-5.6 Luna (xHigh)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4.5": {
+    "arena_name": "GLM-4.5",
+    "name": "GLM-4.5",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "ERNIE-5.0-Preview (1022)": {
+    "arena_name": "ERNIE-5.0-Preview (1022)",
+    "name": "ERNIE-5.0-Preview (1022)",
+    "vendor": "Baidu",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Large 3": {
+    "arena_name": "Mistral Large 3",
+    "name": "Mistral Large 3",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.6 (High)": {
+    "arena_name": "Grok 4.6 (High)",
+    "name": "Grok 4.6 (High)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "ChatGPT-4o Latest (20250326)": {
+    "arena_name": "ChatGPT-4o Latest (20250326)",
+    "name": "ChatGPT-4o Latest (20250326)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "MiMo-V2.5": {
+    "arena_name": "MiMo-V2.5",
+    "name": "MiMo-V2.5",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-R1 (0528)": {
+    "arena_name": "DeepSeek-R1 (0528)",
+    "name": "DeepSeek-R1 (0528)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "LongCat-Flash-Chat Exp (2602)": {
+    "arena_name": "LongCat-Flash-Chat Exp (2602)",
+    "name": "LongCat-Flash-Chat Exp (2602)",
+    "vendor": "Meituan",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 3 Preview (02-24)": {
+    "arena_name": "Grok 3 Preview (02-24)",
+    "name": "Grok 3 Preview (02-24)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Beam 1.0 501B A23B": {
+    "arena_name": "Beam 1.0 501B A23B",
+    "name": "Beam 1.0 501B A23B",
+    "vendor": "Reflection",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3.2-Exp (Thinking)": {
+    "arena_name": "DeepSeek-V3.2-Exp (Thinking)",
+    "name": "DeepSeek-V3.2-Exp (Thinking)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3.2": {
+    "arena_name": "DeepSeek-V3.2",
+    "name": "DeepSeek-V3.2",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V4-Flash Preview (High)": {
+    "arena_name": "DeepSeek-V4-Flash Preview (High)",
+    "name": "DeepSeek-V4-Flash Preview (High)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Medium 3.1 (2508)": {
+    "arena_name": "Mistral Medium 3.1 (2508)",
+    "name": "Mistral Medium 3.1 (2508)",
+    "vendor": "Mistral",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "MiMo-V2-Omni": {
+    "arena_name": "MiMo-V2-Omni",
+    "name": "MiMo-V2-Omni",
+    "vendor": "Xiaomi",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "LongCat-Flash-Chat": {
+    "arena_name": "LongCat-Flash-Chat",
+    "name": "LongCat-Flash-Chat",
+    "vendor": "Meituan",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3.2-Exp": {
+    "arena_name": "DeepSeek-V3.2-Exp",
+    "name": "DeepSeek-V3.2-Exp",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.1": {
+    "arena_name": "GPT-5.1",
+    "name": "GPT-5.1",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Medium 3.5": {
+    "arena_name": "Mistral Medium 3.5",
+    "name": "Mistral Medium 3.5",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Kimi K2.5 (Instant)": {
+    "arena_name": "Kimi K2.5 (Instant)",
+    "name": "Kimi K2.5 (Instant)",
+    "vendor": "Moonshot",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-VL-235B-A22B-Instruct": {
+    "arena_name": "Qwen3-VL-235B-A22B-Instruct",
+    "name": "Qwen3-VL-235B-A22B-Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3.2 (Thinking)": {
+    "arena_name": "DeepSeek-V3.2 (Thinking)",
+    "name": "DeepSeek-V3.2 (Thinking)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3.1": {
+    "arena_name": "DeepSeek-V3.1",
+    "name": "DeepSeek-V3.1",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "amazon-nova-experimental-chat (12-10)": {
+    "arena_name": "amazon-nova-experimental-chat (12-10)",
+    "name": "amazon-nova-experimental-chat (12-10)",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.1 (Thinking 16K, 20250805)": {
+    "arena_name": "Claude Opus 4.1 (Thinking 16K, 20250805)",
+    "name": "Claude Opus 4.1 (Thinking 16K, 20250805)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-235B-A22B-Instruct (2507)": {
+    "arena_name": "Qwen3-235B-A22B-Instruct (2507)",
+    "name": "Qwen3-235B-A22B-Instruct (2507)",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.5 Instant": {
+    "arena_name": "GPT-5.5 Instant",
+    "name": "GPT-5.5 Instant",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3.1-Terminus (Thinking)": {
+    "arena_name": "DeepSeek-V3.1-Terminus (Thinking)",
+    "name": "DeepSeek-V3.1-Terminus (Thinking)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4.1 (20250805)": {
+    "arena_name": "Claude Opus 4.1 (20250805)",
+    "name": "Claude Opus 4.1 (20250805)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.5-122B-A10B": {
+    "arena_name": "Qwen3.5-122B-A10B",
+    "name": "Qwen3.5-122B-A10B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4.5 Preview (2025-02-27)": {
+    "arena_name": "GPT-4.5 Preview (2025-02-27)",
+    "name": "GPT-4.5 Preview (2025-02-27)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3.1-Terminus": {
+    "arena_name": "DeepSeek-V3.1-Terminus",
+    "name": "DeepSeek-V3.1-Terminus",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-Next-80B-A3B-Instruct": {
+    "arena_name": "Qwen3-Next-80B-A3B-Instruct",
+    "name": "Qwen3-Next-80B-A3B-Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 2.5 Flash": {
+    "arena_name": "Gemini 2.5 Flash",
+    "name": "Gemini 2.5 Flash",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3.1 (Thinking)": {
+    "arena_name": "DeepSeek-V3.1 (Thinking)",
+    "name": "DeepSeek-V3.1 (Thinking)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.2 (High)": {
+    "arena_name": "GPT-5.2 (High)",
+    "name": "GPT-5.2 (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 3.1 Flash-Lite Preview": {
+    "arena_name": "Gemini 3.1 Flash-Lite Preview",
+    "name": "Gemini 3.1 Flash-Lite Preview",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-235B-A22B-Thinking (2507)": {
+    "arena_name": "Qwen3-235B-A22B-Thinking (2507)",
+    "name": "Qwen3-235B-A22B-Thinking (2507)",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "amazon-nova-experimental-chat (11-10)": {
+    "arena_name": "amazon-nova-experimental-chat (11-10)",
+    "name": "amazon-nova-experimental-chat (11-10)",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Kimi K2 Thinking Turbo": {
+    "arena_name": "Kimi K2 Thinking Turbo",
+    "name": "Kimi K2 Thinking Turbo",
+    "vendor": "Moonshot",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Inkling-Small": {
+    "arena_name": "Inkling-Small",
+    "name": "Inkling-Small",
+    "vendor": "Thinky",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-Max (2025-09-23)": {
+    "arena_name": "Qwen3-Max (2025-09-23)",
+    "name": "Qwen3-Max (2025-09-23)",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.2": {
+    "arena_name": "GPT-5.2",
+    "name": "GPT-5.2",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.4 mini (High)": {
+    "arena_name": "GPT-5.4 mini (High)",
+    "name": "GPT-5.4 mini (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4 (0709)": {
+    "arena_name": "Grok 4 (0709)",
+    "name": "Grok 4 (0709)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "MiMo-V2-Flash (Non-Thinking)": {
+    "arena_name": "MiMo-V2-Flash (Non-Thinking)",
+    "name": "MiMo-V2-Flash (Non-Thinking)",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "o3 (2025-04-16)": {
+    "arena_name": "o3 (2025-04-16)",
+    "name": "o3 (2025-04-16)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.5-27B": {
+    "arena_name": "Qwen3.5-27B",
+    "name": "Qwen3.5-27B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.1 Fast (Reasoning)": {
+    "arena_name": "Grok 4.1 Fast (Reasoning)",
+    "name": "Grok 4.1 Fast (Reasoning)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4 Fast (Non-Reasoning)": {
+    "arena_name": "Grok 4 Fast (Non-Reasoning)",
+    "name": "Grok 4 Fast (Non-Reasoning)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)": {
+    "arena_name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+    "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 2.5 Flash Preview (09-2025)": {
+    "arena_name": "Gemini 2.5 Flash Preview (09-2025)",
+    "name": "Gemini 2.5 Flash Preview (09-2025)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5 (High)": {
+    "arena_name": "GPT-5 (High)",
+    "name": "GPT-5 (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan Vision 1.5 Thinking": {
+    "arena_name": "Hunyuan Vision 1.5 Thinking",
+    "name": "Hunyuan Vision 1.5 Thinking",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "MiniMax-M2.7": {
+    "arena_name": "MiniMax-M2.7",
+    "name": "MiniMax-M2.7",
+    "vendor": "Minimax",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5 Chat": {
+    "arena_name": "GPT-5 Chat",
+    "name": "GPT-5 Chat",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Step-3.5-Flash": {
+    "arena_name": "Step-3.5-Flash",
+    "name": "Step-3.5-Flash",
+    "vendor": "Stepfun",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Hy3 preview": {
+    "arena_name": "Hy3 preview",
+    "name": "Hy3 preview",
+    "vendor": "Tencent",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan T1 (20250711)": {
+    "arena_name": "Hunyuan T1 (20250711)",
+    "name": "Hunyuan T1 (20250711)",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-VL-235B-A22B-Thinking": {
+    "arena_name": "Qwen3-VL-235B-A22B-Thinking",
+    "name": "Qwen3-VL-235B-A22B-Thinking",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4 Fast (Reasoning)": {
+    "arena_name": "Grok 4 Fast (Reasoning)",
+    "name": "Grok 4 Fast (Reasoning)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.7 (xHigh)": {
+    "arena_name": "Grok 4.7 (xHigh)",
+    "name": "Grok 4.7 (xHigh)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-6 Sol (Max)": {
+    "arena_name": "GPT-6 Sol (Max)",
+    "name": "GPT-6 Sol (Max)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Haiku 4.5 (20251001)": {
+    "arena_name": "Claude Haiku 4.5 (20251001)",
+    "name": "Claude Haiku 4.5 (20251001)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.5-Flash": {
+    "arena_name": "Qwen3.5-Flash",
+    "name": "Qwen3.5-Flash",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 4.3": {
+    "arena_name": "Grok 4.3",
+    "name": "Grok 4.3",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "amazon-nova-experimental-chat (26-01-10)": {
+    "arena_name": "amazon-nova-experimental-chat (26-01-10)",
+    "name": "amazon-nova-experimental-chat (26-01-10)",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "MiMo-V2-Flash (Thinking)": {
+    "arena_name": "MiMo-V2-Flash (Thinking)",
+    "name": "MiMo-V2-Flash (Thinking)",
+    "vendor": "Xiaomi",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3.5-35B-A3B": {
+    "arena_name": "Qwen3.5-35B-A3B",
+    "name": "Qwen3.5-35B-A3B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "amazon-nova-experimental-chat (10-20)": {
+    "arena_name": "amazon-nova-experimental-chat (10-20)",
+    "name": "amazon-nova-experimental-chat (10-20)",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-235B-A22B (Non-Thinking)": {
+    "arena_name": "Qwen3-235B-A22B (Non-Thinking)",
+    "name": "Qwen3-235B-A22B (Non-Thinking)",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "MiniMax-M2.1 Preview": {
+    "arena_name": "MiniMax-M2.1 Preview",
+    "name": "MiniMax-M2.1 Preview",
+    "vendor": "Minimax",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-6 Luna (Max)": {
+    "arena_name": "GPT-6 Luna (Max)",
+    "name": "GPT-6 Luna (Max)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Muse Glimmer": {
+    "arena_name": "Muse Glimmer",
+    "name": "Muse Glimmer",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.3 Chat": {
+    "arena_name": "GPT-5.3 Chat",
+    "name": "GPT-5.3 Chat",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Solar Pro 4": {
+    "arena_name": "Solar Pro 4",
+    "name": "Solar Pro 4",
+    "vendor": "Upstage",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-30B-A3B-Instruct (2507)": {
+    "arena_name": "Qwen3-30B-A3B-Instruct (2507)",
+    "name": "Qwen3-30B-A3B-Instruct (2507)",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4.5-Air": {
+    "arena_name": "GLM-4.5-Air",
+    "name": "GLM-4.5-Air",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4.1 (2025-04-14)": {
+    "arena_name": "GPT-4.1 (2025-04-14)",
+    "name": "GPT-4.1 (2025-04-14)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Kimi K2 Preview (0905)": {
+    "arena_name": "Kimi K2 Preview (0905)",
+    "name": "Kimi K2 Preview (0905)",
+    "vendor": "Moonshot",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 2.5 Flash-Lite Preview (Non-Thinking, 09-2025)": {
+    "arena_name": "Gemini 2.5 Flash-Lite Preview (Non-Thinking, 09-2025)",
+    "name": "Gemini 2.5 Flash-Lite Preview (Non-Thinking, 09-2025)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "NVIDIA-Nemotron-3-Super-120B-A12B": {
+    "arena_name": "NVIDIA-Nemotron-3-Super-120B-A12B",
+    "name": "NVIDIA-Nemotron-3-Super-120B-A12B",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan TurboS (20250416)": {
+    "arena_name": "Hunyuan TurboS (20250416)",
+    "name": "Hunyuan TurboS (20250416)",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4 (Thinking 16K, 20250514)": {
+    "arena_name": "Claude Opus 4 (Thinking 16K, 20250514)",
+    "name": "Claude Opus 4 (Thinking 16K, 20250514)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4.6V": {
+    "arena_name": "GLM-4.6V",
+    "name": "GLM-4.6V",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3 (0324)": {
+    "arena_name": "DeepSeek-V3 (0324)",
+    "name": "DeepSeek-V3 (0324)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5 mini (High)": {
+    "arena_name": "GPT-5 mini (High)",
+    "name": "GPT-5 mini (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-R1": {
+    "arena_name": "DeepSeek-R1",
+    "name": "DeepSeek-R1",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5.4 nano (High)": {
+    "arena_name": "GPT-5.4 nano (High)",
+    "name": "GPT-5.4 nano (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Kimi K2 Preview (0711)": {
+    "arena_name": "Kimi K2 Preview (0711)",
+    "name": "Kimi K2 Preview (0711)",
+    "vendor": "Moonshot",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Medium 3 (2505)": {
+    "arena_name": "Mistral Medium 3 (2505)",
+    "name": "Mistral Medium 3 (2505)",
+    "vendor": "Mistral",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 3 Mini (High)": {
+    "arena_name": "Grok 3 Mini (High)",
+    "name": "Grok 3 Mini (High)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 2.5 Flash-Lite Preview (Thinking, 06-17)": {
+    "arena_name": "Gemini 2.5 Flash-Lite Preview (Thinking, 06-17)",
+    "name": "Gemini 2.5 Flash-Lite Preview (Thinking, 06-17)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-Next-80B-A3B-Thinking": {
+    "arena_name": "Qwen3-Next-80B-A3B-Thinking",
+    "name": "Qwen3-Next-80B-A3B-Thinking",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen2.5-Max": {
+    "arena_name": "Qwen2.5-Max",
+    "name": "Qwen2.5-Max",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-235B-A22B": {
+    "arena_name": "Qwen3-235B-A22B",
+    "name": "Qwen3-235B-A22B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Opus 4 (20250514)": {
+    "arena_name": "Claude Opus 4 (20250514)",
+    "name": "Claude Opus 4 (20250514)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "o1 (2024-12-17)": {
+    "arena_name": "o1 (2024-12-17)",
+    "name": "o1 (2024-12-17)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 3 Mini Beta": {
+    "arena_name": "Grok 3 Mini Beta",
+    "name": "Grok 3 Mini Beta",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "amazon-nova-experimental-chat (10-09)": {
+    "arena_name": "amazon-nova-experimental-chat (10-09)",
+    "name": "amazon-nova-experimental-chat (10-09)",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Amazon Nova 2 Lite": {
+    "arena_name": "Amazon Nova 2 Lite",
+    "name": "Amazon Nova 2 Lite",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Granite 4.2 30B": {
+    "arena_name": "Granite 4.2 30B",
+    "name": "Granite 4.2 30B",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Ling-flash-2.0": {
+    "arena_name": "Ling-flash-2.0",
+    "name": "Ling-flash-2.0",
+    "vendor": "Ant-Group",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "MiniMax-M2.5": {
+    "arena_name": "MiniMax-M2.5",
+    "name": "MiniMax-M2.5",
+    "vendor": "Minimax",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 3 27B IT": {
+    "arena_name": "Gemma 3 27B IT",
+    "name": "Gemma 3 27B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-Coder-480B-A35B-Instruct": {
+    "arena_name": "Qwen3-Coder-480B-A35B-Instruct",
+    "name": "Qwen3-Coder-480B-A35B-Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "INTELLECT-3": {
+    "arena_name": "INTELLECT-3",
+    "name": "INTELLECT-3",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mercury 2": {
+    "arena_name": "Mercury 2",
+    "name": "Mercury 2",
+    "vendor": "Inception-Ai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 2.0 Flash (001)": {
+    "arena_name": "Gemini 2.0 Flash (001)",
+    "name": "Gemini 2.0 Flash (001)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "o4-mini (2025-04-16)": {
+    "arena_name": "o4-mini (2025-04-16)",
+    "name": "o4-mini (2025-04-16)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Sonnet 4 (Thinking 32K, 20250514)": {
+    "arena_name": "Claude Sonnet 4 (Thinking 32K, 20250514)",
+    "name": "Claude Sonnet 4 (Thinking 32K, 20250514)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4.7-Flash": {
+    "arena_name": "GLM-4.7-Flash",
+    "name": "GLM-4.7-Flash",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Step-3": {
+    "arena_name": "Step-3",
+    "name": "Step-3",
+    "vendor": "Stepfun",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "NVIDIA-Nemotron-3-Nano-30B-A3B (BF16)": {
+    "arena_name": "NVIDIA-Nemotron-3-Nano-30B-A3B (BF16)",
+    "name": "NVIDIA-Nemotron-3-Nano-30B-A3B (BF16)",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "MiniMax-M1": {
+    "arena_name": "MiniMax-M1",
+    "name": "MiniMax-M1",
+    "vendor": "Minimax",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4.1 mini (2025-04-14)": {
+    "arena_name": "GPT-4.1 mini (2025-04-14)",
+    "name": "GPT-4.1 mini (2025-04-14)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Trinity Large Thinking": {
+    "arena_name": "Trinity Large Thinking",
+    "name": "Trinity Large Thinking",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-32B": {
+    "arena_name": "Qwen3-32B",
+    "name": "Qwen3-32B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "MiniMax-M2": {
+    "arena_name": "MiniMax-M2",
+    "name": "MiniMax-M2",
+    "vendor": "Minimax",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude Sonnet 4 (20250514)": {
+    "arena_name": "Claude Sonnet 4 (20250514)",
+    "name": "Claude Sonnet 4 (20250514)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Trinity Large Preview": {
+    "arena_name": "Trinity Large Preview",
+    "name": "Trinity Large Preview",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Small 3.2 (2506)": {
+    "arena_name": "Mistral Small 3.2 (2506)",
+    "name": "Mistral Small 3.2 (2506)",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.3 Nemotron Super 49B v1.5": {
+    "arena_name": "Llama 3.3 Nemotron Super 49B v1.5",
+    "name": "Llama 3.3 Nemotron Super 49B v1.5",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "o3-mini (High)": {
+    "arena_name": "o3-mini (High)",
+    "name": "o3-mini (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Step-1o Turbo (202506)": {
+    "arena_name": "Step-1o Turbo (202506)",
+    "name": "Step-1o Turbo (202506)",
+    "vendor": "Stepfun",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 3 12B IT": {
+    "arena_name": "Gemma 3 12B IT",
+    "name": "Gemma 3 12B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Ring-flash-2.0": {
+    "arena_name": "Ring-flash-2.0",
+    "name": "Ring-flash-2.0",
+    "vendor": "Ant-Group",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4.5V": {
+    "arena_name": "GLM-4.5V",
+    "name": "GLM-4.5V",
+    "vendor": "Zai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V3": {
+    "arena_name": "DeepSeek-V3",
+    "name": "DeepSeek-V3",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Command A (03-2025)": {
+    "arena_name": "Command A (03-2025)",
+    "name": "Command A (03-2025)",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4-Plus (0111)": {
+    "arena_name": "GLM-4-Plus (0111)",
+    "name": "GLM-4-Plus (0111)",
+    "vendor": "Zai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)": {
+    "arena_name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)",
+    "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 2.0 Flash-Lite Preview (02-05)": {
+    "arena_name": "Gemini 2.0 Flash-Lite Preview (02-05)",
+    "name": "Gemini 2.0 Flash-Lite Preview (02-05)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "QwQ-32B": {
+    "arena_name": "QwQ-32B",
+    "name": "QwQ-32B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen-Plus (0125)": {
+    "arena_name": "Qwen-Plus (0125)",
+    "name": "Qwen-Plus (0125)",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Step-2 16K Exp (202412)": {
+    "arena_name": "Step-2 16K Exp (202412)",
+    "name": "Step-2 16K Exp (202412)",
+    "vendor": "Stepfun",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-5 nano (High)": {
+    "arena_name": "GPT-5 nano (High)",
+    "name": "GPT-5 nano (High)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan TurboS (20250226)": {
+    "arena_name": "Hunyuan TurboS (20250226)",
+    "name": "Hunyuan TurboS (20250226)",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 Nemotron Ultra 253B v1": {
+    "arena_name": "Llama 3.1 Nemotron Ultra 253B v1",
+    "name": "Llama 3.1 Nemotron Ultra 253B v1",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Granite 4.2 8B": {
+    "arena_name": "Granite 4.2 8B",
+    "name": "Granite 4.2 8B",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 1.5 Pro (002)": {
+    "arena_name": "Gemini 1.5 Pro (002)",
+    "name": "Gemini 1.5 Pro (002)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen3-30B-A3B": {
+    "arena_name": "Qwen3-30B-A3B",
+    "name": "Qwen3-30B-A3B",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude 3.7 Sonnet (Thinking 32K, 20250219)": {
+    "arena_name": "Claude 3.7 Sonnet (Thinking 32K, 20250219)",
+    "name": "Claude 3.7 Sonnet (Thinking 32K, 20250219)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan Turbo (0110)": {
+    "arena_name": "Hunyuan Turbo (0110)",
+    "name": "Hunyuan Turbo (0110)",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Olmo 3.1 32B Instruct": {
+    "arena_name": "Olmo 3.1 32B Instruct",
+    "name": "Olmo 3.1 32B Instruct",
+    "vendor": "Allenai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.3 Nemotron Super 49B v1": {
+    "arena_name": "Llama 3.3 Nemotron Super 49B v1",
+    "name": "Llama 3.3 Nemotron Super 49B v1",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 3n E4B IT": {
+    "arena_name": "Gemma 3n E4B IT",
+    "name": "Gemma 3n E4B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 2 (2024-08-13)": {
+    "arena_name": "Grok 2 (2024-08-13)",
+    "name": "Grok 2 (2024-08-13)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Yi Lightning": {
+    "arena_name": "Yi Lightning",
+    "name": "Yi Lightning",
+    "vendor": "Unknown",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4o (2024-05-13)": {
+    "arena_name": "GPT-4o (2024-05-13)",
+    "name": "GPT-4o (2024-05-13)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Olmo 3 32B Think": {
+    "arena_name": "Olmo 3 32B Think",
+    "name": "Olmo 3 32B Think",
+    "vendor": "Allenai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude 3.7 Sonnet (20250219)": {
+    "arena_name": "Claude 3.7 Sonnet (20250219)",
+    "name": "Claude 3.7 Sonnet (20250219)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen2.5-Plus (1127)": {
+    "arena_name": "Qwen2.5-Plus (1127)",
+    "name": "Qwen2.5-Plus (1127)",
+    "vendor": "Alibaba",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude 3.5 Sonnet (20241022)": {
+    "arena_name": "Claude 3.5 Sonnet (20241022)",
+    "name": "Claude 3.5 Sonnet (20241022)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V2.5 (1210)": {
+    "arena_name": "DeepSeek-V2.5 (1210)",
+    "name": "DeepSeek-V2.5 (1210)",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Granite 4.2 3B": {
+    "arena_name": "Granite 4.2 3B",
+    "name": "Granite 4.2 3B",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Athene V2 Chat": {
+    "arena_name": "Athene V2 Chat",
+    "name": "Athene V2 Chat",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 3 4B IT": {
+    "arena_name": "Gemma 3 4B IT",
+    "name": "Gemma 3 4B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Granite 4.1 8B": {
+    "arena_name": "Granite 4.1 8B",
+    "name": "Granite 4.1 8B",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4-Plus": {
+    "arena_name": "GLM-4-Plus",
+    "name": "GLM-4-Plus",
+    "vendor": "Zai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan Large (2025-02-10)": {
+    "arena_name": "Hunyuan Large (2025-02-10)",
+    "name": "Hunyuan Large (2025-02-10)",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Molmo 2 8B": {
+    "arena_name": "Molmo 2 8B",
+    "name": "Molmo 2 8B",
+    "vendor": "Allenai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 4 Maverick 17B 128E Instruct": {
+    "arena_name": "Llama 4 Maverick 17B 128E Instruct",
+    "name": "Llama 4 Maverick 17B 128E Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 1.5 Flash (002)": {
+    "arena_name": "Gemini 1.5 Flash (002)",
+    "name": "Gemini 1.5 Flash (002)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4o mini (2024-07-18)": {
+    "arena_name": "GPT-4o mini (2024-07-18)",
+    "name": "GPT-4o mini (2024-07-18)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4.1 nano (2025-04-14)": {
+    "arena_name": "GPT-4.1 nano (2025-04-14)",
+    "name": "GPT-4.1 nano (2025-04-14)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 405B Instruct (BF16)": {
+    "arena_name": "Llama 3.1 405B Instruct (BF16)",
+    "name": "Llama 3.1 405B Instruct (BF16)",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 Nemotron 70B Instruct": {
+    "arena_name": "Llama 3.1 Nemotron 70B Instruct",
+    "name": "Llama 3.1 Nemotron 70B Instruct",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4o (2024-08-06)": {
+    "arena_name": "GPT-4o (2024-08-06)",
+    "name": "GPT-4o (2024-08-06)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen-Max (0919)": {
+    "arena_name": "Qwen-Max (0919)",
+    "name": "Qwen-Max (0919)",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mercury": {
+    "arena_name": "Mercury",
+    "name": "Mercury",
+    "vendor": "Inception-Ai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 405B Instruct (FP8)": {
+    "arena_name": "Llama 3.1 405B Instruct (FP8)",
+    "name": "Llama 3.1 405B Instruct (FP8)",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude 3.5 Sonnet (20240620)": {
+    "arena_name": "Claude 3.5 Sonnet (20240620)",
+    "name": "Claude 3.5 Sonnet (20240620)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Grok 2 mini (2024-08-13)": {
+    "arena_name": "Grok 2 mini (2024-08-13)",
+    "name": "Grok 2 mini (2024-08-13)",
+    "vendor": "Xai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 4 Scout 17B 16E Instruct": {
+    "arena_name": "Llama 4 Scout 17B 16E Instruct",
+    "name": "Llama 4 Scout 17B 16E Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini Advanced (0514)": {
+    "arena_name": "Gemini Advanced (0514)",
+    "name": "Gemini Advanced (0514)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Small 3.1 24B Instruct (2503)": {
+    "arena_name": "Mistral Small 3.1 24B Instruct (2503)",
+    "name": "Mistral Small 3.1 24B Instruct (2503)",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.3 70B Instruct": {
+    "arena_name": "Llama 3.3 70B Instruct",
+    "name": "Llama 3.3 70B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan Standard (2025-02-10)": {
+    "arena_name": "Hunyuan Standard (2025-02-10)",
+    "name": "Hunyuan Standard (2025-02-10)",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 1.5 Pro (001)": {
+    "arena_name": "Gemini 1.5 Pro (001)",
+    "name": "Gemini 1.5 Pro (001)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4 Turbo (2024-04-09)": {
+    "arena_name": "GPT-4 Turbo (2024-04-09)",
+    "name": "GPT-4 Turbo (2024-04-09)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Olmo 3.1 32B Think": {
+    "arena_name": "Olmo 3.1 32B Think",
+    "name": "Olmo 3.1 32B Think",
+    "vendor": "Allenai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-V2.5": {
+    "arena_name": "DeepSeek-V2.5",
+    "name": "DeepSeek-V2.5",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen2.5-72B-Instruct": {
+    "arena_name": "Qwen2.5-72B-Instruct",
+    "name": "Qwen2.5-72B-Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Large 2 (2407)": {
+    "arena_name": "Mistral Large 2 (2407)",
+    "name": "Mistral Large 2 (2407)",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Large (2411)": {
+    "arena_name": "Mistral Large (2411)",
+    "name": "Mistral Large (2411)",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Athene 70B (0725)": {
+    "arena_name": "Athene 70B (0725)",
+    "name": "Athene 70B (0725)",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4 Turbo Preview (1106)": {
+    "arena_name": "GPT-4 Turbo Preview (1106)",
+    "name": "GPT-4 Turbo Preview (1106)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan Large Vision": {
+    "arena_name": "Hunyuan Large Vision",
+    "name": "Hunyuan Large Vision",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4 Turbo Preview (0125)": {
+    "arena_name": "GPT-4 Turbo Preview (0125)",
+    "name": "GPT-4 Turbo Preview (0125)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude 3 Opus (20240229)": {
+    "arena_name": "Claude 3 Opus (20240229)",
+    "name": "Claude 3 Opus (20240229)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 70B Instruct": {
+    "arena_name": "Llama 3.1 70B Instruct",
+    "name": "Llama 3.1 70B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Amazon Nova Pro 1.0": {
+    "arena_name": "Amazon Nova Pro 1.0",
+    "name": "Amazon Nova Pro 1.0",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 Tulu 3 70B": {
+    "arena_name": "Llama 3.1 Tulu 3 70B",
+    "name": "Llama 3.1 Tulu 3 70B",
+    "vendor": "Allenai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude 3.5 Haiku (20241022)": {
+    "arena_name": "Claude 3.5 Haiku (20241022)",
+    "name": "Claude 3.5 Haiku (20241022)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Magistral Medium (2506)": {
+    "arena_name": "Magistral Medium (2506)",
+    "name": "Magistral Medium (2506)",
+    "vendor": "Mistral",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Reka Core (20240904)": {
+    "arena_name": "Reka Core (20240904)",
+    "name": "Reka Core (20240904)",
+    "vendor": "Unknown",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Granite-4.0-H-Small": {
+    "arena_name": "Granite-4.0-H-Small",
+    "name": "Granite-4.0-H-Small",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 1.5 Flash (001)": {
+    "arena_name": "Gemini 1.5 Flash (001)",
+    "name": "Gemini 1.5 Flash (001)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Jamba 1.5 Large": {
+    "arena_name": "Jamba 1.5 Large",
+    "name": "Jamba 1.5 Large",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Small 24B Instruct (2501)": {
+    "arena_name": "Mistral Small 24B Instruct (2501)",
+    "name": "Mistral Small 24B Instruct (2501)",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 2 27B IT": {
+    "arena_name": "Gemma 2 27B IT",
+    "name": "Gemma 2 27B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen2.5-Coder-32B-Instruct": {
+    "arena_name": "Qwen2.5-Coder-32B-Instruct",
+    "name": "Qwen2.5-Coder-32B-Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Command R+ (08-2024)": {
+    "arena_name": "Command R+ (08-2024)",
+    "name": "Command R+ (08-2024)",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Amazon Nova Lite 1.0": {
+    "arena_name": "Amazon Nova Lite 1.0",
+    "name": "Amazon Nova Lite 1.0",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 Nemotron 51B Instruct": {
+    "arena_name": "Llama 3.1 Nemotron 51B Instruct",
+    "name": "Llama 3.1 Nemotron 51B Instruct",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 2 9B IT SimPO": {
+    "arena_name": "Gemma 2 9B IT SimPO",
+    "name": "Gemma 2 9B IT SimPO",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GLM-4 (0520)": {
+    "arena_name": "GLM-4 (0520)",
+    "name": "GLM-4 (0520)",
+    "vendor": "Zai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini 1.5 Flash-8B (001)": {
+    "arena_name": "Gemini 1.5 Flash-8B (001)",
+    "name": "Gemini 1.5 Flash-8B (001)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Nemotron-4 340B Instruct": {
+    "arena_name": "Nemotron-4 340B Instruct",
+    "name": "Nemotron-4 340B Instruct",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Aya Expanse 32B": {
+    "arena_name": "Aya Expanse 32B",
+    "name": "Aya Expanse 32B",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3 70B Instruct": {
+    "arena_name": "Llama 3 70B Instruct",
+    "name": "Llama 3 70B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Claude 3 Sonnet (20240229)": {
+    "arena_name": "Claude 3 Sonnet (20240229)",
+    "name": "Claude 3 Sonnet (20240229)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "OLMo 2 32B Instruct (0325)": {
+    "arena_name": "OLMo 2 32B Instruct (0325)",
+    "name": "OLMo 2 32B Instruct (0325)",
+    "vendor": "Allenai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Reka Flash (20240904)": {
+    "arena_name": "Reka Flash (20240904)",
+    "name": "Reka Flash (20240904)",
+    "vendor": "Unknown",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Phi-4": {
+    "arena_name": "Phi-4",
+    "name": "Phi-4",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Amazon Nova Micro 1.0": {
+    "arena_name": "Amazon Nova Micro 1.0",
+    "name": "Amazon Nova Micro 1.0",
+    "vendor": "Amazon",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 2 9B IT": {
+    "arena_name": "Gemma 2 9B IT",
+    "name": "Gemma 2 9B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4 (0314)": {
+    "arena_name": "GPT-4 (0314)",
+    "name": "GPT-4 (0314)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Command R+": {
+    "arena_name": "Command R+",
+    "name": "Command R+",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen2-72B-Instruct": {
+    "arena_name": "Qwen2-72B-Instruct",
+    "name": "Qwen2-72B-Instruct",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Hunyuan Standard 256K": {
+    "arena_name": "Hunyuan Standard 256K",
+    "name": "Hunyuan Standard 256K",
+    "vendor": "Tencent",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Claude 3 Haiku (20240307)": {
+    "arena_name": "Claude 3 Haiku (20240307)",
+    "name": "Claude 3 Haiku (20240307)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 Tulu 3 8B": {
+    "arena_name": "Llama 3.1 Tulu 3 8B",
+    "name": "Llama 3.1 Tulu 3 8B",
+    "vendor": "Allenai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek-Coder-V2": {
+    "arena_name": "DeepSeek-Coder-V2",
+    "name": "DeepSeek-Coder-V2",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Ministral 8B (2410)": {
+    "arena_name": "Ministral 8B (2410)",
+    "name": "Ministral 8B (2410)",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Command R (08-2024)": {
+    "arena_name": "Command R (08-2024)",
+    "name": "Command R (08-2024)",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Jamba 1.5 Mini": {
+    "arena_name": "Jamba 1.5 Mini",
+    "name": "Jamba 1.5 Mini",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.1 8B Instruct": {
+    "arena_name": "Llama 3.1 8B Instruct",
+    "name": "Llama 3.1 8B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-4 (0613)": {
+    "arena_name": "GPT-4 (0613)",
+    "name": "GPT-4 (0613)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Aya Expanse 8B": {
+    "arena_name": "Aya Expanse 8B",
+    "name": "Aya Expanse 8B",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Large (2402)": {
+    "arena_name": "Mistral Large (2402)",
+    "name": "Mistral Large (2402)",
+    "vendor": "Mistral",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen1.5-110B-Chat": {
+    "arena_name": "Qwen1.5-110B-Chat",
+    "name": "Qwen1.5-110B-Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Yi 1.5 34B Chat": {
+    "arena_name": "Yi 1.5 34B Chat",
+    "name": "Yi 1.5 34B Chat",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Reka Flash 21B (Online, 20240226)": {
+    "arena_name": "Reka Flash 21B (Online, 20240226)",
+    "name": "Reka Flash 21B (Online, 20240226)",
+    "vendor": "Unknown",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen1.5-72B-Chat": {
+    "arena_name": "Qwen1.5-72B-Chat",
+    "name": "Qwen1.5-72B-Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3 8B Instruct": {
+    "arena_name": "Llama 3 8B Instruct",
+    "name": "Llama 3 8B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral Medium": {
+    "arena_name": "Mistral Medium",
+    "name": "Mistral Medium",
+    "vendor": "Mistral",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Reka Flash 21B (20240226)": {
+    "arena_name": "Reka Flash 21B (20240226)",
+    "name": "Reka Flash 21B (20240226)",
+    "vendor": "Unknown",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Command R": {
+    "arena_name": "Command R",
+    "name": "Command R",
+    "vendor": "Cohere",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mixtral 8x22B Instruct v0.1": {
+    "arena_name": "Mixtral 8x22B Instruct v0.1",
+    "name": "Mixtral 8x22B Instruct v0.1",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "QwQ-32B-Preview": {
+    "arena_name": "QwQ-32B-Preview",
+    "name": "QwQ-32B-Preview",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "InternLM2.5 20B Chat": {
+    "arena_name": "InternLM2.5 20B Chat",
+    "name": "InternLM2.5 20B Chat",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 2 2B IT": {
+    "arena_name": "Gemma 2 2B IT",
+    "name": "Gemma 2 2B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Granite 3.1 8B Instruct": {
+    "arena_name": "Granite 3.1 8B Instruct",
+    "name": "Granite 3.1 8B Instruct",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini Pro (Dev API)": {
+    "arena_name": "Gemini Pro (Dev API)",
+    "name": "Gemini Pro (Dev API)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Zephyr ORPO 141B A35B v0.1": {
+    "arena_name": "Zephyr ORPO 141B A35B v0.1",
+    "name": "Zephyr ORPO 141B A35B v0.1",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Phi-3 Medium 4K Instruct": {
+    "arena_name": "Phi-3 Medium 4K Instruct",
+    "name": "Phi-3 Medium 4K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen1.5-32B-Chat": {
+    "arena_name": "Qwen1.5-32B-Chat",
+    "name": "Qwen1.5-32B-Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Starling LM 7B Beta": {
+    "arena_name": "Starling LM 7B Beta",
+    "name": "Starling LM 7B Beta",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mixtral 8x7B Instruct v0.1": {
+    "arena_name": "Mixtral 8x7B Instruct v0.1",
+    "name": "Mixtral 8x7B Instruct v0.1",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemini Pro": {
+    "arena_name": "Gemini Pro",
+    "name": "Gemini Pro",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Yi 34B Chat": {
+    "arena_name": "Yi 34B Chat",
+    "name": "Yi 34B Chat",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen1.5-14B-Chat": {
+    "arena_name": "Qwen1.5-14B-Chat",
+    "name": "Qwen1.5-14B-Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Granite 3.1 2B Instruct": {
+    "arena_name": "Granite 3.1 2B Instruct",
+    "name": "Granite 3.1 2B Instruct",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-3.5 Turbo (0125)": {
+    "arena_name": "GPT-3.5 Turbo (0125)",
+    "name": "GPT-3.5 Turbo (0125)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Tulu 2 DPO 70B": {
+    "arena_name": "Tulu 2 DPO 70B",
+    "name": "Tulu 2 DPO 70B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "WizardLM 70B": {
+    "arena_name": "WizardLM 70B",
+    "name": "WizardLM 70B",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DBRX Instruct Preview": {
+    "arena_name": "DBRX Instruct Preview",
+    "name": "DBRX Instruct Preview",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 2 70B Chat": {
+    "arena_name": "Llama 2 70B Chat",
+    "name": "Llama 2 70B Chat",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Nous Hermes 2 Mixtral 8x7B DPO": {
+    "arena_name": "Nous Hermes 2 Mixtral 8x7B DPO",
+    "name": "Nous Hermes 2 Mixtral 8x7B DPO",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Phi-3 Small 8K Instruct": {
+    "arena_name": "Phi-3 Small 8K Instruct",
+    "name": "Phi-3 Small 8K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.2 3B Instruct": {
+    "arena_name": "Llama 3.2 3B Instruct",
+    "name": "Llama 3.2 3B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Starling LM 7B Alpha": {
+    "arena_name": "Starling LM 7B Alpha",
+    "name": "Starling LM 7B Alpha",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "OpenChat 3.5 (0106)": {
+    "arena_name": "OpenChat 3.5 (0106)",
+    "name": "OpenChat 3.5 (0106)",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Vicuna 33B": {
+    "arena_name": "Vicuna 33B",
+    "name": "Vicuna 33B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "DeepSeek LLM 67B Chat": {
+    "arena_name": "DeepSeek LLM 67B Chat",
+    "name": "DeepSeek LLM 67B Chat",
+    "vendor": "Deepseek",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Snowflake Arctic Instruct": {
+    "arena_name": "Snowflake Arctic Instruct",
+    "name": "Snowflake Arctic Instruct",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 2 70B SteerLM Chat": {
+    "arena_name": "Llama 2 70B SteerLM Chat",
+    "name": "Llama 2 70B SteerLM Chat",
+    "vendor": "Nvidia",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "OpenChat 3.5": {
+    "arena_name": "OpenChat 3.5",
+    "name": "OpenChat 3.5",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Granite 3.0 8B Instruct": {
+    "arena_name": "Granite 3.0 8B Instruct",
+    "name": "Granite 3.0 8B Instruct",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-3.5 Turbo (1106)": {
+    "arena_name": "GPT-3.5 Turbo (1106)",
+    "name": "GPT-3.5 Turbo (1106)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 1.1 7B IT": {
+    "arena_name": "Gemma 1.1 7B IT",
+    "name": "Gemma 1.1 7B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "OpenHermes 2.5 Mistral 7B": {
+    "arena_name": "OpenHermes 2.5 Mistral 7B",
+    "name": "OpenHermes 2.5 Mistral 7B",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral 7B Instruct v0.2": {
+    "arena_name": "Mistral 7B Instruct v0.2",
+    "name": "Mistral 7B Instruct v0.2",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 2 13B Chat": {
+    "arena_name": "Llama 2 13B Chat",
+    "name": "Llama 2 13B Chat",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen1.5-7B-Chat": {
+    "arena_name": "Qwen1.5-7B-Chat",
+    "name": "Qwen1.5-7B-Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "SOLAR 10.7B Instruct v1.0": {
+    "arena_name": "SOLAR 10.7B Instruct v1.0",
+    "name": "SOLAR 10.7B Instruct v1.0",
+    "vendor": "Upstage",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Dolphin 2.2.1 Mistral 7B": {
+    "arena_name": "Dolphin 2.2.1 Mistral 7B",
+    "name": "Dolphin 2.2.1 Mistral 7B",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Phi-3 Mini 4K Instruct (June 2024)": {
+    "arena_name": "Phi-3 Mini 4K Instruct (June 2024)",
+    "name": "Phi-3 Mini 4K Instruct (June 2024)",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Granite 3.0 2B Instruct": {
+    "arena_name": "Granite 3.0 2B Instruct",
+    "name": "Granite 3.0 2B Instruct",
+    "vendor": "Ibm",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "WizardLM 13B": {
+    "arena_name": "WizardLM 13B",
+    "name": "WizardLM 13B",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Phi-3 Mini 4K Instruct": {
+    "arena_name": "Phi-3 Mini 4K Instruct",
+    "name": "Phi-3 Mini 4K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Zephyr 7B Beta": {
+    "arena_name": "Zephyr 7B Beta",
+    "name": "Zephyr 7B Beta",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "MPT 30B Chat": {
+    "arena_name": "MPT 30B Chat",
+    "name": "MPT 30B Chat",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Code Llama 34B Instruct": {
+    "arena_name": "Code Llama 34B Instruct",
+    "name": "Code Llama 34B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Zephyr 7B Alpha": {
+    "arena_name": "Zephyr 7B Alpha",
+    "name": "Zephyr 7B Alpha",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Vicuna 13B": {
+    "arena_name": "Vicuna 13B",
+    "name": "Vicuna 13B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Code Llama 70B Instruct": {
+    "arena_name": "Code Llama 70B Instruct",
+    "name": "Code Llama 70B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 7B IT": {
+    "arena_name": "Gemma 7B IT",
+    "name": "Gemma 7B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 3.2 1B Instruct": {
+    "arena_name": "Llama 3.2 1B Instruct",
+    "name": "Llama 3.2 1B Instruct",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Falcon 180B Chat": {
+    "arena_name": "Falcon 180B Chat",
+    "name": "Falcon 180B Chat",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Llama 2 7B Chat": {
+    "arena_name": "Llama 2 7B Chat",
+    "name": "Llama 2 7B Chat",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Guanaco 33B": {
+    "arena_name": "Guanaco 33B",
+    "name": "Guanaco 33B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen-14B-Chat": {
+    "arena_name": "Qwen-14B-Chat",
+    "name": "Qwen-14B-Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Phi-3 Mini 128K Instruct": {
+    "arena_name": "Phi-3 Mini 128K Instruct",
+    "name": "Phi-3 Mini 128K Instruct",
+    "vendor": "Microsoft",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "SmolLM2 1.7B Instruct": {
+    "arena_name": "SmolLM2 1.7B Instruct",
+    "name": "SmolLM2 1.7B Instruct",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "StripedHyena Nous 7B": {
+    "arena_name": "StripedHyena Nous 7B",
+    "name": "StripedHyena Nous 7B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "OLMo 7B Instruct": {
+    "arena_name": "OLMo 7B Instruct",
+    "name": "OLMo 7B Instruct",
+    "vendor": "Allenai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Vicuna 7B": {
+    "arena_name": "Vicuna 7B",
+    "name": "Vicuna 7B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "PaLM 2": {
+    "arena_name": "PaLM 2",
+    "name": "PaLM 2",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "Mistral 7B Instruct": {
+    "arena_name": "Mistral 7B Instruct",
+    "name": "Mistral 7B Instruct",
+    "vendor": "Mistral",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 1.1 2B IT": {
+    "arena_name": "Gemma 1.1 2B IT",
+    "name": "Gemma 1.1 2B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Gemma 2B IT": {
+    "arena_name": "Gemma 2B IT",
+    "name": "Gemma 2B IT",
+    "vendor": "Google",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Qwen1.5-4B-Chat": {
+    "arena_name": "Qwen1.5-4B-Chat",
+    "name": "Qwen1.5-4B-Chat",
+    "vendor": "Alibaba",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Koala 13B": {
+    "arena_name": "Koala 13B",
+    "name": "Koala 13B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "ChatGLM3 6B": {
+    "arena_name": "ChatGLM3 6B",
+    "name": "ChatGLM3 6B",
+    "vendor": "Z.ai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "GPT4All 13B Snoozy": {
+    "arena_name": "GPT4All 13B Snoozy",
+    "name": "GPT4All 13B Snoozy",
+    "vendor": "OpenAI",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "MPT 7B Chat": {
+    "arena_name": "MPT 7B Chat",
+    "name": "MPT 7B Chat",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "RWKV-4 Raven 14B": {
+    "arena_name": "RWKV-4 Raven 14B",
+    "name": "RWKV-4 Raven 14B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "ChatGLM2 6B": {
+    "arena_name": "ChatGLM2 6B",
+    "name": "ChatGLM2 6B",
+    "vendor": "Z.ai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Alpaca 13B": {
+    "arena_name": "Alpaca 13B",
+    "name": "Alpaca 13B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "ChatGLM 6B": {
+    "arena_name": "ChatGLM 6B",
+    "name": "ChatGLM 6B",
+    "vendor": "Z.ai",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "OpenAssistant Pythia 12B": {
+    "arena_name": "OpenAssistant Pythia 12B",
+    "name": "OpenAssistant Pythia 12B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "FastChat-T5 3B": {
+    "arena_name": "FastChat-T5 3B",
+    "name": "FastChat-T5 3B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "StableLM Tuned Alpha 7B": {
+    "arena_name": "StableLM Tuned Alpha 7B",
+    "name": "StableLM Tuned Alpha 7B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "Dolly 2.0 12B": {
+    "arena_name": "Dolly 2.0 12B",
+    "name": "Dolly 2.0 12B",
+    "vendor": "Unknown",
+    "type": "free",
+    "url": "https://lmarena.ai"
+  },
+  "LLaMA 13B": {
+    "arena_name": "LLaMA 13B",
+    "name": "LLaMA 13B",
+    "vendor": "Meta",
+    "type": "free",
+    "url": "https://lmarena.ai"
   }
 }
