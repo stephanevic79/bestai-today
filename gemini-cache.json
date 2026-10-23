@@ -5885,5 +5885,12 @@
     "vendor": "Meta",
     "type": "free",
     "url": "https://lmarena.ai"
+  },
+  "Claude Haiku 5.5 (High)": {
+    "arena_name": "Claude Haiku 5.5 (High)",
+    "name": "Claude Haiku 5.5 (High)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
