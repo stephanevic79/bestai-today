@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-10-28",
-  "retrieved_at": "2026-10-29T12:20:06Z",
+  "retrieved_at": "2026-10-30T12:10:52Z",
   "models": [
     {
       "name": "Gemini 4 Carbon (High)",
@@ -1992,10 +1992,6 @@
       "has_free_api": true,
       "free_api_providers": [
         {
-          "provider": "Ollama Cloud",
-          "url": "https://ollama.com/settings/keys"
-        },
-        {
           "provider": "OVHcloud AI Endpoints",
           "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
         }
@@ -2688,10 +2684,6 @@
         {
           "provider": "LLM7.io",
           "url": "https://token.llm7.io"
-        },
-        {
-          "provider": "Ollama Cloud",
-          "url": "https://ollama.com/settings/keys"
         },
         {
           "provider": "OVHcloud AI Endpoints",
