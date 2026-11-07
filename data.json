@@ -1,14 +1,14 @@
 {
-  "ranking_date": "2026-10-28",
-  "retrieved_at": "2026-11-06T13:46:30Z",
+  "ranking_date": "2026-11-06",
+  "retrieved_at": "2026-11-07T12:30:03Z",
   "models": [
     {
       "name": "Gemini 4 Carbon (High)",
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1540.042092301771,
-      "score_code": 1768.1522310766236,
+      "score_general": 1539.077948051864,
+      "score_code": 1767.2109623977199,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -17,18 +17,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1528.576999134275,
-      "score_code": 1679.2118291253184,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 5.5 (High)",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1515.7998278195173,
-      "score_code": null,
+      "score_general": 1530.3608071364822,
+      "score_code": 1682.730503374457,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -37,8 +27,18 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1513.833920367425,
-      "score_code": 1745.8518267992542,
+      "score_general": 1513.45871924281,
+      "score_code": 1745.6544210964503,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 5.5 (High)",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1512.2748674596626,
+      "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -47,28 +47,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1507.9090505684276,
-      "score_code": 1690.5239169555273,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 5 (High)",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1504.0842536838559,
-      "score_code": 1658.189754773115,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.6 (High)",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1501.723643841503,
-      "score_code": 1546.235576890829,
+      "score_general": 1506.833725235481,
+      "score_code": 1691.3101535857807,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -77,8 +57,28 @@
       "vendor": "Meta",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1499.1665529054426,
-      "score_code": 1652.0939667524244,
+      "score_general": 1505.1195618761026,
+      "score_code": 1649.4669722087165,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 5 (High)",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1502.8371076048454,
+      "score_code": 1657.35898677545,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.6 (High)",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1501.7257258972131,
+      "score_code": 1546.0036361657574,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -87,8 +87,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1498.492321637017,
-      "score_code": 1583.2994176433617,
+      "score_general": 1500.5434039395386,
+      "score_code": 1582.970427756538,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -97,8 +97,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1496.249600345462,
-      "score_code": 1537.008164689128,
+      "score_general": 1496.532690642485,
+      "score_code": 1537.1315940141897,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -107,8 +107,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1491.5611245046712,
-      "score_code": 1624.082589402146,
+      "score_general": 1491.7837143679953,
+      "score_code": 1624.9582258269954,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -117,8 +117,8 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1491.3511193426757,
-      "score_code": 1625.417548626546,
+      "score_general": 1490.9614498482088,
+      "score_code": 1623.503406790277,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -127,8 +127,8 @@
       "vendor": "Meta",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1490.6255540345564,
-      "score_code": 1656.2348593321256,
+      "score_general": 1490.6610244517217,
+      "score_code": 1653.5661472648244,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -137,8 +137,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1489.7195611000939,
-      "score_code": 1557.537773306169,
+      "score_general": 1489.7034643572908,
+      "score_code": 1557.3375106467906,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -147,8 +147,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1489.1174089814049,
-      "score_code": 1589.6728568868868,
+      "score_general": 1488.359211614609,
+      "score_code": 1588.5374817949314,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -157,18 +157,8 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1483.2905770662637,
-      "score_code": 1671.885286248237,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.7",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1482.9867831568845,
-      "score_code": 1555.4286270187122,
+      "score_general": 1484.12729261351,
+      "score_code": 1671.4051425529362,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -177,8 +167,18 @@
       "vendor": "Meta",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1482.6647890503186,
-      "score_code": 1533.6689783572438,
+      "score_general": 1483.581739302105,
+      "score_code": 1533.6188625789164,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.7",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1483.185302716492,
+      "score_code": 1555.31373708365,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -187,8 +187,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1482.1752519916417,
-      "score_code": 1499.2741854109668,
+      "score_general": 1482.3255415509836,
+      "score_code": 1499.09763863856,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -197,18 +197,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1480.106155285645,
-      "score_code": 1446.6498483953492,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Gemini 3.6 Flash (High)",
-      "vendor": "Google",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1479.7907457527913,
-      "score_code": 1537.5456409227427,
+      "score_general": 1480.03117267829,
+      "score_code": 1446.505950543424,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -217,8 +207,18 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1479.4013927240617,
-      "score_code": 1439.9733520268244,
+      "score_general": 1479.5804323711639,
+      "score_code": 1440.008479723813,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Gemini 3.6 Flash (High)",
+      "vendor": "Google",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1479.1774912115811,
+      "score_code": 1537.0446520559992,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -227,8 +227,8 @@
       "vendor": "Meta",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1478.2815890769307,
-      "score_code": 1542.4822191942499,
+      "score_general": 1478.2399219575875,
+      "score_code": 1541.7732291532873,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -237,8 +237,18 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1478.1611062806182,
-      "score_code": 1490.6327257802702,
+      "score_general": 1478.0893780695649,
+      "score_code": 1489.8000814418892,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GLM-5.3 (Max)",
+      "vendor": "Zai",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1475.8955432898135,
+      "score_code": 1620.690237511691,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -247,8 +257,8 @@
       "vendor": "Moonshot",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1475.6886282072523,
-      "score_code": 1656.390908396489,
+      "score_general": 1475.436486575478,
+      "score_code": 1656.5133396725882,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -257,7 +267,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1474.6658533225145,
+      "score_general": 1474.9068413283785,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -267,18 +277,8 @@
       "vendor": "Meta",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1474.0351614672354,
+      "score_general": 1474.1244940614479,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GLM-5.3 (Max)",
-      "vendor": "Zai",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1473.7757049962415,
-      "score_code": 1622.8098625429598,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -287,18 +287,8 @@
       "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1473.0371705099178,
-      "score_code": 1606.6486731495352,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Sonnet 5.5 (xHigh)",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1472.8510730804223,
-      "score_code": 1769.7283971913196,
+      "score_general": 1472.4328778416277,
+      "score_code": 1606.5836157384558,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -307,7 +297,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1471.5686765564028,
+      "score_general": 1471.4245164694507,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -317,7 +307,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1470.3945124962643,
+      "score_general": 1470.4273697474464,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -327,8 +317,8 @@
       "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1469.6433726055043,
-      "score_code": 1605.639209438289,
+      "score_general": 1469.3566556049852,
+      "score_code": 1606.4075322198196,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -337,8 +327,18 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1469.0796271547601,
+      "score_general": 1469.2507141125013,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Sonnet 5.5 (xHigh)",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1469.159203498016,
+      "score_code": 1772.023172939039,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -347,7 +347,7 @@
       "vendor": "Baidu",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1467.76969220629,
+      "score_general": 1467.9302478018521,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -357,7 +357,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1466.7520045322913,
+      "score_general": 1466.7919503842886,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -367,18 +367,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1465.6660542386348,
-      "score_code": 1440.1243208284204,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "DeepSeek-V4.1-Flash-20260910 (Max)",
-      "vendor": "Deepseek",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1464.5070280902241,
-      "score_code": 1619.1588129696818,
+      "score_general": 1465.9056825709415,
+      "score_code": 1439.8704743045216,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -387,8 +377,18 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1464.2246168455958,
-      "score_code": 1480.4355329379657,
+      "score_general": 1464.0044633651123,
+      "score_code": 1480.0559430265998,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "DeepSeek-V4.1-Flash-20260910 (Max)",
+      "vendor": "Deepseek",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1463.48004276794,
+      "score_code": 1619.1412205394952,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -397,8 +397,8 @@
       "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1462.815587844631,
-      "score_code": 1507.854558177699,
+      "score_general": 1462.551110206827,
+      "score_code": 1507.832685516293,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -407,28 +407,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1461.29505850546,
-      "score_code": 1555.8263524171814,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Sonnet 4.6",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1457.7072065845523,
-      "score_code": 1522.6524947374642,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Gemini 2.5 Pro",
-      "vendor": "Google",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1457.7010209624614,
-      "score_code": 1226.0977652196555,
+      "score_general": 1461.362124586969,
+      "score_code": 1555.9108968886521,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -437,8 +417,28 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1457.2397494853772,
+      "score_general": 1457.8797182051937,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Sonnet 4.6",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1457.7710871011243,
+      "score_code": 1522.1821952552073,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Gemini 2.5 Pro",
+      "vendor": "Google",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1457.7514406896112,
+      "score_code": 1226.076292533807,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -447,8 +447,8 @@
       "vendor": "Moonshot",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1455.5569844394659,
-      "score_code": 1509.2234110707893,
+      "score_general": 1455.5146178933594,
+      "score_code": 1509.0642696484624,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -457,7 +457,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1454.5576780095698,
+      "score_general": 1454.4210037424507,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -467,8 +467,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1454.0343497697008,
-      "score_code": 1535.9780359669865,
+      "score_general": 1454.2445713926988,
+      "score_code": 1535.7325374753316,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -477,8 +477,8 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1452.4698450756227,
-      "score_code": 1401.0886143328514,
+      "score_general": 1452.432628507656,
+      "score_code": 1400.1616039561823,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -487,8 +487,8 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1451.2183606158565,
-      "score_code": 1637.1737027632755,
+      "score_general": 1452.3474935103782,
+      "score_code": 1636.3290242109547,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -497,18 +497,8 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1451.127948896642,
-      "score_code": 1447.1690797309973,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Grok 4.20 Beta (Reasoning, 0309)",
-      "vendor": "Xai",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1450.982542691227,
-      "score_code": 1375.4624441703345,
+      "score_general": 1451.2508812011422,
+      "score_code": 1447.2129137282368,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -517,8 +507,18 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1450.897532023202,
-      "score_code": 1469.2204625828695,
+      "score_general": 1451.0233668985402,
+      "score_code": 1468.8875098700041,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Grok 4.20 Beta (Reasoning, 0309)",
+      "vendor": "Xai",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1450.9245438020862,
+      "score_code": 1375.3362351571295,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -527,7 +527,7 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1450.652032040815,
+      "score_general": 1450.7667287496633,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -537,7 +537,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1448.7132173712316,
+      "score_general": 1448.775773052555,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -547,27 +547,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1448.30429072605,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.5 (High, 32K, 20251101)",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1448.2089639356923,
-      "score_code": 1493.6607664512705,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Dola Seed 2.0 Pro",
-      "vendor": "Bytedance",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1448.0303028975627,
+      "score_general": 1448.762107456279,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -577,8 +557,28 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1447.6409447393899,
-      "score_code": 1553.032541111338,
+      "score_general": 1448.424569081992,
+      "score_code": 1552.557908378854,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.5 (High, 32K, 20251101)",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1448.309328149251,
+      "score_code": 1493.7246273502353,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Dola Seed 2.0 Pro",
+      "vendor": "Bytedance",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1448.1075095680826,
+      "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -587,28 +587,8 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1446.7444158066523,
-      "score_code": 1481.8179582284795,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "DeepSeek-V4-Pro (High, 20260813)",
-      "vendor": "Deepseek",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1446.041560619321,
-      "score_code": 1581.8580682830898,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GLM-5",
-      "vendor": "Zai",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1445.8732815789967,
-      "score_code": 1435.569438296295,
+      "score_general": 1446.9678643672607,
+      "score_code": 1481.9051456384773,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -617,18 +597,28 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1445.554577268636,
-      "score_code": 1750.568215754016,
+      "score_general": 1446.691081521115,
+      "score_code": 1741.8099237477113,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
-      "vendor": "Nvidia",
+      "name": "GLM-5",
+      "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1445.1540479565415,
-      "score_code": null,
+      "score_general": 1446.1332544380264,
+      "score_code": 1435.23717505712,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "DeepSeek-V4-Pro (High, 20260813)",
+      "vendor": "Deepseek",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1445.2177763254376,
+      "score_code": 1581.6078686175035,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -637,8 +627,8 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1444.9090119997759,
-      "score_code": 1464.190999873057,
+      "score_general": 1445.1745814144206,
+      "score_code": 1464.2986875187244,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -647,17 +637,17 @@
       "vendor": "Moonshot",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1444.9047566343556,
-      "score_code": 1436.2450288272603,
+      "score_general": 1444.8691183624826,
+      "score_code": 1435.9766620864866,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "ERNIE 5.0 (0110)",
-      "vendor": "Baidu",
-      "type": "paid",
+      "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+      "vendor": "Nvidia",
+      "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1444.5209719210252,
+      "score_general": 1444.810421248027,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -667,32 +657,37 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1444.4799730315126,
+      "score_general": 1444.5338416673821,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "Gemma 4 31B",
-      "vendor": "Google",
+      "name": "ERNIE 5.0 (0110)",
+      "vendor": "Baidu",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1444.4824612508185,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Inkling",
+      "vendor": "Thinky",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1442.9592444545483,
-      "score_code": 1368.6624108190852,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "Google Gemini",
-          "url": "https://aistudio.google.com/app/apikey"
-        }
-      ]
+      "score_general": 1443.2806986982475,
+      "score_code": 1414.6051185006745,
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "Step 5 Preview",
       "vendor": "Stepfun",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1442.7188262673085,
+      "score_general": 1442.9131576671887,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -702,7 +697,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1442.713427839923,
+      "score_general": 1442.823013599409,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -712,28 +707,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1442.689479868949,
-      "score_code": 1540.090043634944,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Inkling",
-      "vendor": "Thinky",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1442.6633757297745,
-      "score_code": 1415.192007852744,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Gemini 3 Flash (Minimal)",
-      "vendor": "Google",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1442.4487041287512,
-      "score_code": 1384.4938378264999,
+      "score_general": 1442.6473923306114,
+      "score_code": 1539.1400512313933,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -742,18 +717,43 @@
       "vendor": "Baidu",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1442.2917751182795,
+      "score_general": 1442.6382581183698,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
+    },
+    {
+      "name": "Gemini 3 Flash (Minimal)",
+      "vendor": "Google",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1442.570976272367,
+      "score_code": 1384.7772899671193,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Gemma 4 31B",
+      "vendor": "Google",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1442.5247220810459,
+      "score_code": 1369.5196994049306,
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "Google Gemini",
+          "url": "https://aistudio.google.com/app/apikey"
+        }
+      ]
     },
     {
       "name": "GPT-6 Astra (Max)",
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1441.1545927299408,
-      "score_code": 1773.3545606290113,
+      "score_general": 1440.9374940126625,
+      "score_code": 1769.8137359567181,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -762,18 +762,8 @@
       "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1440.055945869893,
-      "score_code": 1341.1518521405144,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Hy3",
-      "vendor": "Tencent",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1439.0652001072267,
-      "score_code": 1505.4337074624896,
+      "score_general": 1440.0724429841346,
+      "score_code": 1340.934870158264,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -782,8 +772,18 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1438.894281356876,
+      "score_general": 1438.9544198087858,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Hy3",
+      "vendor": "Tencent",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1438.8335179320925,
+      "score_code": 1505.1859916645344,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -792,8 +792,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1438.5105346522719,
-      "score_code": 1384.9137217755942,
+      "score_general": 1438.562826566877,
+      "score_code": 1384.832008109538,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -802,18 +802,18 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1438.4978566547375,
+      "score_general": 1438.4672762825137,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "Qwen3.8-27B",
+      "name": "Qwen3.5-397B-A17B",
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1438.4449528809614,
-      "score_code": 1589.782268834193,
+      "score_general": 1437.625096257042,
+      "score_code": 1399.915860145044,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -827,18 +827,18 @@
       "vendor": "Zai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1437.7206378217234,
-      "score_code": 1400.9863808273662,
+      "score_general": 1437.5398050470305,
+      "score_code": 1400.568858879064,
       "has_free_api": false,
       "free_api_providers": []
     },
     {
-      "name": "Qwen3.5-397B-A17B",
+      "name": "Qwen3.8-27B",
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1437.553381003047,
-      "score_code": 1400.2208309279806,
+      "score_general": 1437.2795453881158,
+      "score_code": 1590.46683166724,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -852,18 +852,8 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1436.4128814849696,
-      "score_code": 1214.468784837361,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Qwen3.6-Plus",
-      "vendor": "Alibaba",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1436.3188743920932,
-      "score_code": 1461.6254246112119,
+      "score_general": 1436.538049583132,
+      "score_code": 1214.1931238935526,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -872,8 +862,18 @@
       "vendor": "Xiaomi",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1436.077292475447,
-      "score_code": 1434.1505957574632,
+      "score_general": 1436.1306521974332,
+      "score_code": 1433.8797757849395,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Qwen3.6-Plus",
+      "vendor": "Alibaba",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1436.0737829232098,
+      "score_code": 1461.1644928916776,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -882,8 +882,18 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1435.956286667229,
+      "score_general": 1436.0286066245296,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GLM-4.7",
+      "vendor": "Zai",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1435.6797495241435,
+      "score_code": 1435.2268790879016,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -892,8 +902,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1435.476495870871,
-      "score_code": 1434.0835335612885,
+      "score_general": 1434.8588819774384,
+      "score_code": 1434.035144937326,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -903,22 +913,12 @@
       ]
     },
     {
-      "name": "GLM-4.7",
-      "vendor": "Zai",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1435.433626966485,
-      "score_code": 1435.1854984949694,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
       "name": "Claude Sonnet 4.5 (High, 32K, 20250929)",
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1434.493998733889,
-      "score_code": 1393.5404164128754,
+      "score_general": 1434.5312911137876,
+      "score_code": 1393.3170341072332,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -927,8 +927,8 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1434.16609489024,
-      "score_code": 1358.776588697436,
+      "score_general": 1434.0586125665736,
+      "score_code": 1358.8234043586613,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -942,18 +942,8 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1431.8349064358508,
+      "score_general": 1431.8848231980496,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "MiniMax-M3",
-      "vendor": "Minimax",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1431.2697157853881,
-      "score_code": 1483.3051511403955,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -962,37 +952,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1431.0486342627855,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Mistral Large 4",
-      "vendor": "Mistral",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1430.0660290522828,
-      "score_code": 1544.3103315032786,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GLM-4.5",
-      "vendor": "Zai",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1430.0002251768442,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "ERNIE-5.0-Preview (1022)",
-      "vendor": "Baidu",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1429.777830884852,
+      "score_general": 1430.8432295664775,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1002,8 +962,28 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1428.5262259678225,
-      "score_code": 1616.3867226095672,
+      "score_general": 1430.391160135977,
+      "score_code": 1617.4311191115153,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "ERNIE-5.0-Preview (1022)",
+      "vendor": "Baidu",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1430.1604497749315,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GLM-4.5",
+      "vendor": "Zai",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1430.0831094921716,
+      "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1012,7 +992,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1428.4483172113378,
+      "score_general": 1428.396124693916,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1022,8 +1002,8 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1428.2816908625032,
-      "score_code": 1232.601739542315,
+      "score_general": 1428.2996356491176,
+      "score_code": 1229.8897122082215,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -1033,12 +1013,22 @@
       ]
     },
     {
+      "name": "MiniMax-M3",
+      "vendor": "Minimax",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1428.209133483891,
+      "score_code": 1484.120638094494,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
       "name": "MiMo-V2.5",
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1427.820130016546,
-      "score_code": 1438.2678187561378,
+      "score_general": 1427.7070219907846,
+      "score_code": 1437.8666946319981,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1047,7 +1037,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1427.7121292645102,
+      "score_general": 1427.6996246414467,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1057,7 +1047,7 @@
       "vendor": "Meituan",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1426.6917301645153,
+      "score_general": 1426.5697829363378,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1067,7 +1057,17 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1425.4236595675652,
+      "score_general": 1425.4570864462264,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "DeepSeek-V3.2-Exp (Thinking)",
+      "vendor": "Deepseek",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1424.9249437105575,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1077,18 +1077,8 @@
       "vendor": "Reflection",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1425.369815377157,
-      "score_code": 1436.0479044399463,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "DeepSeek-V3.2-Exp (Thinking)",
-      "vendor": "Deepseek",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1424.9838844116553,
-      "score_code": null,
+      "score_general": 1424.8884589264096,
+      "score_code": 1436.9459530004847,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1097,8 +1087,8 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1424.4339762941336,
-      "score_code": 1325.750670059786,
+      "score_general": 1424.4970490699325,
+      "score_code": 1325.8628955104134,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1107,8 +1097,8 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1424.3093652123453,
-      "score_code": 1430.4821164472921,
+      "score_general": 1424.2518779480772,
+      "score_code": 1430.44040182278,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1117,7 +1107,7 @@
       "vendor": "Mistral",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1424.2158968944336,
+      "score_general": 1424.2160958885645,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1127,7 +1117,7 @@
       "vendor": "Xiaomi",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1423.1106485996916,
+      "score_general": 1422.8363306024276,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1137,7 +1127,7 @@
       "vendor": "Meituan",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1422.718365918447,
+      "score_general": 1422.7306141871418,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1147,8 +1137,8 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1422.1785403185381,
-      "score_code": 1341.3437443111054,
+      "score_general": 1422.3662485454424,
+      "score_code": 1341.3113253731087,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1157,8 +1147,8 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1422.156931470477,
-      "score_code": 1271.4406409272704,
+      "score_general": 1422.2153650503392,
+      "score_code": 1271.3921912759488,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1167,8 +1157,8 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1420.7694872452512,
-      "score_code": 1264.0086408699274,
+      "score_general": 1420.9744138171607,
+      "score_code": 1264.085283630917,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1177,8 +1167,8 @@
       "vendor": "Moonshot",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1420.1294039541685,
-      "score_code": 1405.5661928557854,
+      "score_general": 1420.2897821619629,
+      "score_code": 1405.2979330952126,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1187,7 +1177,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1420.0383462757768,
+      "score_general": 1419.9171963641409,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1197,8 +1187,8 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1419.7849889662966,
-      "score_code": 1362.5238258167278,
+      "score_general": 1419.9100157717712,
+      "score_code": 1362.0848499639005,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1207,7 +1197,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1419.5132125302603,
+      "score_general": 1419.7300119300282,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1217,17 +1207,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1419.5007918342944,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Opus 4.1 (Thinking 16K, 20250805)",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1419.2143894284472,
+      "score_general": 1419.5860737297733,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1237,7 +1217,17 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1419.2072967348558,
+      "score_general": 1419.49669869393,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Opus 4.1 (Thinking 16K, 20250805)",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1419.3144486795707,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1247,7 +1237,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1419.1699403460743,
+      "score_general": 1419.2574563228402,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1257,7 +1247,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1419.139832942219,
+      "score_general": 1418.9832902700875,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1267,8 +1257,8 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1418.5621999574046,
-      "score_code": 1390.1558311618264,
+      "score_general": 1418.6644268793889,
+      "score_code": 1389.71469169093,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1277,18 +1267,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1417.5094212680342,
-      "score_code": 1360.3815376302985,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GPT-4.5 Preview (2025-02-27)",
-      "vendor": "Openai",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1417.3451783692672,
-      "score_code": null,
+      "score_general": 1417.5312514551465,
+      "score_code": 1360.1406242371422,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1297,7 +1277,17 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1417.1000728838098,
+      "score_general": 1417.4827620976869,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GPT-4.5 Preview (2025-02-27)",
+      "vendor": "Openai",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1417.346241747963,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1307,7 +1297,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1417.0108729012018,
+      "score_general": 1417.0387607715713,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1317,7 +1307,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1416.9101762693817,
+      "score_general": 1416.9846106747507,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1332,7 +1322,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1416.597145595349,
+      "score_general": 1416.7183901583699,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1342,7 +1332,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1416.2542606751936,
+      "score_general": 1416.4139530213079,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1352,8 +1342,8 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1415.7897618001666,
-      "score_code": 1256.2629544827098,
+      "score_general": 1416.0954139239168,
+      "score_code": 1256.1886922555873,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1362,7 +1352,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1415.285013799918,
+      "score_general": 1415.2442567043033,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1372,7 +1362,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1414.9769756873252,
+      "score_general": 1414.9950321348729,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1382,8 +1372,8 @@
       "vendor": "Moonshot",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1414.3595905612751,
-      "score_code": 1321.9150315480917,
+      "score_general": 1414.353103757365,
+      "score_code": 1321.5841755533872,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1392,8 +1382,8 @@
       "vendor": "Thinky",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1414.3220659241279,
-      "score_code": 1409.1376517895078,
+      "score_general": 1414.200451576083,
+      "score_code": 1407.6433334545286,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1402,7 +1392,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1412.9676923357692,
+      "score_general": 1413.0386626915877,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1412,8 +1402,8 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1412.2817740990185,
-      "score_code": 1416.424922259506,
+      "score_general": 1412.30281443871,
+      "score_code": 1416.6608200601013,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1422,8 +1412,8 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1411.5822872883195,
-      "score_code": 1397.299194720604,
+      "score_general": 1411.6242280397983,
+      "score_code": 1397.6401390972742,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1432,7 +1422,7 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1411.4423982430517,
+      "score_general": 1411.5044414764047,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1442,8 +1432,18 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1410.9332579412148,
-      "score_code": 1330.6239040787611,
+      "score_general": 1411.041821040475,
+      "score_code": 1330.2832327922101,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Mistral Large 4",
+      "vendor": "Mistral",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1410.7979962701063,
+      "score_code": 1560.416518956095,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1452,7 +1452,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1409.8418654743946,
+      "score_general": 1409.9182840172343,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1462,8 +1462,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1408.9868172331558,
-      "score_code": 1358.3092755979856,
+      "score_general": 1408.8218718954447,
+      "score_code": 1357.9182756551377,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1472,8 +1472,8 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1407.9257602152961,
-      "score_code": 1242.0822790398674,
+      "score_general": 1408.2120603673097,
+      "score_code": 1241.5682477978817,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1482,7 +1482,7 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1406.7643748375885,
+      "score_general": 1406.8271031376325,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1492,7 +1492,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1406.4700823094486,
+      "score_general": 1406.534448918444,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1502,7 +1502,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1406.153572986234,
+      "score_general": 1406.191202862073,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1512,18 +1512,8 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1405.7782199110707,
+      "score_general": 1405.823612403303,
       "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
-      "vendor": "Nvidia",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1404.9717731309343,
-      "score_code": 1399.1848270977043,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1532,8 +1522,18 @@
       "vendor": "Minimax",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1404.7893350912168,
-      "score_code": 1398.1916538931569,
+      "score_general": 1405.0248107195996,
+      "score_code": 1397.7506430218687,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+      "vendor": "Nvidia",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1403.7996343941238,
+      "score_code": 1399.155548211537,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1542,7 +1542,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1403.2764374555445,
+      "score_general": 1403.3373875089542,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1552,7 +1552,7 @@
       "vendor": "Stepfun",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1402.7532546299685,
+      "score_general": 1402.744978925379,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1562,18 +1562,8 @@
       "vendor": "Tencent",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1401.1747117853688,
-      "score_code": 1356.9153594827778,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Claude Haiku 5.5 (High)",
-      "vendor": "Anthropic",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1400.8832528627713,
-      "score_code": 1588.8330617127986,
+      "score_general": 1401.0541903090775,
+      "score_code": 1356.682034067681,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1582,7 +1572,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1400.6764118420924,
+      "score_general": 1400.6239483848876,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1592,7 +1582,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1400.4905345679535,
+      "score_general": 1400.5002004507205,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1602,8 +1592,18 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1399.601261717694,
-      "score_code": 1159.112594881782,
+      "score_general": 1399.6350245699855,
+      "score_code": 1159.192714246632,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Claude Haiku 5.5 (High)",
+      "vendor": "Anthropic",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1399.564959227618,
+      "score_code": 1592.3596469964282,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1612,18 +1612,8 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1398.1043581955046,
-      "score_code": 1637.4572057581888,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GPT-6 Sol (Max)",
-      "vendor": "Openai",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1397.4041561850136,
-      "score_code": 1678.189584003976,
+      "score_general": 1398.4662098726578,
+      "score_code": 1638.2773480471428,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1632,18 +1622,8 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1397.091869667012,
-      "score_code": 1243.693201316261,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Grok 4.3",
-      "vendor": "Xai",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1396.8750353792248,
-      "score_code": 1357.5695879962777,
+      "score_general": 1397.2229173740761,
+      "score_code": 1243.3073151892772,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1652,8 +1632,28 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1396.8738757631809,
-      "score_code": 1330.3720212251565,
+      "score_general": 1396.923776799847,
+      "score_code": 1330.2066953958904,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Grok 4.3",
+      "vendor": "Xai",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1396.8573564517903,
+      "score_code": 1357.325611435104,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GPT-6 Sol (Max)",
+      "vendor": "Openai",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1395.827931381274,
+      "score_code": 1674.4041773696188,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1662,7 +1662,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1395.757090715997,
+      "score_general": 1395.8062480693031,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1672,8 +1672,8 @@
       "vendor": "Xiaomi",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1394.5572637121468,
-      "score_code": 1291.6958938048085,
+      "score_general": 1394.8354549686933,
+      "score_code": 1291.5096600334552,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1682,8 +1682,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1394.5404038203628,
-      "score_code": 1254.1583882182388,
+      "score_general": 1394.6074470963315,
+      "score_code": 1254.2518144671062,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1692,7 +1692,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1393.9199902125788,
+      "score_general": 1393.9045335132312,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1702,7 +1702,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1393.460237417646,
+      "score_general": 1393.4712219576645,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1712,28 +1712,8 @@
       "vendor": "Minimax",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1391.9939284256693,
-      "score_code": 1383.9795871670053,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Muse Glimmer",
-      "vendor": "Meta",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1389.3263841690068,
-      "score_code": 1355.0649278889712,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "GPT-6 Luna (Max)",
-      "vendor": "Openai",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1389.1534001242462,
-      "score_code": 1579.4041580064886,
+      "score_general": 1392.296900415045,
+      "score_code": 1383.8262518903557,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1742,7 +1722,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1388.9836396729706,
+      "score_general": 1389.0198936264537,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1752,8 +1732,28 @@
       "vendor": "Upstage",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1388.5172371325775,
-      "score_code": 1370.181401834313,
+      "score_general": 1388.5595445148053,
+      "score_code": 1370.8295650077973,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Muse Glimmer",
+      "vendor": "Meta",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1388.2830018730574,
+      "score_code": 1354.968744857236,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "GPT-6 Luna (Max)",
+      "vendor": "Openai",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1387.719020910549,
+      "score_code": 1578.252819314701,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1762,7 +1762,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1383.7771810537429,
+      "score_general": 1383.76989218858,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1772,7 +1772,7 @@
       "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1383.6899892358351,
+      "score_general": 1383.6779790874496,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1782,7 +1782,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1382.9323727916305,
+      "score_general": 1382.9127779137775,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1792,7 +1792,7 @@
       "vendor": "Moonshot",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1379.8822243591555,
+      "score_general": 1380.0830223651549,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1802,7 +1802,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1379.2946582365073,
+      "score_general": 1379.352983110753,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1812,7 +1812,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1377.3797297303172,
+      "score_general": 1377.4087974173926,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1822,7 +1822,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1377.1609256168658,
+      "score_general": 1377.2055750306035,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1832,7 +1832,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1377.071504803101,
+      "score_general": 1377.0910891828883,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1842,7 +1842,7 @@
       "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1376.4801975206647,
+      "score_general": 1376.5041824406726,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1852,7 +1852,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1374.6123489840884,
+      "score_general": 1374.6263584889307,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1862,7 +1862,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1373.2050491205664,
+      "score_general": 1373.3123731115318,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1872,7 +1872,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1372.653848920152,
+      "score_general": 1372.6529657608748,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1882,7 +1882,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1371.9819749441592,
+      "score_general": 1372.0579204035344,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1892,7 +1892,7 @@
       "vendor": "Moonshot",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1370.7389769238102,
+      "score_general": 1370.7400904204271,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1902,7 +1902,7 @@
       "vendor": "Mistral",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1370.1062473881843,
+      "score_general": 1370.15846243577,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1912,7 +1912,7 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1369.499448037931,
+      "score_general": 1369.4655775326612,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1922,7 +1922,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1369.2052475571177,
+      "score_general": 1369.303109088257,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1932,7 +1932,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1368.0643809074534,
+      "score_general": 1368.379916783117,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1942,7 +1942,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1366.6369670821641,
+      "score_general": 1366.6680380856449,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1952,7 +1952,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1366.2309120481973,
+      "score_general": 1366.1504579774637,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1962,7 +1962,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1365.959143709601,
+      "score_general": 1365.9940997772198,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1972,7 +1972,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1365.7933983738872,
+      "score_general": 1365.788282867661,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -1982,7 +1982,7 @@
       "vendor": "OpenAI",
       "type": "free",
       "url": "https://openai.com/",
-      "score_general": 1365.4559711448665,
+      "score_general": 1365.3808885235676,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -1997,7 +1997,7 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1364.2410581280092,
+      "score_general": 1364.3416195450777,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2007,7 +2007,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1363.9074013498648,
+      "score_general": 1363.7998331491833,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2017,17 +2017,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1361.9319238016983,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Granite 4.2 30B",
-      "vendor": "Ibm",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1361.420113642912,
+      "score_general": 1361.7546319061423,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2037,7 +2027,17 @@
       "vendor": "Ant-Group",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1361.1108320545595,
+      "score_general": 1361.2928849296975,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Granite 4.2 30B",
+      "vendor": "Ibm",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1360.6785561025015,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2047,8 +2047,8 @@
       "vendor": "Minimax",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1359.1187658871881,
-      "score_code": 1386.1630928790391,
+      "score_general": 1359.1984100092789,
+      "score_code": 1385.9454705473267,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2057,7 +2057,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1357.7160204860982,
+      "score_general": 1357.7277968695348,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2067,8 +2067,8 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1356.5912537081879,
-      "score_code": 1274.7527065636266,
+      "score_general": 1356.580509592687,
+      "score_code": 1274.458603418766,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2077,7 +2077,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1355.570371004831,
+      "score_general": 1355.7989428900053,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2087,8 +2087,8 @@
       "vendor": "Inception-Ai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1354.7905193037013,
-      "score_code": 1170.3786757696055,
+      "score_general": 1355.0334127202439,
+      "score_code": 1170.2049794314423,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2097,7 +2097,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1354.0429289409012,
+      "score_general": 1354.1043180665704,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2107,7 +2107,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1353.2334554961587,
+      "score_general": 1353.267036018104,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2117,7 +2117,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1352.7494178866673,
+      "score_general": 1352.7332742250126,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2127,7 +2127,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1350.9361813287792,
+      "score_general": 1350.9905323207229,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2137,7 +2137,7 @@
       "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1350.7560835090976,
+      "score_general": 1350.5650321887183,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -2152,7 +2152,7 @@
       "vendor": "Stepfun",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1350.3564015243014,
+      "score_general": 1350.2799896977515,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2162,7 +2162,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1347.8382003476836,
+      "score_general": 1348.1424643827002,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2172,7 +2172,7 @@
       "vendor": "Minimax",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1342.625791518246,
+      "score_general": 1342.6969530840822,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2182,7 +2182,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1340.4871098545568,
+      "score_general": 1340.5618660451423,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2192,18 +2192,8 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1340.2823977332112,
-      "score_code": 1238.030861835541,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "MiniMax-M2",
-      "vendor": "Minimax",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1340.0940766507936,
-      "score_code": 1297.1093946778446,
+      "score_general": 1340.303650203855,
+      "score_code": 1237.1583071274445,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2212,8 +2202,18 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1340.064959182076,
+      "score_general": 1340.072482214821,
       "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "MiniMax-M2",
+      "vendor": "Minimax",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1340.0643000181635,
+      "score_code": 1296.9584206323925,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2222,7 +2222,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1339.3544928506944,
+      "score_general": 1339.377055285728,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2232,7 +2232,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1338.6091335448841,
+      "score_general": 1338.6064116025784,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2242,7 +2242,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1338.1216533902075,
+      "score_general": 1338.1319418340809,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2252,7 +2252,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1338.0473975859254,
+      "score_general": 1338.0609100504425,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2262,7 +2262,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1336.554689486758,
+      "score_general": 1336.5552752984056,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2272,7 +2272,7 @@
       "vendor": "Stepfun",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1335.622459471016,
+      "score_general": 1335.622484286968,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2282,7 +2282,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1334.1942341595081,
+      "score_general": 1334.199088292102,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2292,7 +2292,7 @@
       "vendor": "Ant-Group",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1333.6766257721542,
+      "score_general": 1333.7739355077415,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2302,7 +2302,7 @@
       "vendor": "Zai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1332.6347411211013,
+      "score_general": 1332.7559908793442,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2312,7 +2312,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1332.4697958402517,
+      "score_general": 1332.4609008327932,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2322,17 +2322,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1330.8998818474033,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)",
-      "vendor": "Nvidia",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1330.823850504572,
+      "score_general": 1330.9450691547747,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2342,7 +2332,17 @@
       "vendor": "Zai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1330.8024558398436,
+      "score_general": 1330.793385322035,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)",
+      "vendor": "Nvidia",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1330.5516027449266,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2352,7 +2352,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1329.5450461070186,
+      "score_general": 1329.5440876997825,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2362,7 +2362,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1329.043678839363,
+      "score_general": 1329.0914888064553,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2372,7 +2372,7 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1326.384601167099,
+      "score_general": 1326.377045351619,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2382,7 +2382,7 @@
       "vendor": "Stepfun",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1320.8797466907781,
+      "score_general": 1320.8646648416966,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2392,7 +2392,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1319.894487346712,
+      "score_general": 1319.8909382553327,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2402,7 +2402,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1319.7131391616017,
+      "score_general": 1319.7102383465506,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2412,7 +2412,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1319.5157413686723,
+      "score_general": 1319.522602675968,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2422,7 +2422,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1319.4064542183678,
+      "score_general": 1319.4162547529388,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2432,7 +2432,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1319.108082614057,
+      "score_general": 1319.0960054383788,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2442,7 +2442,7 @@
       "vendor": "Ibm",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1319.012606365005,
+      "score_general": 1319.0237043657821,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2452,7 +2452,7 @@
       "vendor": "OpenAI",
       "type": "paid",
       "url": "https://openai.com/",
-      "score_general": 1317.0514782906916,
+      "score_general": 1317.0377231637954,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2462,7 +2462,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1316.957318687116,
+      "score_general": 1316.8746839906134,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2472,17 +2472,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1314.26625242806,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Hunyuan Turbo (0110)",
-      "vendor": "Tencent",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1311.4034475522076,
+      "score_general": 1314.3357975415643,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2492,7 +2482,17 @@
       "vendor": "Allenai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1311.2397646608651,
+      "score_general": 1311.4842932248034,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Hunyuan Turbo (0110)",
+      "vendor": "Tencent",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1311.4008410208517,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2502,7 +2502,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1308.3555186549204,
+      "score_general": 1308.3536378656986,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2512,7 +2512,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1305.590995448198,
+      "score_general": 1305.6025597965743,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2522,7 +2522,7 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1304.5520910580221,
+      "score_general": 1304.5367469507667,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2532,7 +2532,7 @@
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1301.5098436309313,
+      "score_general": 1301.4935264657595,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2542,7 +2542,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1300.4126129264994,
+      "score_general": 1300.396821593649,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2552,17 +2552,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1299.3424382328653,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Olmo 3 32B Think",
-      "vendor": "Allenai",
-      "type": "free",
-      "url": "https://lmarena.ai",
-      "score_general": 1299.3356271987093,
+      "score_general": 1299.3172749695582,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2572,7 +2562,17 @@
       "vendor": "Alibaba",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1299.1239095132823,
+      "score_general": 1299.1112886089118,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Olmo 3 32B Think",
+      "vendor": "Allenai",
+      "type": "free",
+      "url": "https://lmarena.ai",
+      "score_general": 1299.038319045532,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2582,7 +2582,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1297.8386892679282,
+      "score_general": 1297.7672438339482,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2592,7 +2592,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1293.9024948254519,
+      "score_general": 1293.886576986301,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2602,7 +2602,7 @@
       "vendor": "Ibm",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1293.314650450622,
+      "score_general": 1292.7427833088302,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2612,7 +2612,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1291.436324482751,
+      "score_general": 1291.4229845068253,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2622,7 +2622,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1290.7768383785806,
+      "score_general": 1290.781787734271,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2632,8 +2632,8 @@
       "vendor": "Ibm",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1290.5286748427177,
-      "score_code": 1192.480962451842,
+      "score_general": 1290.2836839145218,
+      "score_code": 1191.8863648738554,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2642,7 +2642,7 @@
       "vendor": "Zai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1289.631356106398,
+      "score_general": 1289.6151512316578,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2652,7 +2652,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1287.929446838924,
+      "score_general": 1287.922803949521,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2662,7 +2662,7 @@
       "vendor": "Allenai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1287.4326387629408,
+      "score_general": 1287.5601374967662,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2672,7 +2672,7 @@
       "vendor": "OpenAI",
       "type": "free",
       "url": "https://openai.com/",
-      "score_general": 1287.309511106205,
+      "score_general": 1287.452441029267,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -2691,7 +2691,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1287.2143793107657,
+      "score_general": 1287.2081389705147,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2701,7 +2701,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1286.630168066074,
+      "score_general": 1286.6160273173139,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2711,7 +2711,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1286.3528401890399,
+      "score_general": 1286.3428742990222,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2721,7 +2721,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1284.7709818107187,
+      "score_general": 1284.775791545142,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2731,7 +2731,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1283.661187380033,
+      "score_general": 1283.6535594597826,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2741,7 +2741,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1282.6318653427738,
+      "score_general": 1282.6153035009827,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2751,17 +2751,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1282.5185711415197,
-      "score_code": null,
-      "has_free_api": false,
-      "free_api_providers": []
-    },
-    {
-      "name": "Mercury",
-      "vendor": "Inception-Ai",
-      "type": "paid",
-      "url": "https://lmarena.ai",
-      "score_general": 1281.9929172909874,
+      "score_general": 1282.502543271007,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2771,7 +2761,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1281.8588354119897,
+      "score_general": 1281.8426804970577,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2781,7 +2771,17 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1281.778841359962,
+      "score_general": 1281.7629456816512,
+      "score_code": null,
+      "has_free_api": false,
+      "free_api_providers": []
+    },
+    {
+      "name": "Mercury",
+      "vendor": "Inception-Ai",
+      "type": "paid",
+      "url": "https://lmarena.ai",
+      "score_general": 1281.7298842191333,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2791,7 +2791,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1280.896652398561,
+      "score_general": 1280.8810136455568,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2801,7 +2801,7 @@
       "vendor": "Xai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1280.6694943602158,
+      "score_general": 1280.6541032505825,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2811,7 +2811,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1279.141560630459,
+      "score_general": 1279.1826836767357,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2821,7 +2821,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1278.5343844256342,
+      "score_general": 1278.519588360286,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2831,7 +2831,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1277.0176604033627,
+      "score_general": 1277.055194381985,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2841,7 +2841,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1274.2339448941143,
+      "score_general": 1274.1932737696206,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2851,7 +2851,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1273.9745985055042,
+      "score_general": 1273.9679003148244,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2861,7 +2861,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1273.470175960854,
+      "score_general": 1273.455440081212,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2871,7 +2871,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1271.668366608304,
+      "score_general": 1271.6528631309145,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2881,7 +2881,7 @@
       "vendor": "Allenai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1271.3834707853453,
+      "score_general": 1271.6450880550112,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2891,7 +2891,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1271.2289949457931,
+      "score_general": 1271.2130473920242,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2901,7 +2901,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1268.9953893416152,
+      "score_general": 1268.980516909578,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2911,7 +2911,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1266.1223583516378,
+      "score_general": 1266.1065941745364,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2921,7 +2921,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1265.2895017749975,
+      "score_general": 1265.2840840503081,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2931,7 +2931,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1265.116892163243,
+      "score_general": 1265.1021647808598,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2941,7 +2941,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1263.4145976695206,
+      "score_general": 1263.3992526665565,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2951,7 +2951,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1262.8503726336094,
+      "score_general": 1263.1320686136994,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2961,7 +2961,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1262.1809240221728,
+      "score_general": 1262.165562046854,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2971,7 +2971,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1261.9814463613552,
+      "score_general": 1261.9659229325368,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2981,7 +2981,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1260.8844836857302,
+      "score_general": 1260.8685967107156,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -2991,7 +2991,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1258.6756295305622,
+      "score_general": 1258.6711954455163,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3001,7 +3001,7 @@
       "vendor": "Allenai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1255.7017068066589,
+      "score_general": 1255.686050054531,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3011,7 +3011,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1255.3891286269982,
+      "score_general": 1255.3518487320878,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3021,7 +3021,7 @@
       "vendor": "Mistral",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1254.829455326594,
+      "score_general": 1254.6864662057187,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3031,7 +3031,7 @@
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1248.3573231205955,
+      "score_general": 1248.3425998139185,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3041,7 +3041,7 @@
       "vendor": "Ibm",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1241.2876230336656,
+      "score_general": 1241.4793297761782,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3051,7 +3051,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1239.2775055408501,
+      "score_general": 1239.2627757398384,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3061,7 +3061,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1237.0005423556381,
+      "score_general": 1236.9858702781748,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3071,7 +3071,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1233.5352919386896,
+      "score_general": 1233.534419781374,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3081,7 +3081,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1231.354781871701,
+      "score_general": 1231.3419556133488,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3091,7 +3091,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1230.0212940556198,
+      "score_general": 1230.0038470831814,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3101,7 +3101,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1228.8749997152304,
+      "score_general": 1228.8602628892402,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3111,7 +3111,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1228.4629562853452,
+      "score_general": 1228.4555785830057,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3121,7 +3121,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1227.9688370719455,
+      "score_general": 1227.9520369166971,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3131,7 +3131,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1227.040537421406,
+      "score_general": 1227.0258600556626,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3141,7 +3141,7 @@
       "vendor": "Zai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1225.8852169866777,
+      "score_general": 1225.8704268623649,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3151,7 +3151,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1225.8332375291734,
+      "score_general": 1225.8184241546514,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3161,7 +3161,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1224.7904502533856,
+      "score_general": 1224.775627427111,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3171,7 +3171,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1223.9851424788685,
+      "score_general": 1223.9710220767681,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -3186,7 +3186,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1220.772923356913,
+      "score_general": 1220.7580848117161,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3196,7 +3196,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1218.0144731217395,
+      "score_general": 1217.999663499353,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3206,7 +3206,7 @@
       "vendor": "Allenai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1217.912800838974,
+      "score_general": 1217.9144904103669,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3216,7 +3216,7 @@
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1217.8964957181256,
+      "score_general": 1217.8817690044011,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3226,7 +3226,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1216.6603026331472,
+      "score_general": 1216.6552229178305,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3236,7 +3236,7 @@
       "vendor": "Amazon",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1208.3989831359058,
+      "score_general": 1208.3915832315333,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3246,7 +3246,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1207.3693729283832,
+      "score_general": 1207.356455200811,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3256,7 +3256,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1205.9847162036697,
+      "score_general": 1205.9697967948978,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3266,7 +3266,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1203.806895780152,
+      "score_general": 1203.7920725855652,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -3281,7 +3281,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1203.2485507387414,
+      "score_general": 1203.2338153618446,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3291,7 +3291,7 @@
       "vendor": "Tencent",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1201.9054640507336,
+      "score_general": 1201.8884671213202,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3301,7 +3301,7 @@
       "vendor": "Anthropic",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1194.6570990793484,
+      "score_general": 1194.6417538188314,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3311,7 +3311,7 @@
       "vendor": "Allenai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1193.2842176045915,
+      "score_general": 1193.2685527111032,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3321,7 +3321,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1191.1666419375047,
+      "score_general": 1191.151942383103,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3331,7 +3331,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1190.8951956617093,
+      "score_general": 1190.8786292629131,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3341,7 +3341,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1187.3354116031178,
+      "score_general": 1187.3207002487275,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3351,7 +3351,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1186.6521257567038,
+      "score_general": 1186.6374583470654,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3361,7 +3361,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1186.5545901947103,
+      "score_general": 1186.5387197583752,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3371,7 +3371,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1185.982205356655,
+      "score_general": 1185.9673234215925,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3381,7 +3381,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1185.0880154678862,
+      "score_general": 1185.074394092697,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3391,7 +3391,7 @@
       "vendor": "Mistral",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1176.452947507485,
+      "score_general": 1176.4381224270933,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3401,7 +3401,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1174.5467824172626,
+      "score_general": 1174.5318553752595,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3411,7 +3411,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1172.9344385201462,
+      "score_general": 1172.9196159229766,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3421,7 +3421,7 @@
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1170.4085362524397,
+      "score_general": 1170.3935829213906,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3431,7 +3431,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1166.1281082324704,
+      "score_general": 1166.113156492322,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3441,7 +3441,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1165.5792666299885,
+      "score_general": 1165.5644355237187,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3451,7 +3451,7 @@
       "vendor": "Mistral",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1165.114059116927,
+      "score_general": 1165.0990939755918,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3461,7 +3461,7 @@
       "vendor": "Unknown",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1164.9641214869762,
+      "score_general": 1164.9491958356193,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3471,7 +3471,7 @@
       "vendor": "Cohere",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1163.1100539155575,
+      "score_general": 1163.095233635345,
       "score_code": null,
       "has_free_api": true,
       "free_api_providers": [
@@ -3486,7 +3486,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1161.9623243063847,
+      "score_general": 1161.9475322604376,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3496,7 +3496,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1161.7700834730654,
+      "score_general": 1161.7536883816115,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3506,7 +3506,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1158.421487315993,
+      "score_general": 1158.4066473358748,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3516,7 +3516,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1155.7512846627624,
+      "score_general": 1155.7383933662604,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3526,7 +3526,7 @@
       "vendor": "Ibm",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1149.5031145638968,
+      "score_general": 1149.48782383228,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3536,7 +3536,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1148.8238597029904,
+      "score_general": 1148.808871988564,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3546,7 +3546,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1143.6680577424963,
+      "score_general": 1143.6530817698854,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3556,7 +3556,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1137.5255077500833,
+      "score_general": 1137.5107727013426,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3566,7 +3566,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1137.1780655479756,
+      "score_general": 1137.163127183795,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3576,7 +3576,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1132.0185855774776,
+      "score_general": 1132.0036158318774,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3586,7 +3586,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1131.533624725182,
+      "score_general": 1131.5187555410826,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3596,7 +3596,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1130.5137397400445,
+      "score_general": 1130.4987573654912,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3606,7 +3606,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1128.445588324374,
+      "score_general": 1128.430617682547,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3616,7 +3616,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1127.66896734913,
+      "score_general": 1127.6540026842472,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3626,7 +3626,7 @@
       "vendor": "Ibm",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1127.3849756129448,
+      "score_general": 1127.3697667790384,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3636,7 +3636,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1124.8957839258728,
+      "score_general": 1124.8808951249393,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3646,7 +3646,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1121.0101253116945,
+      "score_general": 1120.9951583327545,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3656,7 +3656,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1119.495762567351,
+      "score_general": 1119.4807955669971,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3666,7 +3666,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1118.8438688892738,
+      "score_general": 1118.8289201776458,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3676,7 +3676,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1115.2028706040264,
+      "score_general": 1115.1879080403583,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3686,7 +3686,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1112.0138943755924,
+      "score_general": 1111.998922226435,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3696,7 +3696,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1109.7983017958509,
+      "score_general": 1109.7834831335074,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3706,7 +3706,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1109.5096276380536,
+      "score_general": 1109.494942687767,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3716,7 +3716,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1107.6358840536582,
+      "score_general": 1107.6209202364585,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3726,7 +3726,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1106.5834175859072,
+      "score_general": 1106.5684335154929,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3736,7 +3736,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1105.2348287261207,
+      "score_general": 1105.2198612598595,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3746,7 +3746,7 @@
       "vendor": "Deepseek",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1105.0043462460053,
+      "score_general": 1104.9893606141702,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3756,7 +3756,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1100.9501299869512,
+      "score_general": 1100.935212742193,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3766,7 +3766,7 @@
       "vendor": "Nvidia",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1098.0652327344915,
+      "score_general": 1098.0502658574685,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3776,7 +3776,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1097.006877616248,
+      "score_general": 1096.991913883896,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3786,7 +3786,7 @@
       "vendor": "Ibm",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1096.4203680884266,
+      "score_general": 1096.4038611010672,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3796,7 +3796,7 @@
       "vendor": "Openai",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1094.0956904951918,
+      "score_general": 1094.0807250348346,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3806,7 +3806,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1093.9473484400726,
+      "score_general": 1093.932482837388,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3816,7 +3816,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1092.4737967621568,
+      "score_general": 1092.4588422702536,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3826,7 +3826,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1089.5394885491264,
+      "score_general": 1089.5245220888876,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3836,7 +3836,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1084.431542017187,
+      "score_general": 1084.41658645325,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3846,7 +3846,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1083.4342730786866,
+      "score_general": 1083.419305396266,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3856,7 +3856,7 @@
       "vendor": "Upstage",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1083.061724330194,
+      "score_general": 1083.0467688172837,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3866,7 +3866,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1080.9473555531677,
+      "score_general": 1080.932399317644,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3876,7 +3876,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1079.9296305246194,
+      "score_general": 1079.9148576355212,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3886,7 +3886,7 @@
       "vendor": "Ibm",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1079.8237006022864,
+      "score_general": 1079.8072353841214,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3896,7 +3896,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1076.511942269457,
+      "score_general": 1076.4969973979212,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3906,7 +3906,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1073.2805508074466,
+      "score_general": 1073.2657094805472,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3916,7 +3916,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1069.395760178566,
+      "score_general": 1069.380798941842,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3926,7 +3926,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1068.5828486662194,
+      "score_general": 1068.5679099287252,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3936,7 +3936,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1065.457674136584,
+      "score_general": 1065.4427067800286,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3946,7 +3946,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1058.3430374770055,
+      "score_general": 1058.3280546225799,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3956,7 +3956,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1057.631597283334,
+      "score_general": 1057.6166329605132,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3966,7 +3966,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1057.2158195307727,
+      "score_general": 1057.2007696324163,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3976,7 +3976,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1056.12854408776,
+      "score_general": 1056.1135780405475,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3986,7 +3986,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1054.6099914712167,
+      "score_general": 1054.5954204227662,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -3996,7 +3996,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1054.3270986474058,
+      "score_general": 1054.3121322335794,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4006,7 +4006,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1053.3721205234165,
+      "score_general": 1053.3571475972783,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4016,7 +4016,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1053.3520700065703,
+      "score_general": 1053.337136442638,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4026,7 +4026,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1051.0009025323902,
+      "score_general": 1050.9859331337277,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4036,7 +4036,7 @@
       "vendor": "Microsoft",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1050.3629599176484,
+      "score_general": 1050.348016534148,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4046,7 +4046,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1041.9975021572077,
+      "score_general": 1041.9811204467587,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4056,7 +4056,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1038.413174491502,
+      "score_general": 1038.3981982685134,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4066,7 +4066,7 @@
       "vendor": "Allenai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1031.7843180046139,
+      "score_general": 1031.7693010581902,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4076,7 +4076,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1030.9198771521587,
+      "score_general": 1030.9049073788335,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4086,7 +4086,7 @@
       "vendor": "Google",
       "type": "paid",
       "url": "https://lmarena.ai",
-      "score_general": 1027.2108423118302,
+      "score_general": 1027.1958947911025,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4096,7 +4096,7 @@
       "vendor": "Mistral",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1023.4808680169727,
+      "score_general": 1023.4659001182713,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4106,7 +4106,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1022.197173624908,
+      "score_general": 1022.1822487925106,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4116,7 +4116,7 @@
       "vendor": "Google",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 1002.1202620771184,
+      "score_general": 1002.1052315847505,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4126,7 +4126,7 @@
       "vendor": "Alibaba",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 997.2076490798005,
+      "score_general": 997.1926628845156,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4136,7 +4136,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 989.5812996308367,
+      "score_general": 989.5663223055178,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4146,7 +4146,7 @@
       "vendor": "Z.ai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 972.0107019916431,
+      "score_general": 971.9958055936102,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4156,7 +4156,7 @@
       "vendor": "OpenAI",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 956.1534517084946,
+      "score_general": 956.1384484778887,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4166,7 +4166,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 955.1911047663635,
+      "score_general": 955.1761479475902,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4176,7 +4176,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 948.3579739037658,
+      "score_general": 948.3430159438033,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4186,7 +4186,7 @@
       "vendor": "Z.ai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 938.5996162872381,
+      "score_general": 938.5846686487091,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4196,7 +4196,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 932.7825782419133,
+      "score_general": 932.7676135399272,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4206,7 +4206,7 @@
       "vendor": "Z.ai",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 918.4364209830604,
+      "score_general": 918.4214497695475,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4216,7 +4216,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 916.0383456751496,
+      "score_general": 916.0233734084045,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4226,7 +4226,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 894.3709108985189,
+      "score_general": 894.3559476682442,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4236,7 +4236,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 866.5450988641396,
+      "score_general": 866.5302610515024,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4246,7 +4246,7 @@
       "vendor": "Unknown",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 851.0994822135206,
+      "score_general": 851.0844733187328,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
@@ -4256,7 +4256,7 @@
       "vendor": "Meta",
       "type": "free",
       "url": "https://lmarena.ai",
-      "score_general": 833.4819229699849,
+      "score_general": 833.4669435157075,
       "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
