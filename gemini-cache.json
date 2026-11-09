@@ -5899,5 +5899,12 @@
     "vendor": "Google",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "Inkling 2 Small": {
+    "arena_name": "Inkling 2 Small",
+    "name": "Inkling 2 Small",
+    "vendor": "Thinky",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
