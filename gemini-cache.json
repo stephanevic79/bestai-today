@@ -5906,5 +5906,12 @@
     "vendor": "Thinky",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "Kimi K3.1 Pro (Max)": {
+    "arena_name": "Kimi K3.1 Pro (Max)",
+    "name": "Kimi K3.1 Pro (Max)",
+    "vendor": "Moonshot",
+    "type": "free",
+    "url": "https://lmarena.ai"
   }
 }
