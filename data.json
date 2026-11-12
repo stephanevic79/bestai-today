@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-11-09",
-  "retrieved_at": "2026-11-11T13:36:43Z",
+  "retrieved_at": "2026-11-12T14:40:07Z",
   "models": [
     {
       "name": "Gemini 4 Carbon (High)",
@@ -1004,13 +1004,8 @@
       "url": "https://lmarena.ai",
       "score_general": 1428.6218230728227,
       "score_code": 1233.2878027556408,
-      "has_free_api": true,
-      "free_api_providers": [
-        {
-          "provider": "Mistral AI",
-          "url": "https://console.mistral.ai/api-keys"
-        }
-      ]
+      "has_free_api": false,
+      "free_api_providers": []
     },
     {
       "name": "ChatGPT-4o Latest (20250326)",
