@@ -5913,5 +5913,12 @@
     "vendor": "Moonshot",
     "type": "free",
     "url": "https://lmarena.ai"
+  },
+  "Gemini 4 Hydrogen (High)": {
+    "arena_name": "Gemini 4 Hydrogen (High)",
+    "name": "Gemini 4 Hydrogen (High)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
