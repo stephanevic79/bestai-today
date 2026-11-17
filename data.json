@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-11-11",
-  "retrieved_at": "2026-11-16T14:51:46Z",
+  "retrieved_at": "2026-11-17T15:31:07Z",
   "models": [
     {
       "name": "Gemini 4 Carbon (High)",
@@ -299,8 +299,13 @@
       "url": "https://lmarena.ai",
       "score_general": 1471.719083894755,
       "score_code": 1609.106095262355,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "AxForge",
+          "url": "https://console.axforge.ai/"
+        }
+      ]
     },
     {
       "name": "GPT-5.5 (High)",
@@ -549,8 +554,13 @@
       "url": "https://lmarena.ai",
       "score_general": 1450.8436942626167,
       "score_code": 1638.534308059064,
-      "has_free_api": false,
-      "free_api_providers": []
+      "has_free_api": true,
+      "free_api_providers": [
+        {
+          "provider": "AxForge",
+          "url": "https://console.axforge.ai/"
+        }
+      ]
     },
     {
       "name": "GPT-5.6 Terra (xHigh)",
@@ -861,6 +871,10 @@
       "score_code": 1589.9120921259462,
       "has_free_api": true,
       "free_api_providers": [
+        {
+          "provider": "AxForge",
+          "url": "https://console.axforge.ai/"
+        },
         {
           "provider": "OVHcloud AI Endpoints",
           "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
