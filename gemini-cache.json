@@ -5920,5 +5920,12 @@
     "vendor": "Google",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "Gemini 4 Neon (High)": {
+    "arena_name": "Gemini 4 Neon (High)",
+    "name": "Gemini 4 Neon (High)",
+    "vendor": "Google",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
