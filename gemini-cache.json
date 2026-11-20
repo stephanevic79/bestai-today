@@ -5927,5 +5927,33 @@
     "vendor": "Google",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "Claude Fable 5.2 (Max)": {
+    "arena_name": "Claude Fable 5.2 (Max)",
+    "name": "Claude Fable 5.2 (Max)",
+    "vendor": "Anthropic",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-6.1 Terra (Max)": {
+    "arena_name": "GPT-6.1 Terra (Max)",
+    "name": "GPT-6.1 Terra (Max)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-6.2 Sol (Max)": {
+    "arena_name": "GPT-6.2 Sol (Max)",
+    "name": "GPT-6.2 Sol (Max)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
+  },
+  "GPT-6.2 Astra (Max)": {
+    "arena_name": "GPT-6.2 Astra (Max)",
+    "name": "GPT-6.2 Astra (Max)",
+    "vendor": "Openai",
+    "type": "paid",
+    "url": "https://lmarena.ai"
   }
 }
