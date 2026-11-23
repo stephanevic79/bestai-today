@@ -5955,5 +5955,12 @@
     "vendor": "Openai",
     "type": "paid",
     "url": "https://lmarena.ai"
+  },
+  "Inkling 2 Mini": {
+    "arena_name": "Inkling 2 Mini",
+    "name": "Inkling 2 Mini",
+    "vendor": "Thinky",
+    "type": "free",
+    "url": "https://lmarena.ai"
   }
 }
