@@ -1,6 +1,6 @@
 {
   "ranking_date": "2026-11-22",
-  "retrieved_at": "2026-11-23T17:27:35Z",
+  "retrieved_at": "2026-11-24T16:59:28Z",
   "models": [
     {
       "name": "Gemini 4 Carbon (High)",
@@ -8,7 +8,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1538.8733656178997,
-      "score_code": 1768.897000921913,
+      "score_code": 1768.9772706074991,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -18,7 +18,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1527.6707454486746,
-      "score_code": 1681.4217235601088,
+      "score_code": 1682.0602691734389,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -28,7 +28,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1522.8896905416118,
-      "score_code": 1765.7693354866158,
+      "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -48,7 +48,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1511.7703155455783,
-      "score_code": 1742.1002817722865,
+      "score_code": 1741.8110561298713,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -58,7 +58,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1506.1795360065344,
-      "score_code": 1691.6504623219375,
+      "score_code": 1691.5779347983207,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -68,7 +68,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1503.6619735295121,
-      "score_code": 1646.0052671307333,
+      "score_code": 1645.9398221536017,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -78,7 +78,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1502.1947940909968,
-      "score_code": 1656.5658490486398,
+      "score_code": 1656.4457858311303,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -88,7 +88,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1502.1451228167848,
-      "score_code": 1701.1091693901035,
+      "score_code": null,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -98,7 +98,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1501.5275016749329,
-      "score_code": 1546.555808845319,
+      "score_code": 1546.3530721710918,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -108,7 +108,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1500.8803494450558,
-      "score_code": 1584.0154399737366,
+      "score_code": 1584.313184986891,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -118,7 +118,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1496.7892465167702,
-      "score_code": 1536.7295872549491,
+      "score_code": 1536.614231369147,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -128,7 +128,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1492.9022275319262,
-      "score_code": 1652.3301529189641,
+      "score_code": 1652.3208963362117,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -138,7 +138,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1492.8697235495856,
-      "score_code": 1622.4017069116076,
+      "score_code": 1622.4705526542643,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -148,7 +148,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1491.7552175389037,
-      "score_code": 1625.884744970482,
+      "score_code": 1625.8274645929919,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -158,7 +158,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1489.8288192461714,
-      "score_code": 1557.5228489262315,
+      "score_code": 1557.3954105121502,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -168,7 +168,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1489.1400216744582,
-      "score_code": 1588.7230846168109,
+      "score_code": 1588.7344105515144,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -178,7 +178,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1484.9138435273762,
-      "score_code": 1670.5592725144666,
+      "score_code": 1670.5277833582195,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -188,7 +188,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1483.5168032483698,
-      "score_code": 1533.1917451175395,
+      "score_code": 1532.95378197347,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -198,7 +198,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1483.3737608184583,
-      "score_code": 1555.502495613465,
+      "score_code": 1555.5839597922704,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -208,7 +208,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1482.809520861872,
-      "score_code": 1499.975944627982,
+      "score_code": 1499.9136708180567,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -218,7 +218,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1480.0053904777624,
-      "score_code": 1446.5004040945703,
+      "score_code": 1446.4257131784339,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -228,7 +228,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1479.731647527069,
-      "score_code": 1441.1298285050232,
+      "score_code": 1441.0787903983446,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -238,7 +238,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1479.2971128164313,
-      "score_code": 1537.9064690816265,
+      "score_code": 1538.0393764770001,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -248,7 +248,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1479.180123692261,
-      "score_code": 1541.4120401120108,
+      "score_code": 1541.345934430838,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -258,7 +258,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1477.722342835811,
-      "score_code": 1490.3851669649005,
+      "score_code": 1490.3302638833225,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -278,7 +278,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1474.7761478917705,
-      "score_code": 1658.7846800157013,
+      "score_code": 1658.4449671446018,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -298,7 +298,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1474.5716420587655,
-      "score_code": 1622.9511692846652,
+      "score_code": 1623.0219356379225,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -318,7 +318,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1471.739804277805,
-      "score_code": 1610.7839118554873,
+      "score_code": 1611.0532405732251,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -353,7 +353,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1469.5034703501647,
-      "score_code": 1607.335758974533,
+      "score_code": 1607.3921597419799,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -363,7 +363,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1469.3610736670175,
-      "score_code": 1772.3567021268916,
+      "score_code": 1772.644765547574,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -403,7 +403,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1465.9368559389345,
-      "score_code": 1440.2619910584126,
+      "score_code": 1440.4185068889637,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -413,7 +413,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1463.9260899046499,
-      "score_code": 1479.3949758499728,
+      "score_code": 1479.2733487448663,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -423,7 +423,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1462.7856555605854,
-      "score_code": 1621.4973484739592,
+      "score_code": 1621.409880203697,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -433,7 +433,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1462.2808759079671,
-      "score_code": 1508.2193523644025,
+      "score_code": 1508.10517802282,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -443,7 +443,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1461.5212096915589,
-      "score_code": 1555.5595725598923,
+      "score_code": 1555.5656330756242,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -453,7 +453,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1458.934117265021,
-      "score_code": 1683.1322989374808,
+      "score_code": 1682.8911109229225,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -463,7 +463,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1457.836193492526,
-      "score_code": 1226.5231932877393,
+      "score_code": 1226.4889306006512,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -473,7 +473,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1457.7215755989687,
-      "score_code": 1521.996993255396,
+      "score_code": 1521.9701054721168,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -493,7 +493,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1455.5167084970335,
-      "score_code": 1509.0031648022205,
+      "score_code": 1508.8499946385537,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -513,7 +513,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1453.552603788391,
-      "score_code": 1536.1840770272686,
+      "score_code": 1536.2792018450414,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -523,7 +523,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1452.29658034748,
-      "score_code": 1400.2700263984652,
+      "score_code": 1399.88973631533,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -533,7 +533,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1451.3484307730323,
-      "score_code": 1448.6802748692253,
+      "score_code": 1448.461010382081,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -543,7 +543,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1451.2981230600003,
-      "score_code": 1376.3332678877873,
+      "score_code": 1376.3399412349731,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -563,7 +563,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1450.7860585038393,
-      "score_code": 1469.041662628633,
+      "score_code": 1469.081470901135,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -573,7 +573,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1450.328652041152,
-      "score_code": 1636.9862571018007,
+      "score_code": 1637.214746940664,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -618,7 +618,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1448.210242860559,
-      "score_code": 1493.7184579492139,
+      "score_code": 1493.7119819862355,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -628,7 +628,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1447.8715364370187,
-      "score_code": 1552.3972741184702,
+      "score_code": 1552.4448958178587,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -638,7 +638,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1446.3453099051171,
-      "score_code": 1481.51453620184,
+      "score_code": 1481.246456693862,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -648,7 +648,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1445.928085943252,
-      "score_code": 1434.8364338006375,
+      "score_code": 1434.7886227063495,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -658,7 +658,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1445.7343463885259,
-      "score_code": 1744.4402610654995,
+      "score_code": 1744.7305522570327,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -678,7 +678,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1445.0029880609873,
-      "score_code": 1463.746895794831,
+      "score_code": 1463.5940406252062,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -688,7 +688,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1444.702539532534,
-      "score_code": 1436.4228019470754,
+      "score_code": 1436.2995374936563,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -708,7 +708,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1444.5607293394455,
-      "score_code": 1581.2477877388428,
+      "score_code": 1581.3871408900563,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -728,7 +728,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1443.99520904758,
-      "score_code": 1413.8324507566845,
+      "score_code": 1413.9528449856919,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -748,7 +748,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1442.8964006543702,
-      "score_code": 1370.6853714888523,
+      "score_code": 1370.5641443874654,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -783,7 +783,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1442.3468506988615,
-      "score_code": 1384.5217179293977,
+      "score_code": 1384.357522303656,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -793,7 +793,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1441.6715641367923,
-      "score_code": 1539.6269742847192,
+      "score_code": 1539.4492060589214,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -803,7 +803,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1441.0866317204095,
-      "score_code": 1764.3365718071632,
+      "score_code": 1763.6447154168923,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -813,7 +813,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1440.249691881732,
-      "score_code": 1506.1113989279459,
+      "score_code": 1506.334064545486,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -823,7 +823,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1440.203936819952,
-      "score_code": 1341.9810150919682,
+      "score_code": 1341.9528549632305,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -843,7 +843,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1438.477652002522,
-      "score_code": 1384.8319271764558,
+      "score_code": 1384.7172483367672,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -863,7 +863,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1437.7051143246026,
-      "score_code": 1590.177649407764,
+      "score_code": 1590.2557609636428,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -882,7 +882,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1437.5951002225488,
-      "score_code": 1399.9679197486396,
+      "score_code": 1399.9444996196626,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -897,7 +897,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1436.723524926444,
-      "score_code": 1216.0148285718155,
+      "score_code": 1215.9820553143031,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -907,7 +907,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1436.347477022373,
-      "score_code": 1435.023090708668,
+      "score_code": 1434.8195696514645,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -927,7 +927,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1436.1250625313428,
-      "score_code": 1461.8118039494004,
+      "score_code": 1461.861438073035,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -937,7 +937,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1435.3938966393475,
-      "score_code": 1436.0515254386073,
+      "score_code": 1436.0192312384359,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -947,7 +947,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1434.9666669480375,
-      "score_code": 1434.4933792194483,
+      "score_code": 1434.451295285351,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -962,7 +962,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1434.214589700226,
-      "score_code": 1393.8760562782272,
+      "score_code": 1393.8354954016907,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -972,7 +972,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1434.1781138617516,
-      "score_code": 1357.677243496498,
+      "score_code": 1357.6223950214903,
       "has_free_api": true,
       "free_api_providers": [
         {
@@ -1017,7 +1017,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1430.1017661392066,
-      "score_code": 1618.0648991739006,
+      "score_code": 1618.071048155995,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1037,7 +1037,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1428.6973379730562,
-      "score_code": 1232.6597423133696,
+      "score_code": 1232.629623357218,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1067,7 +1067,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1427.629335769046,
-      "score_code": 1437.9277968773035,
+      "score_code": 1437.818176491485,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1077,7 +1077,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1426.2467490898684,
-      "score_code": 1484.1964237886375,
+      "score_code": 1484.2010329776285,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1097,7 +1097,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1426.0173531911273,
-      "score_code": 1686.413765504842,
+      "score_code": 1686.2645897755729,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1127,7 +1127,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1424.8108090421551,
-      "score_code": 1431.2196786604218,
+      "score_code": 1430.9706451768225,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1137,7 +1137,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1424.5388349278196,
-      "score_code": 1325.6923249788695,
+      "score_code": 1325.6393972984743,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1157,7 +1157,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1423.6826965498403,
-      "score_code": 1437.5343787289617,
+      "score_code": 1437.3435784816943,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1187,7 +1187,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1422.3704529873248,
-      "score_code": 1271.336963890124,
+      "score_code": 1271.3061784387824,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1197,7 +1197,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1422.2160922112062,
-      "score_code": 1342.2417008756522,
+      "score_code": 1342.2118690902225,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1207,7 +1207,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1420.729941316447,
-      "score_code": 1263.1893606952653,
+      "score_code": 1263.2125877591725,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1217,7 +1217,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1420.387388515172,
-      "score_code": 1405.6450665171965,
+      "score_code": 1405.7554098611326,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1227,7 +1227,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1420.2418000947177,
-      "score_code": 1362.711023945393,
+      "score_code": 1362.76675807408,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1307,7 +1307,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1418.4827488209567,
-      "score_code": 1390.2287724876946,
+      "score_code": 1390.2002304415937,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1327,7 +1327,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1417.6514362979487,
-      "score_code": 1360.369178163605,
+      "score_code": 1360.350079433465,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1392,7 +1392,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1416.1197319801345,
-      "score_code": 1255.9266725067162,
+      "score_code": 1255.8328224118745,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1422,7 +1422,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1414.4677694297266,
-      "score_code": 1321.8283590412236,
+      "score_code": 1321.7783513020288,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1432,7 +1432,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1413.9550610439883,
-      "score_code": 1407.6327916303615,
+      "score_code": 1407.475269422044,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1442,7 +1442,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1413.6650228865892,
-      "score_code": 1572.5110238838154,
+      "score_code": 1572.3896552009987,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1452,7 +1452,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1413.6613007109495,
-      "score_code": 1755.0678190213337,
+      "score_code": 1754.823285761312,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1462,7 +1462,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1413.329882319853,
-      "score_code": 1759.4459073817447,
+      "score_code": 1760.6727670955838,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1482,7 +1482,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1411.9286285080884,
-      "score_code": 1418.9775048431984,
+      "score_code": 1418.9492398164925,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1492,7 +1492,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1411.5727261188408,
-      "score_code": 1397.9827710140364,
+      "score_code": 1398.0933984071448,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1512,7 +1512,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1411.1948723749183,
-      "score_code": 1331.632983507087,
+      "score_code": 1331.7102387840305,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1532,7 +1532,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1408.8474600075965,
-      "score_code": 1357.230222888965,
+      "score_code": 1357.1361585250293,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1542,7 +1542,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1408.3350237902769,
-      "score_code": 1241.6696587799222,
+      "score_code": 1241.6294879826992,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1552,7 +1552,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1407.4620830030485,
-      "score_code": 1399.6359221899095,
+      "score_code": 1400.038159892862,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1602,7 +1602,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1404.5986195036721,
-      "score_code": 1398.0064063767911,
+      "score_code": 1397.9128553136584,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1622,7 +1622,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1402.8287841496954,
-      "score_code": 1640.624094232206,
+      "score_code": 1642.1287050746696,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1642,7 +1642,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1401.5632561482544,
-      "score_code": 1358.9424324436625,
+      "score_code": 1358.8416286378722,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1672,7 +1672,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1400.5535384650093,
-      "score_code": 1639.494292854653,
+      "score_code": 1639.0292895238558,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1682,7 +1682,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1399.559188511735,
-      "score_code": 1158.4915651806223,
+      "score_code": 1158.460344568934,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1692,7 +1692,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1397.9342815341015,
-      "score_code": 1674.8160322803112,
+      "score_code": 1674.5323280937087,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1702,7 +1702,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1397.829955735574,
-      "score_code": 1595.1199560828725,
+      "score_code": 1594.68828242659,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1712,7 +1712,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1397.2279861882803,
-      "score_code": 1243.5451408560439,
+      "score_code": 1243.486488208217,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1722,7 +1722,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1396.8269360191211,
-      "score_code": 1357.4500225996235,
+      "score_code": 1357.4271590044264,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1732,7 +1732,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1396.5372707307115,
-      "score_code": 1330.1234938537095,
+      "score_code": 1330.111344096381,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1752,7 +1752,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1394.8363670127437,
-      "score_code": 1290.9700201967114,
+      "score_code": 1290.9318530874402,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1762,7 +1762,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1394.7579149484304,
-      "score_code": 1253.4317076759228,
+      "score_code": 1253.3729491787813,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1792,7 +1792,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1391.8521705779262,
-      "score_code": 1384.1594989480586,
+      "score_code": 1383.9880989288572,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1802,7 +1802,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1390.579664131676,
-      "score_code": 1578.6377859741026,
+      "score_code": 1578.6975414663725,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1812,7 +1812,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1389.0563016601045,
-      "score_code": 1353.006344999232,
+      "score_code": 1352.9724310961064,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -1832,7 +1832,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1388.3321790220261,
-      "score_code": 1369.3311053081443,
+      "score_code": 1369.2777100253147,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2127,7 +2127,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1359.3259625322498,
-      "score_code": 1385.9398079170805,
+      "score_code": 1385.8115977845741,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2157,7 +2157,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1356.4470553026013,
-      "score_code": 1274.4411575734243,
+      "score_code": 1274.4575468828298,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2167,7 +2167,7 @@
       "type": "paid",
       "url": "https://lmarena.ai",
       "score_general": 1354.77810611503,
-      "score_code": 1169.636442539069,
+      "score_code": 1169.5710120767048,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2252,7 +2252,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1343.6829566726776,
-      "score_code": 1557.149244794357,
+      "score_code": 1559.7868951203154,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2282,7 +2282,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1340.1507404059694,
-      "score_code": 1236.6533555050455,
+      "score_code": 1236.9272778121367,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2292,7 +2292,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1340.1335904864088,
-      "score_code": 1298.9891887217834,
+      "score_code": 1298.9605586343614,
       "has_free_api": false,
       "free_api_providers": []
     },
@@ -2712,7 +2712,7 @@
       "type": "free",
       "url": "https://lmarena.ai",
       "score_general": 1291.1815035832415,
-      "score_code": 1193.3677870471124,
+      "score_code": 1192.7632261304452,
       "has_free_api": false,
       "free_api_providers": []
     },
